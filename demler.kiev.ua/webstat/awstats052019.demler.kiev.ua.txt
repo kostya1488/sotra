@@ -1,0 +1,314 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201905 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.demler.kiev.ua.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1994                
+POS_TIME 2653                
+POS_VISITOR 6622                
+POS_DAY 7807                
+POS_DOMAIN 3268                
+POS_LOGIN 3497                
+POS_ROBOT 3652                
+POS_WORMS 4001                
+POS_EMAILSENDER 4132                
+POS_EMAILRECEIVER 4275                
+POS_SESSION 8187                
+POS_SIDER 8334                
+POS_FILETYPES 4410                
+POS_DOWNLOADS 4548                
+POS_OS 4619                
+POS_BROWSER 4728                
+POS_SCREENSIZE 5086                
+POS_UNKNOWNREFERER 5160                
+POS_UNKNOWNREFERERBROWSER 5281                
+POS_ORIGIN 5397                
+POS_SEREFERRALS 5530                
+POS_PAGEREFS 5685                
+POS_SEARCHWORDS 5857                
+POS_KEYWORDS 6009                
+POS_MISC 2317                
+POS_ERRORS 6068                
+POS_CLUSTER 3353                
+POS_SIDER_404 6167                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20190601163645 1 0 11316206430994
+FirstTime 0
+LastTime 20190531143306
+LastUpdate 20190602044329 1 0 0 0 0
+TotalVisits 28                  
+TotalUnique 24                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 31                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 7 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 3 4 27268
+1 0 0 0 1 6 10635
+2 0 0 0 2 5 9152
+3 1 1 4277 4 7 9953
+4 1 1 4138 1 2 4430
+5 0 0 0 4 6 24417
+6 0 0 0 3 4 22288
+7 2 22 2762901 3 7 27010
+8 0 0 0 0 0 0
+9 1 1 266 0 0 0
+10 8 32 3072972 3 9 37449
+11 1 1 4138 6 7 17884
+12 3 13 1389935 1 6 5961
+13 1 1 289 0 0 0
+14 3 3 12553 5 7 40950
+15 1 1 4138 0 0 0
+16 2 12 1381381 2 3 4825
+17 0 0 0 2 5 7101
+18 2 3 9939 2 3 4828
+19 5 6 85328 5 9 44084
+20 1 1 4138 1 2 6398
+21 0 0 0 1 3 4722
+22 10 12 170656 1 3 4722
+23 2 2 8276 2 2 22838
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 44 112 8915325
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 6
+yandex 52 90192 20190530191329 32
+bot[\s_+:,\.\;\/\\-] 10 114434 20190530193719 0
+crawl 6 15957 20190511115326 1
+no_user_agent 3 34257 20190519055856 0
+netcraft 2 22838 20190507000445 0
+unknown 1 336 20190531143306 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 4
+css 14 1056286 0 0
+png 43 6941491 0 0
+html 44 150771 0 0
+js 11 766777 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 34 0 10016
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 7
+macosx 14
+linuxandroid 1
+winlong 1
+winnt 36
+Unknown 6
+linux 2
+win7 52
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 17
+chrome52.0.2743.116 1
+chrome70.0.3538.77 1
+safari11.0 11
+chrome18.0.1025.45 1
+firefox42.0 1
+chrome68.0.3440.106 12
+chrome63.0.3239.132 2
+chrome71.0.3578.98 1
+chrome74.0.3729.131 23
+firefox64.0 1
+msie7.0 24
+chrome68.0.3440.91 1
+firefox59.0 1
+msie10.0 4
+chrome40.0.2214.85 11
+chrome73.0.3683.103 11
+Unknown 6
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+Go-http-client/1.1 20190530124404
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Go-http-client/1.1 20190530124404
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 37 52
+From1 0 0
+From2 2 2
+From3 1 1
+From4 4 57
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+yandex 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://sites.cch.ua 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+403 15 49257
+404 4 1594
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 3
+/connectors/system/phpthumb.php 1 -
+/cms/wp-login.php 1 http://demler.kiev.ua/cms/wp-login.php
+/wp-login.php 2 http://demler.kiev.ua/wp-login.php
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 31
+62.210.201.91 15 18 255984 20190518221850
+62.210.202.81 5 6 85328 20190518224213
+193.70.34.209 2 2 8276 20190521235149
+176.115.100.168 2 12 1381520 20190530163829
+198.16.66.197 1 11 1381381 20190522103255
+166.78.151.128 1 1 4138 20190504185839
+188.255.39.237 1 11 1381520 20190530074150
+18.144.28.112 1 1 266 20190517092314
+34.221.206.126 1 1 4138 20190527140725
+178.128.225.202 1 1 289 20190530135703
+173.252.87.29 0 2 928999 
+171.13.14.7 0 1 3522 
+54.212.57.9 1 1 4277 20190530124404
+171.13.14.5 0 2 128881 
+34.210.61.112 1 1 4138 20190520113659
+173.252.87.9 1 8 448999 20190531123136
+91.196.148.211 0 1 1663 
+54.201.137.151 1 1 4138 20190512180454
+171.13.14.26 1 3 1074259 20190522073758
+185.92.223.17 1 1 4277 20190531143306
+64.246.165.160 1 1 4138 20190517144518
+166.78.151.60 1 1 4138 20190507205035
+34.239.107.159 1 1 4138 20190528042314
+54.187.179.122 1 1 4138 20190515152201
+171.13.14.4 0 1 69707 
+173.252.87.20 0 1 3522 
+51.158.120.6 1 1 4277 20190531035829
+34.219.47.34 1 1 4138 20190522125519
+171.13.14.6 0 4 105012 
+95.220.222.181 1 4 224743 20190512101924
+178.133.39.52 1 11 1381381 20190515164443
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 15
+20190501 5 6 85328 1
+20190504 1 1 4138 1
+20190507 1 1 4138 1
+20190508 0 1 1663 0
+20190512 2 5 228881 2
+20190515 7 18 1470847 3
+20190517 2 2 4404 2
+20190518 11 13 174794 3
+20190520 1 1 4138 1
+20190521 1 1 4138 1
+20190522 3 23 2766900 3
+20190527 1 1 4138 1
+20190528 1 1 4138 1
+20190530 5 25 2767606 5
+20190531 3 13 1390074 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 1
+0s-30s 28
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 5
+/ 28 104839 28 24
+//uslugi.html 4 7708 0 1
+// 4 16552 0 1
+//contact.html 4 8348 0 1
+//faq.html 4 13324 0 1
+END_SIDER

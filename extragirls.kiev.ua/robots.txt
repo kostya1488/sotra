@@ -1,0 +1,12 @@
+User-Agent: Yandex
+Disallow: *.jpg
+Disallow: *.gif
+Disallow: *.png
+Disallow: /wp-content/uploads/*
+Crawl-delay: 10
+User-Agent: Googlebot
+Disallow: *.jpg
+Disallow: *.gif
+Disallow: *.png
+Disallow: /wp-content/uploads/*
+Crawl-delay: 10

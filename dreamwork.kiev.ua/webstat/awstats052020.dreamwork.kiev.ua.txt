@@ -1,0 +1,376 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 202005 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.dreamwork.kiev.ua.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1997                
+POS_TIME 2680                
+POS_VISITOR 3370                
+POS_DAY 3631                
+POS_DOMAIN 3781                
+POS_LOGIN 4010                
+POS_ROBOT 4165                
+POS_WORMS 4440                
+POS_EMAILSENDER 4571                
+POS_EMAILRECEIVER 4714                
+POS_SESSION 4790                
+POS_SIDER 4936                
+POS_FILETYPES 5709                
+POS_DOWNLOADS 5898                
+POS_OS 5966                
+POS_BROWSER 6038                
+POS_SCREENSIZE 6149                
+POS_UNKNOWNREFERER 6223                
+POS_UNKNOWNREFERERBROWSER 6310                
+POS_ORIGIN 6392                
+POS_SEREFERRALS 6525                
+POS_PAGEREFS 6680                
+POS_SEARCHWORDS 6828                
+POS_KEYWORDS 6980                
+POS_MISC 2344                
+POS_ERRORS 7039                
+POS_CLUSTER 3866                
+POS_SIDER_404 7153                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20200501021954 720 210335 11174170822395
+FirstTime 20200501003544
+LastTime 20200501021129
+LastUpdate 20200501043221 720 0 720 0 0
+TotalVisits 4                   
+TotalUnique 3                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 3                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1 1 22042 50 50 1608947
+1 17 137 6353998 128 129 2603072
+2 2 2 437 31 32 465051
+3 0 0 0 0 0 0
+4 0 0 0 0 0 0
+5 0 0 0 0 0 0
+6 0 0 0 0 0 0
+7 0 0 0 0 0 0
+8 0 0 0 0 0 0
+9 0 0 0 0 0 0
+10 0 0 0 0 0 0
+11 0 0 0 0 0 0
+12 0 0 0 0 0 0
+13 0 0 0 0 0 0
+14 0 0 0 0 0 0
+15 0 0 0 0 0 0
+16 0 0 0 0 0 0
+17 0 0 0 0 0 0
+18 0 0 0 0 0 0
+19 0 0 0 0 0 0
+20 0 0 0 0 0 0
+21 0 0 0 0 0 0
+22 0 0 0 0 0 0
+23 0 0 0 0 0 0
+END_TIME
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 3
+88.12.59.100 11 72 3326574 20200501015711 20200501015549 /wp-admin/admin-ajax.php
+178.37.98.31 6 65 3027424 20200501010723
+3.121.143.92 3 3 22479 20200501021129 20200501021121 /wp-cron.php
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 1
+20200501 20 140 6376477 4
+END_DAY
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 20 140 6376477
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 4
+wordpress 3 723 20200501012755 0
+yandex 2 16919 20200501015047 1
+python 1 22042 20200501003718 0
+bot[\s_+:,\.\;\/\\-] 1 15735 20200501021837 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Session range - Number of visits
+BEGIN_SESSION 1
+0s-30s 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 8
+/ 6 132256 3 1
+/wp-admin/admin-ajax.php 4 9192 0 0
+/wp-cron.php 2 437 1 0
+/%d0%b7%d0%bd%d0%b0%d0%ba%d0%be%d0%bc%d1%81%d1%82%d0%b2%d0%b0-%d1%81-%d0%bc%d0%be%d0%b4%d0%b5%d0%bb%d1%8f%d0%bc%d0%b8/ 2 32281 0 1
+/%d0%b8%d0%bd%d0%b4%d0%b8%d0%b2%d0%b8%d0%b4%d1%83%d0%b0%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d1%8d%d1%81%d0%ba%d0%be%d1%80%d1%82/ 2 31784 0 0
+/wp-content/themes/betheme/fonts/mfn-icons.woff 2 161864 0 0
+/%d1%8d%d0%bb%d0%b8%d1%82%d0%bd%d1%8b%d0%b9-%d0%b4%d0%be%d1%81%d1%83%d0%b3/ 1 15862 0 0
+/%d1%86%d0%b5%d0%bd%d1%8b-%d0%bd%d0%b0-%d1%8d%d1%81%d0%ba%d0%be%d1%80%d1%82-%d1%83%d1%81%d0%bb%d1%83%d0%b3%d0%b8-%d0%b2-%d0%ba%d0%b8%d0%b5%d0%b2%d0%b5/ 1 15900 0 0
+END_SIDER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+css 30 2161778 0 0
+png 10 94026 0 0
+woff 2 161864 0 0
+php 6 9629 0 0
+html 12 228083 0 0
+jpg 14 1279747 0 0
+js 66 2441350 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 1 0 963
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 3
+linuxandroid 72
+win7 3
+macosx 65
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 3
+chrome81.0.4044.117 72
+safari13.0.5 65
+chrome36.0.1985.143 3
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 3 3
+From1 0 0
+From2 4 4
+From3 0 0
+From4 13 133
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 4 4
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+403 1 392
+301 48 28470
+404 155 4592789
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 123
+/wp-content/uploads/2020/02/wp-block-plugin-1.php 2 -
+/header-cache.php 1 -
+/wp-content/uploads/2020/04/wp-zip-plugin-2.php 2 -
+/wp-content/uploads/2020/02/wp-block-plugin.php 2 -
+/wp-content/uploads/2020/04/wp-block-plugin.php 1 -
+/.well-known/wp-craft-report-site.php 1 -
+/wp-doc.php 1 -
+/wp-content/uploads/2020/03/wp-hello-plugin-1.php 1 -
+/wp-content/uploads/ld.php 2 -
+/index2.php 1 -
+/wp-api.php 1 -
+/wp-content/uploads/wp-crawl.php 1 -
+/wp-content/uploads/2020/03/wp-hello-plugin-2.php 2 -
+/wp-content/uploads/wp-logs.php 4 -
+/.well-known/wp-craft-report.php 1 -
+/wp-content/uploads/2020/02/wp-zip-plugin-1.php 2 -
+/wp-content/uploads/2020/01/wp-block-plugin-2.php 2 -
+/wp-content/uploads/2019/05/wp-simple-plugin.php 2 -
+/wp-content/uploads/2020/02/wp-zip-plugin.php 1 -
+/wp-content/uploads/2020/02/wp-block-plugin-2.php 1 -
+/wp-content/plugins/jetpack/jetpack.php 2 -
+/wp-content/uploads/2020/01/wp-simple-plugin.php 2 -
+/wp-craft-report-conf.php 2 -
+/wp-content/uploads/2020/03/wp-simple-plugin-2.php 1 -
+/wp-upds.php 1 -
+/wp-content/uploads/2019/03/wp-simple-plugin.php 1 -
+/wp-content/s.php 1 -
+/wp-hello-plugin.php 1 -
+/wp-content/uploads/2018/11/wp-upd.php 1 -
+/wp-content/uploads/2020/03/wp-simple-plugin.php 1 -
+/wp-content/uploads/2020/03/wp-zip-plugin-1.php 1 -
+/content-post.php 1 -
+/wp-admin/wp-simple-plugin.php 1 -
+/wp-content/plugins/super-socialat/super_socialat.php 1 -
+/wp-content/uploads/2020/02/wp-hello-plugin-1.php 2 -
+/wp-ajax-hook.php 1 -
+/wp-content/uploads/wp-build-report.php 1 -
+/wp-content/plugins/crelly-slider/wordpress/temp/super-socialat/super_socialat.php 2 -
+/new_license.php 1 -
+/wp-content/uploads/2020/04/wp-zip-plugin-1.php 1 -
+/wp-content/uploads/2020/04/wp-simple-plugin.php 1 -
+/wp-content/uploads/2020/01/wp-zip-plugin-1.php 1 -
+/wp-tmp5.php 1 -
+/license.php 1 -
+/wp-content/uploads/fm_temp.php 2 -
+/wp-content/uploads/2020/02/wp-hello-plugin-2.php 1 -
+/searchreplacedb2.php 1 -
+/wp-content/uploads/2020/04/wp-zip-plugin-3.php 2 -
+/wp-up.php 1 -
+/db.copy.php 1 -
+/wp-content/uploads/up.php 1 -
+/wp-content/uploads/2019/02/wp-simple-plugin.php 1 -
+/wp-crawl.php 1 -
+/wp-content/themes/plaintext/404.php 1 -
+/wp-content/uploads/2020/04/wp-simple-plugin-1.php 1 -
+/wp-content/uploads/2020/03/wp-simple-plugin-1.php 1 -
+/.well-known/wp-build-report.php 1 -
+/wp-content/uploads/2020/02/wp-simple-plugin-2.php 1 -
+/wp-content/uploads/2020/04/wp-zip-plugin.php 2 -
+/wpdemos.php 1 -
+/installer-backup.php 1 -
+/wp-content/uploads/2020/04/wp-block-plugin-1.php 1 -
+/wp-content/plugins/kiwi-social-share/kiwi-social-share.php 1 -
+/wp-content/uploads/header-template.php 1 -
+/wp-content/uploads/2020/02/wp-simple-plugin-1.php 1 -
+/wp-craft-report-site.php 1 -
+/wp-content/uploads/wp-header-template.php 1 -
+/wp-admin/wp-upload-class.php 1 -
+/wp-build-report.php 1 -
+/wp-content/uploads/2019/10/wp-simple-plugin.php 1 -
+/wp-content/uploads/2020/02/wp-simple-plugin.php 2 -
+/wp-content/uploads/2019/11/wp-simple-plugin.php 1 -
+/wp-content/uploads/2020/03/wp-hello-plugin.php 2 -
+/wp-content/uploads/2020/01/wp-zip-plugin-2.php 2 -
+/wp-content/uploads/2020/01/wp-hello-plugin-1.php 1 -
+/wp-bk-report.php 1 -
+/wp-content/uploads/2020/01/wp-block-plugin.php 1 -
+/wp-content/uploads/2019/01/wp-upd.php 1 -
+/wp-content/uploads/2020/03/wp-block-plugin.php 1 -
+/wp-content/uploads/2020/04/wp-simple-plugin-2.php 2 -
+/wp-upd2.php 1 -
+/wp-content/uploads/wp-craft-report.php 1 -
+/wp-content/uploads/2020/04/wp-hello-plugin-1.php 1 -
+/wp-content/plugins/akismet/akismet.php 1 -
+/wp-content/uploads/2020/01/wp-hello-plugin.php 1 -
+/wp-content/uploads/2020/01/wp-block-plugin-1.php 1 -
+/wp-content/uploads/wp-upds.php 1 -
+/wp-xml.php 1 -
+/wp-upload-class.php 1 -
+/wp-content/uploads/2020/03/wp-block-plugin-2.php 1 -
+/wp-content/uploads/2019/12/wp-simple-plugin.php 2 -
+/wp-content/uploads/2020/01/wp-hello-plugin-2.php 1 -
+/wp-content/plugins/blockspluginn/blockspluginn.php 1 -
+/wp-content/uploads/2020/01/wp-simple-plugin-1.php 2 -
+/wp-content/uploads/2020/02/wp-zip-plugin-2.php 2 -
+/wp-content/uploads/2019/06/wp-simple-plugin.php 1 -
+/wp-content/plugins/wp-hello-plugin/wp-hello-plugin.php 2 -
+/wp-content/uploads/2018/2018.php 1 -
+/wp-build-report-conf.php 1 -
+/cache_.php 1 -
+/wp-content/uploads/2020/01/wp-simple-plugin-2.php 2 -
+/.well-known/wp-bk-report.php 1 -
+/wp-content/uploads/2020/03/wp-block-plugin-1.php 1 -
+/wp-simple-plugin.php 1 -
+/wp-upd.php 1 -
+/wp-content/uploads/2020/04/wp-block-plugin-2.php 2 -
+/newsleter.php 1 -
+/wp-content/uploads/2020/02/wp-hello-plugin.php 2 -
+/wp-content/themes/themes.php 1 -
+/wp-content/plugins/formcraft/file-upload/server/php/files/wp-upd.php 1 -
+/wp-content/uploads/2020/03/wp-zip-plugin-2.php 2 -
+/wp-content/uploads/2020/03/wp-zip-plugin.php 2 -
+/wp-content/uploads/2019/02/wp-upd.php 1 -
+/wp-content/uploads/2020/04/wp-hello-plugin-2.php 1 -
+/wp-craft-report.php 1 -
+/wp-content/uploads/2018/09/wp-pr.php 1 -
+/wp-build-report-site.php 1 -
+/wp-content/uploads/2020/04/wp-hello-plugin.php 1 -
+/installer.php 1 -
+/wp-content/plugins/userpro/index.php 1 -
+/wp-content/uploads/2020/01/wp-zip-plugin.php 1 -
+/wp-content/plugins/wp-gdpr-compliance/wp-gdpr-compliance.php 1 -
+/wp-content/plugins/supersociall/supersociall.php 1 -
+END_SIDER_404

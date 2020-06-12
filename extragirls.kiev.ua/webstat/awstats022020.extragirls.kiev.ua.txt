@@ -1,0 +1,930 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 202002 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.extragirls.kiev.ua.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1998                
+POS_TIME 2681                
+POS_VISITOR 18377               
+POS_DAY 27111               
+POS_DOMAIN 3583                
+POS_LOGIN 3819                
+POS_ROBOT 3974                
+POS_WORMS 4443                
+POS_EMAILSENDER 4574                
+POS_EMAILRECEIVER 4717                
+POS_SESSION 27972               
+POS_SIDER 28181               
+POS_FILETYPES 4852                
+POS_DOWNLOADS 5235                
+POS_OS 5306                
+POS_BROWSER 5450                
+POS_SCREENSIZE 6809                
+POS_UNKNOWNREFERER 6883                
+POS_UNKNOWNREFERERBROWSER 7086                
+POS_ORIGIN 7202                
+POS_SEREFERRALS 7347                
+POS_PAGEREFS 7504                
+POS_SEARCHWORDS 7838                
+POS_KEYWORDS 7990                
+POS_MISC 2345                
+POS_ERRORS 8049                
+POS_CLUSTER 3675                
+POS_SIDER_404 8165                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20200301012123 935 298791 12879343390188
+FirstTime 20200201005430
+LastTime 20200229220530
+LastUpdate 20200301043222 935 0 934 0 0
+TotalVisits 238                 
+TotalUnique 202                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 204                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 150 581 57407140 6 18 607340
+1 40 152 12896757 5 17 623361
+2 7 28 1020204 26 64 2036143
+3 203 783 27213840 8 21 575131
+4 57 216 18310205 22 58 1799539
+5 18 70 7479214 4 5 454663
+6 40 147 13488265 7 15 594195
+7 19 74 8152587 33 90 4036154
+8 56 207 17686454 31 76 2163395
+9 116 418 37034104 4 12 39003
+10 207 802 74654547 4 21 20801
+11 117 482 47645873 10 23 339188
+12 240 931 91365597 59 144 3912756
+13 342 1274 115290836 39 120 3842494
+14 180 810 78824992 10 36 1462046
+15 207 774 73238209 24 70 2004460
+16 148 572 52456540 15 30 436921
+17 269 1047 106345306 4 20 46876
+18 271 999 90180075 15 47 528014
+19 173 646 62300748 14 62 2371167
+20 408 1521 142498637 312 339 1069092
+21 135 485 44106993 8 27 289861
+22 135 497 43884791 9 27 293146
+23 280 1093 59380265 11 31 134021
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 3818 14609 1282862179
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 9
+yandex 378 11601946 20200229162430 42
+googlebot 189 5678792 20200226003831 18
+msnbot 55 3377806 20200224143435 2
+bot[\s_+:,\.\;\/\\-] 50 4354181 20200229172610 28
+facebook 8 146888 20200226184702 0
+no_user_agent 2 111281 20200205184513 1
+netcraft 2 221552 20200203121035 0
+favicon 1 18361 20200205171745 0
+unknown 1 505 20200226180251 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 16
+css 5095 239747086 0 0
+ttf 198 29103348 0 0
+2 404 6349110 0 0
+1 607 8266114 0 0
+html 406 7239256 0 0
+jpg 3464 885716516 0 0
+0 39 1248663 0 0
+6 200 2279940 0 0
+png 836 48410080 0 0
+20 200 1137750 0 0
+otf 197 4716712 0 0
+8 201 6322560 0 0
+4 604 17212510 0 0
+js 1215 7622672 0 0
+Unknown 204 347342 0 0
+gif 181 695242 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 92 0 41804
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 9
+linuxandroid 5973
+winxp 2
+winnt 1472
+linux 373
+winvista 147
+win7 763
+macosx 4675
+win2003 1112
+Unknown 92
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 66
+chrome50.0.2661.89 74
+chrome80.0.3987.122 435
+chrome79.0.3945.79 71
+chrome80.0.3987.107 66
+chrome79.0.3945.117 71
+chrome58.0.3029.110 156
+chrome75.0.3770.143 76
+chrome80.0.3987.87 900
+msie7.0 1
+firefox59.0 1
+chrome79.0.3945.130 1262
+chrome70.0.3538.80 73
+chrome79.0.3945.93 349
+firefox65.0 79
+chrome80.0.3987.117 332
+chrome70.0.3538.102 71
+chrome71.0.3578.141 1013
+chrome49.0.2623.112 1
+safari13.0.1 300
+safari13.0.5 1220
+firefox72.0 80
+chrome76.0.3809.132 1
+chrome68.0.3440.106 1
+chrome78.0.3904.62 63
+chrome77.0.3865.92 74
+chrome80.0.3987.116 75
+firefox47.0 4
+firefox45.0 2
+mozilla 73
+chrome79.0.3945.136 1163
+netscape5.0 1
+chrome78.0.3904.96 63
+chrome35.0.1916.47 3
+safari12.1.2 1538
+chrome68.0.3444.149 26
+safari 156
+firefox71.0 1
+chrome67.0.3396.87 1
+safari11.0 148
+android 1
+safari12.0 71
+chrome38.0.2125.101 53
+chrome71.0.3578.98 2
+chrome57.0.2987.108 1113
+chrome61.0.3163.100 1
+chrome26.0.1410.65 1
+safari13.0.4 1012
+chrome40.0.2214.85 4
+chrome71.0.3578.99 147
+msie9.0 1
+safari13.0.3 139
+chrome67.0.3396.68 1
+Unknown 13
+chrome80.0.3987.100 142
+chrome80.0.3987.99 762
+chrome69.0.3497.128 8
+chrome78.0.3904.108 282
+firefox56.0 2
+chrome80.0.3987.119 594
+chrome45.0.2454.101 10
+chrome68.0.3440.91 75
+chrome79.0.3945.116 71
+firefox51.0 1
+chrome76.0.3809.111 75
+chrome70.0.3538.110 3
+chrome75.0.3770.100 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Mozilla/5.0_(Android_7.0;_Mobile;_rv:65.0)_Gecko/65.0_Firefox/65.0 20200224174851
+Go-http-client/1.1 20200213140112
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Go-http-client/1.1 20200213140112
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 166 203
+From1 42 42
+From2 10 10
+From3 5 5
+From4 3595 14349
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 10 10
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 3
+http://trudbox.com.ua/company/extragirls_kiev_ua 3 3
+https://uk.tgstat.com/en/channel/@escort_for_girls/39 1 1
+http://domkadrov.ua/agency/Eskort-Kiev-Eskort-Kiev-Extragirls-515.html 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+206 67 3989619
+405 3 1338
+404 436 177498
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 333
+/adminer-3.6.3-mysql-en.php 1 -
+/adminer-3.7.0.php 1 -
+/adminer-3.2.2.php 1 -
+/wp-config.php_ori 1 -
+/adminer-3.0.1-cs.php 1 -
+/adminer-3.2.1-cs.php 1 -
+/wp-content/plugins/indeed-membership-pro/assets/css/templates.css 4 -
+/adminer-4.2.0-mysql-en.php 1 -
+/adminer-4.0.2-cs.php 1 -
+/adminer-3.5.0-mysql-cs.php 1 -
+/adminer-3.1.0-mysql.php 1 -
+/adminer-4.0.0-mysql-cs.php 1 -
+/adminer-4.3.0-mysql-cs.php 1 -
+/adminer-4.2.1-cs.php 1 -
+/adminer-3.6.4-mysql.php 1 -
+/adminer-4.2.2-mysql-en.php 1 -
+/adminer-4.7.2-mysql-cs.php 1 -
+/adminer-3.3.4-mysql-en.php 1 -
+/adminer-3.4.0-cs.php 1 -
+/adminer-4.7.3-cs.php 1 -
+/adminer-4.2.3-en.php 1 -
+/adminer-4.2.3-mysql.php 1 -
+/adminer-4.6.1.php 1 -
+/adminer-3.3.0-mysql.php 1 -
+/wp-json/wp/v2/posts 2 -
+/adminer-3.3.0-en.php 1 -
+/adminer-4.7.3-mysql-en.php 1 -
+/adminer-3.3.2-mysql-cs.php 1 -
+/wp-content/plugins/profile-builder/assets/css/style-front-end.css 4 -
+/adminer-4.6.3-cs.php 1 -
+/adminer-4.6.0-cs.php 1 -
+/adminer-4.0.2-mysql.php 1 -
+/adminer-4.0.0-mysql.php 1 -
+/adminer-4.7.0-mysql-cs.php 1 -
+/wp-content/themes/wp-update.php 1 extragirls.kiev.ua
+/adminer-4.3.1-mysql.php 1 -
+/adminer-4.2.4-mysql.php 1 -
+/adminer-3.3.1-mysql-cs.php 1 -
+/adminer-3.2.1-mysql-en.php 1 -
+/adminer-3.6.4-mysql-en.php 1 -
+/adminer-3.2.2-en.php 1 -
+/adminer-4.0.3-en.php 1 -
+/adminer-4.2.0-mysql-cs.php 1 -
+/adminer-3.3.2-en.php 1 -
+/adminer-3.1.0-en.php 1 -
+/wp-config.php_revision 1 -
+/wp-content/themes/mantra/admin/upload-file.php 1 -
+/adminer-3.7.0-mysql-en.php 1 -
+/wp-content/plugins/linklove/linklove.php 1 extragirls.kiev.ua
+/adminer-3.2.2-mysql-en.php 1 -
+/wp-login.php 7 -
+/wp-json/wp/v2/users 1 -
+/adminer-3.3.1-cs.php 1 -
+/adminer-4.1.0-mysql-cs.php 1 -
+/adminer-3.6.3-mysql-cs.php 1 -
+/adminer-3.6.1-cs.php 1 -
+/adminer-3.6.0.php 1 -
+/adminer-4.0.0-en.php 1 -
+/adminer-4.7.2-mysql.php 1 -
+/adminer-4.6.0-mysql-en.php 1 -
+/adminer-3.6.0-mysql-cs.php 1 -
+/ad.php 1 -
+/adminer-3.3.0.php 1 -
+/adminer-3.5.0-cs.php 1 -
+/adminer-4.7.1-mysql-cs.php 1 -
+/adminer-3.4.0.php 1 -
+/adminer-3.3.1.php 1 -
+/wp-config_2.txt 1 -
+/adminer-3.3.2-mysql.php 1 -
+/adminer-4.2.0.php 1 -
+/adminer-4.6.0-en.php 1 -
+/adminer-4.4.0-cs.php 1 -
+/adminer-3.3.1-en.php 1 -
+/adminer-4.6.3-en.php 1 -
+/ads.txt 1 http://extragirls.kiev.ua/ads.txt
+/adminer-4.1.0.php 1 -
+/adminer-4.2.2-cs.php 1 -
+/adminer-3.7.0-cs.php 1 -
+/adminer-4.7.0-cs.php 1 -
+/adminer-4.2.5-en.php 1 -
+/adminer-4.5.0.php 1 -
+/adminer-4.2.4-mysql-en.php 1 -
+/adminer-4.4.0-mysql.php 1 -
+/adminer-4.2.1-mysql.php 1 -
+/adminer-4.2.1-mysql-cs.php 1 -
+/adminer-3.0.1-mysql.php 1 -
+/adminer-4.6.0-mysql-cs.php 1 -
+/adminer-4.2.1.php 1 -
+/adminer-3.0.1.php 1 -
+/adminer-4.4.0-en.php 1 -
+/adminer-4.2.0-en.php 1 -
+/adminer-4.2.4-en.php 1 -
+/adminer-3.4.0-mysql-cs.php 1 -
+/adm.php 1 -
+/adminer-4.2.4.php 1 -
+/adminer-4.3.0-mysql-en.php 1 -
+/adminer-3.7.1-mysql-cs.php 1 -
+/adminer-3.6.2-cs.php 1 -
+/wpdemos.php 5 -
+/adminer-4.0.1-mysql-cs.php 1 -
+/adminer-4.7.1.php 1 -
+/adminer-3.0.1-mysql-en.php 1 -
+/adminer-3.5.0-mysql-en.php 1 -
+/adminer-4.5.0-cs.php 1 -
+/adminer-4.2.0-mysql.php 1 -
+/adminer-3.2.1-mysql.php 1 -
+/adminer-3.3.3-cs.php 1 -
+/wp-admin/admin-post.php 6 -
+/adminer-3.6.3-en.php 1 -
+/adminer-3.1.0-cs.php 1 -
+/adminer-3.3.0-mysql-cs.php 1 -
+/adminer-3.3.4-mysql-cs.php 1 -
+/adminer-3.6.1-mysql.php 1 -
+/adminer-4.7.1-cs.php 1 -
+/adminer-3.6.2-en.php 1 -
+/adminer-4.0.1.php 1 -
+/adminer-4.7.0-mysql.php 1 -
+/adminer-3.7.1-mysql-en.php 1 -
+/adminer-3.5.1.php 1 -
+/adminer-3.3.4-en.php 1 -
+/adminer-4.3.0.php 1 -
+/adminer-3.3.3-mysql-en.php 1 -
+/adminer-3.0.0-mysql.php 1 -
+/adminer-3.3.2.php 1 -
+/adminer-4.6.1-en.php 1 -
+/adminer-3.6.4-mysql-cs.php 1 -
+/wp-json/siteground-optimizer/v1/enable-option 1 -
+/adminer-3.7.0-mysql.php 1 -
+/adminer-4.2.4-mysql-cs.php 1 -
+/adminer-3.3.1-mysql-en.php 1 -
+/wp-content/plugins/duplicator/readme.txt 1 -
+/adminer-3.6.1-en.php 1 -
+/adminer-3.6.2-mysql-cs.php 1 -
+/adminer-3.6.2.php 1 -
+/adminer-4.7.1-mysql-en.php 1 -
+/wp-config.php---- 1 -
+/adminer-3.5.0-en.php 1 -
+/adminer-3.7.1-cs.php 1 -
+/login/ 2 extragirls.kiev.ua
+/adminer-3.2.1-en.php 1 -
+/adminer-4.6.1-mysql.php 1 -
+/adminer-4.2.5-mysql-en.php 1 -
+/adminer-3.6.3-cs.php 1 -
+/apple-touch-icon.png 8 -
+/foo/wp-login.php 1 -
+/adminer-4.3.0-mysql.php 1 -
+/installer-data.sql 1 -
+/wp-content/plugins/adminer/inc/editor/index.php 1 -
+/adminer-4.5.0-en.php 1 -
+/adminer-3.3.4-cs.php 1 -
+/adminer-4.0.3-mysql-en.php 1 -
+/adminer-3.6.0-en.php 1 -
+/adminer-4.6.3-mysql-en.php 1 -
+/adminer-3.2.2-mysql.php 1 -
+/adminer-3.4.0-mysql-en.php 1 -
+/adminer-4.3.1-mysql-en.php 1 -
+/adminer-4.2.2-mysql-cs.php 1 -
+/adminer-3.0.0-mysql-en.php 1 -
+/adminer-3.6.1-mysql-en.php 1 -
+/wp-content/plugins/profile-builder/assets/css/serial-notice.css 1 extragirls.kiev.ua
+/adminer-4.0.0-cs.php 1 -
+/adminer-4.0.3.php 1 -
+/adminer-3.0.1-mysql-cs.php 1 -
+/apple-touch-icon-precomposed.png 8 -
+/adminer-3.2.2-cs.php 1 -
+/adminer-4.0.0-mysql-en.php 1 -
+/wp-signup.php 1 extragirls.kiev.ua
+/adminer-4.2.1-en.php 1 -
+/adminer-3.0.0-en.php 1 -
+/adminer-3.0.1-en.php 1 -
+/installer.php 2 -
+/adminer-3.2.0-mysql.php 1 -
+/adminer-4.7.3.php 1 -
+/adminer-3.6.4-en.php 1 -
+/adminer-4.7.2-mysql-en.php 1 -
+/mysql.php 1 -
+/adminer-3.1.0.php 1 -
+/adminer-4.2.4-cs.php 1 -
+/adminer-4.7.0-en.php 1 -
+/adminer-4.0.3-mysql-cs.php 1 -
+/adminer-3.2.0-mysql-cs.php 1 -
+/adminer-3.3.1-mysql.php 1 -
+/adminer-4.5.0-mysql.php 1 -
+/adminer-3.7.0-en.php 1 -
+/adminer-4.3.0-en.php 1 -
+/wp-config.php--- 1 -
+/wp-content/plugins/themegrill-demo-importer/assets/js/admin/demo-importer.js 2 -
+/adminer-4.7.1-en.php 1 -
+/pma.php 1 -
+/adminer-3.6.0-mysql.php 1 -
+/adminer-3.6.3-mysql.php 1 -
+/adminer-3.7.1.php 1 -
+/adminer-4.6.2.php 1 -
+/adminer-4.2.0-cs.php 1 -
+/adminer-4.6.1-mysql-cs.php 1 -
+/adminer-4.7.3-en.php 1 -
+/wp-config.php.bkp 1 -
+/adminer-3.3.3-mysql-cs.php 1 -
+/adminer-4.7.2-cs.php 1 -
+/adminer-3.3.2-mysql-en.php 1 -
+/adminer-4.0.1-cs.php 1 -
+/adminer-4.6.0-mysql.php 1 -
+/adminer-4.6.0.php 1 -
+/adminer-4.3.0-cs.php 1 -
+/adminer-3.1.0-mysql-cs.php 1 -
+/adminer-4.0.3-cs.php 1 -
+/adminer-4.0.3-mysql.php 1 -
+/adminer-4.2.3-mysql-en.php 1 -
+/_adminer 1 -
+/wp-content/plugins/wp-central/readme.txt 6 -
+/adminer-3.3.4-mysql.php 1 -
+/adminer-4.5.0-mysql-en.php 1 -
+/wp-content/plugins/strong-testimonials/templates/modern/content.css 6 -
+/adminer-4.2.5-mysql.php 1 -
+/wp-content/plugins/profile-builder-pro/assets/css/style-front-end.css 4 -
+/adminer-3.2.0-en.php 1 -
+/adminer-4.6.1-cs.php 1 -
+/adminer-3.5.0-mysql.php 1 -
+/adminer-3.5.1-mysql-cs.php 1 -
+/adminer-4.2.5-mysql-cs.php 1 -
+/wp-content/plugins/flexible-checkout-fields/assets/css/admin.min.css 1 extragirls.kiev.ua
+/wp-content/adminer.php 1 -
+/adminer-3.6.2-mysql-en.php 1 -
+/adminer-3.0.0-cs.php 1 -
+/adminer-4.7.0-mysql-en.php 1 -
+/adminer-4.3.1-en.php 1 -
+/adminer-3.2.2-mysql-cs.php 1 -
+/adminer 1 -
+/adminer-3.6.3.php 1 -
+/adminer-3.7.1-en.php 1 -
+/adminer-4.1.0-mysql-en.php 1 -
+/wp-admin/admin-ajax.php 18 -
+/adminer-4.5.0-mysql-cs.php 1 -
+/_adminer.php 1 -
+/adminer-3.4.0-mysql.php 1 -
+/wp-config.php_____ 1 -
+/db.php 1 -
+/adminer-3.6.4-cs.php 1 -
+/adminer-3.3.0-mysql-en.php 1 -
+/adminer-4.0.1-mysql-en.php 1 -
+/searchreplacedb2.php 4 -
+/wp-content/plugins/brizy/public/static/css/style.css 1 extragirls.kiev.ua
+/adminer-3.6.2-mysql.php 1 -
+/a.php 1 -
+/adminer-3.6.1.php 1 -
+/adminer-4.7.0.php 1 -
+/adminer-3.2.0-cs.php 1 -
+/adminer-4.6.1-mysql-en.php 1 -
+/adminer-3.2.1-mysql-cs.php 1 -
+/adminer-4.7.3-mysql.php 1 -
+/wp.php 1 -
+/adminer-3.6.4.php 1 -
+/adminer-4.6.3-mysql.php 1 -
+/installer-backup.php 2 -
+/adminer-4.0.0.php 1 -
+/wp-config.php-lixo 1 -
+/adminer-4.7.2.php 1 -
+/adminer-3.0.0.php 1 -
+/adminer-3.6.0-cs.php 1 -
+/adminer-4.7.1-mysql.php 1 -
+/adminer-4.2.5.php 1 -
+/adminer-4.1.0-en.php 1 -
+/adminer-4.2.2.php 1 -
+/adminer-3.3.3-en.php 1 -
+/sitemap.xml 1 -
+/wp-content/plugins/accessally/resource/backend/css/accessally-manage.css 6 -
+/adminer-3.6.1-mysql-cs.php 1 -
+/adminer-4.2.3-mysql-cs.php 1 -
+/adminer-4.3.1-mysql-cs.php 1 -
+/adminer-3.7.1-mysql.php 1 -
+/wp-content/plugins/convertplug/modules/info_bar/assets/css/info_bar.min.css 1 -
+/adminer-3.3.0-cs.php 1 -
+/wp-config.php.2 1 -
+/adminer-4.6.2-cs.php 1 -
+/adminer-4.0.1-en.php 1 -
+/adminer-4.0.2-en.php 1 -
+/adminer-4.2.1-mysql-en.php 1 -
+/adminer.php 2 -
+/feed 1 -
+/adminer-4.4.0-mysql-cs.php 1 -
+/adminer-4.3.1-cs.php 1 -
+/adminer-4.7.3-mysql-cs.php 1 -
+/adminer-3.5.1-cs.php 1 -
+/adminer/index.php 1 extragirls.kiev.ua
+/wp-content/uploads/adminer.php 1 -
+/adminer-3.3.3.php 1 -
+/adminer-4.0.2-mysql-cs.php 1 -
+/adminer-3.2.0.php 1 -
+/adminer-3.2.1.php 1 -
+/adminer-3.6.0-mysql-en.php 1 -
+/ckfinder/ckfinder.html 1 -
+/register/ 1 extragirls.kiev.ua
+/adminer-4.4.0.php 1 -
+/adminer-3.5.1-en.php 1 -
+/replace.php 4 -
+/adminer-4.3.1.php 1 -
+/adminer-3.7.0-mysql-cs.php 1 -
+/adminer-4.0.1-mysql.php 1 -
+/adminer-4.6.3-mysql-cs.php 1 -
+/adminer-4.0.2-mysql-en.php 1 -
+/adminer-4.2.5-cs.php 1 -
+/adminer-4.6.3.php 1 -
+/adminer-4.2.2-mysql.php 1 -
+/.well-known/assetlinks.json 7 -
+/author-sitemap.xml 1 -
+/adminer-4.2.2-en.php 1 -
+/wp-content/plugins/wordpress-database-reset/assets/css/bsmselect.css 6 -
+/adminer-4.1.0-cs.php 1 -
+/wp-content/plugins/themegrill-demo-importer/assets/css/_animation.scss 1 extragirls.kiev.ua
+/connect.php 1 -
+/wp-content/plugins/blnmrpb/log.txt 6 -
+/adminer-4.0.2.php 1 -
+/adminer-3.3.3-mysql.php 1 -
+/adminer-4.6.2-mysql-en.php 1 -
+/adminer-4.7.2-en.php 1 -
+/adminer-4.1.0-mysql.php 1 -
+/adminer-4.6.2-en.php 1 -
+/adminer-3.2.0-mysql-en.php 1 -
+/adminer-4.2.3.php 1 -
+/adminer-4.2.3-cs.php 1 -
+/adminer-3.5.0.php 1 -
+/adminer-3.3.4.php 1 -
+/adminer-3.5.1-mysql.php 1 -
+/adminer-3.4.0-en.php 1 -
+/adminer-4.6.2-mysql-cs.php 1 -
+/adminer-4.6.2-mysql.php 1 -
+/adminer-3.0.0-mysql-cs.php 1 -
+/adminer-3.5.1-mysql-en.php 1 -
+/adminer-4.4.0-mysql-en.php 1 -
+/index.php 1 extragirls.kiev.ua
+/adminer-3.3.2-cs.php 1 -
+/wp-content/plugins/batchmove/js/batch.js 6 -
+/adminer-3.1.0-mysql-en.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 204
+178.95.234.89 264 973 74960312 20200218201451
+46.219.221.158 236 971 2075042 20200211013159
+176.115.100.168 91 353 36915372 20200229141207
+185.143.147.27 78 353 37137917 20200213164411
+77.120.246.108 67 245 33208297 20200224174717
+88.154.231.188 40 149 13664496 20200213185705
+5.105.212.34 37 143 12095803 20200229220530
+195.211.141.70 27 81 6664303 20200207193951
+185.70.16.1 23 219 20292865 20200211142020
+207.102.138.158 23 53 1903620 20200227111134
+46.119.34.62 18 71 6584049 20200228164053
+93.74.170.11 18 70 6406127 20200228201406
+93.73.32.114 18 71 7657136 20200225145422
+88.135.220.226 20 76 7159754 20200225092240
+94.153.110.206 18 71 6584049 20200213203701
+46.98.123.8 20 75 8170948 20200228102348
+213.186.198.145 18 63 5026962 20200213154123
+138.246.253.5 4 4 1072 20200223220414
+91.243.101.209 5 26 983482 20200203021458
+5.176.59.114 22 71 5253622 20200202201523
+5.188.210.52 1 1 110776 20200206002318
+157.245.40.6 20 75 6552533 20200212160847
+176.37.155.183 18 71 6038721 20200215204633
+176.97.155.23 20 75 8170948 20200219122438
+46.106.51.90 18 63 5026962 20200224211551
+80.90.225.38 18 71 6038721 20200205042102
+212.170.54.72 18 71 6584049 20200228124812
+94.153.110.219 20 74 6137336 20200224041408
+46.211.128.26 19 74 8152587 20200206225453
+178.133.0.235 18 70 6406127 20200224164458
+185.130.54.74 18 71 7657136 20200216153535
+130.180.212.14 0 1 673280 
+195.242.80.89 1 1 110776 20200224213424
+37.53.53.206 18 71 7657136 20200214000045
+37.57.150.81 18 70 6406127 20200215220507
+88.155.44.122 19 68 4986778 20200229182406
+88.154.8.168 19 72 6602410 20200209033238
+46.133.106.68 18 70 6406127 20200218014324
+107.181.177.135 20 75 8170948 20200220205828
+62.244.38.193 18 71 6584049 20200206113924
+91.79.43.183 18 70 6406127 20200201233243
+34.217.71.1 1 1 18361 20200205031742
+5.16.119.45 18 71 6584049 20200228124240
+27.62.45.5 15 68 6014201 20200218193621
+64.246.165.210 1 1 18361 20200208224134
+185.197.32.17 18 71 6584049 20200228193604
+77.111.247.53 21 77 8251202 20200227171045
+94.153.103.135 18 71 6584049 20200213221646
+45.134.181.143 1 1 18361 20200228150621
+94.103.156.219 1 1 18361 20200203080450
+176.113.174.207 18 63 5026962 20200225210105
+91.227.183.21 19 74 8152587 20200228124246
+91.202.147.85 18 71 7657136 20200209194725
+46.211.158.15 18 63 5026962 20200202130234
+145.255.22.135 20 79 6668031 20200205181008
+185.253.75.14 18 70 7479214 20200202194840
+77.74.177.114 1 1 18361 20200213145359
+31.40.110.197 18 71 7657136 20200216132242
+128.124.116.9 18 70 7479214 20200219090657
+115.164.73.252 3 25 692785 20200202110132
+46.133.108.104 18 71 6038721 20200227143743
+37.52.212.164 20 74 7755751 20200213131621
+94.244.35.111 18 71 7657136 20200208165327
+178.136.56.188 18 71 6038721 20200229142018
+178.133.13.175 18 69 6405368 20200229205828
+128.124.105.221 18 71 6584049 20200217171420
+54.218.76.187 1 1 18361 20200225220944
+94.178.152.235 19 73 7737390 20200208113503
+37.146.63.167 18 63 4883093 20200229181431
+95.132.132.27 20 76 7159754 20200217212032
+89.187.189.146 18 64 5204884 20200228124525
+46.211.146.144 21 77 7159754 20200219134408
+31.14.255.133 1 1 18361 20200213063745
+104.254.182.48 2 2 36722 20200201200637
+77.120.15.72 18 71 5864361 20200204145818
+46.211.142.103 18 68 7189060 20200212230208
+212.90.61.221 18 79 9659721 20200214003553
+193.41.129.69 18 70 7479214 20200211133806
+199.244.88.131 3 3 55083 20200226232627
+91.196.121.154 20 76 7159754 20200216002118
+82.207.114.53 19 97 9306590 20200211100425
+195.114.148.37 20 79 8633851 20200224174632
+95.153.132.152 18 63 5026962 20200228144506
+88.154.202.100 19 74 6534172 20200218172450
+46.118.232.147 21 79 8519060 20200220005446
+128.124.9.77 18 71 6059585 20200209174849
+212.90.60.146 18 71 6201294 20200217033139
+77.111.244.63 19 74 8152587 20200203181343
+77.111.244.148 18 71 7657136 20200218005702
+178.151.159.14 19 72 7675497 20200218205234
+93.73.14.188 18 70 7479214 20200224175929
+88.154.109.181 20 75 6552533 20200223130145
+188.113.205.205 1 1 18361 20200207193057
+188.191.111.202 20 74 6841803 20200208202822
+46.211.145.219 19 73 6664303 20200211133852
+95.67.24.159 8 16 1020910 20200224221623
+88.154.54.96 18 70 6406127 20200224194044
+88.154.210.253 18 71 6584049 20200210104332
+46.211.48.116 18 71 6584049 20200226233219
+198.12.156.154 1 1 18361 20200203132611
+185.209.58.97 19 67 5700335 20200207200824
+178.150.228.151 18 63 4481634 20200215173126
+109.86.221.5 18 63 5026962 20200229152334
+46.119.119.33 1 1 110776 20200215141528
+18.209.250.207 1 1 18361 20200203165033
+62.16.2.58 19 65 5223245 20200229033729
+176.8.143.135 18 63 5026962 20200210211448
+213.160.158.47 18 71 7657136 20200225155015
+212.26.144.91 20 75 8170948 20200219182904
+46.211.142.65 18 70 6023372 20200216042644
+195.34.75.91 18 71 6038721 20200218105225
+93.74.9.84 18 71 6038721 20200218135726
+157.37.203.145 19 73 6664303 20200201065237
+193.111.50.141 19 80 8185664 20200211121447
+46.211.142.191 18 63 4481634 20200216080405
+78.111.187.61 0 1 673280 
+167.114.252.180 1 1 18361 20200224140558
+93.78.5.135 18 71 6038721 20200218010030
+159.69.178.29 1 1 18361 20200209151133
+91.196.159.254 19 74 8152587 20200226074802
+46.133.114.16 18 70 6406127 20200206205845
+188.163.73.183 21 77 8251202 20200217104551
+46.211.148.147 18 70 6406127 20200202222756
+77.74.177.113 1 1 18361 20200207180820
+185.8.126.200 15 50 2599587 20200224222753
+88.154.196.192 20 75 8170948 20200210233246
+212.90.63.57 18 71 6584049 20200228124240
+84.17.47.44 1 1 110776 20200222210200
+109.172.104.133 18 70 7479214 20200216115243
+103.206.222.215 23 76 6645680 20200206230051
+188.163.112.232 18 70 7479214 20200228051658
+46.211.243.103 18 70 6406127 20200226184646
+114.102.10.253 1 1 18361 20200228010420
+91.121.79.16 2 2 221552 20200221043333
+77.120.145.168 19 66 5285138 20200209180659
+82.198.187.238 23 81 8306653 20200228144829
+178.133.85.201 18 63 4481634 20200228230301
+5.255.188.76 18 71 6584049 20200209103051
+128.124.92.212 19 74 7079500 20200208180004
+178.133.177.84 20 78 9408085 20200228170734
+176.36.217.40 18 71 6584049 20200220203834
+37.73.225.42 18 71 6038721 20200217004820
+128.124.101.99 19 67 5700335 20200202193700
+37.73.214.21 18 71 6584049 20200229175955
+46.211.144.106 18 71 7657136 20200229153309
+178.240.7.54 18 70 6406127 20200228152013
+88.155.222.24 18 63 5026962 20200228214127
+46.98.123.67 21 76 7097861 20200206213754
+85.5.230.240 18 70 7479214 20200225194456
+91.250.63.37 19 72 7847875 20200204145837
+193.105.166.8 1 1 18361 20200213085125
+130.180.210.137 16 52 1754065 20200211101751
+195.242.179.140 18 71 6584049 20200212061155
+46.219.218.14 18 71 6604913 20200207235307
+46.105.92.10 1 1 18361 20200202154657
+93.74.92.182 19 72 6602410 20200201173558
+93.76.127.12 18 70 6406127 20200227155855
+193.106.50.68 18 63 5026962 20200224230800
+89.28.55.160 18 71 6584049 20200206082637
+37.213.148.49 1 1 110776 20200228213703
+51.158.190.214 1 1 18361 20200226201944
+93.79.116.176 18 71 6584049 20200206220526
+128.124.184.11 20 75 8170948 20200215205528
+41.212.82.44 18 71 6028503 20200228164355
+93.72.48.29 18 71 6038721 20200222203451
+60.191.38.77 2 2 221552 20200229064303
+81.162.222.3 19 74 8152587 20200206200427
+212.90.62.202 18 71 6584049 20200214125451
+35.164.224.247 1 1 18361 20200210015538
+178.133.141.53 20 75 7079500 20200201174509
+95.158.42.58 18 63 5026962 20200218102522
+91.244.16.240 18 71 7657136 20200207175858
+5.196.207.195 1 1 18361 20200213140112
+146.120.101.4 20 76 8232841 20200212112206
+128.124.52.135 20 76 7159754 20200217150550
+88.154.52.208 18 71 6584049 20200204083133
+88.154.164.58 19 74 7079500 20200213094436
+176.223.72.36 18 63 5026962 20200229110652
+212.80.48.238 18 71 7657136 20200213133503
+37.110.215.161 18 71 6584049 20200229162055
+193.110.76.2 19 74 8152587 20200224100046
+49.212.2.185 1 1 18361 20200202211545
+51.158.125.178 2 2 221552 20200205184514
+95.172.39.206 2 2 36722 20200217140755
+80.236.203.53 18 63 5026962 20200216184445
+91.90.13.129 19 71 7497575 20200216184426
+185.244.140.159 18 71 6584049 20200219092726
+176.38.104.169 20 75 7097861 20200216181039
+178.151.96.145 18 71 7657136 20200201005431
+178.241.223.196 18 71 7657136 20200213213910
+54.202.224.195 1 1 18361 20200204032004
+212.1.84.86 18 71 7657136 20200211153956
+46.211.227.249 19 73 7974665 20200213231850
+92.184.107.80 23 81 8306653 20200227205146
+88.154.138.166 19 72 7675497 20200207120053
+176.36.167.201 18 71 7657136 20200215121753
+209.97.188.158 18 70 6406127 20200228133049
+73.98.21.33 19 72 6602410 20200203162705
+213.128.89.176 1 1 18361 20200203024041
+176.103.206.65 18 71 6038721 20200205115700
+109.227.107.73 21 77 6632787 20200222105255
+195.242.80.62 1 1 110776 20200207172822
+130.180.208.123 19 74 6792255 20200210140152
+213.87.137.180 18 71 7657136 20200223033028
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 29
+20200201 96 363 34446198 6
+20200202 100 368 30595767 8
+20200203 47 176 15811923 7
+20200204 57 216 20333007 5
+20200205 60 225 18985654 6
+20200206 193 738 70675223 10
+20200207 146 520 52229534 10
+20200208 101 375 36309476 8
+20200209 96 370 32613414 9
+20200210 350 1384 46696807 8
+20200211 198 952 91713431 13
+20200212 94 360 34581855 5
+20200213 229 862 82122293 17
+20200214 55 223 24592547 4
+20200215 93 351 32865342 6
+20200216 203 770 72127388 10
+20200217 208 764 60075238 10
+20200218 197 749 65265445 11
+20200219 97 368 37564913 5
+20200220 59 225 23274057 3
+20200221 1 1 110776 1
+20200222 41 150 12800645 4
+20200223 40 148 14210205 4
+20200224 176 638 60421922 13
+20200225 94 353 35016924 7
+20200226 57 217 21179485 5
+20200227 81 300 29021064 5
+20200228 391 1478 140678205 23
+20200229 258 965 86543441 15
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 1
+5mn-15mn 4
+2mn-5mn 16
+15mn-30mn 7
+30s-2mn 28
+0s-30s 179
+30mn-1h 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 28
+/ 300 6232771 234 71
+/wp-includes/js/jquery/jquery-migrate.min.js@ver=1.4.1 204 1931512 1 1
+/wp-includes/js/jquery/jquery.js@ver=1.12.4 203 16383448 0 1
+/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js@ver=4.2.1 202 1750818 0 0
+/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js@ver=4.0.2 202 2309376 0 1
+/wp-content/plugins/elementor/assets/lib/swiper/swiper.jquery.min.js@ver=3.4.2 202 4039734 0 2
+/wp-content/plugins/elementor/assets/js/frontend.min.js@ver=1.9.8 201 6322560 0 26
+/wp-content/plugins/elementor/assets/lib/slick/slick.min.js@ver=1.6.0 201 1945746 0 0
+/wp-includes/js/imagesloaded.min.js@ver=3.2.0 201 1527246 0 0
+/wp-includes/js/jquery/ui/position.min.js@ver=1.11.4 201 530472 0 0
+/wp-content/themes/twentytwelve/fonts/HelveticaNeueCyr-Thin.otf 197 4716712 0 17
+/wp-includes/js/wp-embed.min.js@ver=4.9.4 200 298590 0 0
+/wp-content/themes/twentytwelve/fonts/8209.ttf 195 28796880 0 1
+/wp-content/plugins/elementor/assets/lib/font-awesome/fonts/fontawesome-webfont.eot@ 1 165962 0 0
+/index.html@p=831.html 4 40288 0 2
+/wp-content/plugins/elementor/assets/lib/font-awesome/fonts/fontawesome-webfont.woff@v=4.7.0 13 294729 0 5
+/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js@ver=3.51.0-2014.06.20 200 1137750 0 0
+/faq.html 45 568246 2 21
+/vacancy.html 54 370832 1 25
+/anceta.html 2 20144 0 0
+/wp-json/oembed/1.0/embed@url=http%253A%252F%252Fwww.edem.nu%252F 1 2821 0 0
+/wp-content/themes/twentytwelve/js/navigation.js@ver=20140711 201 175584 0 0
+/wp-json/oembed/1.0/embed@url=http%253A%252F%252Fwww.edem.nu%252F&format=xml 1 2975 0 1
+/wp-content/plugins/elementor-pro/assets/js/frontend.min.js@ver=1.6.1 201 4583784 0 0
+/wp-json/ 1 6975 0 0
+/wp-content/themes/twentytwelve/fonts/Cormorant_Infant_Semibold_Italic.ttf 3 306468 0 1
+/wp-content/plugins/contact-form-7/includes/js/scripts.js@ver=4.6 200 2279940 0 0
+/wp-content/plugins/elementor/assets/lib/font-awesome/fonts/fontawesome-webfont.woff2@v=4.7.0 182 13928220 0 63
+END_SIDER

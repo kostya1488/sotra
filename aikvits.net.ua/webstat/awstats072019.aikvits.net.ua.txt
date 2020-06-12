@@ -1,0 +1,362 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201907 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.aikvits.net.ua.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1994                
+POS_TIME 2656                
+POS_VISITOR 8461                
+POS_DAY 9425                
+POS_DOMAIN 3284                
+POS_LOGIN 3514                
+POS_ROBOT 3669                
+POS_WORMS 4019                
+POS_EMAILSENDER 4150                
+POS_EMAILRECEIVER 4293                
+POS_SESSION 9821                
+POS_SIDER 9978                
+POS_FILETYPES 4428                
+POS_DOWNLOADS 4621                
+POS_OS 4692                
+POS_BROWSER 4795                
+POS_SCREENSIZE 5069                
+POS_UNKNOWNREFERER 5143                
+POS_UNKNOWNREFERERBROWSER 5291                
+POS_ORIGIN 5407                
+POS_SEREFERRALS 5542                
+POS_PAGEREFS 5697                
+POS_SEARCHWORDS 5845                
+POS_KEYWORDS 5997                
+POS_MISC 2319                
+POS_ERRORS 6056                
+POS_CLUSTER 3370                
+POS_SIDER_404 6181                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20190801002243 2 217 14199427837158
+FirstTime 0
+LastTime 20190731142814
+LastUpdate 20190801043554 2 0 1 0 0
+TotalVisits 24                  
+TotalUnique 23                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 23                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 62 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 1 14 484858
+1 0 0 0 0 0 0
+2 1 1 3196 2 4 26625
+3 5 5 16060 0 0 0
+4 1 1 3196 1 3 3780
+5 3 3 9588 1 3 3780
+6 0 0 0 1 4 3894
+7 0 0 0 2 4 15353
+8 1 1 3196 0 2 3198
+9 0 0 0 0 0 0
+10 3 17 1312186 26 29 153842
+11 16 60 4030171 23 38 48844
+12 2 74 2514722 19 116 239780
+13 2 16 1281438 2 22 704966
+14 1 1 11887 0 0 0
+15 0 0 0 0 0 0
+16 2 16 1281438 0 1 2862
+17 0 0 0 3 3 26342
+18 3 3 9588 2 4 15441
+19 0 0 0 0 2 1961
+20 0 0 0 5 14 100157
+21 1 1 3196 7 12 12445
+22 0 0 0 4 12 12012
+23 1 1 3196 0 1 2862
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 42 200 10483058
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 6
+yandex 36 45440 20190731020106 24
+spider 21 702104 20190709134818 1
+googlebot 20 564345 20190730203527 4
+bot[\s_+:,\.\;\/\\-] 12 20317 20190721173517 7
+unknown 7 1344 20190729120838 7
+netcraft 5 57865 20190705023905 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+css 76 2340789 0 0
+png 8 163946 0 0
+html 33 108265 0 0
+js 49 1777923 0 0
+jpg 25 5690405 0 0
+woff2 6 401058 0 0
+Unknown 3 672 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 40 0 12384
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 6
+macosx 4
+linuxandroid 16
+winnt 168
+Unknown 9
+linux 2
+winvista 1
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 12
+chrome75.0.3770.143 16
+firefox62.0 1
+chrome74.0.3729.131 2
+chrome26.0.1410.65 3
+netscape5.0 1
+firefox59.0 1
+firefox65.0 2
+chrome75.0.3770.142 110
+Unknown 8
+chrome64.0.3282.140 1
+chrome75.0.3770.100 54
+chrome65.0.3325.181 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Mozilla/5.0 20190729113939
+Go-http-client/1.1 20190731032408
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Go-http-client/1.1 20190731032408
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 26 62
+From1 0 0
+From2 1 1
+From3 0 0
+From4 15 137
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+403 17 36151
+500 2 1136
+404 103 255425
+301 3 1431
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 57
+/website/wp-includes/wlwmanifest.xml 1 -
+/old/wp-includes/wlwmanifest.xml 1 -
+/css/js/isotope.2.2.2min.js 3 https://aikvits.net.ua/css/
+/wallet/wallet.dat 1 -
+/fdhfhdsfsdf 1 -
+/.well-known/assetlinks.json 1 -
+/site/wp-includes/wlwmanifest.xml 1 -
+/demo/wp-includes/wlwmanifest.xml 1 -
+/blogs/wp-includes/wlwmanifest.xml 1 -
+/css/css/prettyPhoto.css 2 https://aikvits.net.ua/css/
+/www/wp-includes/wlwmanifest.xml 1 -
+/servicegghgfh 1 -
+/2019/wp-includes/wlwmanifest.xml 2 -
+/home/wp-includes/wlwmanifest.xml 1 -
+/cms/wp-includes/wlwmanifest.xml 1 -
+/2018/wp-includes/wlwmanifest.xml 1 -
+/beta/wp-includes/wlwmanifest.xml 1 -
+/css/img/logo.png 5 https://aikvits.net.ua/css/
+/css/js/jquery-1.11.3.min.js 2 https://aikvits.net.ua/css/
+/404 1 -
+/css/bootstrap.min.css.map 7 -
+/portal/wp-includes/wlwmanifest.xml 1 -
+/css/js/bootstrap.min.js 3 https://aikvits.net.ua/css/
+/css/css/bootstrap.min.css 2 https://aikvits.net.ua/css/
+/web/wp-includes/wlwmanifest.xml 1 -
+/1/wp-includes/wlwmanifest.xml 1 -
+/store/wp-includes/wlwmanifest.xml 1 -
+/ggg 3 -
+/bitcoin/wallet.dat 1 -
+/EE 1 -
+/css/js/wow.min.js 4 https://aikvits.net.ua/css/
+/css/css/animate.css 2 https://aikvits.net.ua/css/
+/wallet.dat 1 -
+/css/css/font-awesome.css 2 https://aikvits.net.ua/css/
+/gggh 2 -
+/DFS 1 -
+/dev/wp-includes/wlwmanifest.xml 2 -
+/uggg 3 -
+/news/wp-includes/wlwmanifest.xml 1 -
+/wordpress/wp-includes/wlwmanifest.xml 1 -
+/fdghfdh 1 -
+/css/style.css 3 https://aikvits.net.ua/css/
+/img/img/logo.png 2 https://aikvits.net.ua/img/
+/shop/wp-includes/wlwmanifest.xml 1 -
+/css/js/main.js 4 https://aikvits.net.ua/css/
+/backup/wallet.dat 1 -
+/css/css/responsive.css 3 https://aikvits.net.ua/css/
+/fdhfh 3 -
+/css/ 1 -
+/css/js/jquery.prettyPhoto.js 4 https://aikvits.net.ua/css/
+/staging/wp-includes/wlwmanifest.xml 1 -
+/v2/wp-includes/wlwmanifest.xml 1 -
+/backup/wp-includes/wlwmanifest.xml 1 -
+/wp-login.php 1 http://aikvits.net.ua/wp-login.php
+/ud 5 -
+/style.ccs 1 -
+/wp2/wp-includes/wlwmanifest.xml 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 23
+176.115.100.168 18 148 7811248 20190729121301
+37.57.235.76 2 16 1308990 20190730104356
+194.183.179.231 2 16 1281438 20190707135919
+54.255.200.149 1 1 3196 20190718183447
+104.130.24.103 1 1 3196 20190707023437
+52.36.173.4 1 1 3196 20190717042043
+54.188.114.151 1 1 3196 20190718081732
+45.76.58.96 1 1 3196 20190721111833
+52.34.36.109 1 1 3196 20190722032132
+54.190.137.191 1 1 3196 20190720033222
+52.212.0.178 1 1 11887 20190729113939
+34.216.143.196 1 1 3196 20190705032256
+18.236.104.35 1 1 3196 20190716033424
+34.221.72.35 1 1 3196 20190712181424
+34.214.57.120 1 1 3196 20190713050344
+34.215.130.185 1 1 3276 20190731032408
+34.209.140.192 1 1 3196 20190706055159
+54.83.87.167 1 1 3196 20190712185726
+85.206.165.8 1 1 11887 20190731142814
+64.246.187.42 1 1 3196 20190721233153
+166.78.148.9 1 1 3196 20190709051601
+18.237.139.198 1 1 3196 20190702210417
+52.12.153.243 1 1 3196 20190712104811
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 16
+20190702 1 1 3196 1
+20190705 1 1 3196 1
+20190706 1 1 3196 1
+20190707 3 17 1284634 2
+20190709 1 1 3196 1
+20190712 5 19 1291026 4
+20190713 1 1 3196 1
+20190716 1 1 3196 1
+20190717 1 1 3196 1
+20190718 2 2 6392 2
+20190720 1 1 3196 1
+20190721 2 2 6392 2
+20190722 1 1 3196 1
+20190729 17 133 6541697 2
+20190730 2 16 1308990 1
+20190731 2 2 15163 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+0s-30s 23
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 6
+/ 31 104217 23 20
+/fonts/fontawesome-webfont.woff2 6 401058 0 3
+/jkdsjksd 2 336 0 0
+/f 1 336 0 0
+// 1 3196 1 1
+/admin/ 1 852 0 0
+END_SIDER

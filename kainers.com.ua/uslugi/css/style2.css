@@ -1,0 +1,242 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+.tabs {
+    position: absolute;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.tabs label {
+
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: 45px;
+    line-height: 45px;
+    position: relative;
+    top: 2px;
+    text-align: right;
+    z-index: 400;
+}
+.tabs label span{
+    color: #000;
+    background: #fff;
+    border-radius: 10px;
+    /*sdsdsd*/
+    position: absolute;
+    width: 165px;
+    text-align: center;
+    top: 327%;
+    left: 66%;
+    /*height: 45px;*/
+}
+.width-tabs-3{
+    width: 30%;
+}
+.width-tabs-4{
+    width: 23%;
+}
+.width-tabs-5{
+    width: 19%;
+}
+.tabs input {
+    position: absolute;
+    left: -9999px;
+}
+
+#tab_1:checked  ~ #tab_l1,
+#tab_2:checked  ~ #tab_l2,
+#tab_3:checked  ~ #tab_l3,
+#tab_4:checked  ~ #tab_l4{
+    top: 0;
+    z-index: 400;
+}
+
+.tabs_cont {
+    background: #fff;
+    position: absolute;
+    z-index: 2;
+    height: 100%;
+    top:0;
+    width: 100%;
+}
+
+/*==========*/
+.tabs_cont > div {
+    position: absolute;
+    left: -9999px;
+    top: 0;
+    opacity: 0;
+    -moz-transition: opacity .5s ease-in-out;
+    -webkit-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
+}
+#tab_1:checked ~ .tabs_cont #tab_r1,
+#tab_2:checked ~ .tabs_cont #tab_r2,
+#tab_3:checked ~ .tabs_cont #tab_r3,
+#tab_4:checked ~ .tabs_cont #tab_r4{
+    position: static;
+    left: 0;
+    opacity: 1;
+}
+
+
+/*menu*/
+/*.hr-menu{
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    left: 0;
+    top: 25.4%;
+    background: #fff;
+}*/
+.hr-body{
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    left: 0;
+    top: 26%;
+    background: #fff;
+    z-index: 310;
+}
+.menu{
+    position: absolute;
+    width: 14%;
+    left: 0;
+    padding-left: 30px;
+    bottom: -1px;
+    z-index: 300;
+    background: #000;
+    height: 100%;
+    opacity: 0.7;
+}
+a.menu-logo{
+    margin-bottom: 0;
+}
+a.menu-logo img{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 0;
+}
+.menu a{
+    display: inline-block;
+    margin-bottom: 50px;
+    line-height: 2em;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    z-index: 500;
+    position: relative;
+    top:85px;
+    font-weight: 900;
+    font-size: 14px;
+    width: 60%;
+    padding: 10px 10px;
+    border-radius: 100%;
+    text-align: center;
+    right: 0;
+    left: 15px;
+}
+.menu a:hover{
+    transition: 1s;
+    color: #000;
+    background: #fff;
+    /*top: 55px;*/
+    left: -10px;
+}
+.menu a:focus{
+    color: #000;
+    background: #fff;
+}
+.menu a:active{
+    color: #000;
+    background: #fff;
+}
+/*tab-bg-content*/
+#tab_r1{
+    background: url("../img/item1.jpg") no-repeat center;
+    background-size: cover;
+    height: 100%;
+}
+#tab_r2{
+    background: url("../img/item4.jpg") no-repeat center;
+    background-size: cover;
+    height: 100%;
+}
+#tab_r3{
+    background: url("../img/item2.jpg") no-repeat center;
+    background-size: cover;
+    height: 100%;
+}
+#tab_r4{
+    background: url("../img/item4.jpg") no-repeat center;
+    background-size: cover;
+    height: 100%;
+}
+
+.tabs_cont p{
+    position: absolute;
+    bottom: 8%;
+    color: #000;
+    font-weight: normal;
+    text-transform: uppercase;
+    left: 30%;
+    background: #fff;
+    opacity: 0.8;
+    padding: 20px;
+    line-height: 2em;
+}
+
+/*.tabs label span.hr{
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    opacity: 0.8;
+    z-index: 0;
+    top: 374%;
+    left: 59px;
+}*/
+
+
+/*anim*/
+
+#p_prldr{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right:0;
+    bottom:0;
+    background: #000;
+    z-index: 30;}
+
+.contpre small{font-size:25px;}
+
+.contpre{
+    width: 250px;
+    height: 100px;
+    position: absolute;
+    left: 50%;top: 48%;
+    margin-left:-125px;
+    margin-top:-75px;
+    color:#fff;
+    font-size:40px;
+    letter-spacing:-2px;
+    text-align:center;
+    line-height:35px;}
+
+#p_prldr .svg_anm {
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    background: url(../spinning-circles.svg) center center no-repeat;
+    background-size:41px;
+    margin: -16px 0 0 -16px;}

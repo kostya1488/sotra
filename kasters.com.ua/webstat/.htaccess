@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "/www/kasters.com.ua/webstat"
+AuthUserFile /var/www/krater1/data/etc/99097258.passwd
+DirectoryIndex index.html
+<Limit GET POST>
+	require valid-user
+</Limit>

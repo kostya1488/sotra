@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /assets/components/
+Disallow: /sotra/
+Disallow: /ru/
+Disallow: /index.php
+Disallow: *?
+Crawl-delay: 10
+Sitemap: https://sweetgirls.com.ua/sitemap.xml
+Host: sweetgirls.com.ua

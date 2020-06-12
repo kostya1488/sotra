@@ -1,0 +1,362 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201909 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.demler.kiev.ua.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1994                
+POS_TIME 2656                
+POS_VISITOR 6704                
+POS_DAY 8885                
+POS_DOMAIN 3305                
+POS_LOGIN 3535                
+POS_ROBOT 3690                
+POS_WORMS 3923                
+POS_EMAILSENDER 4054                
+POS_EMAILRECEIVER 4197                
+POS_SESSION 9531                
+POS_SIDER 9690                
+POS_FILETYPES 4332                
+POS_DOWNLOADS 4488                
+POS_OS 4536                
+POS_BROWSER 4651                
+POS_SCREENSIZE 5059                
+POS_UNKNOWNREFERER 5133                
+POS_UNKNOWNREFERERBROWSER 5357                
+POS_ORIGIN 5473                
+POS_SEREFERRALS 5607                
+POS_PAGEREFS 5762                
+POS_SEARCHWORDS 5910                
+POS_KEYWORDS 6062                
+POS_MISC 2320                
+POS_ERRORS 6121                
+POS_CLUSTER 3391                
+POS_SIDER_404 6222                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20191001032332 9 1231 11243131328740
+FirstTime 0
+LastTime 20190930101020
+LastUpdate 20191001043540 9 0 8 0 0
+TotalVisits 64                  
+TotalUnique 53                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 57                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 9 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1 1 266 4 4 3498
+1 0 0 0 2 2 938
+2 1 1 4283 2 2 12114
+3 2 2 8566 1 1 469
+4 3 3 16194 8 10 3821
+5 3 3 20211 1 2 3842
+6 0 0 0 5 10 19172
+7 1 1 11645 5 9 12632
+8 2 12 1385809 3 6 10544
+9 5 5 21415 1 4 4247
+10 3 3 8832 1 1 11645
+11 4 4 9098 3 3 12583
+12 7 7 37343 6 11 16771
+13 5 5 28777 3 7 10143
+14 8 43 5612836 1 4 3919
+15 10 21 2626396 5 6 6662
+16 4 4 17132 2 2 4752
+17 9 19 1415790 0 1 1150
+18 3 3 23556 4 7 4679
+19 2 2 4572 1 1 469
+20 2 2 8566 0 0 0
+21 10 10 36621 2 2 938
+22 9 9 30860 1 3 5289
+23 5 5 19223 4 5 16425
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 99 165 11347991
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 3
+yandex 20 73726 20190930120702 0
+netcraft 4 46580 20190905113629 0
+googlebot 1 4283 20190919165353 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 5
+css 14 1056286 0 0
+png 44 9401406 0 0
+html 94 400850 0 0
+js 8 487949 0 0
+Unknown 5 1500 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 7
+macosx 18
+linuxandroid 2
+winnt 111
+linuxubuntu 1
+Unknown 10
+linux 2
+win7 21
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 20
+chrome67.0.3396.87 1
+chrome66.0.3359.139 9
+firefox42.0 1
+chrome76.0.3809.132 64
+chrome10.0.648.133 1
+chrome63.0.3239.132 2
+safari6.0 1
+firefox58.0 1
+firefox47.0 4
+chrome74.0.3729.131 13
+firefox68.0 1
+chrome67.0.3396.99 1
+chrome26.0.1410.65 1
+mozilla 5
+firefox59.0 2
+chrome40.0.2214.85 6
+chrome66.0.3359.181 44
+chrome75.0.3770.142 2
+Unknown 5
+firefox3.6.8 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20190910150524
+Go-http-client/1.1 20190930043737
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Go-http-client/1.1 20190930043737
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 79 91
+From1 0 0
+From2 1 1
+From3 0 0
+From4 19 73
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+yandex 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+403 29 14587
+404 40 17176
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 10
+/vb5/ 1 -
+/.env 2 -
+/vbulletin/ 1 -
+/.git/config 3 -
+/forums/ 1 -
+/forum/ 1 -
+/xmlrpc.php 24 -
+/wp-login.php 5 http://demler.kiev.ua/wp-login.php
+/vb/ 1 -
+/vbulletin5/ 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 57
+80.73.4.198 6 39 5532371 20190924140329
+138.246.253.5 6 6 1596 20190928000230
+93.76.250.124 5 5 13728 20190929220548
+60.191.38.77 4 4 46580 20190925123914
+94.131.223.46 3 14 2618522 20190924140424
+34.217.34.39 2 2 8566 20190913165657
+52.11.2.108 2 2 8566 20190918170252
+18.237.238.229 2 2 8566 20190930101020
+34.221.160.175 2 2 8566 20190912121008
+18.237.78.25 2 2 8566 20190915135457
+27.115.124.4 0 1 0 
+51.15.91.99 1 1 4283 20190924021227
+118.174.46.144 1 1 2091 20190907233032
+173.252.87.41 0 1 96604 
+51.15.124.33 1 1 4283 20190919235638
+167.99.183.153 1 1 289 20190905195910
+27.115.124.3 0 1 69707 
+34.222.147.203 1 1 4283 20190919084848
+52.33.187.84 1 1 4283 20190930043737
+34.213.179.32 1 1 4283 20190909094339
+173.252.87.39 0 2 1070121 
+34.220.244.48 1 1 4283 20190905195915
+66.133.109.36 2 2 600 20190910150524
+52.10.2.49 2 2 8566 20190921225244
+34.216.172.239 1 1 4283 20190916093025
+83.97.23.233 2 2 6374 20190921214202
+35.163.45.240 2 2 8566 20190905214716
+181.215.151.21 1 1 4283 20190910213950
+3.14.255.131 1 1 300 20190910150521
+13.231.246.212 1 1 4283 20190916032402
+18.237.46.120 2 2 8566 20190911165229
+114.112.70.150 1 1 4283 20190907233020
+34.221.197.222 1 1 4283 20190926203942
+64.246.165.190 1 1 4283 20190928225004
+52.11.186.213 2 2 8566 20190906123851
+173.252.87.4 1 8 214801 20190929175823
+34.219.4.234 2 2 8566 20190922234639
+34.220.252.214 2 2 8566 20190924172647
+35.161.20.0 2 2 8566 20190908170627
+95.216.14.217 2 2 23290 20190923183935
+52.37.196.44 2 2 8566 20190916152608
+34.220.30.211 2 2 8566 20190907132236
+34.219.229.26 2 2 8566 20190920214708
+64.246.161.30 1 1 4283 20190906202410
+128.72.21.96 1 11 1381526 20190923085318
+34.212.57.96 2 2 8566 20190910172222
+34.216.106.41 2 2 8566 20190901125107
+52.35.154.133 2 2 8566 20190914143206
+193.70.34.209 2 2 8566 20190922030720
+18.228.190.79 1 1 4283 20190905222910
+51.15.191.81 1 1 11645 20190912041809
+34.212.71.220 2 2 8566 20190919211143
+34.216.229.60 2 2 8566 20190902115501
+54.148.17.22 2 2 8566 20190904090532
+45.93.20.4 1 1 266 20190929041543
+52.40.245.110 2 2 8566 20190905053403
+18.197.227.110 2 2 600 20190910150523
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 28
+20190901 2 2 8566 1
+20190902 3 3 12849 2
+20190904 2 2 8566 1
+20190905 7 7 25987 5
+20190906 4 4 13115 3
+20190907 4 4 14940 3
+20190908 3 3 8832 2
+20190909 1 1 4283 1
+20190910 14 37 4176839 7
+20190911 2 2 8566 1
+20190912 3 3 20211 2
+20190913 4 4 9098 3
+20190914 2 2 8566 1
+20190915 2 2 8566 1
+20190916 4 4 17132 3
+20190918 3 3 20211 2
+20190919 4 6 86839 3
+20190920 3 3 20211 2
+20190921 4 4 14940 2
+20190922 4 4 24494 3
+20190923 2 12 1393171 2
+20190924 7 28 4012897 4
+20190925 1 1 11645 1
+20190926 1 1 4283 1
+20190927 1 1 266 1
+20190928 2 2 4549 2
+20190929 7 17 1395520 3
+20190930 3 3 12849 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+0s-30s 63
+15mn-30mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 6
+/ 84 379193 59 57
+/contact.html 6 12546 2 2
+/uslugi.html 3 5772 0 2
+/.well-known/acme-challenge/LLeuMfeFvSCZYjk7JwN_YH9PLx8m85YDtUfnajV6oVw 3 900 3 1
+/.well-known/acme-challenge/l9ITYJ-v9x_dpv_twg1UTXXSNYOXXyEy9t2Z8ZyaEkc 2 600 0 2
+/faq.html 1 3339 0 0
+END_SIDER

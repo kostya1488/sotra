@@ -1,0 +1,372 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201810 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.kasters.com.ua.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1994                
+POS_TIME 2659                
+POS_VISITOR 7468                
+POS_DAY 9367                
+POS_DOMAIN 3366                
+POS_LOGIN 3596                
+POS_ROBOT 3751                
+POS_WORMS 4212                
+POS_EMAILSENDER 4343                
+POS_EMAILRECEIVER 4486                
+POS_SESSION 9937                
+POS_SIDER 10094               
+POS_FILETYPES 4621                
+POS_DOWNLOADS 4826                
+POS_OS 4897                
+POS_BROWSER 5003                
+POS_SCREENSIZE 5466                
+POS_UNKNOWNREFERER 5540                
+POS_UNKNOWNREFERERBROWSER 5627                
+POS_ORIGIN 5709                
+POS_SEREFERRALS 5844                
+POS_PAGEREFS 6010                
+POS_SEARCHWORDS 6158                
+POS_KEYWORDS 6310                
+POS_MISC 2323                
+POS_ERRORS 6369                
+POS_CLUSTER 3452                
+POS_SIDER_404 6468                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20181101004519 14 2495 11103574108078
+FirstTime 0
+LastTime 20181031175752
+LastUpdate 20181101044523 14 0 13 0 0
+TotalVisits 60                  
+TotalUnique 41                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 50                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 4 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1 8 782280 5 10 131893
+1 1 1 2847 13 19 24314
+2 1 2 8030 5 9 130440
+3 3 3 8541 3 4 126915
+4 2 2 5694 18 28 52918
+5 0 0 0 14 17 357983
+6 0 0 0 11 13 7287
+7 1 1 2847 8 14 273359
+8 7 7 46729 5 9 12690
+9 9 23 1603397 19 21 146084
+10 7 14 819028 11 31 1010344
+11 10 17 826811 6 8 322060
+12 6 7 320600 1 1 2847
+13 2 2 5694 4 7 7259
+14 0 0 0 11 21 435050
+15 8 10 358277 5 11 138589
+16 20 33 925121 6 10 20220
+17 17 17 107151 14 20 188378
+18 8 8 52152 9 17 158577
+19 5 10 760976 17 32 320044
+20 2 2 5694 4 5 5193
+21 3 3 8149 13 14 10593
+22 1 1 2847 12 16 15440
+23 2 2 5694 10 16 147964
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 116 173 6658180
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 9
+googlebot 177 2471675 20181031141734 33
+yandex 21 326367 20181031181008 10
+bot[\s_+:,\.\;\/\\-] 20 28517 20181031194353 10
+facebook 11 1110400 20181015104017 0
+robot 11 17925 20181028224137 5
+crawl 6 13342 20181006192943 1
+ia_archiver 5 19235 20181028115615 2
+unknown 2 584 20181024190731 2
+no_user_agent 1 7615 20181027174119 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+css 23 905825 0 0
+png 17 4892084 0 0
+woff2 4 72984 0 0
+woff 4 25424 0 0
+php 22 147956 0 0
+html 86 337310 0 0
+jpg 9 45505 0 0
+js 8 230713 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 63 1 20931
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 7
+macosx 41
+winlong 5
+winnt 59
+Unknown 1
+linux 22
+winvista 9
+win7 37
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 22
+firefox57.0 8
+chrome55.0.2883.87 8
+firefox33.1 8
+chrome41.0.2225.0 1
+chrome68.0.3440.106 28
+chrome62.0.3202.94 1
+chrome36.0.1985.125 10
+firefox30.0 8
+firefox61.0 1
+chrome61.0.3163.100 20
+chrome64.0.3251.0 2
+firefox33.0 14
+chrome67.0.3396.99 2
+firefox59.0 2
+chrome60.0.3112.101 2
+chrome50.0.2661.102 8
+chrome34.0.1847.116 5
+msie10.0 1
+chrome67.0.3396.103 8
+chrome66.0.3359.181 16
+chrome69.0.3497.100 20
+Unknown 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 52 54
+From1 1 1
+From2 3 6
+From3 0 0
+From4 60 113
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 2 2
+yandex 1 4
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+403 7 3556
+404 88 35777
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 20
+/_phpMyAdmin/scripts/setup.php 9 -
+/wp-content/themes/bloggingcream/404.php 1 -
+/wp-content/indes.php 1 -
+/wp-includes/indes.php 1 -
+/.git/HEAD 1 -
+/wp-content/themes/agregado/404.php 1 -
+/bea_wls_deployment_internal 4 -
+/status 7 -
+/.well-known/assetlinks.json 15 -
+/wp-content/themes/twentyfifteen/index.php 1 -
+/wp-content/themes/twentyfifteen/content.php 1 -
+/phpmyadmin/scripts/setup.php 8 -
+/pma/scripts/setup.php 10 -
+/wp-content/themes/CherryFramework/404.php 1 -
+/phpMyAdmin/scripts/setup.php 11 -
+/xmlrpc.php 2 -
+/wp-content/themes/default/404.php 1 -
+/scripts/setup.php 11 -
+/wp-content/themes/advancesettings/404.php 1 -
+/wp-content/themes/template-parts/content-single.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 50
+185.189.114.123 16 16 104304 20181010170826
+52.53.201.78 11 11 31317 20181031175752
+13.57.233.99 9 9 25623 20181030230540
+89.238.186.73 8 8 52152 20181013184427
+185.245.85.229 8 8 52152 20181005173047
+185.212.171.99 7 7 46729 20181008082041
+185.163.111.235 7 7 46729 20181011150105
+91.193.166.103 6 19 857116 20181030160603
+138.68.180.18 5 5 13006 20181007165126
+34.217.53.203 3 10 806882 20181008102122
+180.163.220.96 0 2 340563 
+54.188.72.123 1 1 2847 20181011095852
+34.219.29.197 1 1 2847 20181008102118
+54.189.11.184 1 1 2847 20181029111034
+34.219.112.131 1 1 2847 20181025123347
+34.221.217.166 1 1 2847 20181016111425
+52.33.164.98 1 1 2847 20181026121203
+37.145.112.239 1 8 782280 20181017000738
+37.79.141.155 0 1 303518 
+180.163.220.3 1 1 18246 20181013093711
+5.188.62.5 1 1 2847 20181008033941
+18.237.101.191 1 1 2847 20181030120043
+37.146.182.228 0 1 5183 
+54.36.113.142 1 1 2847 20181025204059
+34.212.14.176 1 1 2847 20181027122035
+180.163.220.61 1 4 134157 20181013093758
+34.222.107.145 1 1 2847 20181013110823
+18.237.20.162 1 1 2847 20181009133813
+185.182.81.23 1 6 740052 20181008191058
+23.95.235.107 1 1 2847 20181002033631
+54.201.133.210 1 1 2847 20181014094725
+34.210.167.40 1 1 2847 20181010124714
+173.252.87.1 0 1 379 
+64.246.161.30 1 1 2847 20181004105036
+180.163.220.62 0 1 305202 
+54.214.132.176 1 1 2847 20181024113154
+35.167.171.114 3 10 806882 20181016111429
+180.163.220.68 2 8 483434 20181013093711
+34.246.183.248 1 1 2847 20181006090920
+180.163.220.4 0 1 305202 
+34.221.119.36 1 1 2847 20181031104110
+180.163.220.42 0 1 2358 
+79.111.106.43 0 1 5183 
+27.159.207.5 2 2 15230 20181005190432
+13.56.114.7 1 1 2847 20181028192858
+52.41.239.191 1 1 2847 20181028114657
+107.152.195.94 2 2 5302 20181001212737
+2.92.115.102 0 1 303518 
+64.246.165.180 1 1 2847 20181024190732
+54.200.2.43 1 1 2847 20181012103430
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 24
+20181001 2 2 5302 1
+20181002 3 3 8541 3
+20181004 2 2 5694 2
+20181005 11 12 75412 3
+20181006 2 2 5694 2
+20181007 13 13 65158 2
+20181008 15 27 1605051 7
+20181009 1 1 2847 1
+20181010 10 10 57846 3
+20181011 9 9 52423 3
+20181012 1 1 2847 1
+20181013 15 29 1649855 7
+20181014 1 1 2847 1
+20181015 1 2 307123 1
+20181016 5 12 812576 3
+20181017 1 8 782280 1
+20181024 3 3 8541 3
+20181025 3 4 13724 3
+20181026 1 1 2847 1
+20181027 2 2 5694 2
+20181028 3 3 8541 3
+20181029 2 3 309212 2
+20181030 8 21 862810 3
+20181031 2 2 5694 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+0s-30s 59
+30s-2mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 7
+/ 59 206117 58 47
+/contact.html 25 126671 1 6
+/index.php 20 142764 0 2
+/fonts/hotel-pictograms.woff 4 25424 0 3
+/fonts/glyphicons-halflings-regular.woff2 4 72984 1 1
+/uslugi.php 2 5192 0 1
+/work.html 2 4522 0 0
+END_SIDER

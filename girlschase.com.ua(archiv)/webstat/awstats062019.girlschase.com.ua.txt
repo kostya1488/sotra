@@ -1,0 +1,452 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201906 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.girlschase.com.ua.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1997                
+POS_TIME 2676                
+POS_VISITOR 8259                
+POS_DAY 12916               
+POS_DOMAIN 3500                
+POS_LOGIN 3733                
+POS_ROBOT 3888                
+POS_WORMS 4308                
+POS_EMAILSENDER 4439                
+POS_EMAILRECEIVER 4582                
+POS_SESSION 13479               
+POS_SIDER 13665               
+POS_FILETYPES 4717                
+POS_DOWNLOADS 4907                
+POS_OS 4978                
+POS_BROWSER 5115                
+POS_SCREENSIZE 6038                
+POS_UNKNOWNREFERER 6112                
+POS_UNKNOWNREFERERBROWSER 6336                
+POS_ORIGIN 6452                
+POS_SEREFERRALS 6592                
+POS_PAGEREFS 6747                
+POS_SEARCHWORDS 6895                
+POS_KEYWORDS 7047                
+POS_MISC 2339                
+POS_ERRORS 7106                
+POS_CLUSTER 3589                
+POS_SIDER_404 7217                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20190701002059 91 26215 4645804834408
+FirstTime 20190611164514
+LastTime 20190630211533
+LastUpdate 20190701044229 91 0 90 0 0
+TotalVisits 224                 
+TotalUnique 110                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 115                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 15 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 8 221 9313126 18 35 44525
+1 14 256 10717834 15 37 33979
+2 9 238 9984769 17 43 395174
+3 8 170 7179874 12 26 86522
+4 9 143 5994807 23 38 112389
+5 6 168 7130670 8 16 14752
+6 5 140 5942225 10 38 686569
+7 5 113 4758761 4 16 217226
+8 8 208 8738424 8 22 15973
+9 15 220 9704298 8 30 20628
+10 9 224 9511555 13 24 20401
+11 10 212 9691012 9 26 17545
+12 7 160 6771064 10 21 44678
+13 10 266 11168516 16 42 202695
+14 14 263 10897102 15 46 111882
+15 17 224 8895941 12 32 39797
+16 27 241 9424387 11 19 7722
+17 8 170 7140632 8 16 35385
+18 27 203 7917170 9 21 145733
+19 27 251 9886709 13 23 13979
+20 19 311 12759388 16 33 21991
+21 6 167 7129684 9 21 108558
+22 7 196 8319115 7 15 6069
+23 7 191 7931233 11 19 45614
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 282 4956 206908296
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 8
+googlebot 72 1200729 20190630134835 16
+yandex 33 52298 20190629195947 25
+bot[\s_+:,\.\;\/\\-] 28 219606 20190630083114 11
+spider 21 673443 20190616063705 1
+crawl 8 29611 20190623041758 1
+no_user_agent 3 34564 20190619020351 0
+python 2 5443 20190612002138 1
+unknown 2 924 20190629090737 2
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+css 1066 24334809 0 0
+png 331 11182498 0 0
+html 280 1523988 0 0
+jpg 2022 121282029 0 0
+js 1255 48584372 0 0
+Unknown 2 600 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 57 0 27234
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 8
+linuxandroid 407
+winnt 1647
+linuxubuntu 84
+linux 509
+winvista 230
+win7 452
+macosx 1613
+Unknown 14
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 43
+chrome67.0.3396.87 1036
+safari11.0 64
+chrome31.0.1623.0 4
+chrome66.0.3359.139 195
+chrome75.0.3770.101 28
+chrome71.0.3578.98 18
+chrome74.0.3729.157 190
+chrome61.0.3163.128 27
+chrome58.0.3029.110 169
+chrome57.0.2987.108 54
+chrome69.0.3493.0 140
+chrome74.0.3729.112 27
+firefox59.0 1
+chrome75.0.3770.67 27
+firefox65.0 2
+chrome74.0.3729.169 28
+chrome66.0.3359.181 206
+chrome19.0.1041.0 1
+chrome73.0.3683.103 252
+Unknown 12
+chrome4.0.249.0 1
+chrome65.0.3325.181 168
+chrome70.0.3538.77 1
+firefox42.0 1
+chrome68.0.3440.106 28
+chrome64.0.3282.119 56
+safari10.0 1
+chrome73.0.3683.86 30
+firefox58.0 1
+safari12.1 117
+chrome75.0.3770.89 27
+chrome38.0.2125.102 27
+chrome32.0.1664.3 4
+chrome67.0.3396.99 1484
+safari11.0.3 1
+mozilla 32
+chrome51.0.2704.106 56
+safari12.1.1 78
+chrome28.0.1464.0 4
+chrome64.0.3282.186 3
+chrome66.0.3359.170 140
+chrome75.0.3770.100 131
+chrome64.0.3282.140 84
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20190611164527
+Go-http-client/1.1 20190629190846
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Go-http-client/1.1 20190629190846
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 247 275
+From1 10 10
+From2 3 3
+From3 0 0
+From4 22 4668
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 3 3
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+403 1 460
+405 3 1314
+404 471 188464
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 13
+/send_ajax_call.php 1 -
+/sitemap.xml 13 -
+/rss/order/new/ 1 http://girlschase.com.ua/rss/order/new/
+/manager/ 1 https://girlschase.com.ua/manager/
+/css1/images/bg.jpg 10 https://girlschase.com.ua/css1/css/A.app.css.pagespeed.cf.yBh8m3NO6h.css
+/.well-known/assetlinks.json 3 -
+/wp-login.php 4 http://girlschase.com.ua/wp-login.php
+/fonts.googleapis.com/css 193 https://girlschase.com.ua/
+/css1/images/vv.png 8 https://girlschase.com.ua/css1/css/A.app.css.pagespeed.cf.yBh8m3NO6h.css
+/css1/images/bgfooter.jpg 12 https://girlschase.com.ua/kontakti.html
+/downloader/ 1 http://girlschase.com.ua/downloader/
+/rss/catalog/notifystock/ 1 http://girlschase.com.ua/rss/catalog/notifystock/
+/scripts/lang/ru.js 223 https://girlschase.com.ua/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 115
+198.148.79.10 12 12 45528 20190611164728
+35.187.174.148 11 308 13072895 20190618152945
+35.205.205.180 11 308 13072895 20190619012614
+35.205.124.31 10 280 11884450 20190618080414
+35.241.131.170 10 280 11884450 20190618203545
+35.241.227.11 9 252 10696005 20190619140222
+35.233.113.9 9 252 10696005 20190619090223
+104.155.9.91 8 224 9507560 20190618130105
+176.115.100.168 8 175 7280457 20190625145343
+34.77.87.156 7 196 8319115 20190619160314
+77.111.244.176 0 15 668576 
+93.119.227.91 2 2 49204 20190612042547
+18.237.40.68 1 1 4981 20190612155638
+52.39.89.61 1 1 4981 20190629090735
+54.201.143.226 2 2 9962 20190622181218
+34.213.199.188 2 2 9962 20190626182535
+173.252.127.2 0 12 671305 
+176.122.110.7 1 20 788941 20190629201546
+77.111.244.202 3 22 774074 20190614152452
+77.111.244.134 1 16 672428 20190619125003
+34.221.243.45 2 2 9962 20190613195140
+54.214.219.85 1 1 4981 20190621180357
+54.244.206.184 2 2 9962 20190611185506
+54.187.190.33 2 2 9962 20190612182532
+46.211.225.156 1 26 994997 20190619164410
+173.252.127.26 0 4 132896 
+69.164.111.198 2 2 49204 20190611164816
+188.163.80.87 1 28 1188445 20190620135230
+54.187.29.47 1 1 4981 20190620181650
+45.10.32.2 1 27 1187459 20190627010649
+77.111.247.117 2 14 423494 20190621091202
+34.211.87.18 2 2 9962 20190623184110
+178.150.237.246 1 26 994997 20190620232616
+109.87.237.35 1 26 994997 20190614201924
+52.32.166.188 1 1 4981 20190629190846
+77.111.247.62 1 1 0 20190613151100
+47.106.121.196 1 27 1183276 20190630185946
+77.74.177.113 3 17 555959 20190627155149
+34.77.94.151 5 140 5942225 20190619013343
+77.111.244.18 1 16 672428 20190618122340
+77.111.244.198 3 16 1371897 20190616114342
+173.252.127.25 1 12 384244 20190619103311
+92.115.188.243 1 27 1187459 20190613144833
+34.77.56.158 6 168 7130670 20190619113212
+46.211.236.3 1 27 1187459 20190623101159
+128.124.30.247 1 13 420295 20190614152546
+104.199.40.78 5 140 5942225 20190618030425
+31.134.191.26 1 26 994997 20190619001203
+35.161.192.74 2 2 9962 20190624201218
+54.69.221.18 2 2 9962 20190628192934
+54.191.57.41 1 1 4981 20190625183652
+212.83.146.233 1 1 24602 20190612195838
+34.221.62.239 2 2 9962 20190618174152
+62.100.211.72 1 26 994997 20190620202529
+54.214.176.145 2 2 9962 20190625183716
+159.224.64.213 1 27 1187459 20190614233010
+35.241.145.210 5 140 5942225 20190618225834
+51.158.120.6 1 1 4981 20190622074117
+77.74.177.114 1 1 4981 20190627155148
+193.128.111.37 1 1 24602 20190617183936
+69.4.87.74 2 2 49204 20190611200908
+104.155.95.246 2 56 2376890 20190615005235
+34.213.26.226 1 1 4981 20190626101757
+34.212.151.33 1 1 4981 20190624192850
+136.243.176.156 1 1 266 20190624200156
+34.209.217.13 2 2 9962 20190619195022
+35.241.253.60 6 168 7130670 20190618103245
+18.237.127.97 2 2 9962 20190615191505
+178.128.233.89 1 1 289 20190612041419
+35.195.239.245 3 84 3565335 20190616114522
+178.251.108.73 1 28 1188445 20190629201614
+18.237.203.58 2 2 9962 20190616190604
+77.111.244.138 0 15 668576 
+37.73.170.200 1 26 994997 20190620232317
+31.134.120.20 3 30 1196317 20190613015243
+34.221.255.95 1 1 4981 20190619195038
+46.211.135.22 1 26 994997 20190617020021
+95.153.135.158 1 27 1187459 20190614081433
+93.72.166.48 1 13 420295 20190627132446
+52.13.51.15 2 2 9962 20190614203212
+37.73.177.184 1 20 866077 20190630024245
+66.133.109.36 2 2 600 20190611164527
+89.144.222.49 1 27 1187459 20190620003340
+128.124.225.32 1 26 994997 20190623024701
+78.95.229.154 1 27 1187459 20190614021655
+52.32.106.230 1 1 4981 20190618011015
+54.191.200.175 1 1 4981 20190618165303
+46.211.84.241 1 27 1187459 20190612024138
+77.111.246.238 5 37 2142119 20190615094503
+94.131.223.47 1 28 1188445 20190620200511
+34.209.41.40 1 1 4981 20190626161938
+52.32.81.158 2 2 9962 20190627192637
+34.77.203.175 2 56 2376890 20190618153842
+193.194.114.86 1 27 1187459 20190630211533
+212.80.60.106 2 38 1459301 20190617195719
+37.230.243.30 2 28 1191534 20190615043325
+34.214.118.138 1 1 4981 20190627163329
+66.249.83.205 0 7 398518 
+35.187.79.157 3 84 3565335 20190614001424
+34.223.251.36 2 2 9962 20190618011034
+93.119.227.34 2 2 49204 20190616033242
+35.162.58.54 2 2 9962 20190620181619
+77.111.247.181 1 13 420295 20190630085944
+54.218.62.198 2 2 9962 20190621180107
+188.163.113.192 2 28 1191479 20190625091503
+52.43.252.43 2 2 9962 20190629190902
+176.36.240.243 4 34 1292957 20190617140746
+35.205.150.5 7 196 8319115 20190618104254
+193.23.58.204 1 27 1187459 20190615192008
+77.111.244.51 1 1 3852 20190623122605
+35.233.50.39 7 196 8319115 20190618053404
+34.76.26.55 5 140 5942225 20190618003504
+216.145.17.190 1 1 4981 20190612205720
+77.111.244.248 1 1 3852 20190617181758
+18.237.95.117 1 1 4981 20190622154924
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 20
+20190611 24 132 4908278 9
+20190612 19 315 13165928 17
+20190613 20 424 17843523 17
+20190614 30 704 29530605 27
+20190615 30 654 28299974 24
+20190616 26 552 24011518 22
+20190617 28 647 27024740 24
+20190618 27 582 24471214 25
+20190619 14 295 12184925 13
+20190620 9 164 6564283 8
+20190621 5 17 438437 3
+20190622 4 4 19924 3
+20190623 5 71 2864846 4
+20190624 5 32 1203654 4
+20190625 11 150 6109989 5
+20190626 4 4 19924 3
+20190627 9 61 2183637 6
+20190628 2 2 9962 1
+20190629 6 59 2395828 5
+20190630 4 87 3657107 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+1h+ 1
+0s-30s 218
+30s-2mn 3
+15mn-30mn 1
+2mn-5mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 8
+/ 253 1427771 213 208
+/kontakti.html 10 28791 5 6
+/rabota-v-eskorte.html 7 26964 4 6
+/novichkam.html 4 16300 0 1
+/rabota-v-dosuge.html 4 16080 1 2
+/visokooplachivaemaya-rabota-v-ufe.html 2 8082 0 0
+/.well-known/acme-challenge/hCoHeGY_E_DX98_EUhoooSR8Y1zg__VmZXDEdmKaNhE 1 300 1 0
+/.well-known/acme-challenge/mhDY7HNb29cfT9Qe-UIhvF325n_ONgToZSDcnvNgkag 1 300 0 1
+END_SIDER

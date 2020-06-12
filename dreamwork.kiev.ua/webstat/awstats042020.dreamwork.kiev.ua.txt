@@ -1,0 +1,1224 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 202004 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.dreamwork.kiev.ua.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1997                
+POS_TIME 2681                
+POS_VISITOR 20870               
+POS_DAY 40105               
+POS_DOMAIN 3579                
+POS_LOGIN 3814                
+POS_ROBOT 3969                
+POS_WORMS 4544                
+POS_EMAILSENDER 4675                
+POS_EMAILRECEIVER 4818                
+POS_SESSION 40999               
+POS_SIDER 41191               
+POS_FILETYPES 4953                
+POS_DOWNLOADS 5188                
+POS_OS 5261                
+POS_BROWSER 5411                
+POS_SCREENSIZE 7337                
+POS_UNKNOWNREFERER 7411                
+POS_UNKNOWNREFERERBROWSER 7696                
+POS_ORIGIN 7892                
+POS_SEREFERRALS 8036                
+POS_PAGEREFS 8216                
+POS_SEARCHWORDS 8590                
+POS_KEYWORDS 8894                
+POS_MISC 2344                
+POS_ERRORS 9070                
+POS_CLUSTER 3670                
+POS_SIDER_404 9230                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20200501002418 370 103046 15193271334841
+FirstTime 20200401000659
+LastTime 20200430213547
+LastUpdate 20200501043221 370 0 369 0 0
+TotalVisits 444                 
+TotalUnique 334                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 557                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 17 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 92 1178 55742959 32 50 545093
+1 72 939 44852218 77 119 2636132
+2 66 813 38760840 63 87 1127637
+3 43 588 28404671 118 142 7132294
+4 46 559 26326942 31 37 252347
+5 33 459 22545925 36 61 1136593
+6 39 441 21379321 63 76 1150240
+7 30 509 24505806 35 43 896893
+8 15 196 9567680 19 95 3402944
+9 47 643 30808616 32 79 2208123
+10 24 180 8371491 24 34 397271
+11 44 293 13060142 61 71 1704247
+12 52 505 24651342 32 41 319380
+13 50 741 35185331 210 244 1342308
+14 33 402 19924559 76 85 619031
+15 39 495 24223060 21 35 338893
+16 85 847 39522279 36 58 462496
+17 70 766 36789365 35 47 254053
+18 60 641 30551452 25 44 397109
+19 29 311 15148697 45 58 349701
+20 48 570 27308409 48 67 713935
+21 39 565 27314070 29 52 456943
+22 51 604 29175697 26 38 532619
+23 72 777 36750901 31 53 688232
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 1179 14022 670871773
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 12
+wordpress 402 96976 20200430224945 0
+bot[\s_+:,\.\;\/\\-] 324 9093858 20200430195604 75
+no_user_agent 236 592007 20200421141245 0
+yandex 186 3831244 20200430171954 73
+googlebot 64 942972 20200430165036 24
+mail\.ru 58 1422831 20200430224943 28
+msnbot 46 512953 20200430195623 33
+favicon 11 242461 20200429231617 0
+python 5 110209 20200423124834 0
+crawl 2 22524 20200419191812 1
+unknown 1 483 20200420021041 1
+netcraft 1 99917 20200404094946 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+eot 29 3620824 0 0
+css 3438 246448574 0 0
+png 955 10142084 0 0
+woff 195 15781740 0 0
+php 505 954129 0 0
+html 450 12312404 0 0
+js 7358 274518019 0 0
+jpg 1092 107093999 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 235 0 161985
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 10
+linuxandroid 5889
+winxp 87
+winlong 1
+winnt 2099
+winvista 469
+linux 227
+win7 1526
+macosx 3661
+Unknown 62
+psp 1
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 96
+firefox57.0 7
+msie6.0 1
+firefox28.0 3
+firefox74.0 183
+chrome40.0.2214.115 29
+chrome81.0.4044.117 304
+chrome80.0.3987.163 671
+chrome74.0.3716.0 59
+chrome74.0.3699.0 15
+chrome80.0.3987.122 2
+chrome81.0.4044.113 75
+chrome78.0.3874.0 48
+chrome81.0.4044.129 1
+chrome74.0.3729.157 55
+chrome79.0.3945.117 2
+msie8.0 1
+chrome51.0.2704.81 3
+chrome75.0.3770.143 903
+firefox59.0 1
+chrome79.0.3945.130 2
+chrome70.0.3538.102 94
+chrome66.0.3359.181 1
+chrome71.0.3578.141 124
+chrome50.0.2661.75 1
+safari13.0.1 178
+chrome49.0.2623.112 67
+safari13.0.5 2490
+safari13.1 119
+chrome80.0.3987.162 818
+firefox3.0.0.13 1
+chrome34.0.1847.131 2
+chrome81.0.4044.92 1
+firefox72.0 6
+chrome76.0.3809.132 1
+chrome68.0.3440.106 6
+chrome60.0.3112.107 1
+firefox29.0 15
+chrome77.0.3865.92 61
+safari13.0 1
+chrome74.0.3729.136 1
+firefox38.0 13
+chrome81.0.4044.122 2
+chrome81.0.4044.96 64
+firefox68.0 131
+chrome78.0.3904.97 61
+firefox75.0 225
+mozilla 1982
+chrome16.0.912.77 1
+chrome79.0.3945.136 1
+chrome68.0.3440.84 4
+chrome78.0.3904.96 118
+chrome41.0.2228.0 2
+safari12.1.2 118
+chrome73.0.3683.90 1
+safari 302
+firefox71.0 1
+chrome67.0.3396.87 2
+safari11.0 62
+chrome79.0.3945.59 5
+firefox52.0 3
+chrome56.0.2924.87 43
+chrome71.0.3578.98 3
+chrome46.0.2490.76 69
+firefox62.0 220
+chrome80.0.3987.106 1
+chrome26.0.1410.65 1
+chrome81.0.4044.111 285
+safari13.0.4 179
+chrome40.0.2214.85 1
+chrome55.0.2883.95 1
+safari8.0 1
+chrome58.0.1145.75 1
+Unknown 3
+chrome57.0.2987.132 63
+chrome57.0.2987.137 1
+chrome80.0.3987.99 62
+safari10.0 1
+chrome75.0.3770.94 59
+firefox69.0 2
+chrome78.0.3904.108 116
+chrome41.0.2227.0 2
+firefox56.0 2
+chrome80.0.3987.149 2285
+chrome38.0.2125.102 59
+chrome79.0.3945.88 7
+safari9.0 59
+chrome67.0.3396.99 2
+chrome71.0.3563.0 59
+chrome35.0.1916.153 1
+chrome79.0.3945.116 129
+firefox6.0 1
+chrome80.0.3987.132 849
+chrome70.0.3538.110 1
+chrome69.0.3497.100 1
+chrome66.0.3359.170 1
+chrome75.0.3770.100 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+Mozilla/5.0_(Android_4.4.2;_Tablet;_rv:68.0)_Gecko/68.0_Firefox/68.0 20200425023307
+WhatsApp/2.20.44_A 20200429160638
+https://gdnplus.com:Gather_Analyze_Provide. 20200408012158
+AGENT 20200406124601
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+WhatsApp/2.20.44_A 20200429160638
+https://gdnplus.com:Gather_Analyze_Provide. 20200408012158
+AGENT 20200406124601
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 295 552
+From1 2 2
+From2 242 344
+From3 1 8
+From4 639 13116
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 233 237
+aol 1 1
+yandex 8 106
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 7
+https://duckduckgo.com 1 1
+https://yandex.by/images/touch/search 0 1
+https://yandex.by/images/pad/search 0 2
+https://yandex.by/images/search 0 1
+https://yandex.fr 0 1
+https://yandex.ua/images/search 0 1
+https://yandex.com 0 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 2
+%d1%8d%d1%81%d0%ba%d0%be%d1%80%d1%82+%d0%ba%d0%b8%d0%b5%d0%b2 1
+%d1%8d%d1%81%d0%ba%d0%be%d1%80%d1%82+%d0%b0%d0%b3%d0%b5%d0%bd%d1%81%d1%82%d0%b2%d0%b0 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 3
+%d1%8d%d1%81%d0%ba%d0%be%d1%80%d1%82 2
+%d0%b0%d0%b3%d0%b5%d0%bd%d1%81%d1%82%d0%b2%d0%b0 1
+%d0%ba%d0%b8%d0%b5%d0%b2 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 7
+403 3 1222
+302 3 2276
+206 1 4972
+500 1 260
+400 11 5164
+404 305 12063195
+301 39 15794
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 234
+/dreamwork.kiev.ua.zip 1 http://dreamwork.kiev.ua/dreamwork.kiev.ua.zip
+/ 4 https://dreamwork.kiev.ua///
+/wp-content/plugins/blogtopdf/dompdf/dompdf.php 1 -
+/wp-content/uploads/settingsimages/king.php 1 -
+/laravel/vendor/phpunit/phpunit/phpunit.xsd 2 -
+/wp-content/plugins/sf-booking/lib/downloads.php 2 -
+/wp-content/themes/pinboard/themify/themify-ajax.php 1 -
+/sndso.php 1 -
+/wp-content/uploads/king.php 1 -
+/modules/gamification/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/wp-content/plugins/paypal-currency-converter-basic-for-woocommerce/proxy.php 1 -
+/wp-content/plugins/formcraft/file-upload/server/php/ 1 -
+/wp-content/plugins/web-portal-lite-client-portal-secure-file-sharing-private-messaging/includes/libs/pdf/dompdf.php 1 -
+/wp-content/plugins/wp-mobile-detector/cache/king.php 1 -
+/wp-content/themes/MichaelCanthony/download.php 2 -
+/wp-includes/css/modules.php 1 -
+/wp-content/plugins/post-pdf-export/dompdf/dompdf.php 1 -
+/olux.php 1 -
+/wp-config.php_bak 1 -
+/__MACOSX/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wp-config.php.save 1 -
+/.wp-config.php.swp 1 -
+/wp-content/themes/felis/download.php 2 -
+/wp-content/plugins/drag-and-drop-multiple-file-upload-contact-form-7/assets/js/dnd-upload-cf7.js 1 dreamwork.kiev.ua
+/sites/all/libraries/mailchimp/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/wp-content/plugins/auctionPlugin/uploadify/upload.php 1 -
+/wp-config.swp 1 -
+/wp-content/plugins/contus-video-gallery/hdflvplayer/download.php 1 -
+/wp-config.php.bakwp-config.php~ 1 -
+/wp-config.tar 1 -
+/wp-config.php.old 1 -
+/mark.php 1 -
+/laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/098.php 1 -
+/wp-content/themes/RightNow/includes/uploadify/upload_settings_image.php 1 -
+/upel.php 1 -
+/wp-content/uploads/wp-config-backup.txt 1 -
+/wp-content/plugins/inboundio-marketing/admin/partials/uploaded_csv/199877.php 1 -
+/wp-content/plugins/s3bubble-amazon-s3-html-5-video-with-adverts/assets/plugins/ultimate/content/downloader.php 2 -
+/wp-config-backup.txt 1 -
+/wp-content/themes/brainstorm/functions/jwpanel/scripts/uploadify/uploadify.php 1 -
+/wp-content/themes/SMWF/inc/download.php 2 -
+/wp-content/plugins/gracemedia-media-player/templates/files/ajax_controller.php 1 -
+/wp-content/themes/onetone/js/admin.js 1 -
+/wp-content/plugins/image-export/download.php 1 -
+/wp-content/themes/oxygen-theme/download.php 1 -
+/wp-content/plugins/sexy-contact-form/includes/fileupload/files/199877.php 1 -
+/wp-content/themes/wp-update.php 1 dreamwork.kiev.ua
+/blog/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/wp-content/themes/yakimabait/download.php 1 -
+/wp-config.php.bak 1 -
+/wp-content/themes/parallelus-salutation/framework/utilities/download/getfile.php 1 -
+/phpMyAdmin/scripts/setup.php 3 -
+/login 3 -
+/wp-content/plugins/google-mp3-audio-player/direct_download.php 1 -
+/wp-content/plugins/imdb-widget/pic.php 1 -
+/wp-content/plugins/cherry-plugin/admin/import-export/199877.php 1 -
+/wp-config.php1 1 -
+/wp-config.php.save.1 1 -
+/%23wp-config.php%23 1 -
+/dec.php 1 dreamwork.kiev.ua
+/upload.php 1 -
+/wp-content/plugins/wp-source-control/downloadfiles/download.php 1 -
+/wp-content/cache/log/000000/dbcache.log 1 -
+/api/vendor/phpunit/phpunit/phpunit.xsd 1 -
+/wp-content/uploads/wpstorecart/king.php 1 -
+/dd.php 1 -
+/login.action 3 -
+/wp-content/vuln.php 1 -
+/index.php/wp-json/articulate/v1/upload-data 1 -
+/wp-config.zip 1 -
+/wp-content/plugins/ubh/ 1 -
+/wp-content/plugins/wp-e-commerce/wpsc-includes/misc.functions.php 1 -
+/wp-content/themes/lote27/download.php 2 -
+/wp-content/plugins/vwcleanerplugin/bump.php 1 -
+/wp-content/x.php 2 -
+/wp-content/themes/Realestate/images/tmp/199877.php 1 -
+/wp-content/plugins/free-sales-funnel-squeeze-pages-landing-page-builder-templates-make/bundle/css/common.css 1 dreamwork.kiev.ua
+/xGSx.php 1 -
+/wp-content/plugins/wp-client/includes/libs/pdf/dompdf.php 1 -
+/wp-content/plugins/wp-checkout/vendors/dompdf/dompdf.php 1 -
+/new_license.php 1 -
+/wp-config.orig 1 -
+/wp-content/plugins/wp-hide-security-enhancer/router/file-process.php 1 -
+/wp-content/plugins/work-the-flow-file-upload/public/assets/jQuery-File-Upload-9.5.0/server/php/ 1 -
+/user-info.php 1 -
+/wp-admin/network/wp-footer.php 1 -
+/wp-content/themes/nishizawa_tmp/force-download.php 1 -
+/wp-admin/shapes.php 1 -
+/wp-config.php.orig 1 -
+/wp-content/plugins/simple-ads-manager/sam-ajax-admin.php 1 -
+/wp-content/plugins/upspy/ 1 -
+/wp-config.inc 1 -
+/x.htm 1 -
+/wp-content/plugins/magicmembers/core/libs/third_party/dompdf/dompdf.php 1 -
+/wp-content/plugins/advanced-uploader/upload.php 1 -
+/wp-content/themes/authentic/includes/download.php 2 -
+/up.php 1 -
+/wp-content/themes/betheme/muffin-options/fields/upload/Files/king.php 1 -
+/wp-content/plugins/ppus/up.php 1 -
+/wp-content/themes/cafesalivation/download.php 1 -
+/wp-config.txt 1 -
+/wp-content/plugins/downloads-manager/img/unlock.gif 1 -
+/baws.php 1 -
+/_wpeprivate/config.json 1 -
+/wp-content/plugins/eshop-magic/download.php 1 -
+/wp-content/cache/log/000000/minify.log 1 -
+/wp-config.php.swo 1 -
+/wp-content/themes/twentyeleven/download.php 3 -
+/wp-content/plugins/sexy-contact-form/includes/fileupload/ 1 -
+/wp-info.php 1 -
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/wp-content/themes/churchope/lib/downloadlink.php 2 -
+/test/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/wp-content/themes/acento/includes/view-pdf.php 2 -
+/wp-content/plugins/html404/index.html 1 -
+/installer-backup.php 3 -
+/wp-content/themes/calliope/db.php 1 -
+/wp-config.bak 1 -
+/wp-content/plugins/pitchprint/uploader/ 1 -
+/wp-json/trx_addons/v2/get/sc_layout 2 -
+/wp-content/plugins/history-collection/download.php 2 -
+/wp-content/themes/epic/includes/download.php 2 -
+/wp-content/uploads/file-manager/log.txt 1 -
+/wp-content/plugins/apikey/apikey.php 2 -
+/akiesmet.php 1 -
+/wp-content/plugins/hb-audio-gallery-lite/gallery/audio-download.php 2 https://dreamwork.kiev.ua/wp-content/plugins//hb-audio-gallery-lite/gallery/audio-download.php
+/wso.php 1 -
+/atutor/ 3 -
+/wp-config.original 1 -
+/wp-content/plugins/wp-mobile-detector/resize.php 1 -
+/wp-content/upgrade/wp/wp.php 1 dreamwork.kiev.ua
+/wp-content/plugins/wp-support-plus-responsive-ticket-system/includes/admin/downloadAttachment.php 1 -
+/wp-content/plugins/lifterlms/assets/js/llms-ajax.js 1 dreamwork.kiev.ua
+/phpminiadmin.php 1 -
+/shell.php 1 -
+/wp-content/plugins/prh-api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wp-content/plugins/wp-ecommerce-shop-styling/includes/download.php 1 -
+/web.config 1 -
+/wp-content/themes/markant/download.php 2 -
+/horde/imp/test.php 3 -
+/admin/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/wp-content/plugins/sam-pro-free/sam-pro-ajax-admin.php 1 -
+/wp-content/themes/satoshi/upload-file.php 1 -
+/wp-content/plugins/widget-logic/mini.php 1 -
+/wp-content/plugins/cip4-folder-download-widget/cip4-download.php 1 -
+/wp-content/plugins/ungallery/source_vuln.php 1 -
+/wp-content/plugins/membership-simplified-for-oap-members-only/download.php 1 -
+/wp-content/themes/pinboard/uploads/king.php 1 -
+/wp-json/rankmath/v1/ 1 -
+/wp-content/plugins/inboundio-marketing/admin/partials/csv_uploader.php 1 -
+/wp-content/plugins/wp-custom-pages/wp-download.php 1 -
+/wp-content/plugins/formcraft/file-upload/server/php/files/199877.php 1 -
+/wp-content/plugins/barclaycart/uploadify/uploadify.php 1 -
+/wp-content/plugins/duplicator/readme.txt 4 -
+/wp-config.php.original 1 -
+/wp-content/themes/mTheme-Unus/css/css.php 1 -
+/wp-content/plugins/barclaycart/uploadify/199877.php 1 -
+/wp-content/themes/trinity/lib/scripts/download.php 1 -
+/wp-content/plugins/abstract-submission/dompdf-0.5.1/dompdf.php 1 -
+/wp-content/themes/kap/download.php 2 -
+/indoxploit.php 1 -
+/wp-content/plugins/simple-file-list/css/eeStyles.css 1 dreamwork.kiev.ua
+/wp-content/plugins/thecartpress/modules/Miranda.class.php 1 -
+/wp-content/plugins/mac-photo-gallery/macdownload.php 1 -
+/wp-content/plugins/cherry-plugin/admin/import-export/upload.php 1 -
+/wp-content/plugins/work-the-flow-file-upload/public/assets/jQuery-File-Upload-9.5.0/server/php/files/king.php 1 -
+/wp-content/uploads/2020/04/199877.php 2 -
+/wp-content/uploads/2018/12/& 1 -
+/wp-config.old 1 -
+/cgi-bin/test-cgi 3 -
+/wp-content/themes/liberator/inc/php/download.php 1 -
+/wp-config.xml 1 -
+/wp-content/plugins/jekyll-exporter/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/wp-content/plugins/wp-db-ajax-made/wp-ajax.php 1 dreamwork.kiev.ua
+/wp-content/themes/Realestate/Monetize/general/upload-file.php 1 -
+/V5.php 1 -
+/wp-content/themes/estrutura-basica/scripts/download.php 1 -
+/wp-content/plugins/pitchprint/uploader/files/king.php 1 -
+/shop/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/wp-content/plugins/libravatar-replace/libravatar-replace.php 1 dreamwork.kiev.ua
+/wp-content/plugins/seo-by-rank-math/assets/front/css/rank-math-snippet.css 1 dreamwork.kiev.ua
+/wp-content/themes/RedSteel/download.php 1 -
+/composer/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wp-config.php_bak/wp-config.php-bak 1 -
+/wp-config.save 1 -
+/404.php 1 -
+/wp-content/plugins/wpstorecart/php/upload.php 1 -
+/.well-known/assetlinks.json 3 -
+/wp-content/themes/urbancity/lib/scripts/download.php 2 -
+/wp-content/plugins/wp-ecommerce-shop-styling/includes/dompdf/dompdf.php 1 -
+/wp-content/plugins/xichang/x.php 1 -
+/modules/autoupgrade/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/wp-content/themes/NativeChurch/download/download.php 2 -
+/console 3 -
+/wp-content/themes/ThisWay/includes/uploadify/upload_settings_image.php 1 -
+/phpmyadmin/scripts/setup.php 3 -
+/wp-content/themes/u_parts/force-download.php 1 -
+/wp-content/themes/green_farming_new/download.php 1 -
+/wp-e-commerce/wpsc-includes/misc.functions.php 1 -
+/wp-config.php~ 1 -
+/wp-content/uploads/2020/04/king.php 1 -
+/.env 2 -
+/wp-content/themes/sketch/404.php 1 -
+/wp-content/themes/TheLoft/download.php 2 -
+/wp-content/themes/chihua/db.php 1 -
+/wp-content/plugins/ajax-store-locator-wordpress_0/sl_file_download.php 2 -
+/xmlrpcs.php 1 dreamwork.kiev.ua
+/api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/wp-content/themes/linenity/functions/download.php 2 -
+/wp-content/force-download.php 2 -
+/wp-content/plugins/wp-advanced-search/js/ajaxTriggerStart.js 1 dreamwork.kiev.ua
+/wp-content/plugins/photocart-link/decode.php 1 -
+/wp-content/cache/log/000000/pagecache.log 1 -
+/wp-content/uploads/headway/header-uploads/ 1 -
+/wp-content/plugins/Krea3CustomPosts/src/Lib/dompdf/dompdf.php 1 -
+/wp-config.php.1 1 -
+/wp-content/themes/antioch/lib/scripts/download.php 2 -
+/wp-content/plugins/buddypress-component-stats/lib/dompdf/dompdf.php 1 -
+/wp-content/plugins/apikey/cursed.php 1 -
+/wp-content/plugins/theme-configurator/mini.php 1 -
+/wp-content/plugins/gboutique/library/dompdf/dompdf.php 1 -
+/wp-content/plugins/seo-by-rank-math/assets/front/js/rank-math.js 1 -
+/wp-config.php.swp 1 -
+/wp-content/themes/endlesshorizon/download.php 1 -
+/vendor/phpunit/phpunit/phpunit.xsd 2 -
+/wp-content/satoshi/images/king.php 1 -
+/modules/ps_facetedsearch/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/installer.php 2 -
+/wp-content/plugins/simple-ads-manager/king.php 1 -
+/system/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/apple-app-site-association 2 -
+/wp-content/themes/rowe/download/download.php 1 -
+/wp-content/cache/log/000000/varnish.log 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 557
+66.102.8.149 21 324 14141012 20200430095939
+66.102.8.151 18 311 15248960 20200430095939
+188.190.229.2 17 138 6667128 20200429221607
+64.233.172.23 16 227 11140939 20200424041007
+31.128.78.153 12 156 7786265 20200424172214
+62.122.203.149 12 89 3839031 20200410161744
+66.249.88.119 11 186 8086088 20200424040935
+66.249.88.121 11 174 7902495 20200426060837
+109.207.199.76 11 71 3188573 20200403182524
+64.233.172.119 10 151 7161074 20200430095957
+176.100.3.41 1 1 22044 20200405041819
+185.244.142.239 2 55 2750327 20200406204527
+138.246.253.5 1 1 363 20200406133806
+46.211.247.195 4 62 2938767 20200415013559
+66.249.80.57 6 91 4563432 20200406050106
+195.190.140.16 2 2 199834 20200421050759
+185.50.25.18 3 3 4298 20200421010358
+185.220.101.196 1 1 489 20200403045843
+103.18.109.162 3 3 19569 20200422113717
+91.215.70.67 3 59 2863607 20200421163318
+45.63.95.2 1 1 22041 20200411014911
+67.205.25.71 3 3 4298 20200420182500
+95.164.49.37 3 59 2863606 20200418230422
+46.149.87.156 7 72 3051712 20200425233828
+64.233.172.25 9 208 9856094 20200424041003
+37.73.80.190 9 69 3071972 20200411012353
+5.167.156.28 0 1 71746 
+51.81.254.17 1 1 489 20200411205124
+40.77.188.161 0 2 493484 
+95.173.128.202 0 1 71746 
+141.101.1.47 2 2 110639 20200406052701
+77.111.244.64 0 1 146655 
+40.77.189.86 0 1 6908 
+83.220.238.195 1 15 1236699 20200411123314
+40.77.188.241 1 1 80932 20200416195056
+40.77.189.100 0 2 26795 
+40.77.190.92 0 1 6908 
+212.26.139.5 6 118 5727214 20200409140319
+92.52.182.65 6 64 2935675 20200401021156
+171.33.250.22 0 1 71746 
+88.155.60.142 3 59 2863606 20200410205334
+176.100.191.115 1 1 99917 20200425214547
+40.77.189.32 0 4 190337 
+40.77.191.73 0 1 10056 
+95.134.114.68 6 119 5771150 20200421230531
+95.134.114.100 3 59 2863606 20200420000647
+109.254.49.72 3 60 2907543 20200406050105
+5.59.154.192 0 1 71746 
+88.135.80.62 0 1 146655 
+104.223.170.193 2 2 7053 20200424063439
+40.77.189.150 0 2 58854 
+95.67.12.4 3 60 2907542 20200418200249
+176.59.200.11 0 1 71746 
+40.77.189.60 0 2 118326 
+176.114.186.195 0 1 71746 
+62.33.11.125 0 1 71746 
+40.77.188.83 1 2 84080 20200409050654
+141.35.40.65 3 59 2863607 20200409135427
+217.72.5.50 0 2 218401 
+188.163.93.8 3 59 2863606 20200414225320
+40.77.188.94 0 1 6704 
+40.77.188.229 0 2 9852 
+40.77.190.91 0 2 19018 
+176.9.71.213 1 1 1092 20200410031302
+132.148.141.147 3 3 4298 20200410135343
+78.106.116.153 0 1 71746 
+88.135.63.193 0 1 71746 
+178.150.72.68 4 60 2885649 20200429160638
+128.124.103.38 3 59 2863609 20200407080624
+128.124.120.227 3 58 2851580 20200410195116
+109.252.90.162 0 1 71746 
+103.48.193.152 3 3 4298 20200423003807
+159.203.176.82 3 3 4298 20200423043601
+40.77.188.34 0 1 116923 
+94.242.10.140 0 1 146655 
+1.255.147.123 2 2 7053 20200409103100
+72.167.221.62 3 3 4298 20200422230401
+40.77.189.192 0 2 46658 
+40.77.188.27 0 1 64949 
+128.124.80.242 6 65 3076506 20200426160520
+40.77.188.47 0 1 116923 
+176.115.103.4 3 59 2863607 20200412000935
+185.220.102.6 1 1 489 20200406111456
+166.62.123.55 3 3 4298 20200423074724
+40.77.188.17 0 3 76838 
+31.43.196.132 0 1 71746 
+31.173.84.38 0 2 188979 
+40.77.190.141 0 2 26618 
+185.158.209.69 3 59 2863607 20200428075715
+188.163.45.17 4 62 2951605 20200408144709
+40.77.189.168 0 2 16538 
+194.36.188.199 1 1 99917 20200406124601
+40.77.189.38 0 1 116923 
+40.77.188.18 0 1 21153 
+176.59.46.103 3 59 2863511 20200408161235
+40.77.189.13 0 1 4000 
+40.77.189.67 0 1 12026 
+95.158.14.214 3 59 2863609 20200401222611
+185.220.101.195 2 2 978 20200405131805
+51.77.249.202 2 2 44084 20200417110329
+40.77.189.87 0 1 58508 
+85.140.3.139 0 1 146655 
+77.74.177.113 1 1 22042 20200429073208
+40.77.188.90 0 1 57215 
+109.197.221.67 10 71 3479407 20200416061101
+40.77.191.59 0 3 124613 
+5.196.65.74 3 3 4298 20200409163723
+89.252.35.197 3 60 2907542 20200411131036
+91.233.117.43 3 3 4298 20200423163747
+77.222.103.214 2 57 2734410 20200402074649
+185.195.24.60 2 2 100280 20200421160447
+5.20.167.20 0 1 89923 
+62.122.200.132 3 59 2863607 20200412171146
+40.77.188.4 0 1 110564 
+144.168.162.250 2 2 199834 20200409154913
+206.123.139.214 2 2 172265 20200418101211
+119.29.107.146 3 3 4298 20200410114519
+84.18.96.179 0 1 146655 
+77.222.156.179 5 61 2887947 20200412111213
+40.77.189.158 0 1 4000 
+66.249.88.117 5 171 9783891 20200424040935
+176.115.100.168 10 124 5805199 20200416131533
+213.111.86.113 4 43 2315298 20200405221545
+40.77.190.85 0 2 117651 
+176.36.163.53 3 59 2863607 20200409004703
+40.77.190.26 0 2 538589 
+92.39.232.28 0 1 71746 
+66.102.7.171 3 41 2442330 20200427070912
+40.77.188.53 0 1 58508 
+118.218.82.70 2 2 7053 20200415125608
+209.97.175.191 3 3 4298 20200409235232
+83.220.237.223 0 1 71746 
+79.133.112.158 0 1 71746 
+107.181.177.130 4 62 2940837 20200421001045
+178.133.13.176 4 62 2940837 20200427183728
+62.109.4.125 1 1 407 20200419023219
+165.22.107.180 3 3 4298 20200420221259
+195.114.146.242 3 59 2863607 20200427223419
+92.100.130.210 0 1 71746 
+171.244.129.66 3 3 4298 20200410162631
+46.98.122.134 3 59 2863511 20200425023307
+40.77.188.220 0 2 59664 
+46.133.139.9 1 1 22042 20200430195202
+178.213.0.29 5 63 2941060 20200427095111
+37.215.63.112 0 1 146655 
+91.192.155.68 9 177 8590820 20200427070920
+40.77.189.187 0 4 127407 
+40.77.188.0 0 3 82218 
+176.59.48.54 0 1 146655 
+188.162.14.189 0 1 146655 
+185.22.16.69 3 59 2863607 20200401000707
+40.77.191.16 0 1 6908 
+31.173.85.213 2 2 172265 20200404231117
+94.251.114.243 0 1 71746 
+40.77.189.224 0 4 238937 
+178.159.37.134 6 6 489570 20200424125529
+217.107.125.19 0 1 71746 
+104.244.74.47 1 1 489 20200421032643
+31.173.31.81 0 1 14395 
+195.53.63.178 2 2 199834 20200421065718
+66.249.80.55 7 102 4473519 20200406050106
+95.153.133.124 0 2 143492 
+211.232.116.146 2 2 7053 20200413225120
+40.77.189.165 0 1 8584 
+195.138.80.200 3 59 2863606 20200410151147
+93.178.222.166 4 61 2929585 20200425020503
+90.188.159.254 0 1 146655 
+40.77.189.75 0 1 21153 
+39.98.43.145 1 1 22042 20200410053551
+94.100.212.64 6 110 5393745 20200407002917
+40.77.190.24 0 1 117557 
+40.77.190.17 0 1 21153 
+40.77.190.250 0 1 23831 
+40.77.188.25 0 1 58508 
+37.187.53.157 3 3 22867 20200419010451
+207.148.95.196 3 3 4298 20200420173042
+59.51.163.27 2 2 7053 20200427094935
+195.189.196.55 5 64 3045741 20200422215127
+91.225.162.38 4 73 3897906 20200424174521
+40.77.191.18 0 1 58508 
+91.134.142.57 3 3 4298 20200409204633
+31.129.245.49 3 59 2863609 20200419130645
+159.203.40.244 1 1 407 20200404104349
+212.115.226.134 3 59 2863607 20200426060838
+109.110.66.213 0 1 146655 
+109.252.45.23 0 1 71746 
+213.133.168.72 4 61 2929583 20200424010708
+40.77.188.255 1 5 417157 20200406200301
+85.26.165.133 1 2 87934 20200401180512
+128.0.169.198 3 59 2863606 20200430095942
+116.202.210.79 3 3 4298 20200421013445
+49.12.12.196 4 62 2938763 20200418015712
+51.89.200.108 1 1 489 20200402051841
+40.77.189.138 0 3 79892 
+40.77.190.69 0 2 119060 
+206.253.167.236 3 3 4298 20200421000803
+212.66.45.5 3 59 2863606 20200414192449
+79.110.129.132 3 59 2863610 20200403000341
+109.252.123.143 0 1 71746 
+185.101.27.239 0 1 71746 
+40.77.189.82 0 1 96874 
+66.249.80.181 2 61 3966718 20200429091130
+159.89.47.131 3 3 4298 20200423041513
+146.158.58.196 3 59 2863607 20200420233512
+40.77.191.49 0 1 4000 
+70.26.28.59 3 59 2863607 20200404175140
+173.236.152.125 3 3 4298 20200423173610
+40.77.189.31 0 1 110564 
+34.231.130.6 3 3 4298 20200410064528
+40.77.190.100 0 1 15243 
+66.42.52.160 3 3 4298 20200420160819
+120.26.95.190 4 4 4803 20200423133804
+194.31.64.180 3 3 4298 20200420194949
+31.130.194.170 0 1 71746 
+188.42.35.150 9 177 8590821 20200421180700
+194.60.69.167 3 60 2907543 20200409110343
+185.97.201.67 0 2 188979 
+150.95.110.45 3 3 4298 20200418124034
+176.100.15.63 7 67 3106068 20200425174437
+40.77.189.66 0 1 96874 
+188.163.40.27 4 4 399668 20200430150109
+159.203.56.92 1 1 407 20200404104400
+185.220.101.160 1 1 489 20200401182103
+40.77.190.58 0 1 18765 
+95.31.199.19 0 1 71746 
+217.77.216.165 3 59 2863607 20200402010110
+104.238.96.87 3 3 4298 20200423110005
+94.25.177.161 0 1 9911 
+40.77.191.10 1 2 145881 20200416073038
+51.15.61.228 1 1 22042 20200403161710
+40.77.190.206 0 1 18765 
+217.27.147.165 5 64 3037541 20200416003710
+178.209.67.4 3 60 2907542 20200413150033
+138.197.148.89 1 1 407 20200404104359
+94.23.42.196 3 3 4298 20200423031213
+95.158.42.69 5 68 3033077 20200416015031
+77.111.247.186 0 1 71746 
+156.67.214.55 3 3 4298 20200423090544
+66.249.83.80 2 60 3482378 20200418230418
+199.249.230.72 1 1 489 20200401030844
+77.222.110.196 0 1 71746 
+46.133.66.167 7 65 2967473 20200408045903
+40.77.189.47 0 1 55644 
+40.77.188.61 0 1 77162 
+46.226.224.80 0 1 71746 
+80.83.234.99 0 1 71746 
+194.135.73.234 0 1 71746 
+40.77.188.209 0 1 9834 
+40.77.188.142 0 2 62536 
+40.77.190.158 0 5 234124 
+40.77.189.215 0 4 180367 
+40.77.190.225 0 1 15243 
+188.163.100.61 3 59 2863607 20200430213547
+40.77.190.61 0 1 4000 
+40.77.189.4 0 2 17692 
+40.77.189.244 0 1 55644 
+195.34.240.205 0 1 71746 
+108.170.35.35 3 3 4298 20200409143913
+40.77.188.208 0 1 116611 
+176.67.84.95 2 2 172265 20200415001808
+40.77.188.8 0 5 197858 
+95.133.138.254 8 70 3311583 20200403122015
+31.173.86.174 3 59 2863510 20200414172255
+40.77.188.157 0 2 70618 
+40.77.188.130 0 2 77059 
+174.138.47.183 3 3 4298 20200420204615
+5.164.160.44 0 1 71746 
+40.77.189.83 0 1 96874 
+40.77.188.16 0 4 146763 
+103.81.85.21 3 3 4298 20200410081540
+66.249.88.217 4 38 2281858 20200403020822
+40.77.188.129 0 2 135376 
+109.252.69.209 0 1 71746 
+94.228.207.113 0 1 71746 
+85.141.165.12 0 1 71746 
+185.220.101.39 3 72 3166274 20200428002148
+176.100.190.252 1 1 99917 20200422190852
+52.43.229.242 1 1 22042 20200425200803
+176.59.205.50 0 1 146655 
+176.36.11.210 3 59 2863609 20200425154253
+91.210.251.192 5 64 2992543 20200424033656
+31.173.81.131 1 48 2408644 20200401193446
+167.172.139.65 3 3 19569 20200409054328
+217.118.93.147 0 1 71746 
+77.120.15.70 3 59 2863606 20200413181208
+37.215.52.10 0 2 293310 
+194.60.69.168 3 60 2907543 20200416180817
+178.128.153.159 3 3 4298 20200423100452
+89.222.164.100 0 1 71746 
+92.38.136.69 3 3 272182 20200416011020
+139.99.156.158 3 3 4298 20200423185209
+40.77.189.137 0 2 314708 
+66.249.80.53 2 102 5281088 20200405080556
+40.77.189.99 0 4 184571 
+66.249.88.215 0 41 1595774 
+95.174.98.201 0 1 71746 
+40.77.189.188 0 1 481374 
+188.163.74.138 6 65 3104289 20200425042602
+83.221.210.174 0 1 71746 
+93.178.222.164 3 60 2907542 20200408100927
+40.77.189.49 0 1 1857 
+37.21.249.217 0 1 95370 
+34.64.218.102 3 3 4298 20200410095741
+150.136.227.32 2 2 199834 20200421114803
+185.220.101.250 1 1 489 20200411174725
+40.77.189.205 0 2 127391 
+185.29.252.37 3 59 2863607 20200424040937
+77.52.208.166 4 61 2929585 20200403020803
+185.158.208.200 3 60 2907542 20200427040843
+40.77.188.32 1 3 192899 20200425205142
+40.77.189.149 0 1 138858 
+94.182.197.202 3 3 4298 20200410105910
+40.77.188.154 0 2 110910 
+91.225.111.37 3 59 2863607 20200416210949
+37.173.199.124 6 65 3041914 20200420165850
+40.77.188.170 0 1 10056 
+165.227.94.166 3 3 4298 20200423111908
+188.163.43.203 7 67 3000646 20200406110525
+89.175.220.32 0 1 71746 
+40.77.188.217 0 2 58093 
+23.254.211.185 1 1 99917 20200429175447
+195.138.70.38 3 59 2863607 20200429091116
+128.199.244.150 3 3 4298 20200409202957
+178.128.68.121 6 6 8596 20200422205748
+77.37.230.131 0 1 146655 
+40.77.188.23 0 4 378289 
+185.158.208.75 3 59 2863606 20200408133334
+92.242.101.137 6 119 5771150 20200412140843
+40.77.188.110 0 1 1403 
+40.77.190.170 0 3 58564 
+40.77.190.147 0 2 314708 
+185.220.101.197 1 1 489 20200402230823
+40.77.188.194 0 1 138858 
+178.150.11.178 5 70 3168380 20200402212736
+91.196.63.118 9 69 3115067 20200401235812
+66.249.80.183 3 60 2460750 20200429091127
+109.87.208.173 3 59 2863606 20200415224937
+40.77.189.14 0 3 55038 
+194.183.177.58 1 1 22044 20200405061723
+35.240.190.190 3 3 19569 20200409025521
+46.158.165.55 0 1 146655 
+12.156.209.130 0 1 71746 
+83.220.236.245 3 59 2863511 20200407151958
+176.190.178.148 3 58 2851581 20200404150630
+178.133.66.53 3 59 2863607 20200414131348
+157.245.73.58 1 1 22042 20200425191231
+92.242.101.69 3 60 2907543 20200407091228
+5.248.171.222 1 1 22042 20200427221752
+40.77.190.199 0 1 24899 
+84.53.198.4 0 1 71746 
+82.202.172.211 3 3 4298 20200423171618
+223.25.99.37 3 3 4298 20200410144421
+37.204.64.113 0 1 146655 
+27.116.255.243 2 2 7053 20200427090007
+159.65.158.40 3 3 19569 20200430125411
+176.100.190.234 1 1 99917 20200428201533
+62.171.159.164 1 1 489 20200417051638
+46.211.156.212 5 61 2907688 20200415024705
+40.77.188.242 1 4 150582 20200412133227
+95.164.49.36 3 60 2907543 20200426030542
+185.237.74.226 6 64 2992959 20200420155008
+198.46.81.50 3 3 4298 20200420175750
+94.45.132.197 3 60 2907543 20200420222503
+178.175.132.75 1 1 22041 20200414150134
+40.77.188.108 0 1 64949 
+176.52.4.204 0 1 71746 
+157.245.96.139 3 3 4298 20200422154944
+93.178.233.37 3 60 2907542 20200419210409
+40.77.189.237 0 1 39750 
+40.77.190.126 0 2 218304 
+46.0.92.21 0 1 71746 
+160.153.245.123 6 6 8596 20200422211519
+92.242.101.70 3 60 2907543 20200401000719
+93.178.222.165 3 59 2863607 20200422020743
+93.81.61.238 0 1 146655 
+176.122.110.7 3 60 2907542 20200414160452
+40.77.189.116 0 2 4551 
+78.106.94.85 0 1 146655 
+178.94.182.57 7 68 3113338 20200418111618
+109.174.115.202 0 1 71746 
+141.105.24.248 0 1 146655 
+40.77.188.117 0 1 346 
+46.191.233.222 0 1 71746 
+46.63.254.98 0 1 71746 
+203.233.111.241 2 2 7053 20200430021923
+213.138.93.82 0 1 71746 
+167.114.89.192 1 1 489 20200417014137
+40.77.189.107 0 1 64949 
+167.99.232.54 6 6 8596 20200420224045
+95.134.114.102 6 119 5771150 20200423000359
+138.197.138.211 1 1 407 20200404104405
+40.77.189.147 0 3 271934 
+118.69.173.199 3 3 4298 20200422195239
+92.242.101.139 3 60 2907543 20200402010119
+91.214.81.227 5 63 2933385 20200429004707
+46.172.13.232 0 1 146655 
+46.39.53.194 0 2 143492 
+195.154.114.140 3 3 4298 20200410181446
+40.77.191.35 0 1 10056 
+45.14.148.97 1 1 489 20200407101941
+178.54.30.248 7 65 3030112 20200404161430
+40.77.188.78 0 1 3148 
+77.120.15.75 3 60 2907542 20200430070454
+212.66.63.98 8 75 3602661 20200423144051
+37.215.17.15 0 1 146655 
+46.211.35.98 0 1 49365 
+66.249.83.78 4 62 2689393 20200414192513
+188.182.120.123 1 23 1593385 20200427145623
+195.39.242.115 3 59 2863610 20200402212351
+104.140.188.22 1 1 99917 20200408012158
+46.62.84.77 0 1 71746 
+95.211.230.211 1 1 489 20200420204713
+66.102.7.169 2 39 1624275 20200427070912
+185.219.78.137 7 67 3263322 20200415184942
+91.240.140.54 3 59 2863610 20200427160952
+185.221.216.5 3 3 4298 20200423113810
+37.113.172.126 0 2 293310 
+123.30.111.19 3 3 4298 20200423045655
+213.129.48.66 0 1 71746 
+77.120.15.101 3 59 2863607 20200421010339
+40.77.188.165 1 2 90988 20200426084121
+64.233.172.117 5 150 7142198 20200430095954
+176.100.191.150 2 2 181258 20200425160511
+161.35.30.98 3 3 4298 20200410123245
+40.77.190.184 0 1 1857 
+213.110.153.120 6 66 3289526 20200401011843
+64.233.172.21 8 214 10502659 20200424041007
+176.115.103.146 5 99 4506340 20200410135549
+128.199.224.144 3 3 4298 20200423183345
+176.104.3.100 3 60 2907543 20200429060902
+185.145.182.3 6 66 3276610 20200420021402
+40.77.188.235 0 2 123519 
+94.158.35.141 0 1 146655 
+94.100.212.126 3 59 2863607 20200405161325
+40.77.188.143 0 1 116611 
+66.249.88.213 2 39 1849582 20200402010128
+185.244.214.196 7 67 3006518 20200420021033
+210.57.217.29 3 3 4298 20200420154319
+40.77.188.35 0 1 10056 
+51.81.254.27 1 1 489 20200411050428
+66.249.80.185 4 56 2163358 20200429091130
+93.185.192.85 0 1 71746 
+46.219.219.140 10 105 4936298 20200419174034
+185.212.250.251 3 59 2863606 20200408140323
+178.133.152.184 1 3 45052 20200420082621
+40.77.188.125 0 1 6704 
+40.77.189.193 0 1 12026 
+83.149.37.51 0 1 71746 
+5.44.172.49 0 1 71746 
+40.77.189.41 0 1 39750 
+165.227.206.114 3 3 4298 20200423064432
+46.63.169.118 0 1 146655 
+89.113.127.209 0 1 146655 
+109.230.147.82 0 1 146655 
+213.111.99.123 3 59 2863609 20200416014908
+81.222.184.80 0 1 71746 
+40.77.188.86 0 1 64949 
+35.247.168.219 3 3 4298 20200422170441
+178.71.8.181 0 1 146655 
+93.159.230.28 1 1 22041 20200414172451
+139.59.87.40 3 3 4298 20200421035813
+103.133.114.26 3 3 4298 20200409092246
+5.18.217.223 0 1 146655 
+40.77.189.78 1 2 99697 20200430104357
+40.77.189.198 0 3 83495 
+35.164.235.49 1 1 22042 20200418023028
+40.77.189.190 0 1 197151 
+40.77.191.54 0 1 55644 
+134.209.163.188 3 3 4298 20200420233754
+83.219.147.231 0 1 146655 
+193.151.242.230 3 60 2907543 20200410120420
+185.158.208.72 3 60 2907543 20200417185337
+40.77.189.178 0 2 4551 
+108.160.140.18 3 3 4298 20200420231119
+185.177.190.65 3 59 2863609 20200425235219
+192.169.219.72 3 3 4298 20200423144037
+94.76.108.37 3 60 2907543 20200405040450
+109.248.11.157 1 1 489 20200401042035
+178.213.185.112 6 118 5727218 20200425000435
+93.72.206.212 9 70 3302230 20200414002112
+31.173.85.47 0 1 71746 
+178.219.95.9 3 59 2863607 20200426103109
+132.148.241.6 3 3 4298 20200410000708
+213.167.215.94 0 2 293310 
+178.16.148.1 0 1 71746 
+5.18.187.188 0 1 71746 
+176.31.244.49 1 1 100724 20200423192106
+173.249.22.173 1 29 1042546 20200408101220
+66.249.83.79 3 55 2419053 20200418230418
+40.77.188.33 0 1 21153 
+37.193.53.127 0 1 71746 
+40.77.190.214 0 1 12026 
+178.69.37.42 0 1 146655 
+185.158.209.11 6 120 5815085 20200415173347
+54.37.21.211 3 3 4298 20200409222132
+128.124.117.65 3 59 2863608 20200423230940
+195.181.175.122 1 1 22042 20200402155201
+31.207.33.10 4 4 201840 20200409034820
+40.77.188.205 0 1 6704 
+145.239.209.12 1 1 99917 20200422094900
+91.222.250.254 8 70 3297988 20200425024321
+148.72.42.181 3 3 4298 20200409161249
+192.99.246.34 1 1 22042 20200422195601
+94.153.71.21 3 59 2863609 20200412093608
+178.215.167.239 3 59 2863610 20200420205151
+40.77.188.50 0 1 138858 
+176.100.191.142 2 2 110639 20200419213154
+46.39.53.129 0 1 71746 
+40.77.189.241 0 1 1857 
+138.68.71.174 3 3 4298 20200418123831
+213.87.133.206 0 1 71746 
+82.193.98.247 1 1 22042 20200402173039
+40.77.189.61 0 2 34008 
+194.31.168.22 6 64 3079802 20200427133919
+142.93.46.172 3 3 4298 20200410160834
+167.99.93.153 3 3 4298 20200422192722
+40.77.188.59 0 9 361709 
+185.38.209.29 4 62 2938763 20200407231838
+195.114.145.166 3 59 2863609 20200409202001
+194.183.5.226 3 3 4298 20200421003651
+109.252.69.213 0 1 71746 
+216.145.14.142 1 1 22041 20200418184940
+40.77.191.37 0 5 86568 
+194.44.234.101 5 64 3130503 20200422212941
+91.121.79.16 2 2 201448 20200419190841
+40.77.188.85 1 2 90766 20200411091705
+176.122.111.6 3 59 2863607 20200423031310
+93.72.166.218 3 59 2863609 20200416084056
+31.10.144.232 7 67 3116962 20200405205056
+121.65.245.10 1 1 3394 20200405105324
+40.77.191.45 0 3 69157 
+185.158.208.135 3 59 2863607 20200406050052
+85.234.143.79 1 1 99917 20200403150352
+40.77.191.74 0 1 39750 
+40.77.191.3 0 2 23010 
+112.179.242.181 2 2 7053 20200415005629
+40.77.190.5 0 2 174036 
+178.175.138.59 1 1 489 20200413002301
+91.250.63.198 3 59 2863607 20200411161845
+194.28.7.119 6 65 2989815 20200409233759
+66.102.8.153 9 309 16427752 20200428075713
+176.100.191.44 1 1 99917 20200426232256
+94.244.0.36 3 60 2907543 20200428050133
+93.77.57.130 1 35 1984491 20200406033026
+176.97.172.46 0 1 146655 
+103.95.196.4 3 3 4298 20200420163447
+40.77.188.42 0 1 6704 
+40.77.190.115 0 1 197151 
+93.74.99.208 5 61 2887947 20200404181828
+67.205.59.65 3 3 4298 20200420170356
+66.102.7.167 1 38 1660611 20200426060857
+40.77.190.76 0 2 61215 
+194.8.70.129 0 1 71746 
+40.77.189.181 0 4 349260 
+64.233.172.121 6 112 5741982 20200425050039
+185.52.142.64 0 1 146655 
+66.70.225.57 1 1 100724 20200409093958
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20200401 41 549 26272035 15
+20200402 26 427 20309828 13
+20200403 39 445 21222349 12
+20200404 38 493 23901828 17
+20200405 31 415 20304821 14
+20200406 28 438 21728172 14
+20200407 32 590 28712237 11
+20200408 31 514 24580331 12
+20200409 67 553 25864721 24
+20200410 85 655 29175245 27
+20200411 27 357 17575485 11
+20200412 24 448 21738304 10
+20200413 15 242 11649396 7
+20200414 34 490 23751155 12
+20200415 31 383 18951164 10
+20200416 51 727 34952501 17
+20200417 16 252 12677757 10
+20200418 33 383 18430611 13
+20200419 30 300 14423809 8
+20200420 87 669 30174100 27
+20200421 46 443 21031671 19
+20200422 46 335 15253836 18
+20200423 83 492 21615300 32
+20200424 40 540 26896118 14
+20200425 62 847 40362029 19
+20200426 23 376 18726777 10
+20200427 40 574 27988475 16
+20200428 16 313 15054705 7
+20200429 34 436 21161483 13
+20200430 23 336 16385530 12
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+5mn-15mn 4
+0s-30s 380
+15mn-30mn 1
+30s-2mn 51
+2mn-5mn 8
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 24
+/ 304 9357659 270 76
+/wp-admin/admin-ajax.php 254 580428 21 181
+/wp-content/themes/betheme/fonts/mfn-icons.woff 195 15781740 43 48
+/wp-login.php 159 328331 82 9
+/xmlrpc.php 88 44152 19 88
+/%d0%b8%d0%bd%d0%b4%d0%b8%d0%b2%d0%b8%d0%b4%d1%83%d0%b0%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d1%8d%d1%81%d0%ba%d0%be%d1%80%d1%82/ 35 556171 0 7
+/%d1%86%d0%b5%d0%bd%d1%8b-%d0%bd%d0%b0-%d1%8d%d1%81%d0%ba%d0%be%d1%80%d1%82-%d1%83%d1%81%d0%bb%d1%83%d0%b3%d0%b8-%d0%b2-%d0%ba%d0%b8%d0%b5%d0%b2%d0%b5/ 32 508816 0 5
+/wp-content/themes/betheme/fonts/mfn-icons.eot 29 3620824 0 0
+/%d0%b7%d0%bd%d0%b0%d0%ba%d0%be%d0%bc%d1%81%d1%82%d0%b2%d0%b0-%d1%81-%d0%bc%d0%be%d0%b4%d0%b5%d0%bb%d1%8f%d0%bc%d0%b8/ 19 306656 0 4
+/%d1%8d%d0%bb%d0%b8%d1%82%d0%bd%d1%8b%d0%b9-%d0%b4%d0%be%d1%81%d1%83%d0%b3/ 17 269646 0 6
+/2018/10/14/%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0-%d1%83-%d0%bc%d0%b5%d0%bd%d1%8f-%d0%b5%d1%81%d1%82%d1%8c-%d0%bd%d0%b5-%d1%82%d0%be%d0%bb%d1%8c%d0%ba%d0%be-%d0%b4%d0%bb%d1%8f-%d0%bc%d0%be%d0%b4%d0%b5%d0%bb%d0%b5/ 6 488046 3 2
+//wp-json/wp/v2/users/ 3 3276 0 3
+/wp-admin/admin-post.php 2 826 0 1
+//wp-json/wp/v2/users/ 1 1092 0 1
+/feed/ 2 21444 0 2
+/contact/ 7 336675 0 4
+/author/admin/ 5 149977 0 1
+/%d0%b2%d0%b0%d0%ba%d0%b0%d0%bd%d1%81%d0%b8%d0%b8/ 9 155748 0 2
+/2018/10/14/%d0%bd%d0%b0%d1%88%d0%b8-%d0%ba%d0%bb%d0%b8%d0%b5%d0%bd%d1%82%d1%8b/ 3 54564 0 1
+/%D0%B7%D0%BD%D0%B0%D0%BA%D0%BE%D0%BC%D1%81%D1%82%D0%B2%D0%B0-%D1%81-%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8F%D0%BC%D0%B8/ 2 32376 2 1
+/2018/10/14/%d1%81%d1%82%d1%80%d0%b0%d1%85%d0%b8-%d0%bf%d0%be-%d0%bf%d0%be%d0%b2%d0%be%d0%b4%d1%83-%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b5-%d0%b2-%d1%8d%d1%81%d0%ba%d0%be%d1%80%d1%82%d0%b5-%d0%bd%d0%b5-%d0%be%d0%bf/ 3 53226 1 0
+/wp-json/wp/v2/users/ 1 1092 1 1
+/wp-config.php 2 392 1 1
+/%D0%B8%D0%BD%D0%B4%D0%B8%D0%B2%D0%B8%D0%B4%D1%83%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D1%8D%D1%81%D0%BA%D0%BE%D1%80%D1%82/ 1 15940 1 0
+END_SIDER

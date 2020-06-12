@@ -1,0 +1,584 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201912 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.extragirls.kiev.ua.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1998                
+POS_TIME 2677                
+POS_VISITOR 13378               
+POS_DAY 16186               
+POS_DOMAIN 3429                
+POS_LOGIN 3662                
+POS_ROBOT 3817                
+POS_WORMS 4208                
+POS_EMAILSENDER 4339                
+POS_EMAILRECEIVER 4482                
+POS_SESSION 16866               
+POS_SIDER 17033               
+POS_FILETYPES 4617                
+POS_DOWNLOADS 4955                
+POS_OS 5026                
+POS_BROWSER 5173                
+POS_SCREENSIZE 5754                
+POS_UNKNOWNREFERER 5828                
+POS_UNKNOWNREFERERBROWSER 6052                
+POS_ORIGIN 6211                
+POS_SEREFERRALS 6349                
+POS_PAGEREFS 6504                
+POS_SEARCHWORDS 6727                
+POS_KEYWORDS 6879                
+POS_MISC 2341                
+POS_ERRORS 6938                
+POS_CLUSTER 3518                
+POS_SIDER_404 7064                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20200101001338 94 23258 7896908976180
+FirstTime 20191201032738
+LastTime 20191231214435
+LastUpdate 20200101043529 94 0 75 18 0
+TotalVisits 76                  
+TotalUnique 56                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 77                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 41 169 16225403 11 19 544321
+1 1 1 18361 7 10 57607
+2 1 1 18361 2 2 805
+3 3 3 55083 7 10 65567
+4 1 1 18361 6 10 242538
+5 4 4 73444 8 12 51470
+6 0 0 0 81 118 906758
+7 3 3 55083 58 83 1174595
+8 2 2 18629 3 4 71449
+9 20 53 7078838 6 14 76340
+10 20 73 7675765 3 6 26296
+11 77 290 30967072 6 13 388812
+12 71 254 24585039 4 12 39084
+13 1 1 18361 4 7 52780
+14 24 77 7934039 12 15 115753
+15 39 145 13748958 6 15 67355
+16 0 0 0 9 16 317752
+17 24 79 8172112 26 44 461029
+18 21 74 7712219 5 6 49959
+19 22 66 4319379 3 5 19557
+20 3 3 36990 57 167 5610272
+21 6 29 975176 20 49 4689753
+22 5 5 184220 23 28 232242
+23 3 3 332328 4 7 62971
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 392 1336 130223221
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 7
+googlebot 224 6447044 20191230203923 18
+msnbot 81 6251906 20191229213638 2
+bot[\s_+:,\.\;\/\\-] 30 94723 20191230162824 19
+yandex 29 194759 20191229104710 17
+netcraft 2 221552 20191205113659 0
+favicon 1 18361 20191204101012 0
+libwww 1 110776 20191230115812 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 15
+6 17 209508 0 0
+css 456 22747472 0 0
+png 70 3777313 0 0
+ttf 18 2777276 0 0
+2 34 580295 0 0
+otf 17 440572 0 0
+20 18 120065 0 0
+8 17 580992 0 0
+4 52 1644550 0 0
+1 52 763901 0 0
+html 91 2137370 0 0
+js 104 698355 0 0
+jpg 298 91894365 0 0
+Unknown 25 186631 0 0
+gif 16 66848 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 56 0 24497
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 10
+linuxandroid 62
+winxp 82
+winnt 855
+winvista 3
+linux 13
+win7 104
+macosx 176
+winunknown 4
+j2me 25
+Unknown 12
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 30
+chrome67.0.3396.87 1
+firefox71.0 70
+msie6.0 7
+chrome41.0.2224.3 1
+chrome41.0.2225.0 2
+chrome76.0.3809.132 1
+chrome79.0.3945.79 219
+chrome78.0.3904.108 546
+chrome38.0.2125.101 7
+firefox58.0 2
+chrome71.0.3578.98 3
+chrome77.0.3856.1 1
+opera9.80 25
+firefox47.0 5
+firefox45.0 1
+chrome79.0.3945.88 71
+firefox70.0 97
+chrome74.0.3729.131 2
+chrome42.0.2311.90 1
+chrome26.0.1410.65 1
+mozilla 105
+netscape5.0 1
+msie7.0 4
+firefox59.0 2
+firefox60.0 1
+chrome40.0.2214.85 4
+safari13.0.1 71
+chrome49.0.2623.112 74
+chrome40.0.2214.93 1
+Unknown 10
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20191210120716
+Go-http-client/1.1 20191231071140
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+Go-http-client/1.1 20191231071140
+Microsoft_Office_Excel_2014 20191230144922
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 85 180
+From1 0 0
+From2 5 5
+From3 2 2
+From4 300 1149
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 5 5
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://domkadrov.ua/agency/Eskort-Kiev-Eskort-Kiev-Extragirls-515.html 2 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+403 1 459
+206 17 1884059
+405 10 4459
+404 238 96967
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 160
+/wp-config.phpOLD 1 -
+/wp-config.phpold 1 -
+/wp-content/plugins/hybrid-composer/style.css 1 -
+/config.phptmp 1 -
+/wp-content/plugins/delucks-seo/modules/professional/breadcrumbs/assets/css/frontend.css 1 -
+/web//wp-admin/install.php 1 -
+/uv-config.php.public 1 -
+/vendor/phpunit/phpunit/LICENSE 2 -
+/config 1 -
+/wp-content/plugins/visualizer/js/media.js 1 -
+/wp-config.php~~~ 1 -
+/wp-config.phpe 1 -
+/config.old 1 -
+/wp-config-backup5.txt 1 -
+/wp-json/oembed/1.0/embed@url=http%253A%252F%252Fwww.edem.nu%252F&amp 1 -
+/sdfsdfsdf34fvebvvgsdf 1 https://yahoo.co.jp/
+/config.php~ 1 -
+/wp-config.php_old 1 -
+/wp-config.php.txt 1 -
+/wp-config.php.uk 1 -
+/wp-config.php-o 1 -
+/config.txt 1 -
+/wp-config-backup.txt 1 -
+/wp-config.phpc 1 -
+/wp-config.phpbak 1 -
+/wp-includes/class.wp.php 2 extragirls.kiev.ua
+//wp-login.php 1 http://www.google.com.hk
+/config.save 1 -
+/config. 1 -
+/wp-content/themes/wp-update.php 1 extragirls.kiev.ua
+/wp-config.phptmp 1 -
+/2018//wp-admin/install.php 1 -
+/wp-config.php.bak 1 -
+/wp-config.phpa 1 -
+/wp-config.data 1 -
+/wp-content/plugins/solid_best_corp/sys.php 1 -
+/wp-config.prod.php.txt 1 -
+/bk//wp-admin/install.php 1 -
+/wp-config.php.de 1 -
+/wp-content/plugins/wp-inventory-manager/themes/css/default-theme.css 1 -
+/wp-login.php 5 http://extragirls.kiev.ua/wp-login.php
+/config.bak 1 -
+/wp-config.php1 1 -
+/config.php.txt 1 -
+/wp-config-sample.php~~ 1 -
+/wp-content/plugins/wp-private-content-plus/css/wppcp-front.css 1 -
+/config.phpnew 1 -
+/um-api/route/um!core!Files/ajax_image_upload/1234123412 1 extragirls.kiev.ua
+/backup//wp-admin/install.php 1 -
+/config.php~~ 1 -
+/wp-po.php 1 extragirls.kiev.ua
+/wp-config.php.com 1 -
+/wp-ajax-hook.php 2 http://extragirls.kiev.ua/wp-ajax-hook.php
+/wp-config.php~~ 1 -
+/wp-admin/admin-ajax.php 20 http://extragirls.kiev.ua/wp-admin/admin-ajax.php
+/wp-config%20 1 -
+/config.backup 1 -
+/unzip.php 2 http://extragirls.kiev.ua/unzip.php
+/license.php 1 extragirls.kiev.ua
+/wp-content/plugins/website-contact-form-with-file-upload/readme.txt 1 -
+/wp-config.php.orig 1 -
+/config.public 1 -
+/ads.txt 1 http://extragirls.kiev.ua/ads.txt
+/searchreplacedb2.php 4 http://extragirls.kiev.ua/searchreplacedb2.php
+/wp-json/wpshopify/v1/settings 1 -
+/wp-content/plugins/yuzo-related-post/assets/js/admin.js 1 -
+/wp-readme.php 1 extragirls.kiev.ua
+/wp-content/themes/azuma/db.php 1 -
+/wp-config.txt 1 -
+/wp-config.php_ 1 -
+/wp-config.php.org 1 -
+/wp-config.phpd 1 -
+/wp-config.php.ca 1 -
+/wp-content/themes/dunag/db.php 2 -
+/wp-config.cfg 1 -
+/wp-config.php.sample 1 -
+/wp-hook-ajax.php 2 http://extragirls.kiev.ua/wp-hook-ajax.php
+/installer-backup.php 4 http://extragirls.kiev.ua/installer-backup.php
+/wp-config.bak 1 -
+/unzipper.php 2 http://extragirls.kiev.ua/unzipper.php
+/wp-config-backup2.txt 1 -
+/wp-content/uploads/file-manager/log.txt 1 -
+/wp-content/plugins/igniteup/includes/js/main.js 2 http://extragirls.kiev.ua/wp-content/plugins/igniteup/includes/js/main.js
+/bb-config.php.bak 1 -
+/wp-admin/admin-post.php 23 http://extragirls.kiev.ua/wp-admin/admin-post.php
+/wp-config.phpnew 1 -
+/wp-content/plugins/wpshopify/dist/public.min.css 1 -
+//wp-admin/install.php 1 -
+/wp-content/plugins/simple-fields/js/chosen/chosen.css 1 -
+/temp//wp-admin/install.php 1 -
+/wp-config.php.info 1 -
+/wp-config-backup4.txt 1 -
+/wp-config.phpb 1 -
+/old//wp-admin/install.php 1 -
+/wp-admin/wp-hook-ajax.php 2 http://extragirls.kiev.ua/wp-admin/wp-hook-ajax.php
+/wp-config 1 -
+/blog//wp-admin/install.php 1 -
+/wp-content/plugins/ultimate-elementor/assets/css/modules/business-hours.css 1 extragirls.kiev.ua
+/wp-config.phpo 1 -
+/wp-config%20fix.txt 1 -
+/wordpress//wp-admin/install.php 1 -
+/wp-config.backup 1 -
+/blog-content/ 1 -
+/wp-config-backup 1 -
+/wp-content/plugins/fb-messenger-live-chat/assets/js/main.js 1 -
+/wp1//wp-admin/install.php 1 -
+/wp-content/plugins/easy2map/scripts/jquery.xml2json.js 1 -
+/wp-config.php.backup 1 -
+/vendor/phpunit/phpunit/build.xml 2 -
+/wp-config-sample.php~ 1 -
+/wp-content/plugins/fv-wordpress-flowplayer/css/flowplayer.css 1 -
+/wp-config.php.in 1 -
+/wp-config.old 1 -
+/wp-config.php 1 -
+/wp-content/plugins/ultimate-member/core/lib/upload/um-image-upload.php 1 extragirls.kiev.ua
+/wp-content/plugins/insert-php/admin/assets/js/tag-it.js 1 -
+/replace.php 2 http://extragirls.kiev.ua/replace.php
+/urlreplace.php 2 http://extragirls.kiev.ua/urlreplace.php
+/wp-config.save 1 -
+/wp-content/themes/dinan/db.php 2 -
+/.well-known/assetlinks.json 3 -
+/wp-content/plugins/easy-wp-smtp/js/script.js 1 -
+/wp-config.local.php 1 -
+/test//wp-admin/install.php 1 -
+/wp-content/plugins/yellow-pencil-visual-theme-customizer/js/yellow-pencil.js 1 -
+/wp-config.php.us 1 -
+/wp-config.phpr 1 -
+/wp-config.php.resetwp_bak 1 -
+/wp-config-backup1.txt 1 -
+/wp-content/plugins/wp-live-chat-software-for-wordpress/plugin_files/js/livechat.js 1 -
+/wp-config.html 1 -
+/cms//wp-admin/install.php 1 -
+/wp-config.php~ 2 -
+/wp-config.php.backup.txt 1 -
+/wp-load.php 4 extragirls.kiev.ua
+/wp-content/plugins/responsive-coming-soon/templates/template1/assets/css/style.css 1 -
+/wp-config-backup3.txt 1 -
+/wp-content/plugins/ithemes-sync/js/settings-page.js 1 -
+/wp-content/plugins/rich-reviews/css/rich-reviews.css 3 http://extragirls.kiev.ua/wp-content/plugins/rich-reviews/css/rich-reviews.css
+/config.data 1 -
+/readme.php 1 extragirls.kiev.ua
+/wp-content/plugins/bb-ultimate-addon/assets/css/uabb-admin-notice.css 1 extragirls.kiev.ua
+/shop//wp-admin/install.php 1 -
+/wp-config.php-n 1 -
+/wp-content/plugins/user-submitted-posts/resources/jquery.usp.admin.js 1 extragirls.kiev.ua
+/wp-config.php~~~~ 1 -
+/wp-config.php.public 1 -
+/wp-config. 1 -
+/wp-config.php.fr 1 -
+/wp-content/plugins/wpematico/app/js/wpe_hooks.js 1 -
+/installer.php 5 http://extragirls.kiev.ua/installer.php
+/new//wp-admin/install.php 1 -
+/index.php 3 extragirls.kiev.ua
+/wp-config.htm 1 -
+/wp-config.phpn 1 -
+//templates/system/css/system.css 1 http://www.google.com.hk
+/news//wp-admin/install.php 1 -
+/wp//wp-admin/install.php 1 -
+/wp-config-sample.php.bak 1 -
+/config-backup 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 77
+176.115.100.168 176 637 69084762 20191230144925
+77.120.246.108 37 143 15332633 20191224182445
+212.90.60.212 20 97 8806567 20191217002025
+46.182.81.190 19 74 8152587 20191219175148
+94.76.108.36 19 72 7847875 20191206150809
+93.73.140.181 18 62 4282121 20191210191343
+195.191.201.6 18 71 5864361 20191206150757
+31.13.115.11 7 22 984974 20191218005146
+207.102.138.158 7 7 128527 20191231201122
+31.13.115.22 5 24 1710544 20191218005145
+40.77.190.58 0 1 8885 
+40.77.190.149 0 1 1366 
+40.77.189.162 0 1 1584 
+40.77.190.71 1 1 87146 20191229213626
+40.77.189.75 0 1 30967 
+138.197.131.30 2 2 582 20191205173339
+159.203.44.43 1 1 291 20191205173338
+40.77.190.78 0 1 8566 
+13.229.89.95 1 1 18361 20191228005656
+40.77.190.182 0 1 53740 
+138.246.253.5 4 4 1072 20191222202002
+46.105.99.163 1 1 18361 20191229070641
+78.24.217.236 1 1 18361 20191220142028
+167.114.252.180 1 1 18361 20191214110630
+40.77.190.34 0 2 74112 
+40.77.188.143 0 1 1043 
+119.92.71.183 1 1 18361 20191231082628
+40.77.190.151 0 3 201017 
+51.15.82.111 1 1 110776 20191217221512
+40.77.191.63 0 1 111 
+40.77.188.141 1 2 91101 20191229213644
+64.246.178.34 2 2 36722 20191226182213
+77.74.177.113 1 1 18361 20191219145354
+40.77.190.144 1 1 10274 20191229213628
+195.154.167.170 1 1 18361 20191229132420
+123.27.129.125 1 1 18361 20191225154035
+125.214.60.128 1 1 18361 20191215184601
+81.176.239.101 2 2 36722 20191203054433
+40.77.189.251 0 1 3095 
+197.164.168.27 1 1 18361 20191220191703
+77.74.177.114 1 1 18361 20191202204241
+202.78.232.244 1 1 18361 20191223171410
+40.77.189.101 0 1 77715 
+31.13.115.4 1 4 998218 20191218005146
+93.159.230.28 1 1 18361 20191231214435
+18.237.26.88 1 1 18361 20191219023900
+40.77.189.141 0 1 2340 
+51.158.121.89 1 1 18361 20191230013732
+40.77.190.5 0 1 772 
+40.77.190.43 0 1 759 
+60.191.38.77 4 4 443104 20191226230533
+51.158.102.212 1 1 18361 20191225101029
+159.69.249.231 1 1 18361 20191201222901
+185.85.162.242 1 1 110776 20191203232429
+138.197.128.76 1 1 291 20191205173335
+185.188.182.10 1 1 18361 20191210214114
+66.133.109.36 2 2 600 20191210120716
+18.194.58.132 2 2 600 20191210120715
+94.242.171.112 4 25 980507 20191229121935
+13.115.37.213 1 1 18361 20191222053731
+40.77.188.113 0 1 74735 
+3.14.255.131 1 1 300 20191210120712
+87.218.182.18 1 1 18361 20191218000440
+163.172.70.242 2 2 221552 20191211144756
+45.55.252.138 1 1 18361 20191231071140
+88.99.173.227 2 2 36722 20191202221255
+163.172.163.25 1 1 18361 20191225030114
+31.13.115.23 0 4 1047550 
+31.13.115.16 0 5 1351280 
+34.221.88.73 1 1 18361 20191202031922
+31.13.115.26 5 10 1271187 20191218005145
+40.77.189.96 1 1 42220 20191229213650
+34.212.249.229 1 1 18361 20191225193938
+40.77.189.131 0 1 4009 
+40.77.189.227 0 1 7649 
+34.209.232.166 1 1 300 20191210120712
+40.77.190.245 0 1 155248 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 27
+20191201 3 3 55083 3
+20191202 4 4 73444 3
+20191203 3 3 147498 2
+20191205 4 4 1164 3
+20191206 58 218 21468255 5
+20191208 3 3 221820 2
+20191209 39 125 14754335 2
+20191210 43 140 11959418 7
+20191211 23 76 7915678 3
+20191213 19 72 7657404 1
+20191214 1 1 18361 1
+20191215 2 2 36722 2
+20191216 20 73 7675765 1
+20191217 21 98 8917343 2
+20191218 58 218 23290452 7
+20191219 21 76 8189309 3
+20191220 2 2 36722 2
+20191221 1 1 268 1
+20191222 2 2 18629 2
+20191223 2 2 36722 2
+20191224 19 72 7675497 1
+20191225 4 4 73444 4
+20191226 4 4 258274 3
+20191228 1 1 18361 1
+20191229 10 54 1955683 7
+20191230 21 74 7694126 2
+20191231 4 4 73444 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+0s-30s 72
+30s-2mn 3
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 26
+/ 83 2046259 65 50
+/wp-includes/js/jquery/jquery-migrate.min.js@ver=1.4.1 18 184932 1 1
+/wp-content/plugins/elementor/assets/lib/slick/slick.min.js@ver=1.6.0 18 220057 1 1
+/wp-includes/js/jquery/jquery.js@ver=1.12.4 18 1568628 2 1
+/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js@ver=3.51.0-2014.06.20 18 120065 1 1
+/wp-content/themes/twentytwelve/fonts/HelveticaNeueCyr-Thin.otf 17 440572 1 6
+/wp-includes/js/wp-embed.min.js@ver=4.9.4 17 27438 0 0
+/wp-content/themes/twentytwelve/fonts/8209.ttf 17 2675120 0 1
+/wp-content/plugins/elementor/assets/lib/swiper/swiper.jquery.min.js@ver=3.4.2 17 369223 0 1
+/wp-includes/js/imagesloaded.min.js@ver=3.2.0 17 139587 0 0
+/wp-content/plugins/elementor/assets/lib/font-awesome/fonts/fontawesome-webfont.eot@ 1 165962 0 1
+/wp-includes/js/jquery/ui/position.min.js@ver=1.11.4 17 48484 0 0
+/faq.html 4 61432 0 2
+/vacancy.html 3 22704 0 1
+/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js@ver=4.2.1 17 160021 0 0
+/wp-content/plugins/elementor/assets/js/frontend.min.js@ver=1.9.8 17 580992 0 1
+/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js@ver=4.0.2 17 211072 0 0
+/.well-known/acme-challenge/avetSbyqQzb6aDg0pgPret0MoEec557gwAqc_w8Cjok 2 600 0 2
+/wp-content/themes/twentytwelve/js/navigation.js@ver=20140711 17 16048 0 0
+/wp-json/oembed/1.0/embed@url=http%253A%252F%252Fwww.edem.nu%252F 1 2821 0 1
+/wp-content/plugins/elementor-pro/assets/js/frontend.min.js@ver=1.6.1 17 418948 0 0
+/.well-known/acme-challenge/iUU9iGzAKLw_bZorZUK4WqYQF0br6XN-qSVctAAZT_w 4 1200 4 2
+/wp-json/ 1 6975 0 0
+/wp-content/plugins/contact-form-7/includes/js/scripts.js@ver=4.6 17 209508 1 0
+/wp-content/themes/twentytwelve/fonts/Cormorant_Infant_Semibold_Italic.ttf 1 102156 0 0
+/wp-content/plugins/elementor/assets/lib/font-awesome/fonts/fontawesome-webfont.woff2@v=4.7.0 16 1238064 0 4
+END_SIDER

@@ -1,0 +1,4 @@
+<FilesMatch "\.jpg$">
+  Order Deny,Allow
+  Deny from all
+</FilesMatch>

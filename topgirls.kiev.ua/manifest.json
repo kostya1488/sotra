@@ -1,0 +1,5 @@
+{
+  "name": "topgirls.kiev.ua Push test",  // Название сайта
+  "display": "standalone",        // Указываем, где показывать уведомления
+  "gcm_sender_id": "251207620349" // Тот самый идентификатор приложения в Google Cloud Platform
+}

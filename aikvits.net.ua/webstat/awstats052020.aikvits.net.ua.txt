@@ -1,0 +1,387 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 202005 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.aikvits.net.ua.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1994                
+POS_TIME 2653                
+POS_VISITOR 8191                
+POS_DAY 10163               
+POS_DOMAIN 3296                
+POS_LOGIN 3525                
+POS_ROBOT 3680                
+POS_WORMS 4051                
+POS_EMAILSENDER 4182                
+POS_EMAILRECEIVER 4325                
+POS_SESSION 10543               
+POS_SIDER 10690               
+POS_FILETYPES 4460                
+POS_DOWNLOADS 4665                
+POS_OS 4713                
+POS_BROWSER 4824                
+POS_SCREENSIZE 5388                
+POS_UNKNOWNREFERER 5462                
+POS_UNKNOWNREFERERBROWSER 5806                
+POS_ORIGIN 5888                
+POS_SEREFERRALS 6022                
+POS_PAGEREFS 6186                
+POS_SEARCHWORDS 6360                
+POS_KEYWORDS 6521                
+POS_MISC 2316                
+POS_ERRORS 6589                
+POS_CLUSTER 3381                
+POS_SIDER_404 6692                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20200602144617 1 0 9467345510679
+FirstTime 0
+LastTime 20200530162752
+LastUpdate 20200603042916 1 0 0 0 0
+TotalVisits 51                  
+TotalUnique 49                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 49                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 13 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 1 2 4907
+1 4 4 33921 6 10 43065
+2 3 3 30639 10 17 86658
+3 0 0 0 1 3 3456
+4 0 0 0 2 5 19965
+5 1 1 10213 4 6 31365
+6 0 0 0 0 1 206
+7 0 0 0 0 0 0
+8 1 1 10213 14 14 82432
+9 2 2 10957 17 23 72778
+10 2 2 6564 0 2 3250
+11 2 2 13495 5 10 20513
+12 3 17 1312377 1 4 12000
+13 0 0 0 1 3 6532
+14 24 58 2932402 1 4 8157
+15 4 4 1156 0 0 0
+16 4 4 13128 0 2 3250
+17 0 0 0 2 5 14045
+18 10 16 256731 0 10 31646
+19 2 2 6564 3 18 525830
+20 0 0 0 2 6 23838
+21 1 1 3282 5 12 31340
+22 1 1 10213 5 26 558582
+23 3 9 240688 7 10 41828
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 67 127 4892543
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 7
+googlebot 29 1041942 20200530191301 0
+yandex 8 26256 20200530223240 0
+netcraft 3 30639 20200505220228 0
+python 2 6564 20200512195209 0
+libwww 2 20426 20200530024340 0
+bot[\s_+:,\.\;\/\\-] 1 0 20200509224133 0
+crawl 1 3282 20200508133430 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+css 18 887358 0 0
+png 3 58578 0 0
+env 1 744 0 0
+woff2 3 200529 0 0
+html 55 321020 0 0
+jpg 3 2120034 0 0
+js 36 1301880 0 0
+Unknown 8 2400 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 7
+macosx 7
+linuxandroid 6
+winnt 54
+Unknown 27
+winvista 3
+linux 19
+win7 11
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 28
+firefox66.0 1
+firefox57.0 6
+chrome41.0.2225.0 1
+firefox10.0 2
+android 1
+chrome76.0.3809.132 2
+wap 14
+chrome72.0.3626.121 1
+chrome60.0.3112.107 1
+chrome79.0.3945.79 8
+chrome78.0.3904.108 16
+chrome62.0.3202.94 1
+chrome41.0.2227.0 1
+firefox38.0 1
+chrome59.0.3071.125 4
+chrome81.0.4044.122 7
+chrome74.0.3729.131 6
+chrome67.0.3396.99 1
+chrome26.0.1410.65 1
+mozilla 10
+chrome78.0.3904.70 16
+netscape5.0 1
+firefox59.0 1
+chrome76.0.3809.71 16
+firefox51.0 1
+chrome64.0.3282.186 3
+chrome35.0.1916.47 2
+chrome40.0.2214.93 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+Mozilla/5.0 20200513011629
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20200507142040
+Mozilla/5.0_AppleWebKit/537.36_(KHTML,_like_Gecko)_Chrome/74.0.3729.131_Safari/537.36 20200530162752
+Wappalyzer 20200512180618
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 52 64
+From1 0 0
+From2 2 2
+From3 1 1
+From4 12 60
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 1 1
+bing 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://builtwith.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+amazon 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 1
+amazon 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+403 64 184997
+404 70 274331
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 38
+/sitemap.xml 1 -
+/api/.env 1 -
+/vendor/.env 1 -
+/.well-known/assetlinks.json 2 -
+/test/wp-login.php 1 http://aikvits.net.ua/test/wp-login.php
+/feed/ 1 -
+/laravel/.env 1 -
+/vendor/phpunit/phpunit/LICENSE 2 -
+/wordpress/wp-login.php 1 http://aikvits.net.ua/wordpress/wp-login.php
+/phpmyadmin/scripts/setup.php 5 -
+/wp-admin/admin-ajax.php 1 -
+/wp-includes/images/rss.png 2 http://aikvits.net.ua/
+/.env 1 -
+/new/wp-login.php 1 http://aikvits.net.ua/new/wp-login.php
+/sites/.env 1 -
+/en/wp-login.php 2 http://aikvits.net.ua/en/wp-login.php
+/horde/imp/test.php 5 -
+/sitemaps.xml 2 -
+/shop/.env 1 -
+/wp/wp-login.php 1 http://aikvits.net.ua/wp/wp-login.php
+/pma/ 1 -
+/sitemap_index.xml 1 -
+/blog/.env 1 -
+/blog/wp-login.php 1 http://aikvits.net.ua/blog/wp-login.php
+/test/.env 1 -
+/home/wp-login.php 1 http://aikvits.net.ua/home/wp-login.php
+/atom.xml 2 -
+/system/.env 1 -
+/phpMyAdmin/scripts/setup.php 5 -
+/public/.env 1 -
+/sitemap.xml.gz 3 -
+/news/wp-login.php 1 http://aikvits.net.ua/news/wp-login.php
+/phpMyAdmin/ 1 -
+/wp-login.php 5 http://aikvits.net.ua/wp-login.php
+/wp-includes/css/css.php 1 -
+/cgi-bin/test-cgi 5 -
+/login 5 -
+/site/wp-login.php 1 http://aikvits.net.ua/site/wp-login.php
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 49
+109.70.104.23 4 4 13128 20200530162752
+65.154.226.100 3 23 1529357 20200507143122
+93.119.227.91 2 2 20426 20200507142227
+93.119.227.19 2 2 20426 20200507144208
+69.4.87.74 2 2 20426 20200507142228
+66.133.109.36 2 2 600 20200507142039
+69.4.89.106 2 2 20426 20200507142331
+179.43.169.182 2 2 6564 20200507142232
+176.100.191.30 2 2 20426 20200517113924
+118.127.15.84 2 2 20426 20200525010830
+54.191.129.85 1 1 3282 20200525194411
+167.172.63.56 1 1 3282 20200508181337
+34.222.229.130 1 1 300 20200507142035
+138.197.155.4 1 1 289 20200507153812
+18.196.96.172 1 1 300 20200507142038
+109.232.2.118 1 1 10213 20200523023305
+138.197.152.122 1 1 289 20200507153800
+92.222.64.195 1 1 10213 20200517233426
+138.197.174.217 1 1 289 20200507153814
+132.145.101.73 1 1 10213 20200517092840
+172.104.147.120 1 1 3282 20200508181329
+138.197.148.89 1 1 289 20200507153806
+46.243.147.130 1 1 3282 20200518102717
+178.79.142.204 1 1 3282 20200508181325
+142.93.52.228 1 1 3282 20200508181344
+52.28.236.88 1 1 300 20200507142033
+95.154.200.160 1 1 3282 20200518193323
+3.14.255.131 1 1 300 20200507142034
+34.217.17.0 1 1 3282 20200523114907
+101.133.212.2 2 16 1309095 20200522124238
+137.117.64.231 1 1 744 20200523094352
+64.225.78.121 1 1 3282 20200508181343
+52.15.254.228 1 1 300 20200507142039
+216.145.14.142 1 1 3282 20200509215224
+185.234.217.32 1 1 3282 20200513232356
+65.154.226.109 2 16 1309095 20200507142228
+176.58.118.253 1 1 3282 20200508181325
+104.227.135.19 1 1 3282 20200516141123
+116.171.0.59 1 1 10213 20200522081227
+93.119.227.34 2 2 20426 20200508021617
+34.244.240.50 1 1 3282 20200504183221
+175.145.207.141 1 1 10213 20200516014346
+42.157.195.87 1 1 3282 20200513011629
+13.233.11.227 1 7 227193 20200511234849
+15.206.184.110 1 7 227193 20200512180616
+172.105.13.127 2 2 6564 20200508181338
+168.138.144.172 1 1 10213 20200514224548
+121.40.132.135 2 2 6564 20200514122022
+34.209.232.166 1 1 300 20200507142040
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 15
+20200504 1 1 3282 1
+20200507 27 61 2930276 18
+20200508 10 10 46682 8
+20200509 1 1 3282 1
+20200511 1 7 227193 1
+20200512 1 7 227193 1
+20200513 2 2 6564 2
+20200514 3 3 16777 3
+20200516 2 2 13495 2
+20200517 4 4 40852 4
+20200518 2 2 6564 2
+20200522 3 17 1319308 2
+20200523 3 3 14239 3
+20200525 3 3 23708 2
+20200530 4 4 13128 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 1
+0s-30s 51
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 5
+/ 55 321020 43 40
+/.well-known/acme-challenge/v8MoBoqgeREuFnzqH2yxMAouPDdfiCx7FgAkD2HRnNA 4 1200 3 4
+/.well-known/acme-challenge/6HhRFU8XO5oFCDa-ZL9v5GK_Q14euSFKaZOSHiHoDVU 4 1200 4 3
+/fonts/fontawesome-webfont.woff2 3 200529 0 3
+/admin/.env 1 744 1 1
+END_SIDER

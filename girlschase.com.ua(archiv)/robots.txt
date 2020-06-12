@@ -1,0 +1,12 @@
+User-agent: *
+
+Crawl-delay: 10
+
+Sitemap: https://girlschase.com.ua/sitemap.xml 
+
+Host: https://girlschase.com.ua/
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP:SSL} !=1 [NC]
+RewriteRule ^(.*) https://girlschase.com.ua/
+$1 [L,R=301]

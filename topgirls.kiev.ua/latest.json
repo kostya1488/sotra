@@ -1,0 +1,14 @@
+﻿POST /fcm/send HTTP/1.1
+Host: fcm.googleapis.com
+Authorization: key=YAAAAOn0kFv0:APA91bEM2h43xiz3zGiy5vwn6SYcyPSj7G49wC-VpAdQjAcHR4s6RXL_EaQFNeN-JRdGO4HfQ7c_-y8YkXTJ5IEqLVjUlTBTYHaQnA6qbPsrVO8gzxED6K8NzNVABxmTO8PJ1J8MYQZf
+Content-Type: application/json
+
+{
+  "notification": {
+    "title": "Ералаш",
+    "body": "Начало в 21:00",
+    "icon": "https://eralash.ru.rsz.io/sites/all/themes/eralash_v5/logo.png?width=40&height=40",
+    "click_action": "http://eralash.ru/"
+  },
+  "to": "251207620349"
+}

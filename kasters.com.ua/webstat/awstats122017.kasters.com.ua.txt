@@ -1,0 +1,342 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201712 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.kasters.com.ua.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1994                
+POS_TIME 2653                
+POS_VISITOR 6835                
+POS_DAY 8202                
+POS_DOMAIN 3364                
+POS_LOGIN 3595                
+POS_ROBOT 3750                
+POS_WORMS 4073                
+POS_EMAILSENDER 4204                
+POS_EMAILRECEIVER 4347                
+POS_SESSION 8931                
+POS_SIDER 9120                
+POS_FILETYPES 4482                
+POS_DOWNLOADS 4715                
+POS_OS 4786                
+POS_BROWSER 4900                
+POS_SCREENSIZE 5241                
+POS_UNKNOWNREFERER 5315                
+POS_UNKNOWNREFERERBROWSER 5465                
+POS_ORIGIN 5610                
+POS_SEREFERRALS 5747                
+POS_PAGEREFS 5902                
+POS_SEARCHWORDS 6087                
+POS_KEYWORDS 6239                
+POS_MISC 2316                
+POS_ERRORS 6298                
+POS_CLUSTER 3451                
+POS_SIDER_404 6385                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20180101163145 1 0 9499745240685
+FirstTime 0
+LastTime 20171231172345
+LastUpdate 20180102050545 1 0 0 0 0
+TotalVisits 100                 
+TotalUnique 32                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 32                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 26 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 9 29 1677191 2 4 14551
+1 6 18 869596 1 4 11135
+2 1 10 212736 2 10 188900
+3 1 1 7735 2 9 184291
+4 0 0 0 4 8 15174
+5 4 4 30940 1 4 8273
+6 0 0 0 3 8 4846
+7 2 2 15470 1 8 147685
+8 1 1 7735 0 0 0
+9 7 21 1631275 2 7 24594
+10 10 24 1645348 0 2 3131
+11 13 39 2503106 5 11 26040
+12 13 39 2493974 3 10 203860
+13 12 25 918728 2 9 147624
+14 24 62 2218357 1 5 16590
+15 6 16 256368 2 12 343354
+16 4 11 819505 2 7 206949
+17 9 21 892801 3 9 28686
+18 6 6 46410 4 10 158207
+19 7 7 54145 4 7 29512
+20 32 55 1287646 0 5 6262
+21 35 47 1093911 1 2 10597
+22 4 4 30940 1 6 173534
+23 8 20 885066 2 8 209811
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 214 462 19598983
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 5
+yandex 71 808720 20171230170218 27
+googlebot 27 478475 20171230175158 9
+bot[\s_+:,\.\;\/\\-] 24 770474 20171231103050 6
+ia_archiver 4 19214 20171206000050 1
+surveybot 2 8004 20171211183300 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+eot 2 29671 0 0
+css 104 3427628 0 0
+png 57 13143240 0 0
+woff 18 114408 0 0
+woff2 18 328428 0 0
+php 12 83587 0 0
+html 164 1228385 0 0
+jpg 31 153821 0 0
+js 56 1089815 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 44 0 11836
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 7
+macosx 32
+linuxandroid 40
+winxp 8
+winnt 127
+Unknown 94
+winvista 7
+win7 154
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 15
+firefox57.0 17
+chrome63.0.3239.84 71
+chrome61.0.3163.100 63
+chrome52.0.2743.116 8
+chrome44.0.2403.119 10
+msie10.0 7
+safari10.0 10
+chrome62.0.3202.89 30
+chrome62.0.3202.94 86
+chrome63.0.3239.107 20
+Unknown 94
+chrome63.0.3239.83 10
+firefox56.0 10
+chrome60.0.3112.113 18
+chrome57.0.2987.137 8
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Go-http-client/1.1 20171213005454
+Magic_Browser 20171231172345
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+Go-http-client/1.1 20171213005454
+Magic_Browser 20171231172345
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 139 139
+From1 0 0
+From2 8 8
+From3 2 2
+From4 65 313
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+yandex 8 8
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://kiev.cataloxy.com.ua/url/ 2 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+404 11 4307
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 4
+/.well-known/apple-app-site-association 3 -
+/.well-known/assetlinks.json 3 -
+/fonts/hotel-pictograms.ttf 2 -
+/apple-app-site-association 3 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 32
+52.34.24.33 36 36 278460 20171231171602
+35.162.70.167 34 34 262990 20171231172345
+52.41.211.72 22 22 170170 20171226202323
+94.131.223.46 13 33 1713709 20171222140856
+13.56.229.65 12 12 92820 20171231074013
+54.183.130.127 9 9 69615 20171230151319
+178.94.115.47 7 19 877331 20171222141207
+178.94.181.136 7 20 880053 20171217133456
+93.74.152.147 6 18 869596 20171213180033
+194.11.28.7 6 18 871831 20171213120036
+188.255.91.32 1 10 212736 20171215023442
+90.154.93.131 1 11 217693 20171218202156
+93.72.199.27 3 10 811770 20171211123410
+46.42.169.30 1 8 787168 20171231003539
+34.226.85.69 2 2 15470 20171213005454
+37.57.204.123 5 17 861861 20171204214344
+46.133.26.146 3 10 811770 20171208160530
+77.111.246.14 5 18 866818 20171221000533
+5.62.41.25 5 17 861861 20171205235944
+79.164.48.237 3 7 202936 20171202145301
+178.150.40.225 3 10 811770 20171214123903
+46.101.19.20 3 10 811770 20171211141758
+90.154.93.19 1 8 787168 20171219123853
+52.53.129.101 1 1 7735 20171203103933
+89.252.28.29 5 12 827240 20171214100439
+91.197.169.129 4 17 861108 20171228205006
+62.80.163.172 3 10 811770 20171222112254
+94.244.141.19 5 17 864096 20171205124127
+87.228.18.81 1 10 212946 20171221145534
+109.63.196.121 1 11 217693 20171214152625
+46.42.135.48 1 8 787168 20171217104010
+178.151.120.3 5 17 861861 20171212014206
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20171202 3 7 202936 1
+20171203 1 1 7735 1
+20171204 6 18 869596 2
+20171205 10 34 1725957 3
+20171206 5 5 38675 2
+20171207 5 5 38675 4
+20171208 3 10 811770 1
+20171209 6 6 46410 4
+20171210 6 6 46410 5
+20171211 10 24 1654480 4
+20171212 6 18 869596 2
+20171213 19 43 1795572 7
+20171214 15 39 1903113 8
+20171215 5 14 243676 3
+20171216 5 5 38675 3
+20171217 9 29 1674956 3
+20171218 6 16 256368 5
+20171219 1 8 787168 1
+20171220 9 9 69615 4
+20171221 12 34 1126174 6
+20171222 27 66 3433750 6
+20171223 5 5 38675 3
+20171224 5 5 38675 3
+20171225 4 4 30940 1
+20171226 4 4 30940 2
+20171227 5 5 38675 3
+20171228 9 22 899783 4
+20171229 4 4 30940 2
+20171230 4 4 30940 3
+20171231 5 12 818108 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+5mn-15mn 3
+30s-2mn 14
+2mn-5mn 6
+0s-30s 76
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 9
+/ 145 1121575 96 78
+/fonts/hotel-pictograms.woff 18 114408 0 4
+/fonts/glyphicons-halflings-regular.woff2 18 328428 0 2
+/work.html 11 62810 1 4
+/contact.html 8 44000 1 5
+/uslugi.php 7 44912 2 4
+/index.php 5 38675 0 2
+/fonts/hotel-pictograms.eot 1 9544 0 0
+/fonts/glyphicons-halflings-regular.eot 1 20127 0 1
+END_SIDER

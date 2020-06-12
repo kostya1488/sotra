@@ -1,0 +1,777 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201910 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.sweetgirls.com.ua.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1997                
+POS_TIME 2676                
+POS_VISITOR 31693               
+POS_DAY 37861               
+POS_DOMAIN 3526                
+POS_LOGIN 3759                
+POS_ROBOT 3914                
+POS_WORMS 4500                
+POS_EMAILSENDER 4631                
+POS_EMAILRECEIVER 4774                
+POS_SESSION 38420               
+POS_SIDER 38629               
+POS_FILETYPES 4909                
+POS_DOWNLOADS 5135                
+POS_OS 5207                
+POS_BROWSER 5343                
+POS_SCREENSIZE 6543                
+POS_UNKNOWNREFERER 6617                
+POS_UNKNOWNREFERERBROWSER 6738                
+POS_ORIGIN 6854                
+POS_SEREFERRALS 6996                
+POS_PAGEREFS 7166                
+POS_SEARCHWORDS 7624                
+POS_KEYWORDS 8018                
+POS_MISC 2339                
+POS_ERRORS 8329                
+POS_CLUSTER 3615                
+POS_SIDER_404 8470                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20191101005540 17 3075 12517015315525
+FirstTime 20191001053227
+LastTime 20191019121438
+LastUpdate 20191101043600 17 0 16 0 0
+TotalVisits 163                 
+TotalUnique 145                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 154                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 71 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 18 87 8776264 14 32 80343
+1 11 44 5347040 9 25 43226
+2 19 92 8982159 13 49 174595
+3 16 67 6342903 25 43 753225
+4 15 67 6083558 13 51 174594
+5 19 49 3682251 22 107 550931
+6 10 35 3321159 10 54 226854
+7 20 74 6905569 16 117 455134
+8 3 3 65802 11 18 26490
+9 10 54 5883649 10 26 48300
+10 32 113 10773180 17 36 149741
+11 40 141 13954723 39 88 849370
+12 59 183 15285710 34 104 351633
+13 60 264 24729631 19 125 3494778
+14 31 132 13269878 11 67 252464
+15 6 22 2193008 14 19 36422
+16 16 86 9758046 21 88 332572
+17 41 162 16064604 11 33 87031
+18 49 208 22355311 27 77 674661
+19 35 149 13525400 29 93 333838
+20 27 104 10420727 18 63 214924
+21 28 106 10113526 16 42 424128
+22 24 104 9660283 19 37 101679
+23 8 33 3332513 10 18 281717
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 597 2379 230826894
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 13
+yandex 144 2123808 20191031174803 85
+bot[\s_+:,\.\;\/\\-] 68 169426 20191030171025 51
+googlebot 63 577294 20191030050848 29
+motor 26 2922011 20191003133021 0
+robot 8 72372 20191014115521 0
+mail\.ru 6 13574 20191016022256 4
+unknown 5 2353 20191031054721 5
+favicon 4 23316 20191008183653 0
+msnbot 4 1748 20191016183228 4
+netcraft 4 105356 20191009035519 0
+python 3 6745 20191004001939 2
+no_user_agent 1 303 20191018122110 0
+crawl 2 26818 20191018072517 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+css 199 21816946 0 0
+png 92 1465027 0 0
+7 87 613089 0 0
+1 88 14442296 0 0
+html 339 2715451 0 0
+jpg 1388 169259664 0 0
+Unknown 83 16938166 0 0
+gif 103 3576255 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 181 0 83087
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 9
+linuxandroid 502
+winxp 39
+winlong 1
+winnt 627
+winvista 49
+linux 28
+win7 723
+macosx 406
+Unknown 4
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 58
+firefox66.0 5
+chrome67.0.3396.87 10
+safari11.0 89
+chrome67.0.3396.79 6
+chrome1.0.154.53 1
+safari12.0 4
+chrome38.0.2125.101 18
+chrome74.0.3729.158 18
+chrome71.0.3578.98 4
+chrome58.0.3029.110 32
+chrome57.0.2987.108 26
+chrome75.0.3770.143 57
+firefox59.0.2 2
+chrome77.0.3865.120 108
+chrome26.0.1410.65 1
+msie7.0 1
+firefox59.0 7
+chrome71.0.3578.80 2
+chrome40.0.2214.85 3
+firefox65.0 1
+chrome74.0.3729.169 1
+chrome71.0.3578.99 32
+chrome71.0.3578.141 60
+chrome70.0.3538.102 30
+chrome66.0.3359.181 6
+safari13.0.3 29
+chrome76.0.3809.89 29
+safari13.0.1 127
+chrome49.0.2623.112 36
+chrome75.0.3770.142 7
+Unknown 4
+chrome77.0.3865.116 31
+chrome65.0.3325.181 6
+chrome72.0.3626.28 26
+chrome59.0.3071.115 68
+chrome77.0.3865.90 335
+chrome76.0.3809.132 376
+chrome68.0.3440.106 9
+safari10.0 53
+firefox69.0 31
+chrome76.0.3809.100 3
+chrome73.0.3683.86 25
+chrome77.0.3865.92 145
+firefox47.0 1
+chrome62.0.3202.84 26
+firefox68.0 27
+chrome67.0.3396.99 4
+chrome36.0.1985.143 78
+mozilla 45
+chrome45.0.2454.101 3
+chrome59.0.3071.114 1
+chrome68.0.3440.84 4
+firefox60.0 157
+safari12.1.2 70
+chrome66.0.3359.170 7
+chrome65.0.3325.146 2
+chrome73.0.3683.90 60
+chrome64.0.3282.140 30
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+Go-http-client/1.1 20191011041602
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Go-http-client/1.1 20191011041602
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 84 112
+From1 1 1
+From2 37 37
+From3 36 54
+From4 439 2175
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 24 24
+yandex 13 13
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 10
+http://catcut.net/go.php 8 8
+https://yandex.ua 6 6
+https://away.vk.com/away.php 4 4
+http://away.vk.com/away.php 4 4
+https://yandex.ua/clck/jsredir 3 3
+https://webcache.googleusercontent.com/search 3 21
+https://duckduckgo.com 3 3
+http://progressive-seo.com 3 3
+http://go.mail.ru 1 1
+http://catcut.net/SUNC 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+%d0%ba%d0%b8%d0%b5%d0%b2+%d1%81%d0%b0%d0%bc%d1%8b%d0%b5+%d1%8d%d0%bb%d0%b8%d1%82%d0%bd%d1%8b%d0%b5+%d0%b4%d0%b5%d0%b2%d1%83%d1%88%d0%ba%d0%b8+%d0%b4%d0%bb%d1%8f+%d1%81%d0%be%d0%bf%d1%80%d0%be%d0%b2%d0%be%d0%b6%d0%b4%d0%b5%d0%bd%d0%b8%d1%8f 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 6
+%d0%b4%d0%bb%d1%8f 1
+%d1%81%d0%b0%d0%bc%d1%8b%d0%b5 1
+%d1%8d%d0%bb%d0%b8%d1%82%d0%bd%d1%8b%d0%b5 1
+%d0%b4%d0%b5%d0%b2%d1%83%d1%88%d0%ba%d0%b8 1
+%d1%81%d0%be%d0%bf%d1%80%d0%be%d0%b2%d0%be%d0%b6%d0%b4%d0%b5%d0%bd%d0%b8%d1%8f 1
+%d0%ba%d0%b8%d0%b5%d0%b2 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+403 4 17160
+302 147 39376
+206 31 264822
+404 799 3519636
+301 2 930
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 239
+/data/home/girls_photos_main/photo/tn_img_0073-16-11-17-08-46.jpg 2 https://sweetgirls.com.ua/ru/models/sendvalues/10/
+/data/home/data/images/new/main-img.jpg 1 https://sweetgirls.com.ua/data/home/
+/data/home/girls_photos_main/photo/tn_img_0110-16-11-17-08-46.jpg 2 https://sweetgirls.com.ua/ru/models/sendvalues/10/
+/data/home/girls_photos_main/photo/tn_img_6640.jpg 6 https://sweetgirls.com.ua/ru/models/sendvalues/23/
+/data/home/girls_photos_main/photo/tn_image(1).jpg 6 https://sweetgirls.com.ua/ru/models/sendvalues/23/
+/data/home/girls_photos_main/photo/tn_img_0094-16-11-17-08-46.jpg 2 https://sweetgirls.com.ua/ru/models/sendvalues/10/
+/data/home/girls_photos_main/photo/tn_img_5382-21-05-17-07-38.jpg 2 https://sweetgirls.com.ua/ru/models/sendvalues/21/
+/data/home/girls_photos_main/photo/tn_img_6001-09-06-17-04-09.jpg 4 https://sweetgirls.com.ua/ru/models/sendvalues/12/
+/data/home/girls_photos_main/photo/tn_img_3926.jpg 5 https://sweetgirls.com.ua/ru/models/sendvalues/22/
+/data/home/girls_photos_main/photo/tn_img_5385-21-05-17-07-38.jpg 2 https://sweetgirls.com.ua/ru/models/sendvalues/21/
+/data/home/girls_photos_main/photo/tn_img_2037.jpg 2 https://sweetgirls.com.ua/ru/models/sendvalues/5/
+/web/wp-login.php 1 http://sweetgirls.com.ua/web/wp-login.php
+/data/home/girls_photos_main/photo/tn_img_5381-21-05-17-07-38.jpg 2 https://sweetgirls.com.ua/ru/models/sendvalues/21/
+/data/home/girls_photos_main/photo/tn_img_2033.jpg 2 https://sweetgirls.com.ua/ru/models/sendvalues/5/
+/data/home/girls_photos_main/photo/tn_image_(15).jpg 4 https://sweetgirls.com.ua/ru/models/sendvalues/20/
+/data/home/girls_photos_main/photo/tn_img_2041.jpg 2 https://sweetgirls.com.ua/ru/models/sendvalues/5/
+/data/home/girls_photos_main/photo/tn_img_0148-16-11-17-08-46.jpg 2 https://sweetgirls.com.ua/ru/models/sendvalues/10/
+/data/home/girls_photos_main/photo/tn_img_2042.jpg 2 https://sweetgirls.com.ua/ru/models/sendvalues/5/
+/data/home/girls_photos_main/photo/tn_image_(14).jpg 4 https://sweetgirls.com.ua/ru/models/sendvalues/20/
+/data/home/girls_photos_main/photo/tn_image(4).jpg 6 https://sweetgirls.com.ua/ru/models/sendvalues/23/
+/data/home/girls_photos_main/photo/tn_image_4.jpg 6 https://sweetgirls.com.ua/ru/models/sendvalues/23/
+/data/home/girls_photos_main/photo/tn_img_0141-16-11-17-08-46.jpg 2 https://sweetgirls.com.ua/ru/models/sendvalues/10/
+/ru/models/sendvalues/7/index.html 2 https://sweetgirls.com.ua/ru/models/sendvalues/7/index.html
+/lcab.talk-me.ru/support/support.js 40 https://sweetgirls.com.ua/ru/models/index.html
+/data/home/girls_photos_main/photo/tn_image(7).jpg 6 https://sweetgirls.com.ua/ru/models/sendvalues/23/
+/ru/services/data/images/new/main-img.jpg 6 https://sweetgirls.com.ua/ru/services/index.html
+/data/home/girls_photos_main/photo/tn_image(2)_1.jpg 6 https://sweetgirls.com.ua/ru/models/sendvalues/23/
+/ru/models/sendvalues/1/data/images/new/main-img.jpg 2 https://sweetgirls.com.ua/ru/models/sendvalues/1/
+/js/ajax.js 1 sweetgirls.com.ua
+/wp/wp-admin/install.php 1 -
+/data/home/girls_photos_main/photo/tn_5fb27520-2301-4303-b424-feb9431e16fd.jpg 3 https://sweetgirls.com.ua/ru/models/sendvalues/14/
+/data/home/girls_photos_main/photo/tn_image_(12).jpg 4 https://sweetgirls.com.ua/ru/models/sendvalues/20/
+/data/home/girls_photos_main/photo/tn_image3.jpg 6 https://sweetgirls.com.ua/ru/models/sendvalues/23/
+/ru/models/sendvalues/20/%22 1 -
+/data/home/girls_photos_main/photo/tn_image(5).jpg 6 https://sweetgirls.com.ua/ru/models/sendvalues/23/
+/data/home/girls_photos_main/photo/tn_img-20171211-wa0094.jpg 2 https://sweetgirls.com.ua/ru/models/sendvalues/4/
+/data/home/girls_photos_main/photo/tn_image(4)_1.jpg 6 https://sweetgirls.com.ua/ru/models/sendvalues/23/
+/vbforum/js/ajax.js 1 sweetgirls.com.ua
+/data/home/girls_photos_main/photo/tn_img_8566.jpg 6 https://sweetgirls.com.ua/ru/models/sendvalues/23/
+/vb5/js/ajax.js 1 sweetgirls.com.ua
+/data/home/girls_photos_main/photo/full_img_1552.jpg 7 https://sweetgirls.com.ua/ru/models/sendvalues/22/
+/templates/new/images/logo.png%22 3 https://sweetgirls.com.ua/ru/models/sendvalues/13/
+/data/home/girls_photos_main/photo/tn_image(10).jpg 6 https://sweetgirls.com.ua/ru/models/sendvalues/23/
+/data/home/girls_photos_main/photo/tn_img_5999-09-06-17-04-09.jpg 5 https://sweetgirls.com.ua/ru/models/sendvalues/12/
+/wp-login.php 3 http://sweetgirls.com.ua/wp-login.php
+/images/konv85.png 2 http://go.mail.ru/search_images
+/data/home/girls_photos_main/photo/tn_img_0056-16-11-17-08-46.jpg 2 https://sweetgirls.com.ua/ru/models/sendvalues/10/
+/wordpress/wp-admin/install.php 1 -
+/data/home/girls_photos_main/photo/tn_image_(6)_1.jpg 4 https://sweetgirls.com.ua/ru/models/sendvalues/20/
+/data/home/girls_photos_main/photo/tn_img_0074-16-11-17-08-46.jpg 2 https://sweetgirls.com.ua/ru/models/sendvalues/10/
+/data/home/girls_photos_main/photo/tn_ca278563-d454-4cf3-b59d-834fb47b2dc9.jpg 3 https://sweetgirls.com.ua/ru/models/sendvalues/14/
+/ru/models/sendvalues/8/index.html 1 https://sweetgirls.com.ua/ru/models/sendvalues/4/
+/new/wp-admin/install.php 1 -
+/ru/services/index.html 6 https://sweetgirls.com.ua/ru/models/
+/data/home/girls_photos_main/photo/tn_img_6074-10-06-17-11-57.jpg 1 https://sweetgirls.com.ua/ru/models/sendvalues/6/
+/data/home/girls_photos_main/photo/tn_img_6012-09-06-17-04-21.jpg 3 https://sweetgirls.com.ua/ru/models/sendvalues/8/
+/data/home/girls_photos_main/photo/full_3aebe503-b354-414d-bf8b-ee75bdf2ddd7.jpg 3 https://sweetgirls.com.ua/ru/models/sendvalues/14/
+/data/home/girls_catalog_main/templates/new/js/foundation.js@v=1.3.1 1 https://sweetgirls.com.ua/data/home/girls_catalog_main/
+/templates/jquerylightbox/images/lightbox-ico-loading.gif 16 https://sweetgirls.com.ua/ru/models/sendvalues/12/
+/data/home/girls_photos_main/photo/tn_img_6078-10-06-17-11-57.jpg 1 https://sweetgirls.com.ua/ru/models/sendvalues/6/
+/data/home/girls_photos_main/photo/tn_img_0867.jpg 6 https://sweetgirls.com.ua/ru/models/sendvalues/23/
+/data/home/girls_photos_main/photo/tn_image(2).jpg 6 https://sweetgirls.com.ua/ru/models/sendvalues/23/
+/data/home/girls_photos_main/photo/tn_image_(4)_1.jpg 4 https://sweetgirls.com.ua/ru/models/sendvalues/20/
+/data/home/girls_photos_main/photo/tn_img-20171211-wa0096.jpg 2 https://sweetgirls.com.ua/ru/models/sendvalues/4/
+/data/home/girls_photos_main/photo/tn_img_5380-21-05-17-07-38.jpg 2 https://sweetgirls.com.ua/ru/models/sendvalues/21/
+/data/home/templates/new/js/app.js@v=1.4.7 1 https://sweetgirls.com.ua/data/home/
+/ru/models/sendvalues/6/%22 1 -
+/index.html 28 -
+/wp-admin/admin-ajax.php 1 -
+/wp-admin 1 -
+/data/home/girls_photos_main/photo/tn_img_0167-16-11-17-08-46.jpg 2 https://sweetgirls.com.ua/ru/models/sendvalues/10/
+/data/home/girls_photos_main/photo/tn_img-20171211-wa0092.jpg 2 https://sweetgirls.com.ua/ru/models/sendvalues/4/
+/prochivanie.html 2 -
+/uslovia.html 2 -
+/data/home/girls_photos_main/photo/tn_image(8).jpg 6 https://sweetgirls.com.ua/ru/models/sendvalues/23/
+/templates/jquerylightbox/images/lightbox-btn-close.gif 16 https://sweetgirls.com.ua/ru/models/sendvalues/12/
+/data/home/girls_photos_main/photo/tn_image15.jpg 6 https://sweetgirls.com.ua/ru/models/sendvalues/23/
+/ru/models/sendvalues/14/%22 1 -
+/data/home/girls_photos_main/photo/tn_img_5809-03-06-17-09-21.jpg 1 https://sweetgirls.com.ua/ru/models/sendvalues/7/
+/data/home/girls_photos_main/photo/tn_img_2047.jpg 2 https://sweetgirls.com.ua/ru/models/sendvalues/5/
+/data/home/girls_photos_main/photo/tn_img_8567.jpg 6 https://sweetgirls.com.ua/ru/models/sendvalues/23/
+/data/home/girls_photos_main/photo/full_5fb27520-2301-4303-b424-feb9431e16fd.jpg 1 https://sweetgirls.com.ua/ru/models/sendvalues/14/
+/data/home/girls_photos_main/photo/tn_img_0879.jpg 6 https://sweetgirls.com.ua/ru/models/sendvalues/23/
+/data/home/girls_photos_main/photo/tn_43f6fa53-1ba2-4547-87c6-c0b6baf2fd8c.jpg 3 https://sweetgirls.com.ua/ru/models/sendvalues/14/
+/data/home/girls_photos_main/photo/tn_img_0072-16-11-17-08-46.jpg 2 https://sweetgirls.com.ua/ru/models/sendvalues/10/
+/templates/popup/undefined.php 2 https://sweetgirls.com.ua/
+/data/home/girls_photos_main/photo/tn_image_2.jpg 5 https://sweetgirls.com.ua/ru/models/sendvalues/20/
+/data/home/templates/new/js/foundation.js@v=1.3.1 1 https://sweetgirls.com.ua/data/home/
+/wp/wp-admin/setup-config.php 1 -
+/ru/models/sendvalues/7/data/images/new/main-img.jpg 2 https://sweetgirls.com.ua/ru/models/sendvalues/7/index.html
+/data/home/girls_photos_main/photo/tn_img-20171211-wa0095.jpg 2 https://sweetgirls.com.ua/ru/models/sendvalues/4/
+/data/home/girls_photos_main/photo/tn_img_0059-16-11-17-08-46.jpg 2 https://sweetgirls.com.ua/ru/models/sendvalues/10/
+/data/home/girls_photos_main/photo/tn_img_0143-16-11-17-08-46.jpg 2 https://sweetgirls.com.ua/ru/models/sendvalues/10/
+/data/home/girls_photos_main/photo/tn_04dddceb-725a-417d-a493-42f2d1553a12.jpg 3 https://sweetgirls.com.ua/ru/models/sendvalues/14/
+/data/home/girls_photos_main/photo/tn_img_8564.jpg 6 https://sweetgirls.com.ua/ru/models/sendvalues/23/
+/ru/models/sendvalues/7/%22 1 -
+/data/home/girls_photos_main/photo/tn_img_0005-16-11-17-08-46.jpg 2 https://sweetgirls.com.ua/ru/models/sendvalues/10/
+/ru/models/index.html 1 https://sweetgirls.com.ua/ru/models/sendvalues/8/
+/data/home/girls_photos_main/photo/tn_img_2044.jpg 2 https://sweetgirls.com.ua/ru/models/sendvalues/5/
+/ru/special/data/images/new/main-img.jpg 4 https://sweetgirls.com.ua/ru/special/index.html
+/data/home/girls_photos_main/photo/tn_img_0086-16-11-17-08-46.jpg 2 https://sweetgirls.com.ua/ru/models/sendvalues/10/
+/data/home/girls_photos_main/photo/tn_1702156c-25e4-4dd9-80e5-c172b4f17427.jpg 3 https://sweetgirls.com.ua/ru/models/sendvalues/14/
+//wp-admin/setup-config.php 1 -
+/data/home/girls_photos_main/photo/tn_img_9463.jpg 6 https://sweetgirls.com.ua/ru/models/sendvalues/23/
+/data/home/girls_photos_main/photo/tn_image_(10).jpg 4 https://sweetgirls.com.ua/ru/models/sendvalues/20/
+/data/home/girls_photos_main/photo/tn_img_0007-16-11-17-08-46.jpg 2 https://sweetgirls.com.ua/ru/models/sendvalues/10/
+/backup/wp-login.php 1 http://sweetgirls.com.ua/backup/wp-login.php
+/ru/models/sendvalues/23/index.html 2 https://sweetgirls.com.ua/ru/models/sendvalues/20/
+/data/home/girls_photos_main/photo/tn_img_5811-03-06-17-09-21.jpg 1 https://sweetgirls.com.ua/ru/models/sendvalues/7/
+/data/home/girls_photos_main/photo/tn_img_5813-03-06-17-09-21.jpg 1 https://sweetgirls.com.ua/ru/models/sendvalues/7/
+/sitemap.xml 18 -
+/data/home/girls_photos_main/photo/tn_image(3)_1.jpg 6 https://sweetgirls.com.ua/ru/models/sendvalues/23/
+/data/home/girls_photos_main/photo/tn_img_6075-10-06-17-11-57.jpg 1 https://sweetgirls.com.ua/ru/models/sendvalues/6/
+/data/home/girls_photos_main/photo/tn_img_0087-16-11-17-08-46.jpg 2 https://sweetgirls.com.ua/ru/models/sendvalues/10/
+//wp-admin/install.php 1 -
+/css/site_global.css@280918269.css 2 http://www.sweetgirls.com.ua/index.html
+/images/image_image121_795244.png 1 -
+/data/home/girls_photos_main/photo/tn_img-20171211-wa0093.jpg 2 https://sweetgirls.com.ua/ru/models/sendvalues/4/
+/kont.html 2 -
+/data/home/girls_photos_main/photo/tn_image(9).jpg 6 https://sweetgirls.com.ua/ru/models/sendvalues/23/
+/data/home/girls_photos_main/photo/tn_image(1)_1.jpg 6 https://sweetgirls.com.ua/ru/models/sendvalues/23/
+/data/home/girls_photos_main/photo/tn_img_6021-10-06-17-06-50.jpg 3 https://sweetgirls.com.ua/ru/models/sendvalues/13/
+/data/home/girls_photos_main/photo/tn_img_2032.jpg 2 https://sweetgirls.com.ua/ru/models/sendvalues/5/
+/vb/js/ajax.js 1 sweetgirls.com.ua
+/treb.html 2 -
+/data/home/girls_photos_main/photo/tn_3aebe503-b354-414d-bf8b-ee75bdf2ddd7.jpg 3 https://sweetgirls.com.ua/ru/models/sendvalues/14/
+/data/home/girls_photos_main/photo/tn_image_1.jpg 4 https://sweetgirls.com.ua/ru/models/sendvalues/20/
+/data/home/girls_photos_main/photo/tn_image_3.jpg 6 https://sweetgirls.com.ua/ru/models/sendvalues/23/
+/data/home/girls_photos_main/photo/tn_image(3).jpg 6 https://sweetgirls.com.ua/ru/models/sendvalues/23/
+/data/home/girls_photos_main/photo/tn_img_6020-10-06-17-06-50.jpg 3 https://sweetgirls.com.ua/ru/models/sendvalues/13/
+/data/home/girls_catalog_main/data/images/new/main-img.jpg 1 https://sweetgirls.com.ua/data/home/girls_catalog_main/
+/data/home/girls_photos_main/photo/tn_img_6008-09-06-17-04-21.jpg 3 https://sweetgirls.com.ua/ru/models/sendvalues/8/
+/data/home/girls_photos_main/photo/tn_image_(9).jpg 4 https://sweetgirls.com.ua/ru/models/sendvalues/20/
+/data/home/girls_photos_main/photo/tn_img_1552.jpg 5 https://sweetgirls.com.ua/ru/models/sendvalues/22/
+/data/home/girls_photos_main/photo/tn_img_0055-16-11-17-08-46.jpg 2 https://sweetgirls.com.ua/ru/models/sendvalues/10/
+/ru/models/sendvalues/8/%22 1 -
+/ru/models/sendvalues/22/data/images/new/main-img.jpg 5 https://sweetgirls.com.ua/ru/models/sendvalues/22/index.html
+/data/home/girls_photos_main/photo/tn_img_0147-16-11-17-08-46.jpg 2 https://sweetgirls.com.ua/ru/models/sendvalues/10/
+/ru/models/sendvalues/22/index.html 5 https://sweetgirls.com.ua/ru/models/sendvalues/22/
+/data/home/girls_photos_main/photo/tn_img-20171211-wa0098.jpg 2 https://sweetgirls.com.ua/ru/models/sendvalues/4/
+/ru/models/sendvalues/13/%22 1 -
+/data/home/girls_photos_main/photo/tn_image7.jpg 6 https://sweetgirls.com.ua/ru/models/sendvalues/23/
+/data/home/girls_photos_main/photo/tn_img_3925.jpg 5 https://sweetgirls.com.ua/ru/models/sendvalues/22/
+/ru/models/sendvalues/11/index.html%22 1 -
+/data/home/girls_photos_main/photo/full_image_(2)_1.jpg 1 https://sweetgirls.com.ua/ru/models/sendvalues/20/
+/vBulletin/js/ajax.js 1 sweetgirls.com.ua
+/forum/js/ajax.js 1 sweetgirls.com.ua
+/data/home/girls_photos_main/photo/tn_img_0150.jpg 4 https://sweetgirls.com.ua/ru/models/sendvalues/20/
+/data/home/girls_photos_main/photo/tn_img_6728.jpg 5 https://sweetgirls.com.ua/ru/models/sendvalues/22/
+/ru/models/sendvalues/12/%22 1 -
+/data/home/girls_photos_main/photo/tn_img_6018-10-06-17-06-50.jpg 3 https://sweetgirls.com.ua/ru/models/sendvalues/13/
+/data/home/girls_photos_main/photo/tn_img_5814-03-06-17-09-21.jpg 1 https://sweetgirls.com.ua/ru/models/sendvalues/7/
+/data/home/girls_photos_main/photo/tn_c74d2c55-8ee8-446a-bfe1-cda4ce449419.jpg 3 https://sweetgirls.com.ua/ru/models/sendvalues/14/
+/data/home/girls_photos_main/photo/tn_img_6010-09-06-17-04-21.jpg 3 https://sweetgirls.com.ua/ru/models/sendvalues/8/
+/data/home/girls_photos_main/photo/tn_31ffe798-d366-4582-a9eb-5610ceef103c.jpg 3 https://sweetgirls.com.ua/ru/models/sendvalues/14/
+/data/home/girls_photos_main/photo/tn_bbe93010-f134-47a0-a609-15fef9f46128.jpg 3 https://sweetgirls.com.ua/ru/models/sendvalues/14/
+/ru/models/sendvalues/10/%22 1 -
+/data/home/girls_photos_main/photo/tn_img_6014-09-06-17-04-21.jpg 3 https://sweetgirls.com.ua/ru/models/sendvalues/8/
+/data/home/girls_photos_main/photo/tn_img_0864.jpg 6 https://sweetgirls.com.ua/ru/models/sendvalues/23/
+/ru/special/index.html 4 https://sweetgirls.com.ua/
+/data/home/girls_photos_main/photo/tn_img_2046.jpg 2 https://sweetgirls.com.ua/ru/models/sendvalues/5/
+/css/index.css@4213061135.css 2 http://www.sweetgirls.com.ua/index.html
+/wordpress/wp-admin/setup-config.php 1 -
+/css/master_shab-2.css@103153297.css 1 http://sweetgirls.com.ua/prochivanie.html
+/ru/models/sendvalues/22/%22 1 -
+/data/home/girls_photos_main/photo/tn_img_6011-09-06-17-04-21.jpg 3 https://sweetgirls.com.ua/ru/models/sendvalues/8/
+/data/home/girls_photos_main/photo/tn_8936d5ba-1e28-45d3-909b-4a1929d27ea5.jpg 3 https://sweetgirls.com.ua/ru/models/sendvalues/14/
+/css/progivanir.css@28270616.css 1 http://sweetgirls.com.ua/prochivanie.html
+/data/home/girls_photos_main/photo/tn_image_(11).jpg 4 https://sweetgirls.com.ua/ru/models/sendvalues/20/
+/data/home/girls_photos_main/photo/tn_img_3927.jpg 5 https://sweetgirls.com.ua/ru/models/sendvalues/22/
+/ru/models/sendvalues/8/data/images/new/main-img.jpg 1 https://sweetgirls.com.ua/ru/models/sendvalues/8/index.html
+/css/master_shab-1.css@4044700992.css 2 http://www.sweetgirls.com.ua/index.html
+/ru/models/sendvalues/23/data/images/new/main-img.jpg 2 https://sweetgirls.com.ua/ru/models/sendvalues/23/index.html
+/ru/models/sendvalues/21/%22 1 -
+/data/home/girls_photos_main/photo/tn_image_(3)_1.jpg 4 https://sweetgirls.com.ua/ru/models/sendvalues/20/
+/images/image_image_795244.png 1 -
+/data/home/girls_photos_main/photo/tn_image(11).jpg 6 https://sweetgirls.com.ua/ru/models/sendvalues/23/
+/data/home/girls_photos_main/photo/tn_img_0006-16-11-17-08-46.jpg 2 https://sweetgirls.com.ua/ru/models/sendvalues/10/
+/data/home/girls_photos_main/photo/tn_img_6732.jpg 5 https://sweetgirls.com.ua/ru/models/sendvalues/22/
+/data/home/girls_photos_main/photo/tn_image_(5)_1.jpg 4 https://sweetgirls.com.ua/ru/models/sendvalues/20/
+/new/wp-admin/setup-config.php 1 -
+/target=%22_self 1 -
+/data/home/girls_photos_main/photo/tn_img_6019-10-06-17-06-50.jpg 3 https://sweetgirls.com.ua/ru/models/sendvalues/13/
+/data/home/girls_catalog_main/templates/new/js/app.js@v=1.4.7 1 https://sweetgirls.com.ua/data/home/girls_catalog_main/
+/data/home/girls_photos_main/photo/tn_img_2035.jpg 2 https://sweetgirls.com.ua/ru/models/sendvalues/5/
+/data/home/girls_photos_main/photo/tn_img_0861.jpg 6 https://sweetgirls.com.ua/ru/models/sendvalues/23/
+/data/home/girls_photos_main/photo/tn_img_6009-09-06-17-04-21.jpg 3 https://sweetgirls.com.ua/ru/models/sendvalues/8/
+/.env 1 -
+/data/home/girls_photos_main/photo/tn_c5999252-877e-4a8b-b44b-05736abe3c8c.jpg 3 https://sweetgirls.com.ua/ru/models/sendvalues/14/
+/data/home/girls_photos_main/photo/tn_img_9465.jpg 6 https://sweetgirls.com.ua/ru/models/sendvalues/23/
+/data/home/girls_photos_main/photo/full_image(11).jpg 1 https://sweetgirls.com.ua/ru/models/sendvalues/23/
+/ru/models/sendvalues/10/data/images/new/main-img.jpg 1 https://sweetgirls.com.ua/ru/models/sendvalues/10/index.html
+/ru/models/sendvalues/11/data/images/new/main-img.jpg 2 https://sweetgirls.com.ua/ru/models/sendvalues/11/index.html
+/data/home/girls_photos_main/photo/tn_image_(2)_2.jpg 4 https://sweetgirls.com.ua/ru/models/sendvalues/20/
+/data/home/girls_photos_main/photo/tn_img_6007-09-06-17-04-21.jpg 3 https://sweetgirls.com.ua/ru/models/sendvalues/8/
+/data/home/girls_photos_main/photo/full_img_9465.jpg 1 https://sweetgirls.com.ua/ru/models/sendvalues/23/
+/data/home/girls_photos_main/photo/tn_image(6).jpg 6 https://sweetgirls.com.ua/ru/models/sendvalues/23/
+/data/home/girls_photos_main/photo/tn_image_(8)_1.jpg 4 https://sweetgirls.com.ua/ru/models/sendvalues/20/
+/data/home/girls_photos_main/photo/tn_img_0068-16-11-17-08-46.jpg 2 https://sweetgirls.com.ua/ru/models/sendvalues/10/
+/data/home/girls_photos_main/photo/tn_image_(7)_1.jpg 4 https://sweetgirls.com.ua/ru/models/sendvalues/20/
+/data/home/girls_photos_main/photo/tn_img_6022-10-06-17-06-50.jpg 3 https://sweetgirls.com.ua/ru/models/sendvalues/13/
+/data/home/girls_photos_main/photo/tn_18a09843-2bc1-48d2-855d-dc2c5c832d1a.jpg 3 https://sweetgirls.com.ua/ru/models/sendvalues/14/
+/ru/models/sendvalues/10/index.html 1 https://sweetgirls.com.ua/ru/models/sendvalues/8/
+/data/home/girls_photos_main/photo/tn_image_(2)_1.jpg 4 https://sweetgirls.com.ua/ru/models/sendvalues/20/
+/data/home/girls_photos_main/photo/tn_img_9466.jpg 6 https://sweetgirls.com.ua/ru/models/sendvalues/23/
+/data/home/girls_photos_main/photo/tn_img_1554.jpg 5 https://sweetgirls.com.ua/ru/models/sendvalues/22/
+/templates/jquerylightbox/images/lightbox-blank.gif 12 https://sweetgirls.com.ua/ru/models/sendvalues/14/
+/data/home/girls_photos_main/photo/tn_img_5384-21-05-17-07-38.jpg 2 https://sweetgirls.com.ua/ru/models/sendvalues/21/
+/data/home/girls_photos_main/photo/tn_img_5996-09-06-17-04-09.jpg 4 https://sweetgirls.com.ua/ru/models/sendvalues/12/
+/data/home/girls_photos_main/photo/tn_img_6076-10-06-17-11-57.jpg 1 https://sweetgirls.com.ua/ru/models/sendvalues/6/
+/data/home/girls_photos_main/photo/tn_img_5816-03-06-17-09-21.jpg 1 https://sweetgirls.com.ua/ru/models/sendvalues/7/
+/data/home/girls_photos_main/photo/tn_img_2040.jpg 2 https://sweetgirls.com.ua/ru/models/sendvalues/5/
+/data/home/girls_photos_main/photo/tn_img_2043.jpg 2 https://sweetgirls.com.ua/ru/models/sendvalues/5/
+/ru/models/sendvalues/1/ 2 https://sweetgirls.com.ua/ru/models/sendvalues/22/
+/forums/js/ajax.js 1 sweetgirls.com.ua
+/data/home/girls_photos_main/photo/tn_img_5815-03-06-17-09-21.jpg 1 https://sweetgirls.com.ua/ru/models/sendvalues/7/
+/data/home/girls_photos_main/photo/tn_img_6002-09-06-17-04-09.jpg 4 https://sweetgirls.com.ua/ru/models/sendvalues/12/
+/templates/popup/quickpay.php 10 https://sweetgirls.com.ua/ru/models/sendvalues/8/
+/data/home/girls_photos_main/photo/tn_img-20171211-wa0091.jpg 2 https://sweetgirls.com.ua/ru/models/sendvalues/4/
+/data/home/girls_photos_main/photo/full_img_5995-09-06-17-04-09.jpg 1 https://sweetgirls.com.ua/ru/models/sendvalues/12/
+/data/home/girls_photos_main/photo/full_img_0005-16-11-17-08-46.jpg 2 https://sweetgirls.com.ua/ru/models/sendvalues/10/
+/templates/jquerylightbox/images/lightbox-btn-next.gif 1 https://sweetgirls.com.ua/ru/models/sendvalues/10/
+/data/home/girls_photos_main/photo/tn_img-20171211-wa0090.jpg 2 https://sweetgirls.com.ua/ru/models/sendvalues/4/
+/data/home/girls_photos_main/photo/tn_img_2039.jpg 2 https://sweetgirls.com.ua/ru/models/sendvalues/5/
+/data/home/girls_photos_main/photo/tn_img_3928.jpg 5 https://sweetgirls.com.ua/ru/models/sendvalues/22/
+/data/home/girls_photos_main/photo/tn_img_2045.jpg 2 https://sweetgirls.com.ua/ru/models/sendvalues/5/
+/data/home/girls_photos_main/photo/tn_image(5)_1.jpg 6 https://sweetgirls.com.ua/ru/models/sendvalues/23/
+/data/home/girls_photos_main/photo/tn_img_2034.jpg 2 https://sweetgirls.com.ua/ru/models/sendvalues/5/
+/data/home/girls_photos_main/photo/tn_img_6003-09-06-17-04-09.jpg 4 https://sweetgirls.com.ua/ru/models/sendvalues/12/
+/data/home/girls_photos_main/photo/tn_img_5998-09-06-17-04-09.jpg 4 https://sweetgirls.com.ua/ru/models/sendvalues/12/
+/data/home/girls_photos_main/photo/tn_img_6013-09-06-17-04-21.jpg 3 https://sweetgirls.com.ua/ru/models/sendvalues/8/
+/ru/models/data/images/new/main-img.jpg 1 https://sweetgirls.com.ua/ru/models/index.html
+/ru/models/sendvalues/11/index.html 3 https://sweetgirls.com.ua/ru/models/sendvalues/8/
+/data/home/girls_photos_main/photo/tn_img_5995-09-06-17-04-09.jpg 4 https://sweetgirls.com.ua/ru/models/sendvalues/12/
+/data/home/girls_photos_main/photo/tn_img_1553.jpg 5 https://sweetgirls.com.ua/ru/models/sendvalues/22/
+/data/home/girls_photos_main/photo/tn_e299e3bf-98eb-4c18-91a6-a8cf8fe6db4d.jpg 3 https://sweetgirls.com.ua/ru/models/sendvalues/14/
+/ru/models/sendvalues/21/data/home/girls_photos_main/photo/tn_img_5383-21-05-17-07-38.jpg 2 https://sweetgirls.com.ua/ru/models/sendvalues/21/
+/ru/models/sendvalues/12/data/home/girls_photos_main/photo/tn_img_5997-09-06-17-04-09.jpg%22 4 https://sweetgirls.com.ua/ru/models/sendvalues/12/
+/data/home/girls_photos_main/photo/tn_img_5810-03-06-17-09-21.jpg 1 https://sweetgirls.com.ua/ru/models/sendvalues/7/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 154
+178.212.111.37 54 106 6455537 20191019114907
+46.39.55.151 15 45 3600823 20191007060121
+84.16.242.160 13 43 3334103 20191018152152
+207.102.138.158 12 18 1857357 20191015201319
+194.60.255.245 11 40 3930158 20191004164435
+85.206.165.20 10 10 197315 20191013095845
+88.231.134.41 10 37 3310323 20191007193009
+2.58.194.140 10 35 3294473 20191004170806
+77.123.43.49 9 36 3305203 20191010222834
+84.78.248.168 9 37 3499015 20191005131325
+91.204.86.9 5 30 3266711 20191001233233
+77.111.246.249 6 33 3273834 20191008183825
+84.17.58.17 2 2 39463 20191018041540
+46.133.231.208 5 35 3070963 20191019042117
+82.27.231.29 5 32 3136445 20191004221140
+109.86.85.179 5 30 3266711 20191010144237
+178.133.132.63 4 26 2922011 20191007205350
+142.93.132.111 1 1 5829 20191009101221
+171.25.193.77 4 25 2881188 20191009182430
+46.133.202.234 4 25 2613844 20191018170443
+31.52.14.37 1 8 500935 20191005210832
+138.246.253.5 2 2 354 20191011202854
+77.111.244.190 0 6 931270 
+77.111.247.180 5 26 2888156 20191015150407
+77.111.247.156 4 9 752792 20191010172456
+64.246.165.160 1 1 5829 20191008211304
+35.162.87.92 1 1 5829 20191011041602
+23.129.64.206 7 36 3527467 20191007000947
+40.77.188.118 1 2 376413 20191001131148
+40.77.189.205 0 1 36334 
+176.59.46.45 4 26 2922011 20191006133640
+91.89.129.61 4 26 2922175 20191008091347
+84.17.51.75 2 2 39463 20191003204351
+84.17.48.218 2 2 39463 20191003191102
+95.182.120.81 1 1 5829 20191008165541
+40.77.188.212 0 1 36334 
+40.77.188.15 1 1 193496 20191001131155
+31.13.115.6 0 3 250996 
+79.133.52.59 6 6 191475 20191014105012
+40.77.188.125 1 1 632375 20191016183233
+212.103.50.78 2 2 39463 20191001202446
+89.208.29.219 2 2 11658 20191007205345
+77.111.244.64 1 1 164117 20191009143744
+193.19.119.47 1 1 5829 20191004134205
+40.77.189.86 0 1 212296 
+192.99.168.71 1 1 26339 20191010080708
+94.45.41.226 5 30 3266711 20191005181116
+165.227.35.8 1 1 221 20191008130647
+31.173.84.101 3 18 1616350 20191004195634
+77.74.177.114 1 1 5829 20191007195346
+142.93.105.220 6 30 2947705 20191006135753
+95.67.120.162 4 26 2922011 20191006024555
+37.54.154.191 2 5 436948 20191017174257
+5.28.155.71 7 34 3210621 20191002141501
+93.159.230.28 1 1 5829 20191007205344
+34.218.247.75 1 1 5829 20191010040233
+40.77.188.194 1 1 193496 20191011112426
+40.77.189.60 1 1 164117 20191011112422
+46.211.231.178 3 14 2402387 20191003011521
+176.36.103.118 8 30 2944653 20191003011132
+49.144.170.206 4 26 2922011 20191008043408
+197.149.169.110 4 26 2922011 20191002163305
+162.213.36.131 1 1 5829 20191016225645
+134.209.26.39 1 4 429901 20191010025831
+167.99.212.214 2 2 9362 20191014133813
+77.111.247.52 0 3 265784 
+34.220.185.206 1 1 5829 20191003222250
+129.78.110.131 1 1 177 20191009123745
+92.60.179.7 5 29 2622304 20191002022007
+185.16.228.129 4 26 2922011 20191010012132
+77.111.244.81 4 25 2881188 20191015205028
+92.63.111.27 1 1 5829 20191006054127
+40.77.188.224 0 1 36334 
+176.59.39.69 4 26 2922011 20191005101554
+5.62.18.75 2 2 39463 20191003135802
+188.191.47.58 6 31 3273680 20191006112733
+52.42.148.30 1 1 5829 20191009035841
+37.204.243.154 3 25 2728515 20191015113748
+188.190.36.69 7 34 3293509 20191003105848
+77.111.247.63 1 1 6968 20191008210534
+185.6.9.208 1 1 26868 20191018193731
+77.111.244.37 6 28 3120739 20191007185052
+95.12.18.53 5 31 2985608 20191009032811
+173.193.191.203 1 1 5829 20191001214831
+40.77.188.136 1 1 193496 20191016183232
+91.213.231.119 7 37 3865870 20191003185727
+217.24.162.43 3 19 1699800 20191012130628
+94.153.197.90 6 31 3271831 20191009131947
+18.218.13.111 5 7 437281 20191002174459
+81.17.27.139 8 33 3278228 20191006181726
+51.158.97.148 1 1 5829 20191013115045
+31.223.125.205 4 26 2922011 20191013171056
+84.17.58.70 2 2 39463 20191015214852
+31.192.110.133 6 6 191475 20191003105011
+37.120.142.147 4 4 78926 20191013111417
+40.77.190.65 1 1 632375 20191011112427
+148.251.151.40 1 1 26339 20191014231857
+85.206.165.8 6 6 118389 20191016112535
+77.111.244.125 4 19 1949918 20191017000704
+94.244.178.161 6 31 3272540 20191018031533
+122.166.187.214 4 26 2922011 20191013090323
+109.248.149.19 4 4 78926 20191005185332
+68.183.70.249 7 34 2972279 20191001191837
+109.70.100.20 2 4 419794 20191009183015
+212.92.230.79 5 27 2926027 20191005214441
+77.111.244.40 2 4 315922 20191008223019
+109.173.85.172 2 5 436948 20191011203427
+40.77.190.56 0 1 212296 
+185.217.71.155 2 2 39463 20191018084859
+46.211.110.31 4 25 2613613 20191003133103
+69.28.93.116 1 1 5829 20191002051415
+178.162.198.118 4 24 2673770 20191019121438
+185.130.44.102 5 27 2928979 20191012140223
+94.75.148.26 5 30 3266711 20191007161810
+40.77.190.55 1 1 164117 20191016183228
+60.191.38.77 1 1 26339 20191011174722
+109.86.46.111 4 26 2922011 20191008133622
+45.132.192.23 2 2 39463 20191018024942
+146.185.200.153 2 2 11658 20191006220934
+46.4.33.48 1 1 26339 20191018114042
+5.62.18.37 2 2 39463 20191010072728
+157.51.96.46 4 26 2922011 20191011121017
+87.118.92.43 4 26 2922011 20191005163724
+178.158.248.67 2 2 39463 20191004173204
+95.133.128.228 6 28 2933831 20191018122521
+46.10.103.76 5 30 3266711 20191008062807
+31.42.67.181 5 30 3266711 20191007210749
+109.248.149.28 2 2 39463 20191010211348
+193.227.97.3 8 35 3283332 20191004114546
+40.77.188.211 1 1 7047 20191001131151
+40.77.188.44 1 1 7047 20191016183230
+104.244.76.142 6 32 3198148 20191005104315
+109.248.149.23 2 2 39463 20191008053718
+213.159.213.236 2 2 11658 20191013202010
+86.137.125.144 3 18 2059146 20191005210855
+85.206.165.25 2 2 39463 20191009065712
+5.62.18.49 2 2 39463 20191002030253
+31.13.115.7 4 12 1393811 20191012134148
+82.211.134.110 5 34 3464871 20191008205836
+77.111.244.77 4 9 752792 20191012212929
+104.248.43.220 5 26 2619442 20191004170106
+62.172.86.20 6 31 3272540 20191006004412
+52.33.14.85 1 1 5829 20191003193533
+51.91.178.22 6 31 3273680 20191017112101
+37.182.209.68 9 53 5234232 20191003222629
+81.132.23.117 1 5 470900 20191005210833
+95.152.62.128 1 1 26339 20191013001125
+213.184.235.195 5 30 3266711 20191014181408
+40.77.189.155 1 1 7047 20191011112423
+5.62.18.105 2 2 39463 20191016233406
+46.211.143.107 5 29 2929017 20191014020523
+31.13.115.20 0 11 1277204 
+178.133.116.15 5 29 2958313 20191014074505
+93.73.0.120 4 26 1193706 20191003132923
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 19
+20191001 19 73 6903401 8
+20191002 33 153 14780139 8
+20191003 51 185 16945981 14
+20191004 45 189 17925492 9
+20191005 42 213 21843830 11
+20191006 37 180 18633662 8
+20191007 56 236 23038101 10
+20191008 36 188 19411629 12
+20191009 27 103 10392955 10
+20191010 30 112 10787889 10
+20191011 15 42 4676432 10
+20191012 24 89 8461434 8
+20191013 15 59 5960945 7
+20191014 26 99 9420680 7
+20191015 20 86 9195904 6
+20191016 9 11 1330420 7
+20191017 12 61 6591816 3
+20191018 84 234 18742694 12
+20191019 16 66 5783490 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 2
+5mn-15mn 6
+0s-30s 123
+15mn-30mn 3
+2mn-5mn 14
+30s-2mn 12
+30mn-1h 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 25
+/ 189 1764313 134 41
+/templates/new/js/foundation.js@v=1.3.1 88 14442296 8 7
+/templates/new/js/app.js@v=1.4.7 87 613089 6 9
+/templates/new/fonts/icomoon/icomoon.ttf@5j2n32 79 15286184 4 33
+/ru/models/ 43 220160 3 20
+/ru/contacts/ 40 400277 1 28
+/ru/vacancy/ 15 104528 4 5
+/ru/services/ 14 56224 1 4
+/ru/models/sendvalues/23/ 6 27318 0 4
+/ru/models/sendvalues/22/ 5 21665 0 1
+/ru/models/sendvalues/21/ 2 8710 0 1
+/ru/models/sendvalues/6/ 1 4666 0 0
+/templates/new/fonts/icomoon/icomoon.svg@5j2n32 2 1264750 2 2
+/ru/models/sendvalues/8/ 2 9414 0 2
+/templates/new/fonts/icomoon/icomoon.woff@5j2n32 1 193572 0 0
+/ru/models/sendvalues/14/ 3 14805 0 1
+/ru/models/sendvalues/20/ 4 17880 0 0
+/ru/models/sendvalues/5/ 2 9142 0 0
+/ru/models/sendvalues/13/ 3 13809 0 1
+/data/home/girls_catalog_main/random_photo/ 1 568 0 0
+/ru/models/sendvalues/7/ 1 4720 0 0
+/ru/models/sendvalues/10/ 2 9360 0 0
+/ru/models/sendvalues/4/ 2 9640 0 1
+/templates/new/fonts/icomoon/icomoon.eot@5j2n32 1 193660 0 1
+/ru/models/sendvalues/12/ 4 18252 0 2
+END_SIDER

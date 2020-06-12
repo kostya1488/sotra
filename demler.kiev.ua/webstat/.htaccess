@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "/www/demler.kiev.ua/webstat"
+AuthUserFile /var/www/krater1/data/etc/99098349.passwd
+DirectoryIndex index.html
+<Limit GET POST>
+	require valid-user
+</Limit>

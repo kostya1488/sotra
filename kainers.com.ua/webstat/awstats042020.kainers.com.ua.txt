@@ -1,0 +1,599 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 202004 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.kainers.com.ua.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1994                
+POS_TIME 2677                
+POS_VISITOR 11246               
+POS_DAY 16792               
+POS_DOMAIN 3452                
+POS_LOGIN 3685                
+POS_ROBOT 3840                
+POS_WORMS 4380                
+POS_EMAILSENDER 4511                
+POS_EMAILRECEIVER 4654                
+POS_SESSION 17586               
+POS_SIDER 17787               
+POS_FILETYPES 4789                
+POS_DOWNLOADS 5002                
+POS_OS 5073                
+POS_BROWSER 5199                
+POS_SCREENSIZE 6435                
+POS_UNKNOWNREFERER 6509                
+POS_UNKNOWNREFERERBROWSER 6728                
+POS_ORIGIN 6831                
+POS_SEREFERRALS 6973                
+POS_PAGEREFS 7141                
+POS_SEARCHWORDS 7444                
+POS_KEYWORDS 7596                
+POS_MISC 2340                
+POS_ERRORS 7655                
+POS_CLUSTER 3541                
+POS_SIDER_404 7755                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20200430221518 173 42668 11981942557361
+FirstTime 20200401115603
+LastTime 20200430213315
+LastUpdate 20200501042848 173 0 173 0 0
+TotalVisits 176                 
+TotalUnique 125                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 139                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 70 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 4 8 15562
+1 2 3 135172 5 9 76655
+2 1 11 142595 5 13 30660
+3 0 0 0 10 16 54787
+4 4 28 1606029 7 15 59116
+5 5 7 169989 7 13 24406
+6 9 45 1699699 34 44 92857
+7 6 7 82725 12 17 45708
+8 5 37 1807248 8 19 1808653
+9 4 26 1398761 5 9 43395
+10 17 170 8914767 4 15 70957
+11 25 243 15423275 2 19 180120
+12 54 314 17830955 9 26 59579
+13 25 281 17160869 7 63 1125661
+14 11 91 6011747 4 13 967810
+15 29 240 16353045 5 24 199327
+16 22 226 13669525 6 34 362165
+17 21 203 14209032 13 21 12050
+18 8 80 4319484 4 13 33680
+19 11 71 5134534 2 13 19171
+20 7 18 2217619 3 15 249715
+21 6 29 1379940 7 12 16810
+22 6 25 2090635 3 13 25083
+23 4 52 2825059 3 11 17476
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 282 2207 134582704
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 11
+googlebot 134 1829613 20200430013818 29
+bot[\s_+:,\.\;\/\\-] 45 100262 20200429054638 30
+msnbot 33 3196880 20200429080925 1
+yandex 27 104144 20200430053244 16
+crawl 6 17772 20200419121851 1
+python 5 27692 20200418213931 1
+no_user_agent 3 81954 20200411044335 0
+[\s_+:,\.\;\/\\-]bot 3 20550 20200430004251 0
+cfnetwork 3 28194 20200410115758 0
+unknown 2 628 20200414100005 2
+netcraft 2 54636 20200404102629 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+css 457 22394912 0 0
+png 322 4216770 0 0
+env 1 744 0 0
+2 4 610336 0 0
+html 277 6642737 0 0
+js 761 11491651 0 0
+jpg 371 89186606 0 0
+svg 14 38948 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 80 0 26088
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 8
+linuxandroid 457
+winxp 12
+winnt 602
+winvista 89
+linux 63
+win7 228
+macosx 753
+Unknown 3
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 62
+firefox57.0 3
+chrome67.0.3396.87 1
+msie6.0 2
+chrome40.0.2214.115 11
+safari11.0 31
+chrome80.0.3987.163 313
+chrome72.0.3626.121 1
+chrome81.0.4044.113 45
+chrome79.0.3945.79 30
+chrome39.0.2171.95 2
+chrome81.0.4044.129 11
+firefox54.0 1
+chrome58.0.3029.110 2
+msie8.0 2
+chrome75.0.3770.143 80
+chrome80.0.3987.87 31
+chrome26.0.1410.65 1
+firefox59.0 1
+chrome71.0.3578.80 2
+chrome40.0.2214.85 2
+safari13.0.4 13
+chrome81.0.4044.111 48
+chrome74.0.3729.169 65
+chrome70.0.3538.102 24
+chrome71.0.3578.141 31
+msie9.0 20
+safari13.0.1 49
+chrome75.0.3770.142 18
+chrome54.0.2840.98 1
+Unknown 1
+chrome77.0.3865.116 24
+safari13.0.5 398
+safari13.1 50
+chrome80.0.3987.162 195
+chrome69.0.3497.128 3
+chrome81.0.4044.92 72
+firefox72.0 23
+safari10.0 8
+chrome68.0.3440.106 1
+chrome60.0.3112.107 1
+chrome54.0.2840.99 2
+chrome80.0.3987.149 205
+chrome81.0.4044.122 55
+firefox45.0 1
+firefox47.0 9
+chrome81.0.4044.96 24
+chrome54.0.2840.71 1
+firefox68.0 1
+chrome36.0.1985.143 96
+firefox33.0 1
+chrome78.0.3904.97 1
+mozilla 2
+chrome45.0.2454.101 11
+netscape5.0 1
+chrome51.0.2704.106 10
+chrome80.0.3987.132 70
+chrome77.0.3865.129 1
+safari12.1.2 48
+chrome69.0.3497.100 1
+chrome66.0.3359.170 1
+chrome73.0.3683.90 1
+safari 48
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Mozilla/5.0 20200425221043
+Mozilla/5.0_(Android_8.0.0;_Mobile;_rv:61.0)_Gecko/61.0_Firefox/68.0 20200404222413
+AGENT 20200422155347
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+AGENT 20200422155347
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 90 129
+From1 1 1
+From2 59 62
+From3 25 25
+From4 107 1990
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 57 60
+yandex 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 3
+http://anti-crisis-seo.com 23 23
+http://trudbox.com.ua/company/kayners 1 1
+http://domkadrov.ua/agency/Rekrutingovoe-agenstvo-Kajners-499/contacts.html 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+403 3 1476
+404 119 47102
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 98
+/bl/license.txt 1 http://kainers.com.ua/bl/license.txt
+/wordpress/ 1 -
+/api/.env 1 -
+/manager/ 1 -
+/info/license.txt 1 http://kainers.com.ua/info/license.txt
+/vendor/.env 1 -
+/new1/license.txt 2 http://kainers.com.ua/new1/license.txt
+/inf/license.txt 1 http://kainers.com.ua/inf/license.txt
+/ht.access 1 http://kainers.com.ua/ht.access
+/new/ 1 -
+/bak/ 1 -
+/laravel/.env 1 -
+/b/license.txt 1 http://kainers.com.ua/b/license.txt
+/blogs/license.txt 1 http://kainers.com.ua/blogs/license.txt
+/web/ 1 -
+/2/license.txt 1 http://kainers.com.ua/2/license.txt
+/arx/license.txt 1 http://kainers.com.ua/arx/license.txt
+/xmlrpc.php 2 -
+/horde/imp/test.php 1 -
+/old/ 1 -
+/backup/license.txt 1 http://kainers.com.ua/backup/license.txt
+/dev/license.txt 1 http://kainers.com.ua/dev/license.txt
+/phpmyadmin/ 1 http://kainers.com.ua/phpmyadmin/
+/main/ 1 -
+/bk/ 1 -
+/wordpress/license.txt 1 http://kainers.com.ua/wordpress/license.txt
+/sito/ 1 -
+/workspace/drupal/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/test/ 1 -
+/2019/ 1 -
+/wp2/ 1 -
+/site/license.txt 2 http://kainers.com.ua/site/license.txt
+/js/respond.min.js 3 -
+/js/jqbootstrapvalidation.js 1 -
+//.env 1 -
+/2017/license.txt 1 http://kainers.com.ua/2017/license.txt
+/system/.env 1 -
+/phpMyAdmin/scripts/setup.php 1 -
+/sites/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/public/.env 1 -
+/login 1 -
+/cgi-bin/test-cgi 1 -
+/wp-login.php 5 -
+/wordpress/wp-admin/install.php 1 -
+/old/license.txt 1 http://kainers.com.ua/old/license.txt
+/app-ads.txt 1 http://kainers.com.ua/app-ads.txt
+/wp/license.txt 2 http://kainers.com.ua/wp/license.txt
+/2020/license.txt 1 http://kainers.com.ua/2020/license.txt
+/2018/license.txt 1 http://kainers.com.ua/2018/license.txt
+/login.action 1 -
+/12/license.txt 1 http://kainers.com.ua/12/license.txt
+/back/license.txt 1 http://kainers.com.ua/back/license.txt
+/2019/license.txt 1 http://kainers.com.ua/2019/license.txt
+/2018/ 1 -
+/test1/license.txt 1 http://kainers.com.ua/test1/license.txt
+/wp1/ 1 -
+/console 1 -
+/2015/license.txt 1 http://kainers.com.ua/2015/license.txt
+/phpmyadmin/scripts/setup.php 1 -
+/wp-admin/admin-ajax.php 1 -
+/blog/ 1 -
+/site/ 1 -
+/js/html5shiv.js 4 -
+/license.txt 1 -
+/www/license.txt 2 http://kainers.com.ua/www/license.txt
+/.env 1 -
+/wp/ 1 -
+/js/mage/cookies.js 1 -
+/tmp/ 1 -
+/1/license.txt 2 http://kainers.com.ua/1/license.txt
+/sites/.env 1 -
+/v1/ 1 -
+/2014/license.txt 1 http://kainers.com.ua/2014/license.txt
+/drupal/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/shop/.env 1 -
+/ads.txt 1 http://kainers.com.ua/ads.txt
+/2020/ 1 -
+//vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/demo/ 1 -
+/w/license.txt 1 http://kainers.com.ua/w/license.txt
+/v2/ 1 -
+/backup/ 1 -
+/simpla/ 1 -
+/tmp/license.txt 2 http://kainers.com.ua/tmp/license.txt
+/old-wp/ 1 -
+/atutor/index.php 1 -
+/test/license.txt 3 http://kainers.com.ua/test/license.txt
+/blog/.env 1 -
+/temp/ 3 http://kainers.com.ua/temp/
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/test/.env 1 -
+/+/ 1 -
+/cms/ 1 -
+/dev/ 1 -
+/phpMyAdmin/ 1 http://kainers.com.ua/phpMyAdmin/
+/home/ 1 -
+/sites/default/libraries/mailchimp/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/old-site/ 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 139
+131.220.6.152 30 30 205500 20200430123842
+93.74.99.208 16 174 8885446 20200429151718
+91.224.222.210 7 67 6844251 20200410102140
+31.41.69.32 6 56 4310728 20200420174423
+93.73.63.228 5 49 2695100 20200421214633
+178.150.24.116 5 55 4303878 20200408173130
+3.135.190.241 4 18 400147 20200406064458
+91.202.131.21 4 26 1357825 20200430184455
+193.104.85.187 4 32 2959753 20200420153822
+194.44.228.210 4 4 27400 20200423192407
+92.98.104.139 2 24 1424736 20200421180616
+178.54.69.45 2 24 1344125 20200415110919
+176.37.170.189 2 24 1344125 20200422084147
+64.225.23.126 1 1 6850 20200416150913
+40.77.167.37 0 1 23890 
+78.190.224.104 1 2 128322 20200404150630
+138.246.253.5 2 2 532 20200406201951
+41.227.42.208 1 2 128322 20200423170132
+64.246.165.160 1 1 6850 20200423080738
+62.80.176.146 2 24 1344125 20200423165053
+209.208.108.205 1 1 6850 20200423060557
+46.133.4.23 2 24 1344125 20200406151409
+79.141.252.147 2 24 1344125 20200414192126
+46.211.246.178 2 24 1344125 20200401123146
+188.163.82.164 2 24 1344125 20200430132718
+138.68.65.168 1 1 6850 20200403045036
+23.108.47.135 1 1 6850 20200404101843
+188.163.80.174 3 45 1975107 20200407130332
+93.72.119.217 1 21 630982 20200422130032
+109.93.231.243 1 3 157225 20200402204057
+82.207.68.54 3 31 2959753 20200425134124
+93.183.208.50 2 24 1344125 20200401115604
+46.119.10.187 2 24 1344125 20200403151538
+41.101.23.126 1 1 6850 20200402211121
+46.211.233.169 2 24 1344125 20200416233238
+195.142.189.237 1 2 128322 20200424200746
+78.161.242.191 1 2 128322 20200428135053
+176.88.122.134 1 5 217796 20200419134000
+42.157.195.85 1 1 6850 20200425221043
+92.244.119.216 2 24 1344125 20200430131414
+176.37.29.85 2 9 1792416 20200422191713
+188.115.131.142 1 1 27318 20200413190608
+207.46.13.229 0 1 6142 
+146.120.101.5 2 24 1344125 20200401152759
+185.195.24.52 1 1 289 20200403153127
+88.155.8.101 1 13 450206 20200401155134
+176.36.158.80 2 24 1344125 20200406104724
+37.73.189.96 2 24 1344125 20200406105539
+5.176.84.88 1 2 128322 20200425175455
+207.46.13.212 0 1 8415 
+31.128.238.36 2 24 1344125 20200422162925
+109.251.164.51 0 1 28194 
+212.90.60.104 2 24 1344125 20200413174218
+209.208.111.254 1 1 6850 20200430065149
+207.46.13.75 0 1 36868 
+88.155.14.231 2 24 1344125 20200415164501
+128.124.0.50 2 24 1344125 20200413123136
+31.148.23.126 2 24 1344125 20200406160240
+185.254.70.34 1 1 6850 20200424141118
+212.90.62.21 3 35 2578614 20200430195907
+37.214.46.83 2 24 1424736 20200423234319
+93.72.121.38 2 24 1344125 20200422135147
+176.37.179.190 1 8 1643822 20200420152800
+134.255.238.46 1 10 136509 20200422024031
+158.148.242.150 2 23 1078264 20200416160442
+195.191.126.1 2 24 1344125 20200417152712
+213.74.42.78 1 9 299048 20200427081618
+212.90.62.176 3 31 2959753 20200417173018
+207.46.13.56 0 3 81705 
+81.162.252.14 2 24 1344125 20200406160715
+31.5.12.144 1 8 293773 20200410120944
+167.172.19.168 1 1 6850 20200409150126
+93.79.166.245 3 45 1975107 20200421135736
+5.44.169.3 2 2 27584 20200405054831
+188.143.169.29 2 2 54636 20200405092538
+173.249.22.173 1 11 267234 20200430213315 20200430213315 /
+85.106.99.142 1 2 128322 20200422114314
+54.80.248.255 1 1 27318 20200426134713
+140.238.84.131 2 2 54636 20200421075426
+179.113.218.36 2 24 1424736 20200423040458
+177.232.87.120 2 24 1424736 20200419165002
+193.222.140.239 1 2 128322 20200408202206
+91.198.233.31 2 24 1344125 20200402173332
+207.46.13.129 0 4 150501 
+178.62.244.209 1 1 744 20200430174120
+45.140.207.149 1 1 27318 20200428192719
+37.147.239.182 1 23 1272152 20200420061050
+194.246.117.206 3 31 2959753 20200430132828
+176.100.191.73 1 1 27318 20200402195429
+194.36.188.199 1 1 27318 20200422155347
+78.182.13.202 1 2 128322 20200402160316
+46.98.129.72 0 1 197088 
+40.77.167.15 0 1 20947 
+94.153.26.157 3 31 2959753 20200405124819
+157.55.39.89 0 1 36868 
+66.150.70.210 3 3 15097 20200404101850
+51.77.249.202 2 2 13700 20200420064729
+134.122.54.200 2 2 13700 20200422045610
+176.36.32.56 2 26 1738301 20200421124236
+91.193.166.97 2 23 1078264 20200410114541
+188.115.128.163 1 1 27318 20200415220720
+185.130.54.196 4 32 2959753 20200429221420
+88.254.211.99 1 2 128322 20200409220027
+162.213.36.39 1 1 6850 20200401163651
+88.155.98.124 3 31 2959753 20200413121515
+5.44.170.165 1 7 286806 20200414140245
+37.73.212.21 2 24 1344125 20200423101740
+185.11.29.190 2 24 1344125 20200407114824
+94.158.94.167 2 24 1344125 20200407113618
+207.46.13.169 0 3 19776 
+31.206.135.24 1 2 128322 20200417054501
+94.153.108.66 2 24 1344125 20200410115809
+51.158.190.214 1 1 6850 20200404222413
+60.191.38.77 1 1 27318 20200403172810
+18.236.105.200 1 1 6850 20200425214511
+46.211.221.173 2 24 1344125 20200407104453
+46.133.190.2 2 24 1344125 20200428121112
+37.73.81.53 2 23 1078264 20200422185046
+176.88.80.185 1 8 293773 20200404111032
+93.126.115.250 2 24 1344125 20200417170853
+46.211.137.62 2 25 1372319 20200410120024
+193.148.18.251 4 4 21947 20200407073233
+54.146.44.131 0 1 28194 
+81.95.177.90 4 48 2688250 20200405135601
+105.103.165.135 1 2 128322 20200406014604
+31.173.85.213 1 1 27318 20200411115451
+91.196.150.159 1 1 6850 20200403125818
+88.254.179.122 1 1 6850 20200413050608
+93.73.210.144 2 24 1344125 20200430145006
+178.150.228.139 3 31 2959753 20200417164211
+77.111.244.59 4 32 2966603 20200422145633
+194.0.88.126 1 13 1270505 20200402174933
+94.154.224.234 2 24 1344125 20200423102009
+157.55.39.64 0 2 137692 
+37.73.141.11 2 24 1344125 20200414181824
+188.163.75.111 2 24 1344125 20200421150959
+79.173.90.153 1 1 6850 20200425065030
+178.166.140.79 1 3 157225 20200421083455
+40.77.167.190 0 2 57815 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20200401 9 88 4693369 6
+20200402 8 45 2941195 7
+20200403 9 31 1399398 8
+20200404 12 64 3145992 7
+20200405 12 84 5737073 6
+20200406 19 166 8600335 10
+20200407 14 122 6036279 6
+20200408 13 102 9946026 6
+20200409 5 28 1486147 4
+20200410 13 132 6846819 7
+20200411 2 2 34168 2
+20200412 3 27 1396258 2
+20200413 10 82 5689021 6
+20200414 6 56 2981906 4
+20200415 6 50 2722418 4
+20200416 8 77 3300041 6
+20200417 12 114 8749014 6
+20200418 1 1 6850 1
+20200419 5 31 1656232 4
+20200420 15 127 10271618 8
+20200421 18 176 9182606 11
+20200422 20 173 11003577 12
+20200423 15 126 7037569 10
+20200424 3 5 339110 3
+20200425 8 37 3115475 6
+20200426 2 3 62362 2
+20200427 2 10 305898 2
+20200428 5 31 1592624 4
+20200429 9 63 4437204 5
+20200430 18 154 9866120 11
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+5mn-15mn 5
+0s-30s 159
+15mn-30mn 2
+30s-2mn 4
+2mn-5mn 3
+30mn-1h 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 7
+/ 185 1507021 168 100
+/fonts/fontawesome-webfont.woff2@v=4.6.2.html 71 5110083 3 56
+/uslugi/internet.html 17 20955 2 11
+/fonts/fontawesome-webfont.ttf@v=4.6.2 4 610336 0 4
+/uslugi/reklama.html 2 2386 2 1
+/uslugi/reklamasmi.html 2 2292 0 2
+/admin/.env 1 744 1 1
+END_SIDER

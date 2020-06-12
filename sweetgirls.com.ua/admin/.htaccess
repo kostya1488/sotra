@@ -1,0 +1,8 @@
+ErrorDocument 500 /error.php
+
+Order Deny,Allow
+Deny from all
+Allow from 0.0.0.0-245.245.245.245
+ForceType application/x-httpd-php
+ForceType application/x-httpd-php
+

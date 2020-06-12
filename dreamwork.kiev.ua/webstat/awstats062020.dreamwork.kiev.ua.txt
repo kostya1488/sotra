@@ -1,0 +1,1642 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 202006 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.dreamwork.kiev.ua.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1997                
+POS_TIME 2669                
+POS_VISITOR 28676               
+POS_DAY 50682               
+POS_DOMAIN 3544                
+POS_LOGIN 3778                
+POS_ROBOT 3933                
+POS_WORMS 4436                
+POS_EMAILSENDER 4567                
+POS_EMAILRECEIVER 4710                
+POS_SESSION 51076               
+POS_SIDER 51285               
+POS_FILETYPES 4845                
+POS_DOWNLOADS 5111                
+POS_OS 5182                
+POS_BROWSER 5351                
+POS_SCREENSIZE 7615                
+POS_UNKNOWNREFERER 7689                
+POS_UNKNOWNREFERERBROWSER 7825                
+POS_ORIGIN 7933                
+POS_SEREFERRALS 8079                
+POS_PAGEREFS 8258                
+POS_SEARCHWORDS 21627               
+POS_KEYWORDS 21779               
+POS_MISC 2333                
+POS_ERRORS 21838               
+POS_CLUSTER 3634                
+POS_SIDER_404 22021               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20200612043036 1504 308723 8270516310376
+FirstTime 0
+LastTime 20200612043033
+LastUpdate 20200612043426 1504 0 1504 0 0
+TotalVisits 188                 
+TotalUnique 141                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 778                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 7 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 35 260 12066270 40 150 2062010
+1 45 423 20878662 26 33 286126
+2 165 345 10506272 19 22 58840
+3 155 446 15573141 31 48 643006
+4 177 412 12283030 7 12 176085
+5 191 372 9716820 26 32 466462
+6 206 327 6651872 21 58 2038603
+7 134 379 13015581 7 35 1056834
+8 69 215 8304016 13 19 272330
+9 34 236 11628479 6 77 3240744
+10 22 179 8992800 15 42 1152913
+11 30 200 9872985 41 47 1766605
+12 33 198 9526485 13 14 76629
+13 26 361 18475309 21 36 918459
+14 13 58 3336562 3 12 406423
+15 65 206 7967029 10 22 245641
+16 61 277 12345563 13 21 227410
+17 18 348 17900874 29 40 315114
+18 21 257 13315403 21 33 515380
+19 4 94 5279204 16 25 482738
+20 9 145 7287494 14 17 259471
+21 6 160 8582644 8 12 162627
+22 30 306 14929724 23 30 631365
+23 30 427 21547407 42 52 799786
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 1579 6631 279983098
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 10
+bot[\s_+:,\.\;\/\\-] 269 8508413 20200611181021 58
+wordpress 154 37208 20200612043036 0
+yandex 83 1881945 20200611202237 25
+googlebot 40 989828 20200612013434 10
+mail\.ru 9 111508 20200603150926 5
+facebook 3 215238 20200609132532 0
+python 2 44084 20200606234909 0
+favicon 2 44083 20200607160337 0
+no_user_agent 1 99917 20200605225623 0
+netcraft 1 99917 20200606001656 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+eot 11 1373416 0 0
+css 1146 82953546 0 0
+png 338 3541729 0 0
+woff 66 5341512 0 0
+php 1302 1030407 0 0
+html 190 6350242 0 0
+xml 1 1292 0 0
+jpg 1090 87244951 0 0
+js 2478 92121736 0 0
+Unknown 9 23739 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 98 1 62262
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 11
+linuxandroid 1650
+winxp 9
+winlong 3
+winnt 1189
+win2000 1176
+linuxubuntu 2
+linux 100
+winvista 152
+win7 706
+macosx 1603
+Unknown 42
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 117
+firefox28.0 2
+firefox66.0 4
+msie6.0 1177
+firefox74.0 1
+chrome81.0.4044.117 941
+chrome79.0.4100.0 1
+chrome81.0.4044.83 1
+chrome80.0.3987.122 3
+chrome83.0.4103.101 3
+chrome81.0.4044.129 74
+safari5.0 1
+chrome74.0.3729.157 1
+firefox34.0 1
+chrome79.0.3945.117 1
+chrome58.0.3029.110 1
+chrome83.0.4103.97 379
+msie8.0 1
+chrome75.0.3770.143 321
+chrome77.0.3865.120 2
+chrome80.0.3987.87 2
+firefox73.0 2
+firefox59.0 1
+chrome79.0.3945.130 3
+chrome71.0.3578.80 1
+chrome70.0.3538.102 11
+safari13.1.1 70
+chrome71.0.3578.141 4
+chrome49.0.2623.112 3
+safari13.0.1 2
+safari13.0.5 445
+netscape 2
+safari13.1 477
+chrome41.0.2224.3 1
+chrome55.0.2883.87 2
+chrome80.0.3987.162 6
+firefox72.0 2
+chrome76.0.3809.132 2
+chrome68.0.3440.106 8
+chrome78.0.3904.62 1
+firefox77.0 8
+chrome77.0.3865.92 1
+safari13.0 16
+chrome74.0.3729.136 1
+chrome62.0.3202.94 1
+firefox38.0 6
+chrome80.0.3987.116 1
+chrome78.0.3904.87 1
+chrome81.0.4044.122 61
+chrome60.0.3112.113 43
+chrome81.0.4044.96 13
+chrome83.0.4103.83 95
+firefox68.0 8
+chrome36.0.1985.143 1
+mozilla 609
+netscape5.0 61
+chrome79.0.3945.136 5
+safari12.1.1 1
+firefox3.6.3 1
+chrome41.0.2228.0 1
+chrome60.0.3112.90 1
+safari12.1.2 72
+safari11.1.2 1
+safari 253
+chrome81.0.4404.87 1
+chrome67.0.3396.87 12
+firefox71.0 9
+safari7.0 3
+safari11.0 6
+chrome66.0.3359.139 3
+chrome79.0.3945.59 1
+chrome38.0.1025.166 1
+chrome47.5.2526.111 1
+safari12.0 3
+chrome71.0.3578.98 2
+chrome78.0.3882.0 3
+chrome53.0.2802.22 1
+chrome57.0.2987.108 4
+iphone 53
+chrome61.0.3163.100 2
+chrome38.0.2125.122 1
+abrowse 2
+safari13.0.4 49
+chrome53.0.2785.116 1
+chrome83.0.4103.61 540
+chrome71.0.3578.99 69
+chrome58.0.1145.75 2
+safari13.0.3 3
+chrome66.0.3359.158 1
+Unknown 40
+chrome57.0.2987.137 1
+chrome73.0.3683.75 1
+chrome80.0.3987.99 1
+chrome70.0.3538.77 2
+chrome63.0.3239.111 1
+chrome83.0.4103.96 21
+safari10.0 8
+firefox69.0 1
+chrome78.0.3904.108 7
+chrome36.0.1985.67 1
+firefox76.0 123
+chrome41.0.2227.0 1
+chrome80.0.3987.149 3
+firefox56.0 1
+chrome38.0.2125.102 59
+chrome79.0.3945.88 2
+chrome74.0.3729.131 1
+chrome61.0.3163.79 1
+safari9.0 1
+chrome81.0.4044.138 265
+msie10.0 1
+chrome79.0.3945.116 1
+chrome80.0.3987.132 84
+chrome70.0.3538.110 3
+chrome69.0.3497.100 2
+chrome66.0.3359.170 2
+chrome64.0.3282.140 3
+chrome75.0.3770.100 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Mozilla 20200603010923
+cortex/1.0 20200609131125
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+cortex/1.0 20200609131125
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 1256 1363
+From1 2 2
+From2 74 116
+From3 2 651
+From4 245 4500
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 71 72
+yandex 2 43
+yahoo 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 209
+http://modelsjobadviser.com/index.php 1 1
+https://builtwith.com 1 1
+https://mebeldavinci.ru/product/tumbochka-s-vydvizhnym-yashhikom-i-steklyannymi-panelyami-kfc763/ 0 2
+https://mebeldavinci.ru/product/stul-na-metallicheskom-karkase-bezhevyj-s-chernym-30c-955/ 0 1
+https://mebeldavinci.ru/product/palazzo-ducale/ 0 1
+https://mebeldavinci.ru/product/divan-albachiara/ 0 1
+https://mebeldavinci.ru/katalog/mebel-dlja-spalni/soft-beds/ 0 1
+https://mebeldavinci.ru/product/divan-simpatico/ 0 1
+https://mebeldavinci.ru/katalog/manufacturer/sma/0/page/389/ 0 1
+https://mebeldavinci.ru/product/stellazh-s-chernym-steklom-zolotoj-46as-sh1452-gold/ 0 1
+https://mebeldavinci.ru/product/stolik-zhurnalnyj-s-prozrachnym-steklom-tsvet-hrom-47ed-et031/ 0 1
+https://mebeldavinci.ru/product/vaza-podsvechnik-steklyannaya-ac6003950-2/ 0 1
+https://mebeldavinci.ru/product/komod-olis/ 0 2
+https://mebeldavinci.ru/product/dekor-nastennyj-tsvety-37sm-0930/ 0 1
+https://mebeldavinci.ru/product/servant-vitrina-roma-2/ 0 1
+https://mebeldavinci.ru/product/krovat-andrea-s-podemnym-mehanizmom-sero-golubaya-andrea1k-160m-vel12/ 0 2
+https://mebeldavinci.ru/product/afrodita/ 0 1
+https://mebeldavinci.ru/product/divan-grande-plain/ 0 1
+https://mebeldavinci.ru/product/konsol-prozrachnoe-steklo-hrom-47ed-cst008/ 0 1
+https://mebeldavinci.ru/product/kuhnya-excluciva/ 0 1
+https://mebeldavinci.ru/katalog/manufacturer/sma/0/page/396/ 0 1
+https://mebeldavinci.ru/product/chester/ 0 1
+https://mebeldavinci.ru/product/kashpo-tsvet-mednyj-zs-c899-23g/ 0 1
+https://mebeldavinci.ru/product/stol-obedennyj-raskladnoj-victory-1600-2100h900h760-mok/ 0 1
+https://mebeldavinci.ru/product/althea/ 0 1
+https://mebeldavinci.ru/katalog/mebel-dla-kuhni/stolovye-gruppy/stolovye-gruppy-modern/ 0 1
+https://mebeldavinci.ru/product/benares/ 0 1
+https://mebeldavinci.ru/product/zhurnalnyj-stolik-kruglyj-serebryanyj-13rxfs5080m-silver/ 0 1
+https://mebeldavinci.ru/product/mezzaluna-art-m402/ 0 1
+https://mebeldavinci.ru/katalog/kuhni/loft/ 0 2
+https://mebeldavinci.ru/product/stol-delon/ 0 1
+https://mebeldavinci.ru/product/divan-mestre-179/ 0 2
+https://mebeldavinci.ru/all/page/80/ 0 2
+https://mebeldavinci.ru/product/modulnyj-divan-klaus/ 0 2
+https://mebeldavinci.ru/product/svetilnik-potolochnyj-izyashhnyj-hrom-20md3231-3ni/ 0 1
+https://mebeldavinci.ru/product/forever-2/ 0 1
+https://mebeldavinci.ru/product/kreslo-seroe-styoganoe-velyurovoe-fc-32gr/ 0 1
+https://mebeldavinci.ru/product/kuhnya-mya/ 0 1
+https://mebeldavinci.ru/product/prihozhaya-kollektsiya-zhasmin/ 0 1
+https://mebeldavinci.ru/product/11353/ 0 1
+https://mebeldavinci.ru/product/manchester/ 0 1
+https://mebeldavinci.ru/brand/mossman/ 0 1
+https://mebeldavinci.ru/product/dolce-vita/ 0 1
+https://mebeldavinci.ru/product/spalnya-kollektsiya-opera/ 0 1
+https://mebeldavinci.ru/product/regan-myagkaya-krovat/ 0 1
+https://mebeldavinci.ru/katalog/manufacturer/sma/0/page/386/ 0 1
+https://mebeldavinci.ru/product/konsolnyj-stolik-east-hampton-demilune/ 0 1
+https://mebeldavinci.ru/product/tumbochka-prikrovatnaya-belaya-31pl-839ns/ 0 2
+https://mebeldavinci.ru/katalog/manufacturer/mz/0/page/532/ 0 1
+https://mebeldavinci.ru/katalog/manufacturer/sma/0/page/372/ 0 1
+https://mebeldavinci.ru/product/prihozhaya-kollektsiya-panamar/ 0 2
+https://mebeldavinci.ru/brand/unico/ 0 1
+https://mebeldavinci.ru/product/spalnya-sahara/ 0 1
+https://mebeldavinci.ru/katalog/mjagkaja-mebel/kresla/ 0 1
+https://mebeldavinci.ru/katalog/kuhni/klassika/ 0 1
+https://mebeldavinci.ru/brand/maxdivani/ 0 1
+https://mebeldavinci.ru/katalog/kuhni/closeout/ 0 2
+https://mebeldavinci.ru/product/riviera-3/ 0 1
+https://mebeldavinci.ru/product/kuhnya-adele-likvidatsiya/ 0 5
+https://mebeldavinci.ru/product/arthur/ 0 1
+https://mebeldavinci.ru/katalog/manufacturer/sma/0/page/369/ 0 1
+https://mebeldavinci.ru/katalog/mjagkaja-mebel/kresla/page/8/ 0 1
+https://mebeldavinci.ru/product/zhurnalnyi-stol-topaz/ 0 1
+https://mebeldavinci.ru/katalog/mebel-dlja-spalni/ 0 3
+https://mebeldavinci.ru/product/krovat-da-do/ 0 1
+https://mebeldavinci.ru/product/krovat-dvuspalnaya-s-zerkalnymi-vstavkami-rozovo-seraya-kfe007-69/ 0 1
+https://mebeldavinci.ru/product/prihozhaya-kollektsiya-dzhokonda/ 0 1
+https://mebeldavinci.ru/product/divan-grande-mist/ 0 1
+https://mebeldavinci.ru/novinki/ 0 1
+https://mebeldavinci.ru/brand/81/ 0 1
+https://mebeldavinci.ru/product/stol-zhurnalnyj-kruglyj-57el-ct392d/ 0 1
+https://mebeldavinci.ru/product/capanni-3527-zerkalo/ 0 1
+https://mebeldavinci.ru/product/capanni-3823-bufet/ 0 1
+https://mebeldavinci.ru/product/divan-krovat-lancaster/ 0 2
+https://mebeldavinci.ru/product/banketka-velyurovaya-izumrudnaya-47ed-ben005gold-em/ 0 1
+https://mebeldavinci.ru/product/divan-1141-grande-mist/ 0 1
+https://mebeldavinci.ru/product/krovat-odnospalnaya-bezhevaya-barhatnaya-n-bs2022-90bg/ 0 2
+https://mebeldavinci.ru/product/divan-uglovoj-kalinka-72/ 0 1
+https://mebeldavinci.ru/all/page/94/ 0 2
+https://mebeldavinci.ru/brand/vinotti/ 0 4
+https://mebeldavinci.ru/product/divan-bekker-plain/ 0 1
+https://mebeldavinci.ru/product/ruchnaya-lupa-v-kozhanom-futlyare-ik45888/ 0 1
+https://mebeldavinci.ru/product/stolik-steklyannyj-pryamougolnyj-gy-ct2051212/ 0 1
+https://mebeldavinci.ru/katalog/manufacturer/schiavon/0/page/21/ 0 1
+https://mebeldavinci.ru/brand/garda-dekor/ 0 1
+https://mebeldavinci.ru/product/krovat-campania-370h66/ 0 2
+https://mebeldavinci.ru/product/kover-maroc-oyester-2h3m-viskoza-100-75-mc-04-200-300/ 0 1
+https://mebeldavinci.ru/product/kashpo-temno-zolotistoe-zsc786-19/ 0 1
+https://mebeldavinci.ru/product/divan-uglovoj-atlanta/ 0 1
+https://mebeldavinci.ru/product/vaza-keramicheskaya-chernaya-s-serebrom-18h7734s-2/ 0 1
+https://mebeldavinci.ru 0 315
+https://mebeldavinci.ru/product/stol-zhurnalnyj-na-metallicheskom-karkase-13rx5076m-gold/ 0 3
+https://mebeldavinci.ru/katalog/mebel-dlja-kuhni/stoly-i-stulya/page/11/ 0 1
+https://mebeldavinci.ru/product/stol-obedennyj-kruglyj-iskusstvennyj-mramor-30f-1171-1/ 0 1
+https://mebeldavinci.ru/product/gostinaya-san-marco/ 0 1
+https://mebeldavinci.ru/product/divan-oscar-trehmestnyj-raskladnoj-holodnaya-myata-oscar2k-hol-myata-dr13/ 0 1
+https://mebeldavinci.ru/video/ 0 1
+https://mebeldavinci.ru/brand/oprime/ 0 1
+https://mebeldavinci.ru/product/kreslo-massenet/ 0 2
+https://mebeldavinci.ru/katalog/mebel-dlja-prihozhih/ 0 1
+https://mebeldavinci.ru/brand/76/ 0 1
+https://mebeldavinci.ru/product/koktejlnyj-stolik-ot-eaton/ 0 1
+https://mebeldavinci.ru/katalog/manufacturer/sma/0/page/503/ 0 1
+https://mebeldavinci.ru/product/stol-round-dining-summer-hill/ 0 4
+https://mebeldavinci.ru/katalog/manufacturer/sma/0/page/392/ 0 1
+https://mebeldavinci.ru/brand/davinci-group/ 0 2
+https://mebeldavinci.ru/product/spalnya-kollektsiya-valpolicella/ 0 3
+https://mebeldavinci.ru/katalog/gostinye-i-stolovye/gostinye/ 0 1
+https://mebeldavinci.ru/product/zerkalo-zina/ 0 1
+https://mebeldavinci.ru/product/svetilnik-potolochnyj-shary-20md3503-12/ 0 2
+https://mebeldavinci.ru/katalog/gostinye-i-stolovye/ 0 5
+https://mebeldavinci.ru/product/stolik-paradox-cocktail-table-with-stone-shelf/ 0 1
+https://mebeldavinci.ru/product/veneta/ 0 1
+https://mebeldavinci.ru/product/kosmeticheskoe-zerkalo-andretta/ 0 1
+https://mebeldavinci.ru/product/shkaf-olivia/ 0 1
+https://mebeldavinci.ru/product/divan-pevets/ 0 1
+https://mebeldavinci.ru/katalog/mebel-dlya-vannykh/ 0 1
+https://mebeldavinci.ru/katalog/mjagkaja-mebel/pryamie/page/3/ 0 1
+https://mebeldavinci.ru/product/stolik-zhurnalnyj-kruglyj-chernyj-58db-et15882/ 0 1
+https://mebeldavinci.ru/product/kuhnya-avalon-2/ 0 7
+https://mebeldavinci.ru/product/divan-sorrento-dvuhmestnyj-velyurovyj-temno-sinij-sorrento-220-2k-t-sinij-bel18/ 0 1
+https://mebeldavinci.ru/product/shkaf-isolda/ 0 1
+https://mebeldavinci.ru/product/divan-roberto-trehmestnyj-velyurovyj-kremovyj-roberto-250-3k-ant981/ 0 1
+https://mebeldavinci.ru/katalog/mebel-dlja-spalni/page/6/ 0 1
+https://mebeldavinci.ru/product/tumba-pod-televizor-chernaya-sh-hh-tv-05-chern/ 0 1
+https://mebeldavinci.ru/product/bufet-palermo/ 0 1
+https://mebeldavinci.ru/product/nastennye-chasy-trudy/ 0 1
+https://yandex.ua/images/search 0 1
+https://mebeldavinci.ru/product/edg-614684-2/ 0 1
+https://mebeldavinci.ru/tags/kupit-stavropol-kuhni/ 0 1
+https://mebeldavinci.ru/product/fotoramka-hrustalnaya-xx1096a/ 0 1
+https://mebeldavinci.ru/product/panno-dekorativnoe-tsvety-37sm-0696/ 0 1
+https://mebeldavinci.ru/product/kuhnya-astoria/ 0 1
+https://mebeldavinci.ru/product/zerkalo-kfh1216/ 0 1
+https://mebeldavinci.ru/product/detskaya-nostalgia-bianco-antico/ 0 1
+https://mebeldavinci.ru/product/kashpo-beloe-napolnoe-zs-c787-27/ 0 1
+https://mebeldavinci.ru/katalog/svet/page/3/ 0 3
+https://mebeldavinci.ru/product/kreslo-accent-chair-532/ 0 1
+https://mebeldavinci.ru/kontakty/ 0 2
+https://mebeldavinci.ru/product/323/ 0 2
+https://mebeldavinci.ru/product/kuhnya-london/ 0 1
+https://mebeldavinci.ru/product/kashpo-metallicheskoe-na-podstavke-matovoe-zoloto-a04315970/ 0 1
+https://mebeldavinci.ru/katalog/ 0 29
+https://mebeldavinci.ru/product/kadisskaya-kozhanaya-skamya/ 0 1
+https://mebeldavinci.ru/product/stol-nestor/ 0 1
+https://mebeldavinci.ru/product/konsol-iskusstvennyj-belyj-mramor-temnyj-hrom-gy-cst2051214blsm/ 0 1
+https://mebeldavinci.ru/product/stul-na-metallicheskom-karkase-svetlo-bezhevyj-76ar-612gold-cr/ 0 2
+https://mebeldavinci.ru 0 11
+https://mebeldavinci.ru/product/kartina-roberto-lombardi-kamennaya-aleya-5950/ 0 1
+https://mebeldavinci.ru/product/stul-velyurovyj-fioletovyj-46as-ch3073-viol/ 0 4
+https://mebeldavinci.ru/product/divan-spensor/ 0 1
+https://mebeldavinci.ru/katalog/manufacturer/sma/0/page/554/ 0 1
+https://mebeldavinci.ru/product/alana-stul-2/ 0 1
+https://mebeldavinci.ru/product/divan-uglovoj-soho/ 0 1
+https://mebeldavinci.ru/product/stol-keon/ 0 1
+https://mebeldavinci.ru/product/chasy-nastennye-kruglye-v-obramlenii-l840b/ 0 1
+https://mebeldavinci.ru/product/krovat-barbara/ 0 1
+https://mebeldavinci.ru/katalog/manufacturer/ntko/0/page/395/ 0 1
+https://mebeldavinci.ru/product/zerkala-sarita/ 0 2
+https://mebeldavinci.ru/product/stolik-pristavnoj-zolotoj-13rxet3044-gold/ 0 2
+https://mebeldavinci.ru/product/stolik-pristavnoj-serebryanyj-13rxet3043-silver/ 0 2
+https://mebeldavinci.ru/katalog/decor/ 0 3
+https://mebeldavinci.ru/product/allure-mirror-2/ 0 1
+https://mebeldavinci.ru/product/stol-zhurnalnyj-korichnevyj-iskusstvennyj-mramor-33fs-st20s05-pg-stol-zhurnalnyj-korichnevyj-iskusstvennyj-mramor/ 0 1
+https://mebeldavinci.ru/product/kuhnya-nevada/ 0 1
+https://mebeldavinci.ru/katalog/kuhni/ 0 19
+https://mebeldavinci.ru/product/zerkalnyj-nastennyj-dekor-sorbolo/ 0 2
+https://mebeldavinci.ru/product/kreslo-nizkoe-velyurovoe-seroe-pjs30801-pj636/ 0 2
+https://mebeldavinci.ru/product/prihozhaya-kollektsiya-fabriki-blago/ 0 2
+https://mebeldavinci.ru/product/shkaf-go/ 0 1
+https://mebeldavinci.ru/product/vaza-keramicheskaya-dekorativnaya-zolotaya-18h2510-4/ 0 1
+https://mebeldavinci.ru/product/divan-grand/ 0 1
+https://mebeldavinci.ru/product/tv-tumba-palermo-71/ 0 1
+https://mebeldavinci.ru/product/kuhnya-dolce-vita-likvidatsiya/ 0 1
+https://mebeldavinci.ru/katalog/kuhni/modern/ 0 1
+https://mebeldavinci.ru/product/stolik-zhurnalnyj-pristavnoj-kruglyj-13rx5079m-silver/ 0 1
+https://mebeldavinci.ru/product/divan-uglovoj-gollivud/ 0 1
+https://mebeldavinci.ru/katalog/gostinye-i-stolovye/zhurnalnye-stoliki/ 0 1
+https://mebeldavinci.ru/page/15/ 0 1
+https://mebeldavinci.ru/product/modulnyj-divan-egoist/ 0 3
+https://mebeldavinci.ru/product/krugloe-zerkalo-listva/ 0 1
+https://mebeldavinci.ru/product/ist-hempton-pryamougolnyj-obedennyj-stol/ 0 1
+https://mebeldavinci.ru/product/stol-zhurnalnyj-ovalnyj-iskusstvennyj-mramor-30b-855-1/ 0 1
+https://mebeldavinci.ru/katalog/mjagkaja-mebel/pryamie/page/4/ 0 1
+https://mebeldavinci.ru/product/dekor-nastennyj-tsvetok-serebristyj-37sm-8321-jn/ 0 1
+https://mebeldavinci.ru/product/kollektsiya-imperial-luxury-2/ 0 2
+https://mebeldavinci.ru/katalog/podarochnaya/aksessuary-impariya-bogacho/ 0 1
+https://mebeldavinci.ru/product/bra-steklyannoe-k2kr116-1/ 0 1
+https://mebeldavinci.ru/miele-cats/ 0 3
+https://mebeldavinci.ru/product/zerkalo-pryamougolnoe-s-uzorom-50sx-19006/ 0 1
+https://mebeldavinci.ru/product/stol-chetyrehlistnik/ 0 1
+https://mebeldavinci.ru/product/statuetka-list-zolotaya-a06560170/ 0 1
+https://mebeldavinci.ru/category/promo/ 0 1
+https://mebeldavinci.ru/product/divan-krovat-simpatico/ 0 2
+https://mebeldavinci.ru/product/8-2/ 0 1
+https://mebeldavinci.ru/product/stol-obedennyj-bernhardt-370222/ 0 1
+https://mebeldavinci.ru/product/alonso/ 0 1
+https://mebeldavinci.ru/katalog/mebel-iz-ameriki/ 0 1
+https://mebeldavinci.ru/product/baccarat/ 0 1
+https://mebeldavinci.ru/product/kreslo-kachalka-bess/ 0 1
+https://mebeldavinci.ru/product/puf-dover/ 0 1
+https://mebeldavinci.ru/product/stul-velyurovyj-bezhevo-seryj-pjc597-j631/ 0 1
+https://mebeldavinci.ru/katalog/mjagkaja-mebel/ 0 8
+https://mebeldavinci.ru/product/sovremennyj-divan-pravoj-ruki/ 0 1
+https://mebeldavinci.ru/katalog/manufacturer/zibbo/0/page/241/ 0 1
+https://mebeldavinci.ru/product/alois-arnegger-villa-na-ozere-komo/ 0 1
+https://mebeldavinci.ru/product/krugloe-zerkalo-aziza-gold/ 0 1
+https://mebeldavinci.ru/product/zerkalo-dekorativnoe-19-oa-5702/ 0 1
+https://mebeldavinci.ru/product/divan-braxton-fog-1050-26r/ 0 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 9
+403 2 807
+503 16 8071
+206 7 296968
+400 10 4562
+302 3 1755
+405 1 226
+500 5 10577
+404 245 5895207
+301 29 9971
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 231
+/OMC_template.zip 1 -
+/dump.tar.gz 1 -
+/app.zip 1 -
+/dump.gz 1 -
+/wordpress.gzip 1 -
+/dreamworksevent.com.rar 1 -
+/ 9 -
+/cgi-bin/trust.php 1 -
+/wp-content/themes/justread/db.php 1 -
+/dreamworksevent.com.zip 1 -
+/app.rar 1 -
+/website/ 1 -
+/modules/gamification/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wp-content/plugins/formcraft/file-upload/server/php/ 1 -
+/.well-known.gzip 1 -
+/7index.php 1 -
+/blogg/ 1 -
+/backups.rar 1 -
+/quick_install_archive.zip 1 -
+/rt18_archive.tar.gz 1 -
+/old.gzip 1 -
+/veggiedog.zip 1 -
+/wp-content/themes/agncy/db.php 1 -
+/backup.gz 1 -
+/blog2/ 2 -
+/public_html.rar 1 -
+/sites/all/libraries/mailchimp/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/data.rar 1 -
+/wp-content/plugins/bbpress/templates/default/js/editor.min.js 1 dreamwork.kiev.ua
+/wp-admin/maint/trust.php 1 -
+/wp-content/themes/news-box-lite/db.php 1 -
+/InCreate-FullPackage.gz 1 -
+/cgi-bin.rar 1 -
+/old_site/ 1 -
+/web.rar 1 -
+/wp-content/trust.php 1 -
+/veggiedog.gz 1 -
+/data.zip 1 -
+/wptest/ 1 -
+/wp-content/plugins/iwp-client/clipboard.min.js 1 dreamwork.kiev.ua
+/backup.gzip 1 -
+/laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/cms.zip 1 -
+/public_html.tar.gz 1 -
+/cms.gzip 1 -
+/.well-known.rar 1 -
+/backup.rar 1 -
+/quick_install_archive.rar 1 -
+/profile/register 1 -
+/cgi-bin.gzip 1 -
+/dreamworksevent.rar 1 -
+/trust.php 1 -
+/blog/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wp-content/themes/quna/db.php 1 -
+/db.zip 1 -
+/wp-json/wp/v2/users/7 1 -
+/old.rar 1 -
+/dump.zip 1 -
+/wp-content/plugins/linklove/linklove.php 1 -
+/wp-content/themes/twentyfifteen/404.php 1 -
+/wp-content/themes/user-activity-tracking-and-log/db.php 1 -
+/installer.tar.gz 1 -
+/db.rar 1 -
+/wp-content/plugins/cherry-plugin/admin/import-export/199877.php 1 -
+/installer.gz 1 -
+/wp.gz 1 -
+/wp-content/themes/flatsome-child/functions.php 1 -
+/_cms/ 1 -
+/wp-json/wp/v2/users/5 1 -
+/public_html.gzip 1 -
+/.well-known.zip 1 -
+/proxy.php 1 -
+/master.gz 1 -
+/rt18_archive.gzip 1 -
+/old_wp/ 1 -
+/ajax-index.php 2 dreamwork.kiev.ua
+/installer.rar 1 -
+/web.tar.gz 1 -
+/wp-content/themes/webpoint/db.php 1 -
+/wp-content/themes/pridezz/db.php 1 -
+/new.tar.gz 1 -
+/test/vendor/phpunit/phpunit/phpunit.xsd 1 -
+/data.gzip 1 -
+/cgi-bin.zip 1 -
+/wp-json/wp/v2/users/4 1 -
+/mybackup/ 2 -
+/archive.gz 1 -
+/wp.rar 1 -
+/master.gzip 1 -
+/OMC_template.gz 1 -
+/wp-includes/3index.php 1 -
+/OMC_template.tar.gz 1 -
+/web.gzip 1 -
+/wp-content/plugins/apikey/f0x.php 1 -
+/wp-content/themes/astra/functions.php 1 -
+/admin/vendor/phpunit/phpunit/phpunit.xsd 1 -
+/wp-content/themes/guava/dbfile.php 1 -
+/blogbackup/ 1 -
+/wp-content/themes/ninkj/db.php 1 -
+/archive.zip 1 -
+/veggiedog.tar.gz 1 -
+/app.gz 1 -
+/web.zip 1 -
+/wp-content/themes/Divi/functions.php 1 -
+/wp-content/themes/pagse.php 1 -
+/wp-content/plugins/wp-modernizr/wp-modernizr.php 1 -
+/dreamworksevent.com.tar.gz 1 -
+/wp-content/themes/azuma/db.php 1 -
+/wp-json/wp/v2/users/9 1 -
+/db.tar.gz 1 -
+/wp-content/themes/twentynineteen/functions.php 1 -
+/backups.gz 1 -
+/dreamworksevent.tar.gz 1 -
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/public_html.zip 1 -
+/test/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/new.zip 1 -
+/wp-content/themes/dunag/db.php 1 -
+/new.gz 1 -
+/develop/ 1 -
+/public_html.gz 1 -
+/dump.gzip 1 -
+/wp.tar.gz 1 -
+/wp-content/themes/calliope/db.php 1 -
+/wp.zip 1 -
+/wp-admin/includes/theme-old.php 1 -
+/sitemap.xml 2 http://dreamwork.kiev.ua/sitemap.xml
+/wp-content/plugins/apikey/apikey.php 2 -
+/old.zip 1 -
+/wordpress.rar 1 -
+/wp-content/themes/chigue/db.php 1 -
+/wordpress.tar.gz 1 -
+/wp-json/wp/v2/users/2 1 -
+/escort.kiev.ua/wp-content/uploads/2018/10/cropped-Favicon.png 1 -
+/veggiedog.rar 1 -
+/wp-content/themes/adams/404.php 1 -
+/wp-json/wp/v2/users/3 1 -
+/master.zip 1 -
+/wp.gzip 1 -
+/_old/ 2 -
+/admin/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/dreamworksevent.com.gz 1 -
+/mysql/ 1 -
+/quick_install_archive.gz 1 -
+/new.gzip 1 -
+/.well-known.gz 1 -
+/backup.zip 1 -
+/cms.gz 1 -
+/wp-content/plugins/formcraft/file-upload/server/php/files/199877.php 1 -
+/InCreate-FullPackage.rar 1 -
+/cms.rar 1 -
+/archive.tar.gz 1 -
+/demos/ 1 -
+/wp-test/ 1 -
+/wp-json/wp/v2/users/6 1 -
+/.well-known.tar.gz 1 -
+/db.gz 1 -
+/wordpress.zip 1 -
+/wp-content/themes/prid/db.php 1 -
+/OMC_template.gzip 1 -
+/wp-admin/trust.php 1 -
+/rt18_archive.zip 1 -
+/backup.tar.gz 1 -
+/wp-content/plugins/background-image-cropper/image/ico/search.php 1 -
+/wp-content/plugins/cherry-plugin/admin/import-export/upload.php 1 -
+/app.gzip 1 -
+/OMC_template.rar 1 -
+/dump.rar 1 -
+/wp-content/themes/web-point/db.php 1 -
+/dreamworksevent.zip 1 -
+/cgi-bin.gz 1 -
+/backups.tar.gz 1 -
+/wp-content/plugins/jekyll-exporter/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/master.tar.gz 1 -
+/shop/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wp-content/themes/hoki/db.php 1 -
+/data.gz 1 -
+/wp-content/themes/prides/db.php 1 -
+/dreamworksevent.com.gzip 1 -
+/wp-content/themes/dinan/db.php 1 -
+/wp-backup/ 1 -
+/backups.gzip 1 -
+/.well-known/assetlinks.json 1 -
+/cgi-bin.tar.gz 1 -
+/wp-admin/css/trust.php 1 -
+/modules/autoupgrade/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/db.gzip 1 -
+/old.tar.gz 1 -
+/backups.zip 1 -
+/data.tar.gz 1 -
+/rt18_archive.rar 1 -
+/veggiedog.gzip 1 -
+/data/admin/allowurl.txt 1 -
+/new.rar 1 -
+/mysqlbackupro/ 1 -
+/archive.gzip 1 -
+/wp-includes/trust.php 1 -
+/oldsite/ 1 -
+/wp-json/wp/v2/users/8 1 -
+/wp-content/themes/chihua/db.php 1 -
+/wp-content/themes/klog/db.php 1 -
+/wp-content/themes/dukalo/db.php 1 -
+/archive.rar 1 -
+/dreamworksevent.gz 1 -
+/master.rar 1 -
+/wp-content/plugins/revslider/temp/update_extract/doudakhayba.php 1 -
+/wordpress2/ 1 -
+/installer.zip 1 -
+/api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/images/ 1 -
+/InCreate-FullPackage.tar.gz 1 -
+/web.gz 1 -
+/installer.gzip 1 -
+/join 1 -
+/app.tar.gz 1 -
+/wordpress.gz 1 -
+/old.gz 1 -
+/wp-content/themes/bizohex/db.php 1 -
+/wp-content/themes/porto/404.php 1 -
+/InCreate-FullPackage.gzip 1 -
+/quick_install_archive.tar.gz 1 -
+/InCreate-FullPackage.zip 1 -
+/quick_install_archive.gzip 1 -
+/dreamworksevent.gzip 1 -
+/modules/ps_facetedsearch/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/cms.tar.gz 1 -
+/web2/ 1 -
+/system/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/2index.php 1 -
+/rt18_archive.gz 1 -
+/wp-json/wp/v2/users/10 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 778
+24.113.187.127 335 335 303324 20200611084339
+207.181.227.14 335 335 303324 20200611164526
+47.6.205.67 270 270 260879 20200611082516
+70.130.97.222 106 106 153787 20200612042208 20200612000356 /xmlrpc.php
+109.97.1.179 39 39 110036 20200611174850
+174.95.135.238 33 33 106118 20200612041134 20200612041134 /xmlrpc.php
+41.188.105.83 13 13 93058 20200611112602
+92.86.252.11 12 12 7836 20200612041649 20200612041649 /xmlrpc.php
+93.73.59.69 12 73 3179026 20200610003536
+189.202.30.145 11 11 91752 20200612043033 20200612043033 /xmlrpc.php
+81.177.203.64 0 1 71746 
+184.168.46.123 2 2 1306 20200608055736
+46.242.49.13 0 1 71746 
+213.87.146.150 0 1 71746 
+46.242.10.85 0 1 71746 
+196.226.5.252 6 6 3918 20200611123539
+95.83.43.212 0 1 71746 
+66.102.8.183 9 127 4770956 20200610081207
+178.176.217.96 0 1 71746 
+195.138.67.234 0 1 71746 
+91.210.84.10 0 1 71746 
+31.31.15.22 0 1 146655 
+46.174.112.112 0 1 71746 
+46.98.212.237 1 1 99917 20200611110636
+188.170.198.255 0 1 71746 
+5.138.107.11 0 1 71746 
+85.115.248.123 0 1 71746 
+176.53.193.33 0 1 71746 
+94.229.109.176 0 1 71746 
+83.220.238.66 0 1 71746 
+83.220.236.93 0 1 71746 
+34.213.88.137 2 2 1306 20200608060608
+31.13.145.70 0 1 71746 
+185.173.36.147 0 1 71746 
+46.242.9.175 0 1 71746 
+116.202.13.135 1 1 22042 20200606114812
+37.146.103.195 0 1 71746 
+109.252.51.137 0 1 71746 
+109.248.163.211 0 1 71746 
+31.170.115.74 0 1 71746 
+149.154.139.171 0 1 71746 
+41.188.104.151 1 1 4043 20200611192310
+176.99.71.4 0 1 71746 
+46.164.238.205 0 1 71746 
+95.78.166.231 0 1 71746 
+66.220.149.112 0 1 71746 
+109.252.23.57 0 1 71746 
+178.34.163.99 0 1 71746 
+95.172.113.247 0 1 71746 
+90.191.11.100 0 1 71746 
+95.173.148.157 0 1 71746 
+176.215.108.51 0 1 71746 
+95.131.149.97 0 1 71746 
+93.72.228.167 7 67 3082730 20200612024602
+94.23.36.215 5 5 303592 20200603010931
+173.252.95.24 0 1 71746 
+2.93.251.91 0 1 71746 
+79.165.243.103 0 1 71746 
+40.77.202.34 0 1 71746 
+85.115.248.30 0 1 71746 
+83.139.174.152 0 1 71746 
+37.73.16.39 9 68 3209054 20200603165458
+91.78.145.200 0 1 71746 
+109.252.71.22 0 1 71746 
+5.43.242.83 0 1 146655 
+31.13.115.4 0 1 71746 
+80.95.45.114 0 1 71746 
+192.166.232.80 0 1 71746 
+128.69.75.222 0 1 71746 
+176.15.103.197 0 1 71746 
+188.162.64.195 0 1 71746 
+46.48.45.107 0 1 71746 
+92.255.166.94 0 1 71746 
+159.65.118.151 7 89 4633421 20200603012343
+85.115.248.69 0 1 71746 
+91.211.105.65 0 1 71746 
+95.182.94.91 0 1 71746 
+95.84.243.91 0 2 143492 
+46.133.36.121 1 1 22045 20200611080428
+195.189.107.37 3 60 2907543 20200605210736
+109.252.26.140 0 1 71746 
+85.95.178.38 0 1 71746 
+95.25.192.73 0 1 71746 
+103.27.60.222 2 2 1306 20200608060854
+91.193.179.152 0 1 71746 
+90.189.199.184 0 1 71746 
+178.34.161.238 0 1 71746 
+5.18.181.69 0 1 71746 
+91.205.168.48 0 1 71746 
+46.188.32.25 0 1 71746 
+213.87.131.186 0 1 71746 
+193.8.209.227 0 1 71746 
+89.221.53.44 0 1 71746 
+173.252.107.118 0 1 71746 
+89.43.66.107 2 2 1306 20200608060726
+85.91.96.202 0 1 71746 
+109.252.49.14 0 1 71746 
+213.59.133.82 0 1 71746 
+185.220.101.135 0 1 146655 
+85.115.248.64 0 1 71746 
+195.138.80.197 3 56 2790890 20200602233805
+46.174.112.11 0 1 71746 
+139.28.53.64 0 1 71746 
+83.171.108.30 0 1 71746 
+66.220.149.32 0 1 71746 
+89.221.227.35 0 1 71746 
+213.87.139.51 0 2 143492 
+173.201.196.176 2 2 1306 20200608060637
+173.252.107.11 0 1 71746 
+46.20.77.192 0 1 71746 
+94.180.134.126 0 1 71746 
+66.249.88.79 3 33 2157647 20200602233820
+195.58.229.69 3 60 2907542 20200607230808
+77.222.112.52 0 1 71746 
+85.115.248.139 0 1 71746 
+188.170.198.166 0 1 71746 
+51.158.117.227 0 1 71746 
+46.243.9.60 0 1 71746 
+178.34.163.143 0 1 71746 
+185.8.126.92 0 1 71746 
+95.153.130.0 0 2 143492 
+178.176.216.94 0 1 71746 
+94.233.241.83 0 1 71746 
+31.13.115.14 0 1 71746 
+213.222.239.145 0 1 71746 
+178.34.161.61 0 1 71746 
+66.102.6.248 2 40 1475199 20200607051154
+213.87.154.38 0 1 71746 
+46.148.180.152 7 70 3043178 20200605182601
+178.148.72.174 0 2 143492 
+185.20.47.111 0 1 71746 
+89.222.164.228 0 1 71746 
+85.115.248.122 0 1 71746 
+173.252.111.119 0 1 71746 
+95.25.39.183 0 1 71746 
+194.59.249.251 1 1 22042 20200602030146
+88.200.214.28 0 1 71746 
+195.201.165.48 0 3 215238 
+95.29.77.8 0 1 71746 
+176.105.192.64 0 1 71746 
+88.210.51.81 0 1 71746 
+95.73.209.117 0 1 71746 
+185.52.134.202 0 1 71746 
+103.237.144.25 1 1 653 20200608060514
+31.13.115.3 0 1 71746 
+88.85.171.112 0 1 71746 
+94.232.71.46 0 1 71746 
+188.162.163.153 0 1 71746 
+87.117.165.234 0 1 71746 
+66.249.88.117 1 55 2718267 20200605030108
+94.25.173.247 0 2 143492 
+173.252.95.4 0 2 78435 
+213.222.227.192 0 1 71746 
+178.34.161.145 0 1 71746 
+173.252.79.6 0 1 71746 
+176.215.104.251 0 1 71746 
+66.102.7.171 2 30 1389747 20200609030810
+95.31.206.94 0 1 71746 
+89.113.142.209 0 1 71746 
+31.173.30.74 0 1 71746 
+94.233.241.212 0 1 71746 
+31.44.182.19 0 1 71746 
+93.77.154.24 0 1 71746 
+31.223.231.161 6 64 2919550 20200603123149
+95.72.164.136 0 1 71746 
+31.132.176.135 0 1 71746 
+95.134.114.70 3 59 2863606 20200610081147
+178.176.219.131 0 1 71746 
+94.143.40.223 0 1 71746 
+185.145.124.6 0 1 71746 
+176.97.168.145 0 1 71746 
+196.225.128.70 5 5 87834 20200611023333
+81.177.203.240 0 1 71746 
+95.189.209.75 0 1 71746 
+82.151.125.247 0 1 71746 
+89.8.171.237 3 59 2863607 20200601160146
+176.59.197.108 0 1 71746 
+81.211.28.70 0 1 71746 
+87.255.1.77 0 1 71746 
+109.252.62.10 0 1 71746 
+97.74.24.211 2 2 1306 20200608060136
+31.130.248.65 0 1 71746 
+109.167.156.88 0 1 71746 
+46.173.176.18 0 1 71746 
+93.175.216.56 7 67 3485607 20200602183028
+142.93.157.43 1 1 407 20200603180327
+85.26.164.149 0 1 71746 
+91.232.158.74 8 122 5818230 20200609231621
+91.232.206.105 0 1 71746 
+92.100.31.73 0 1 71746 
+195.122.236.42 0 1 71746 
+94.180.223.140 0 1 71746 
+85.140.4.212 0 1 71746 
+213.87.145.208 0 1 71746 
+176.59.39.139 0 1 71746 
+91.194.51.156 6 65 3048040 20200605071806
+213.87.138.238 0 1 71746 
+69.171.251.2 0 1 528 
+178.176.173.28 0 1 71746 
+195.58.61.83 0 1 146655 
+185.20.47.83 0 1 71746 
+94.181.168.100 0 1 71746 
+89.169.113.51 0 1 71746 
+94.180.150.153 0 1 95370 
+212.74.228.30 0 1 71746 
+173.252.127.26 0 1 71746 
+93.170.218.2 0 1 71746 
+91.122.202.119 0 1 71746 
+94.232.184.28 0 1 71746 
+176.208.17.241 0 1 71746 
+213.87.162.29 0 1 71746 
+178.123.138.213 0 1 71746 
+178.133.72.160 6 65 3028186 20200608161750
+95.153.128.148 0 1 71746 
+37.131.199.110 0 1 71746 
+77.87.87.2 0 1 71746 
+173.252.79.9 0 1 71746 
+93.80.164.115 0 1 71746 
+178.34.160.165 0 1 71746 
+95.67.12.6 3 60 2907543 20200606220829
+185.70.53.191 0 1 71746 
+91.221.199.72 0 1 71746 
+46.42.133.64 0 1 71746 
+52.19.93.77 2 2 1306 20200608060133
+188.123.230.68 0 1 71746 
+217.66.156.223 0 1 71746 
+176.100.190.63 1 1 99917 20200602071105
+178.34.162.218 0 1 71746 
+95.153.132.245 0 1 71746 
+194.183.167.50 6 62 2905250 20200609093634
+31.173.26.202 0 1 71746 
+37.113.23.68 0 1 71746 
+188.170.193.140 0 1 71746 
+46.211.56.142 0 1 71746 
+188.162.186.57 0 1 71746 
+185.22.16.68 3 59 2863606 20200609070730
+188.32.167.76 0 1 71746 
+160.153.156.133 2 2 1306 20200608060445
+95.181.39.103 0 1 71746 
+66.249.88.83 1 42 1789952 20200602233823
+173.252.107.14 0 1 71746 
+46.42.147.170 0 1 71746 
+176.59.45.226 0 1 71746 
+5.141.192.115 0 1 71746 
+91.208.116.68 3 60 2907543 20200603190035
+91.193.176.244 0 1 71746 
+85.140.76.133 0 1 71746 
+82.200.115.30 0 1 71746 
+213.87.153.89 0 1 71746 
+173.252.87.8 0 2 143492 
+178.34.150.126 0 1 71746 
+217.118.90.232 0 1 71746 
+178.34.150.171 0 1 71746 
+193.228.167.39 0 1 71746 
+185.13.46.133 0 1 71746 
+188.187.143.40 0 1 71746 
+194.28.215.201 0 2 143492 
+66.102.6.246 2 37 1800285 20200607011718
+89.169.105.229 0 1 71746 
+109.120.57.231 0 1 71746 
+173.252.95.17 0 1 71746 
+128.74.245.83 0 2 143492 
+46.133.76.150 4 43 2404173 20200610234243
+85.115.248.44 0 1 71746 
+14.157.64.94 0 1 71746 
+77.106.84.201 0 1 146655 
+50.62.208.86 1 1 653 20200608060135
+185.61.78.10 0 2 71746 
+109.252.114.111 0 1 71746 
+86.57.242.152 0 1 71746 
+194.60.69.167 3 60 2907543 20200612030445
+37.214.50.162 0 1 71746 
+92.127.197.205 0 1 71746 
+46.188.98.10 1 1 22042 20200611201138
+193.150.111.240 0 1 71746 
+94.233.251.196 0 1 71746 
+87.245.168.21 0 1 71746 
+31.13.144.70 0 1 71746 
+109.168.234.15 0 1 71746 
+176.52.5.50 0 1 71746 
+213.222.235.43 0 2 143492 
+94.233.241.148 0 2 143492 
+128.72.5.93 0 1 71746 
+31.130.249.30 0 1 71746 
+217.107.115.136 0 1 71746 
+46.39.249.116 0 1 71746 
+5.138.12.193 0 1 71746 
+176.15.195.13 0 1 71746 
+162.244.94.23 2 2 1306 20200608055905
+31.13.144.71 0 1 71746 
+94.140.250.130 0 1 71746 
+195.154.82.73 2 2 1306 20200608055939
+85.140.113.110 0 1 71746 
+46.39.228.22 0 1 71746 
+188.123.231.123 0 1 71746 
+188.162.186.90 0 1 71746 
+188.170.194.238 0 1 71746 
+178.176.217.225 0 1 71746 
+66.249.83.80 7 86 3340768 20200610040824
+40.77.202.157 0 1 71746 
+176.104.3.70 3 60 2907543 20200604200127
+95.153.128.198 0 1 71746 
+85.115.248.229 0 1 71746 
+217.118.95.110 0 1 71746 
+37.29.40.11 0 1 71746 
+91.77.26.96 0 1 71746 
+194.150.223.79 0 1 71746 
+185.6.127.221 0 1 71746 
+185.132.199.43 0 1 71746 
+85.115.248.175 0 1 71746 
+109.63.253.209 0 1 146655 
+2.59.80.89 0 1 71746 
+84.54.205.37 0 2 143492 
+185.165.160.209 0 1 71746 
+173.252.79.4 0 1 71746 
+173.252.127.4 0 1 71746 
+31.13.145.102 0 1 71746 
+109.252.84.39 0 1 71746 
+212.66.45.7 3 59 2863607 20200601170959
+109.234.26.206 0 1 71746 
+178.92.54.36 4 62 2894009 20200603130202
+128.31.0.13 1 1 892 20200611140436
+37.232.164.159 0 1 71746 
+212.46.18.171 0 1 71746 
+31.173.85.178 0 1 71746 
+85.173.172.72 0 1 71746 
+81.177.200.59 0 1 71746 
+95.37.210.194 0 1 71746 
+109.252.72.26 0 1 71746 
+95.161.239.111 0 2 143492 
+77.120.15.73 3 60 2907542 20200610010712
+91.235.246.253 0 2 143492 
+178.34.151.3 0 1 71746 
+173.252.95.9 0 2 143492 
+85.174.202.186 0 1 71746 
+85.115.248.9 0 1 71746 
+173.252.95.14 1 23 1610562 20200609130417
+92.38.78.6 0 1 71746 
+176.100.190.20 1 1 99917 20200607145429
+66.102.8.185 5 135 7295644 20200611050353
+178.69.168.50 0 1 71746 
+79.164.159.211 0 1 71746 
+87.117.62.96 0 1 71746 
+94.143.45.43 0 1 146655 
+109.252.48.187 0 1 71746 
+37.18.59.154 0 5 358730 
+95.153.134.39 0 2 143492 
+173.252.111.11 0 1 71746 
+195.144.224.248 0 1 71746 
+2.42.46.48 0 1 71746 
+128.124.200.196 4 62 2938763 20200606044112
+176.122.110.5 3 59 2863607 20200607051141
+176.15.195.14 0 1 117233 
+93.123.189.175 0 1 71746 
+188.170.193.135 0 1 71746 
+212.13.111.182 0 1 71746 
+194.8.129.72 0 4 286984 
+95.153.131.108 0 1 71746 
+217.20.185.198 3 60 2907543 20200602181015
+137.74.151.44 0 1 71746 
+94.244.49.168 9 72 3688434 20200611132601
+95.28.251.107 0 1 71746 
+92.38.136.69 2 2 172265 20200605115108
+31.173.101.39 0 1 71746 
+91.79.51.163 1 1 99917 20200607004233
+94.77.148.240 0 1 71746 
+31.41.68.4 3 59 2863608 20200608221513
+195.114.97.108 3 59 2863606 20200610035328
+91.107.97.4 0 1 71746 
+176.213.176.47 0 1 71746 
+5.153.177.48 0 1 146655 
+185.76.82.2 0 1 71746 
+178.34.160.88 0 1 71746 
+92.42.9.25 0 1 71746 
+178.71.55.160 0 1 71746 
+213.87.145.114 0 1 71746 
+37.23.218.92 0 1 71746 
+85.115.248.83 0 1 71746 
+85.115.248.148 0 1 71746 
+83.220.237.221 0 1 71746 
+149.255.26.169 0 1 71746 
+212.90.49.69 3 59 2863607 20200606045353
+85.115.248.232 0 2 143492 
+176.193.50.228 0 1 71746 
+83.220.236.74 0 1 71746 
+95.80.77.19 0 1 71746 
+173.252.127.14 0 1 71746 
+178.237.179.171 0 1 71746 
+46.211.36.161 3 59 2863609 20200612013822
+178.137.210.55 2 2 168204 20200601102420
+173.252.83.23 0 1 71746 
+5.138.98.160 0 1 71746 
+37.113.176.100 0 1 71746 
+212.12.24.55 0 1 71746 
+95.31.202.248 0 1 71746 
+46.216.42.6 0 1 71746 
+46.138.216.48 0 1 71746 
+176.115.103.98 9 71 3206324 20200608070837
+13.79.147.229 1 1 653 20200608060904
+31.148.111.168 0 1 71746 
+91.142.147.14 0 1 71746 
+178.212.130.122 0 1 71746 
+176.59.2.227 0 1 71746 
+2.59.83.150 0 1 71746 
+94.25.233.107 0 1 71746 
+5.59.251.99 0 1 71746 
+46.219.219.164 3 59 2863609 20200604154828
+93.81.96.217 0 1 71746 
+5.165.233.228 0 2 143492 
+178.237.186.30 0 1 71746 
+180.163.220.66 0 1 71746 
+77.120.182.236 0 1 175208 
+176.59.134.41 0 1 146655 
+95.153.128.105 0 1 71746 
+66.102.6.244 2 41 2451732 20200607051157
+109.124.241.109 0 1 71746 
+94.233.240.191 0 1 71746 
+83.149.21.31 0 1 71746 
+84.21.227.110 0 1 71746 
+213.222.226.159 0 1 71746 
+95.153.129.3 0 1 71746 
+185.34.240.1 0 1 71746 
+213.87.160.203 0 2 143492 
+91.78.213.24 0 1 71746 
+87.117.62.104 0 2 188979 
+91.193.177.34 0 1 71746 
+85.115.248.188 0 1 71746 
+173.252.87.17 0 1 71746 
+178.176.113.8 0 1 71746 
+89.179.72.27 0 2 143492 
+5.59.98.203 0 1 71746 
+93.123.252.77 0 1 71746 
+2.92.179.151 0 1 71746 
+37.230.230.186 0 1 71746 
+185.220.101.243 0 1 146655 
+46.63.185.85 0 1 71746 
+42.236.10.114 0 1 71746 
+78.107.71.162 0 1 71746 
+185.81.67.194 0 1 71746 
+85.115.248.226 0 1 71746 
+104.225.217.103 1 1 22041 20200601122639
+40.77.202.161 0 1 71746 
+5.35.73.208 0 1 71746 
+173.252.83.2 0 1 71746 
+83.149.37.150 0 1 71746 
+62.141.75.108 0 1 71746 
+5.167.160.106 0 1 71746 
+69.171.251.116 0 1 71746 
+95.153.134.185 0 1 146655 
+85.115.248.6 0 1 71746 
+91.230.121.245 5 63 2956728 20200609110027
+188.170.194.29 0 1 71746 
+213.222.226.58 0 1 71746 
+81.200.16.108 0 1 71746 
+91.77.55.235 0 1 71746 
+217.107.106.144 0 1 71746 
+94.233.241.168 0 7 143492 
+167.172.36.176 1 1 22041 20200607154118
+5.3.238.54 0 1 71746 
+176.32.135.66 0 1 71746 
+213.151.8.253 0 1 71746 
+66.220.149.28 0 1 71746 
+85.115.248.104 0 2 143492 
+109.95.23.190 0 1 71746 
+173.252.127.29 0 1 71746 
+46.172.15.176 0 1 71746 
+95.153.130.60 0 1 71746 
+37.200.73.133 0 1 71746 
+185.102.11.214 0 1 71746 
+194.187.149.21 0 1 71746 
+5.138.123.101 0 1 71746 
+185.218.110.240 0 1 71746 
+109.172.127.171 0 1 71746 
+95.153.134.211 0 1 71746 
+185.155.18.58 0 1 71746 
+77.111.247.188 0 1 71746 
+2.75.99.14 0 1 71746 
+89.223.47.196 0 1 71746 
+91.250.63.197 3 59 2863607 20200611091002
+217.118.90.209 4 75 3909107 20200605000018
+213.87.128.211 0 1 71746 
+85.115.248.140 0 1 71746 
+185.80.249.112 0 1 71746 
+37.73.162.131 7 121 5832233 20200609130047
+213.87.127.104 0 1 71746 
+31.129.214.93 0 1 71746 
+94.25.175.182 0 1 71746 
+91.240.208.5 0 1 71746 
+46.63.214.122 0 1 71746 
+178.237.176.160 0 1 71746 
+188.170.81.233 0 1 71746 
+195.64.208.128 0 1 71746 
+31.13.115.24 0 1 71746 
+31.130.42.48 0 1 71746 
+85.10.202.243 0 1 71746 
+81.177.203.230 0 1 71746 
+217.118.90.159 0 1 71746 
+107.180.108.24 2 2 1306 20200608060447
+81.177.202.22 0 1 71746 
+109.168.145.96 0 5 358730 
+176.52.6.187 0 1 71746 
+173.252.83.120 0 1 71746 
+213.87.159.165 0 1 71746 
+46.188.125.60 0 1 71746 
+212.96.97.67 0 1 71746 
+93.123.213.92 0 1 71746 
+81.177.201.97 0 2 143492 
+31.173.100.6 0 1 71746 
+81.177.203.131 0 1 71746 
+107.180.121.3 2 2 1306 20200608060834
+104.236.75.170 2 2 201448 20200607162402
+77.73.51.62 0 1 71746 
+84.51.120.101 0 2 143492 
+117.20.71.223 6 6 88487 20200611043402
+80.64.162.160 0 1 71746 
+173.252.95.13 0 2 143492 
+173.252.87.1 0 1 71746 
+37.144.84.92 0 1 71746 
+77.222.114.170 0 1 71746 
+94.180.146.93 0 1 71746 
+173.252.83.19 0 1 71746 
+109.197.204.78 0 1 71746 
+109.68.113.192 0 1 71746 
+213.87.149.226 0 1 71746 
+173.252.83.16 0 1 71746 
+80.83.238.49 0 1 71746 
+109.252.93.35 0 1 71746 
+109.168.247.211 0 1 71746 
+91.204.150.176 0 1 71746 
+185.255.177.178 0 1 71746 
+188.35.130.178 0 1 71746 
+213.87.160.165 0 1 71746 
+37.110.15.230 0 1 71746 
+176.59.196.85 0 1 71746 
+178.34.150.57 0 1 71746 
+37.186.127.202 0 1 71746 
+185.44.68.134 0 1 71746 
+195.211.218.2 0 1 71746 
+94.253.37.127 0 1 71746 
+66.102.8.181 7 153 8122148 20200611050353
+85.192.188.118 0 1 71746 
+178.176.216.156 0 1 71746 
+149.202.47.162 1 1 1292 20200602042625
+109.252.41.83 0 1 71746 
+213.5.219.236 0 1 71746 
+37.113.100.62 0 1 71746 
+178.44.12.205 0 1 71746 
+185.250.63.163 0 1 71746 
+95.153.135.152 0 1 71746 
+213.108.140.35 0 1 71746 
+66.249.83.78 2 63 3662082 20200610040824
+194.42.113.82 0 1 71746 
+176.15.119.163 0 2 143492 
+93.124.121.59 0 1 71746 
+109.252.138.103 0 1 71746 
+188.234.241.38 0 1 71746 
+31.173.84.224 0 1 71746 
+180.163.220.67 0 1 71746 
+5.129.81.39 0 2 143492 
+173.252.95.12 1 9 149096 20200609130425
+109.197.204.16 0 1 71746 
+81.177.200.211 0 1 71746 
+193.106.71.104 0 1 71746 
+66.102.7.169 2 41 2092596 20200609030810
+178.140.22.159 0 1 71746 
+92.37.142.66 0 1 71746 
+128.75.111.123 0 1 71746 
+85.253.188.118 0 1 71746 
+94.180.175.94 0 1 71746 
+85.173.132.14 0 1 71746 
+95.105.116.138 0 1 71746 
+66.249.88.119 5 69 2592502 20200611091016
+77.233.26.181 0 1 71746 
+193.201.91.47 0 1 71746 
+95.153.135.79 0 1 71746 
+194.8.129.70 0 44 2726348 
+31.30.171.155 0 1 71746 
+31.173.82.80 0 1 71746 
+91.196.121.151 0 1 71746 
+85.115.248.233 0 1 71746 
+173.252.127.28 0 1 71746 
+109.230.162.247 0 1 71746 
+91.77.71.27 8 8 397691 20200609095143
+85.115.248.254 0 1 71746 
+217.69.132.12 0 1 71746 
+176.59.47.174 0 1 71746 
+188.170.198.203 0 1 71746 
+109.252.15.27 0 1 71746 
+85.26.232.117 0 1 71746 
+91.193.179.253 0 1 71746 
+95.153.128.103 0 1 71746 
+31.185.5.173 0 1 71746 
+81.177.200.213 0 1 71746 
+37.147.185.102 0 1 71746 
+217.118.93.125 0 1 71746 
+185.251.242.4 0 1 71746 
+81.177.201.34 0 1 71746 
+81.177.240.27 0 1 71746 
+188.227.210.38 0 1 71746 
+213.87.156.1 0 1 71746 
+115.146.122.226 2 2 1306 20200608060054
+213.230.114.129 0 1 71746 
+188.232.124.132 0 1 71746 
+173.252.95.5 0 1 71746 
+85.140.6.6 0 1 71746 
+93.178.222.105 3 59 2863607 20200604010704
+2.61.246.185 0 1 146655 
+212.12.27.189 0 1 146655 
+89.178.228.38 0 1 71746 
+171.33.253.246 0 1 71746 
+66.198.240.48 2 2 1306 20200608060226
+83.220.236.192 0 1 71746 
+109.252.78.48 0 1 71746 
+77.222.117.108 0 2 143492 
+195.225.108.173 0 1 71746 
+213.87.249.168 0 1 71746 
+81.177.240.107 0 1 71746 
+85.115.248.166 0 1 71746 
+91.232.205.122 0 1 71746 
+85.115.248.227 0 1 71746 
+176.100.191.13 3 3 299751 20200611155153
+94.180.129.9 0 1 71746 
+185.128.25.158 3 3 21682 20200611033526
+46.254.220.37 0 1 71746 
+188.43.7.229 0 1 71746 
+107.180.89.170 2 2 1306 20200608060343
+94.76.108.4 3 60 2907543 20200601171008
+31.129.146.179 0 1 71746 
+94.25.168.1 0 1 71746 
+213.87.147.114 0 1 71746 
+31.13.115.1 0 1 71746 
+194.8.130.139 0 1 71746 
+92.242.101.68 3 60 2907541 20200609000749
+93.159.230.28 2 2 44082 20200610123724
+188.254.127.21 0 2 143492 
+103.136.251.48 0 1 71746 
+79.120.88.28 0 1 71746 
+4.78.245.198 0 2 143492 
+92.39.216.41 0 1 71746 
+212.220.225.187 0 1 71746 
+178.34.150.238 0 1 71746 
+173.252.87.120 0 1 71746 
+178.66.41.24 0 1 71746 
+82.147.164.110 0 1 71746 
+194.8.129.73 0 3 215238 
+87.117.239.165 0 1 71746 
+185.158.208.72 3 59 2863607 20200608060804
+109.200.235.133 0 1 71746 
+178.211.1.247 0 1 71746 
+109.168.137.202 0 1 71746 
+176.123.192.49 0 1 71746 
+178.44.95.213 0 1 71746 
+5.105.46.244 0 1 71746 
+95.131.150.122 0 1 71746 
+83.219.142.84 0 1 71746 
+158.69.52.131 2 2 1306 20200608055909
+85.115.248.89 0 1 71746 
+194.60.69.165 3 59 2863607 20200611152015
+198.71.239.46 1 1 196 20200610055118
+31.173.86.242 0 2 143492 
+178.237.178.142 0 1 71746 
+5.101.204.83 0 1 71746 
+185.248.130.68 6 70 2978449 20200601114626
+213.222.226.22 0 1 71746 
+109.252.146.117 0 1 71746 
+51.195.166.166 3 3 39876 20200612031011
+85.115.248.17 0 1 71746 
+66.249.83.79 3 88 4523329 20200609071718
+78.142.234.110 0 1 71746 
+188.255.23.186 0 1 71746 
+31.13.115.23 0 2 143492 
+173.252.83.117 0 1 71746 
+79.136.138.239 0 1 71746 
+84.51.123.76 0 1 71746 
+85.115.248.242 0 1 71746 
+195.66.192.28 0 1 71746 
+128.74.245.187 0 1 71746 
+173.252.95.33 0 1 55809 
+64.71.32.87 2 2 1306 20200608055737
+194.48.209.215 3 59 2863608 20200610132144
+95.153.131.197 0 1 71746 
+91.77.227.138 8 8 397691 20200609015802
+173.252.95.30 0 1 71746 
+173.252.95.2 1 24 1014462 20200609130405
+81.177.122.24 0 1 71746 
+66.249.88.81 2 43 1779615 20200602233823
+173.252.87.11 0 1 71746 
+31.173.26.151 0 1 71746 
+88.86.71.46 0 1 71746 
+184.168.193.205 2 2 1306 20200608055941
+188.170.194.191 0 1 71746 
+46.242.63.242 0 1 71746 
+185.79.103.7 0 1 71746 
+213.87.147.22 0 1 71746 
+31.173.84.176 0 1 71746 
+194.60.242.138 0 1 71746 
+46.166.45.137 0 1 71746 
+178.34.163.214 0 1 71746 
+178.34.161.4 0 1 71746 
+80.83.237.61 0 1 71746 
+178.64.44.45 0 1 71746 
+178.21.13.164 0 1 71746 
+95.153.135.176 0 1 71746 
+31.130.255.55 0 1 71746 
+178.34.161.50 0 1 71746 
+178.34.151.107 0 1 71746 
+217.107.198.169 0 1 71746 
+194.28.215.97 0 1 71746 
+178.34.162.160 0 1 71746 
+37.79.14.80 2 38 1617883 20200606205959
+194.8.131.120 0 1 71746 
+94.233.240.8 0 1 71746 
+173.252.87.3 0 2 143492 
+85.115.248.40 0 1 71746 
+46.63.129.18 0 2 143492 
+81.177.127.48 0 1 71746 
+83.68.36.245 0 1 71746 
+173.252.83.14 0 1 71746 
+188.186.28.38 0 1 71746 
+91.121.79.16 1 1 100724 20200604110727
+95.105.88.215 0 1 71746 
+188.94.226.242 0 1 71746 
+95.153.128.112 0 1 71746 
+217.69.132.10 0 1 71746 
+82.144.211.240 10 144 6808680 20200608114809
+198.71.238.7 1 1 653 20200608060554
+85.140.0.244 0 1 71746 
+46.174.114.235 0 7 502222 
+188.244.137.81 0 1 71746 
+188.243.20.229 0 1 71746 
+128.72.236.39 0 1 71746 
+176.59.40.158 0 1 71746 
+178.34.150.241 0 1 71746 
+194.8.128.164 0 1 71746 
+46.133.116.45 9 76 3313825 20200607222036
+78.107.250.199 0 1 71746 
+217.77.216.196 4 61 2929585 20200611020823
+184.168.46.181 1 1 74088 20200606064649
+213.24.126.16 0 1 71746 
+46.147.99.118 0 1 71746 
+45.146.253.62 1 1 22042 20200605124607
+35.206.120.51 2 2 1306 20200608055743
+46.188.82.23 0 1 71746 
+31.173.85.56 0 1 71746 
+37.146.76.193 0 1 71746 
+81.200.16.205 0 1 71746 
+85.115.248.252 0 1 71746 
+176.59.40.8 0 1 71746 
+37.29.14.150 0 1 71746 
+109.169.205.85 0 1 71746 
+31.173.100.65 0 1 71746 
+83.237.104.57 0 2 143492 
+91.78.221.123 0 1 71746 
+138.197.151.177 1 1 407 20200603180329
+138.197.160.158 1 1 407 20200603180326
+66.249.88.121 3 53 3280054 20200611091015
+64.246.165.50 1 1 22041 20200607172750
+80.83.234.154 0 1 71746 
+88.242.69.1 0 1 71746 
+91.205.168.37 0 1 71746 
+151.135.26.152 0 1 71746 
+109.95.19.82 0 1 71746 
+188.66.35.101 0 1 71746 
+80.249.207.238 0 1 71746 
+93.179.68.205 0 4 286984 
+178.140.196.202 0 1 71746 
+66.102.7.167 2 47 2244875 20200608020817
+79.139.196.129 0 1 71746 
+178.34.150.118 0 1 71746 
+193.164.204.22 0 1 71746 
+81.84.220.156 3 3 86528 20200611022733
+185.255.135.44 1 1 22042 20200607111315
+194.60.69.164 3 59 2863607 20200605030051
+138.197.170.220 1 1 407 20200603180328
+109.197.8.216 0 1 71746 
+5.228.27.105 0 1 71746 
+173.252.95.27 0 1 26103 
+188.170.198.19 0 1 71746 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 12
+20200601 24 498 26749034 10
+20200602 24 435 23888851 11
+20200603 41 509 26551440 12
+20200604 18 430 23334904 8
+20200605 30 502 26226849 11
+20200606 20 349 17018421 10
+20200607 31 392 19075901 14
+20200608 72 455 20495226 33
+20200609 58 756 38225738 17
+20200610 37 535 27253183 12
+20200611 1169 1542 22244854 38
+20200612 55 228 8919225 12
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 11
+5mn-15mn 7
+2mn-5mn 4
+30s-2mn 15
+15mn-30mn 4
+0s-30s 135
+30mn-1h 8
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 23
+/xmlrpc.php 1195 780574 44 51
+/ 117 3793149 102 33
+/wp-admin/admin-ajax.php 92 208643 10 64
+/wp-content/themes/betheme/fonts/mfn-icons.woff 66 5341512 13 17
+/%d1%86%d0%b5%d0%bd%d1%8b-%d0%bd%d0%b0-%d1%8d%d1%81%d0%ba%d0%be%d1%80%d1%82-%d1%83%d1%81%d0%bb%d1%83%d0%b3%d0%b8-%d0%b2-%d0%ba%d0%b8%d0%b5%d0%b2%d0%b5/ 15 238515 0 4
+/wp-login.php 14 40994 12 2
+/contact/ 13 714182 1 3
+/author/admin/ 12 928294 0 0
+/wp-content/themes/betheme/fonts/mfn-icons.eot 11 1373416 0 0
+/wp-json/oembed/1.0/embed 8 22684 0 1
+/2018/10/14/%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%83-%D0%BC%D0%B5%D0%BD%D1%8F-%D0%B5%D1%81%D1%82%D1%8C-%D0%BD%D0%B5-%D1%82%D0%BE%D0%BB%D1%8C%D0%BA%D0%BE-%D0%B4%D0%BB%D1%8F-%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B5/ 1 17924 0 0
+/2018/10/14/%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0-%d1%83-%d0%bc%d0%b5%d0%bd%d1%8f-%d0%b5%d1%81%d1%82%d1%8c-%d0%bd%d0%b5-%d1%82%d0%be%d0%bb%d1%8c%d0%ba%d0%be-%d0%b4%d0%bb%d1%8f-%d0%bc%d0%be%d0%b4%d0%b5%d0%bb%d0%b5/ 1 17894 0 0
+/%d1%8d%d0%bb%d0%b8%d1%82%d0%bd%d1%8b%d0%b9-%d0%b4%d0%be%d1%81%d1%83%d0%b3/ 7 111037 0 1
+/%d0%b8%d0%bd%d0%b4%d0%b8%d0%b2%d0%b8%d0%b4%d1%83%d0%b0%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d1%8d%d1%81%d0%ba%d0%be%d1%80%d1%82/ 8 127133 0 2
+/%D1%86%D0%B5%D0%BD%D1%8B-%D0%BD%D0%B0-%D1%8D%D1%81%D0%BA%D0%BE%D1%80%D1%82-%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8-%D0%B2-%D0%BA%D0%B8%D0%B5%D0%B2%D0%B5/ 1 15956 1 0
+/%d0%b2%d0%b0%d0%ba%d0%b0%d0%bd%d1%81%d0%b8%d0%b8/ 2 34610 0 1
+/wp-includes/wlwmanifest.xml 1 1292 1 1
+/2018/10/14/%d0%bd%d0%b0%d1%88%d0%b8-%d0%ba%d0%bb%d0%b8%d0%b5%d0%bd%d1%82%d1%8b/ 4 204583 1 1
+/%D0%B7%D0%BD%D0%B0%D0%BA%D0%BE%D0%BC%D1%81%D1%82%D0%B2%D0%B0-%D1%81-%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8F%D0%BC%D0%B8/ 2 32380 2 0
+/2018/10/14/%d1%81%d1%82%d1%80%d0%b0%d1%85%d0%b8-%d0%bf%d0%be-%d0%bf%d0%be%d0%b2%d0%be%d0%b4%d1%83-%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b5-%d0%b2-%d1%8d%d1%81%d0%ba%d0%be%d1%80%d1%82%d0%b5-%d0%bd%d0%b5-%d0%be%d0%bf/ 1 17742 0 0
+/wp-json/wp/v2/users/1 1 1055 0 1
+/wp-load.php 1 196 1 1
+/%d0%b7%d0%bd%d0%b0%d0%ba%d0%be%d0%bc%d1%81%d1%82%d0%b2%d0%b0-%d1%81-%d0%bc%d0%be%d0%b4%d0%b5%d0%bb%d1%8f%d0%bc%d0%b8/ 6 96843 0 1
+END_SIDER

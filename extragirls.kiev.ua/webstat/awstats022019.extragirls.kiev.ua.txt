@@ -1,0 +1,402 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201902 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.extragirls.kiev.ua.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1998                
+POS_TIME 2671                
+POS_VISITOR 7587                
+POS_DAY 9331                
+POS_DOMAIN 3410                
+POS_LOGIN 3643                
+POS_ROBOT 3798                
+POS_WORMS 4126                
+POS_EMAILSENDER 4257                
+POS_EMAILRECEIVER 4400                
+POS_SESSION 9968                
+POS_SIDER 10147               
+POS_FILETYPES 4535                
+POS_DOWNLOADS 4873                
+POS_OS 4944                
+POS_BROWSER 5068                
+POS_SCREENSIZE 5782                
+POS_UNKNOWNREFERER 5856                
+POS_UNKNOWNREFERERBROWSER 6004                
+POS_ORIGIN 6120                
+POS_SEREFERRALS 6257                
+POS_PAGEREFS 6412                
+POS_SEARCHWORDS 6589                
+POS_KEYWORDS 6741                
+POS_MISC 2335                
+POS_ERRORS 6800                
+POS_CLUSTER 3499                
+POS_SIDER_404 6888                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20190301002651 7 934 9384968309387
+FirstTime 20190201061442
+LastTime 20190228224613
+LastUpdate 20190301045318 7 0 6 0 0
+TotalVisits 67                  
+TotalUnique 40                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 42                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 3 3 147498 2 2 18751
+1 1 1 18361 6 16 264013
+2 2 2 129137 21 57 2014473
+3 3 3 147498 9 11 58389
+4 140 467 30939045 5 17 538537
+5 36 142 13168098 3 8 130957
+6 2 2 36722 6 16 388366
+7 1 1 18361 2 7 4823
+8 2 2 36722 0 0 0
+9 28 105 10631397 1 3 18769
+10 5 5 184220 3 6 13829
+11 19 72 7768818 37 80 2360836
+12 22 77 8291458 6 12 111079
+13 6 35 6941783 21 36 745660
+14 56 215 23100545 12 24 250566
+15 79 280 25033246 0 3 0
+16 0 0 0 20 75 7667425
+17 1 1 18361 2 4 9849
+18 1 1 18361 3 4 1652
+19 1 1 1240 7 10 149728
+20 0 0 0 17 46 1312271
+21 2 2 129137 32 65 1094463
+22 3 3 147498 4 7 13967
+23 18 25 543302 2 3 111173
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 431 1445 127450355
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 5
+googlebot 211 6256420 20190225033120 14
+bot[\s_+:,\.\;\/\\-] 191 10561876 20190225214313 7
+yandex 51 337418 20190228192338 25
+unknown 3 1321 20190221101503 3
+ia_archiver 2 111281 20190228050851 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 15
+6 22 271128 0 0
+css 495 25004347 0 0
+png 87 4988778 0 0
+ttf 23 3508872 0 0
+2 43 729251 0 0
+otf 20 518320 0 0
+20 22 135300 0 0
+8 20 683520 0 0
+4 64 1926704 0 0
+1 64 955595 0 0
+html 75 2292094 0 0
+js 130 875092 0 0
+jpg 288 83321606 0 0
+Unknown 23 186730 0 0
+gif 14 58492 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 50 1 23472
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 8
+linuxandroid 223
+winxp 5
+winnt 847
+winvista 11
+linux 1
+win7 157
+macosx 199
+Unknown 3
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 36
+chrome67.0.3396.87 3
+safari11.0 70
+chrome68.0.3440.75 1
+safari12.0 105
+chrome65.0.3325.230 2
+chrome71.0.3559.0 71
+chrome71.0.3578.98 177
+opera12.0 4
+msie11 3
+firefox63.0 180
+chrome23.0.1271.95 1
+opera9.80 2
+chrome58.0.3029.110 76
+chrome61.0.3163.100 20
+firefox59.0 2
+chrome71.0.3578.99 81
+chrome66.0.3359.181 2
+chrome70.0.3538.102 175
+Unknown 2
+chrome72.0.3626.109 142
+firefox50.0 2
+chrome37.0.2049.0 1
+chrome68.0.3440.106 1
+firefox38.0 1
+chrome67.0.3396.99 2
+mozilla 72
+chrome45.0.2454.101 2
+netscape5.0 1
+chrome68.0.3440.84 1
+msie10.0 3
+chrome41.0.2228.0 2
+chrome66.0.3359.170 2
+chrome65.0.3325.146 71
+firefox36.0 4
+chrome67.0.3396.62 1
+chrome64.0.3282.140 161
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Mozilla/5.0 20190208150059
+Go-http-client/1.1 20190228033024
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Go-http-client/1.1 20190228033024
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 61 72
+From1 1 1
+From2 2 2
+From3 1 1
+From4 366 1370
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://www.facebook.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+404 28 11260
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 14
+/oihfoe09fposf.php 2 extragirls.kiev.ua
+/index.php/admin/ 1 -
+/fckeditor/editor/filemanager/connectors/uploadtest.html 2 -
+/administrator/index.php 1 -
+/horde/imp/test.php 2 -
+/imp/test.php 2 -
+/wp-login.php 5 -
+/feed/ 1 -
+/Jwlsjd_baaqifg.php 1 extragirls.kiev.ua
+/apple-app-site-association 6 -
+/wp/wp-login.php 1 -
+/horde3/imp/test.php 2 -
+/downloader/ 1 -
+/rss/catalog/notifystock/ 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 42
+198.27.124.169 140 467 30939045 20190218043648
+77.120.246.108 41 152 16162473 20190224120318
+208.70.31.93 36 142 13168098 20190208050931
+94.178.166.189 23 81 8542004 20190208151622
+164.215.74.6 19 72 7847875 20190209151100
+159.224.87.207 19 72 7675497 20190222144942
+77.111.247.165 18 48 1709403 20190220093104
+94.131.223.46 18 71 7657136 20190204141904
+77.52.179.6 17 70 5786982 20190209151113
+77.111.247.59 15 72 8516795 20190208150151
+66.220.149.15 0 1 453 
+52.24.50.41 3 4 23501 20190213234259
+173.252.87.11 3 7 540829 20190220115639
+52.53.201.78 12 12 220332 20190228224613
+52.39.60.106 1 1 18361 20190213234255
+54.213.253.29 2 2 46592 20190213234259
+173.252.87.16 2 13 989767 20190220115638
+93.84.238.76 2 2 221552 20190205233834
+46.133.23.86 9 33 2863485 20190225093652
+34.219.158.14 2 2 31132 20190213234259
+188.0.78.83 1 1 18361 20190206084234
+54.68.121.64 1 1 18361 20190227022708
+54.202.197.16 2 3 100515 20190213234258
+35.167.73.108 0 1 8426 
+77.111.247.159 4 33 6812646 20190222133556
+173.252.87.4 5 16 1924274 20190220115638
+54.212.90.177 1 1 18361 20190228033024
+64.246.161.30 1 1 18361 20190221101503
+141.101.1.47 2 2 221552 20190218000319
+173.252.87.9 2 12 707380 20190220115638
+13.57.233.99 8 8 146888 20190225211135
+5.188.210.53 6 6 664656 20190214031907
+50.7.186.107 1 1 110776 20190201102150
+173.252.87.10 3 10 1598979 20190220115638
+54.191.252.2 1 4 25060 20190213234259
+62.149.29.40 1 1 110776 20190207132006
+173.252.87.17 3 13 1895907 20190220115638
+18.237.86.150 3 3 36719 20190213234259
+34.216.254.30 1 2 13083 20190213234259
+185.43.251.186 1 1 1240 20190213190052
+178.17.171.194 1 1 18361 20190201061442
+77.111.247.161 1 1 18361 20190220103921
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 25
+20190201 2 2 129137 2
+20190202 2 2 36722 2
+20190203 1 1 110776 1
+20190204 18 71 7657136 1
+20190205 3 3 147498 3
+20190206 2 2 129137 2
+20190207 3 3 239913 3
+20190208 77 278 24622180 5
+20190209 38 144 13671579 4
+20190211 1 1 110776 1
+20190212 3 3 147498 3
+20190213 16 23 304629 9
+20190214 2 2 129137 2
+20190215 1 1 18361 1
+20190217 2 2 129137 2
+20190218 141 468 31049821 2
+20190219 2 2 36722 2
+20190220 37 143 15333539 8
+20190221 1 1 18361 1
+20190222 43 178 22182001 5
+20190224 22 77 8291458 2
+20190225 10 34 2881846 2
+20190226 1 1 18361 1
+20190227 1 1 18361 1
+20190228 2 2 36722 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+2mn-5mn 1
+0s-30s 61
+30s-2mn 4
+15mn-30mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 28
+/ 59 2137487 52 43
+/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js@ver=4.0.2 22 273152 1 1
+/wp-content/themes/twentytwelve/js/navigation.js@ver=20140711 22 20768 1 0
+/wp-content/plugins/elementor-pro/assets/js/frontend.min.js@ver=1.6.1 22 542168 0 1
+/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js@ver=3.51.0-2014.06.20 22 135300 3 1
+/wp-content/plugins/contact-form-7/includes/js/scripts.js@ver=4.6 22 271128 1 1
+/wp-includes/js/jquery/ui/position.min.js@ver=1.11.4 22 62744 0 1
+/wp-includes/js/wp-embed.min.js@ver=4.9.4 21 33894 2 0
+/wp-content/themes/twentytwelve/fonts/8209.ttf 21 3304560 1 2
+/wp-includes/js/jquery/jquery.js@ver=1.12.4 21 1830066 1 0
+/wp-content/themes/twentytwelve/fonts/HelveticaNeueCyr-Thin.otf 20 518320 0 4
+/wp-content/plugins/elementor/assets/lib/font-awesome/fonts/fontawesome-webfont.eot@ 1 165962 0 0
+/wp-content/plugins/elementor/assets/lib/swiper/swiper.jquery.min.js@ver=3.4.2 21 456099 0 1
+/wp-content/plugins/elementor/assets/lib/font-awesome/fonts/fontawesome-webfont.woff@v=4.7.0 9 884187 0 1
+/index.html@p=831.html 5 50360 0 1
+/wp-includes/js/imagesloaded.min.js@ver=3.2.0 18 147798 1 0
+/faq.html 3 46074 0 1
+/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js@ver=4.2.1 21 197673 1 1
+/index.html@p=787.html 1 15242 0 0
+/vacancy.html 4 22683 0 0
+/wp-content/plugins/elementor/assets/js/frontend.min.js@ver=1.9.8 20 683520 0 3
+/wp-includes/js/jquery/jquery-migrate.min.js@ver=1.4.1 21 215754 1 1
+/wp-content/plugins/elementor/assets/lib/slick/slick.min.js@ver=1.6.0 18 188298 1 0
+/admin/fckeditor/editor/filemanager/connectors/uploadtest.html 1 1240 1 1
+/anceta.html 1 10072 0 0
+/index.html@p=624.html 1 8936 0 0
+/wp-content/themes/twentytwelve/fonts/Cormorant_Infant_Semibold_Italic.ttf 2 204312 0 1
+/wp-content/plugins/elementor/assets/lib/font-awesome/fonts/fontawesome-webfont.woff2@v=4.7.0 10 773790 0 2
+END_SIDER

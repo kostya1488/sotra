@@ -1,0 +1,490 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 202004 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.kasters.com.ua.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1994                
+POS_TIME 2668                
+POS_VISITOR 10363               
+POS_DAY 12706               
+POS_DOMAIN 3354                
+POS_LOGIN 3583                
+POS_ROBOT 3738                
+POS_WORMS 4271                
+POS_EMAILSENDER 4402                
+POS_EMAILRECEIVER 4545                
+POS_SESSION 13313               
+POS_SIDER 13470               
+POS_FILETYPES 4680                
+POS_DOWNLOADS 4885                
+POS_OS 4956                
+POS_BROWSER 5093                
+POS_SCREENSIZE 6090                
+POS_UNKNOWNREFERER 6164                
+POS_UNKNOWNREFERERBROWSER 6299                
+POS_ORIGIN 6402                
+POS_SEREFERRALS 6537                
+POS_PAGEREFS 6712                
+POS_SEARCHWORDS 6860                
+POS_KEYWORDS 7012                
+POS_MISC 2331                
+POS_ERRORS 7071                
+POS_CLUSTER 3439                
+POS_SIDER_404 7171                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20200501003940 6 940 5718841194601
+FirstTime 20200401033853
+LastTime 20200430215724
+LastUpdate 20200501042820 6 0 5 0 0
+TotalVisits 67                  
+TotalUnique 56                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 60                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 12 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 2 12 134657
+1 0 0 0 3 6 6759
+2 2 5 51548 7 12 30099
+3 5 5 19003 2 6 4103
+4 4 4 30460 3 17 320284
+5 3 3 22845 8 17 19735
+6 1 1 2847 6 12 28604
+7 8 15 798310 30 35 20467
+8 6 13 815031 3 10 17828
+9 9 16 838268 6 12 11707
+10 0 1 5183 1 4 313489
+11 1 1 7615 1 12 170370
+12 6 6 6578 1 7 130352
+13 7 15 830319 6 19 178023
+14 0 0 0 7 12 101076
+15 4 4 10996 2 7 7206
+16 11 21 252294 1 7 7478
+17 3 3 15451 10 19 11648
+18 3 3 22845 9 16 174365
+19 4 4 18732 1 6 2258
+20 8 22 1619458 2 12 314573
+21 7 7 19929 31 35 18335
+22 5 6 58624 1 6 4663
+23 2 2 3024 7 7 2816
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 99 157 5448981
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 11
+bot[\s_+:,\.\;\/\\-] 49 650394 20200430195426 37
+yandex 40 54136 20200430053251 26
+googlebot 32 607366 20200429011052 11
+msnbot 9 259296 20200428145454 1
+crawl 6 13342 20200413025055 1
+no_user_agent 5 23199 20200411152457 0
+[\s_+:,\.\;\/\\-]bot 3 8541 20200430003837 0
+unknown 2 672 20200419165553 2
+netcraft 2 15230 20200404100005 0
+python 1 2847 20200411124254 0
+facebook 1 303518 20200424205206 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+css 22 903467 0 0
+png 13 3676328 0 0
+woff2 5 91230 0 0
+woff 5 31780 0 0
+php 3 13058 0 0
+html 86 330618 0 0
+js 13 350291 0 0
+jpg 10 51830 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 78 1 25443
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 10
+linuxandroid 30
+winlong 6
+winxp 8
+java 6
+winnt 32
+linux 2
+winvista 6
+win7 30
+macosx 36
+Unknown 2
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 51
+firefox57.0 6
+chrome67.0.3396.87 4
+chrome40.0.2214.115 2
+chrome80.0.3987.163 12
+chrome49.0.2623.110 5
+chrome80.0.3987.122 1
+chrome72.0.3626.121 1
+chrome79.0.3945.79 2
+firefox18.0 3
+firefox54.0 2
+chrome79.0.3945.117 1
+alcatel 1
+opera9.80 1
+chrome58.0.3029.110 1
+msie8.0 2
+chrome75.0.3770.143 10
+chrome61.0.3163.100 1
+chrome26.0.1410.65 1
+msie7.0 1
+firefox59.0 1
+chrome34.0.1847.116 5
+chrome17.0.963.46 1
+chrome40.0.2214.85 2
+chrome74.0.3729.169 1
+chrome49.0.2623.112 1
+Unknown 1
+safari13.0.5 20
+chrome80.0.3987.162 11
+chrome68.0.3440.106 1
+chrome63.0.3239.132 2
+chrome36.0.1985.67 1
+chrome54.0.2840.99 2
+firefox38.0 1
+chrome41.0.2227.0 1
+chrome81.0.4044.122 10
+firefox45.0 1
+chrome79.0.3945.88 10
+nokia 5
+chrome54.0.2840.71 3
+chrome78.0.3904.97 1
+mozilla 3
+netscape5.0 2
+chrome78.0.3904.70 2
+chrome35.0.1916.153 1
+chrome64.0.3282.186 4
+chrome69.0.3497.100 1
+chrome40.0.2214.93 2
+chrome73.0.3683.90 2
+firefox3.0.19 1
+safari 1
+chrome75.0.3770.100 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Mozilla/5.0 20200425225836
+AGENT 20200422175356
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+AGENT 20200422175356
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 59 61
+From1 0 0
+From2 8 12
+From3 0 0
+From4 32 85
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 6 10
+aol 1 1
+yandex 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+403 4 1934
+404 142 56076
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 88
+/sitemap.xml 1 -
+/bl/license.txt 1 http://kasters.com.ua/bl/license.txt
+/wordpress/ 2 -
+/manager/ 1 -
+/info/license.txt 1 http://kasters.com.ua/info/license.txt
+/new1/license.txt 2 http://kasters.com.ua/new1/license.txt
+/new/license.txt 2 http://kasters.com.ua/new/license.txt
+/inf/license.txt 1 http://kasters.com.ua/inf/license.txt
+/blog/license.txt 1 http://kasters.com.ua/blog/license.txt
+/ht.access 1 http://kasters.com.ua/ht.access
+/feed/ 1 -
+/bak/ 2 -
+/new/ 2 -
+/b/license.txt 1 http://kasters.com.ua/b/license.txt
+/blogs/license.txt 1 http://kasters.com.ua/blogs/license.txt
+/web/ 2 -
+/blog/wp-admin/setup-config.php 1 -
+/2/license.txt 1 http://kasters.com.ua/2/license.txt
+/arx/license.txt 1 http://kasters.com.ua/arx/license.txt
+/xmlrpc.php 2 -
+/horde/imp/test.php 1 -
+/old/ 2 -
+/backup/license.txt 1 http://kasters.com.ua/backup/license.txt
+/phpmyadmin/ 1 http://kasters.com.ua/phpmyadmin/
+/main/ 2 -
+/bk/ 2 -
+/wordpress/license.txt 1 http://kasters.com.ua/wordpress/license.txt
+/sito/ 2 -
+/test/ 2 -
+/2019/ 2 -
+/wp2/ 2 -
+/site/license.txt 2 http://kasters.com.ua/site/license.txt
+/2017/license.txt 1 http://kasters.com.ua/2017/license.txt
+/wordpress/wp-admin/setup-config.php 2 -
+/phpMyAdmin/scripts/setup.php 2 -
+/2016/license.txt 1 http://kasters.com.ua/2016/license.txt
+/login 2 -
+/cgi-bin/test-cgi 2 -
+/wp-login.php 1 http://kasters.com.ua/wp-login.php
+/old/license.txt 1 -
+/wp/license.txt 2 http://kasters.com.ua/wp/license.txt
+/2020/license.txt 1 http://kasters.com.ua/2020/license.txt
+/2018/license.txt 1 http://kasters.com.ua/2018/license.txt
+/login.action 2 -
+/assets/plugins/jquery-file-upload/server/php/index.php 1 -
+/12/license.txt 1 http://kasters.com.ua/12/license.txt
+/.well-known/assetlinks.json 3 -
+/back/license.txt 1 http://kasters.com.ua/back/license.txt
+/2019/license.txt 1 http://kasters.com.ua/2019/license.txt
+/2018/ 2 -
+/test1/license.txt 1 http://kasters.com.ua/test1/license.txt
+/console 2 -
+/2015/license.txt 1 http://kasters.com.ua/2015/license.txt
+/wp1/ 2 -
+/phpmyadmin/scripts/setup.php 2 -
+/fonts/hotel-pictograms.ttf 1 -
+/site/ 2 -
+/blog/ 2 -
+/www/license.txt 1 -
+/license.txt 2 http://kasters.com.ua/license.txt
+/wp/ 2 -
+/1/license.txt 2 http://kasters.com.ua/1/license.txt
+/tmp/ 2 -
+/js/mage/cookies.js 1 -
+/v1/ 2 -
+/2014/license.txt 1 http://kasters.com.ua/2014/license.txt
+/ads.txt 2 -
+/2020/ 2 -
+/test/wp-admin/setup-config.php 1 -
+/demo/ 2 -
+/w/license.txt 1 http://kasters.com.ua/w/license.txt
+/v2/ 2 -
+/wp/wp-admin/setup-config.php 2 -
+/assets/global/plugins/jquery-file-upload/server/php/index.php 1 -
+/backup/ 2 -
+/simpla/ 1 -
+/tmp/license.txt 2 http://kasters.com.ua/tmp/license.txt
+/old-wp/ 2 -
+/atutor/index.php 2 -
+/test/license.txt 3 http://kasters.com.ua/test/license.txt
+/temp/ 4 -
+/assets/jquery-file-upload/server/php/index.php 1 -
+/+/ 2 -
+/cms/ 2 -
+/wp-admin/setup-config.php 2 -
+/dev/ 2 -
+/home/ 2 -
+/old-site/ 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 60
+58.242.194.173 7 7 19929 20200427203335
+178.62.74.6 5 5 13006 20200410074526
+124.88.87.46 4 4 11388 20200427162332
+194.44.228.210 4 4 11388 20200423212938
+46.98.133.162 3 10 806882 20200425204618
+94.178.226.1 3 10 806882 20200415095501
+173.82.106.236 3 3 22845 20200426043047
+91.222.63.185 3 10 806882 20200419135700
+91.218.47.112 3 10 806882 20200420083155
+178.70.240.212 3 10 806882 20200412201735
+51.158.190.214 1 1 2847 20200405093825
+207.180.246.61 1 1 2847 20200413090249
+176.100.191.73 1 1 7615 20200402184507
+138.246.253.5 2 2 354 20200405235931
+37.230.128.132 1 1 2847 20200414234152
+159.69.157.213 1 1 2847 20200417030915
+194.36.188.199 1 1 7615 20200422175356
+188.166.22.77 2 2 5302 20200419165553
+51.68.152.26 1 1 2847 20200417131407
+172.104.145.30 1 1 2847 20200404155941
+159.203.2.74 1 1 7615 20200411053445
+138.201.60.47 1 1 7615 20200410164201
+178.128.232.255 1 1 221 20200407122303
+185.195.24.62 1 1 221 20200403172421
+138.197.173.88 1 1 221 20200407122301
+173.252.95.34 0 1 379 
+51.77.249.202 2 2 5694 20200420070339
+193.148.18.251 2 2 5302 20200407081229
+47.52.253.226 1 1 2847 20200417120638
+85.202.195.20 1 1 7615 20200427170138
+54.245.162.197 1 1 2847 20200425214800
+217.12.78.130 1 8 782280 20200410075425
+188.115.128.163 2 2 13038 20200415220737
+89.151.179.207 0 1 5183 
+51.77.249.198 2 2 5694 20200412211656
+195.181.166.145 1 1 7615 20200424164205
+46.119.18.58 1 10 209497 20200427162800
+35.193.160.72 2 2 15230 20200421052133
+178.128.226.90 1 1 221 20200407122300
+64.246.161.42 1 1 2847 20200423092225
+141.101.1.47 1 1 7615 20200406095113
+145.249.186.166 0 1 5183 
+5.44.169.3 2 2 7792 20200405130728
+188.143.169.29 2 2 15230 20200405092235
+173.249.22.173 1 2 39892 20200430215724
+66.42.76.138 2 2 15230 20200430043346
+178.175.132.75 1 1 2847 20200414161421
+138.197.170.220 1 1 221 20200407122302
+195.230.154.158 0 1 5183 
+79.173.90.153 1 1 2847 20200425035617
+42.157.195.85 1 1 2847 20200425225836
+134.255.238.169 2 5 50790 20200422024053
+116.31.109.205 2 2 15230 20200421181434
+51.89.125.120 2 2 5302 20200419150913
+58.17.6.9 2 2 5694 20200418160454
+183.236.7.192 1 1 7615 20200405130959
+47.57.22.8 1 1 2847 20200425080456
+172.104.247.137 1 1 2847 20200404155522
+145.239.209.12 1 1 7615 20200422112919
+188.115.131.142 2 2 13038 20200413190628
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 26
+20200401 3 3 13309 2
+20200402 2 2 7792 2
+20200403 2 2 3068 2
+20200404 2 2 5694 2
+20200405 7 7 33661 5
+20200406 1 1 7615 1
+20200407 6 6 6186 5
+20200408 1 1 2847 1
+20200410 7 14 802901 3
+20200411 1 1 7615 1
+20200412 5 13 817759 3
+20200413 3 3 15885 2
+20200414 4 4 11388 3
+20200415 8 16 833644 4
+20200417 5 6 19418 4
+20200418 2 2 5694 1
+20200419 8 15 820333 4
+20200420 4 11 809729 2
+20200421 4 4 30460 2
+20200422 4 7 66020 3
+20200423 2 2 5694 2
+20200424 1 1 7615 1
+20200425 7 14 818270 5
+20200426 3 3 22845 1
+20200427 5 14 225653 4
+20200430 2 3 47507 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+0s-30s 65
+30s-2mn 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 7
+/ 77 302975 65 53
+/contact.html 7 23121 0 7
+/fonts/hotel-pictograms.woff 5 31780 0 2
+/fonts/glyphicons-halflings-regular.woff2 5 91230 0 3
+/index.php 2 10462 1 1
+/work.html 2 4522 1 1
+/uslugi.php 1 2596 0 0
+END_SIDER

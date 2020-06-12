@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Monotype-Corsive';
+  src: url('fonts/8209.ttf');
+}
+body {
+	margin:0;
+	padding:0;
+}

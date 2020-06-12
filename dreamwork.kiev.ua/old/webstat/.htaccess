@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "/www/dreamwork.kiev.ua/webstat"
+AuthUserFile /var/www/krater1/data/etc/99498833.passwd
+DirectoryIndex index.html
+<Limit GET POST>
+	require valid-user
+</Limit>

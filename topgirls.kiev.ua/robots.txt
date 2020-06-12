@@ -1,0 +1,23 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /fonts/
+Disallow: /fonts/Minion Pro
+Disallow: /fonts/Roboto Condensed
+Disallow: /img/
+Disallow: /img/icons/
+Disallow: /img/slider/
+Disallow: /script/
+Disallow: /assets/components/
+Disallow: /sotra/
+Disallow: /sotra/slick
+Disallow: /ru/
+Disallow: /index.php
+Disallow: /send.php
+Disallow: /info.php
+Disallow: /403.php
+Disallow: /404.php
+Disallow: /500.php
+Disallow: *?
+Crawl-delay: 10
+Sitemap: https://topgirls.kiev.ua/sitemap.xml
+Host: topgirls.kiev.ua

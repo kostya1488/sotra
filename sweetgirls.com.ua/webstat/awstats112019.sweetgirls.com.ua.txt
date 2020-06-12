@@ -1,0 +1,332 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201911 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.sweetgirls.com.ua.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1997                
+POS_TIME 2663                
+POS_VISITOR 8308                
+POS_DAY 8903                
+POS_DOMAIN 3362                
+POS_LOGIN 3593                
+POS_ROBOT 3748                
+POS_WORMS 4221                
+POS_EMAILSENDER 4352                
+POS_EMAILRECEIVER 4495                
+POS_SESSION 9101                
+POS_SIDER 9269                
+POS_FILETYPES 4630                
+POS_DOWNLOADS 4839                
+POS_OS 4911                
+POS_BROWSER 5009                
+POS_SCREENSIZE 5315                
+POS_UNKNOWNREFERER 5389                
+POS_UNKNOWNREFERERBROWSER 5476                
+POS_ORIGIN 5601                
+POS_SEREFERRALS 5737                
+POS_PAGEREFS 5881                
+POS_SEARCHWORDS 6060                
+POS_KEYWORDS 6212                
+POS_MISC 2326                
+POS_ERRORS 6271                
+POS_CLUSTER 3449                
+POS_SIDER_404 6425                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20191201032224 58 13960 9499167612465
+FirstTime 0
+LastTime 20191130204559
+LastUpdate 20191201043739 58 0 57 0 0
+TotalVisits 14                  
+TotalUnique 13                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 13                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 72 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 21 39 1526817
+1 0 0 0 16 22 433516
+2 0 0 0 14 19 19908
+3 2 2 40376 18 22 22655
+4 0 0 0 18 30 26413
+5 0 0 0 18 33 60097
+6 0 0 0 11 17 5794
+7 2 2 40376 8 14 22813
+8 0 0 0 13 21 27879
+9 0 0 0 12 17 147503
+10 1 5 507348 12 18 28907
+11 0 0 0 39 52 1187218
+12 4 26 2922325 22 29 433455
+13 101 124 3038331 1735 1817 813817
+14 29 60 3703035 12 29 58096
+15 10 18 1720638 16 27 278498
+16 1 1 6143 13 21 10827
+17 4 26 2922325 16 21 12205
+18 2 2 54504 9 10 3008
+19 0 0 0 11 19 18678
+20 1 1 6143 28 33 51995
+21 0 0 0 25 30 33034
+22 2 4 419794 17 31 55805
+23 0 0 0 16 25 208990
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 159 271 15381338
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 10
+bot[\s_+:,\.\;\/\\-] 81 1554287 20191130200033 59
+yandex 54 532538 20191130230529 48
+googlebot 52 2087125 20191130205149 25
+mail\.ru 3 1437 20191119234440 3
+unknown 3 1395 20191125042233 3
+favicon 2 12286 20191128224923 0
+msnbot 2 874 20191130151244 2
+python 1 437 20191102232825 1
+robot 1 437 20191110143436 1
+crawl 1 479 20191120083029 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+css 18 2237670 0 0
+png 11 156368 0 0
+7 7 49329 0 0
+1 7 1148819 0 0
+html 138 477711 0 0
+jpg 77 9668561 0 0
+Unknown 7 1354472 0 0
+gif 6 288408 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 143 0 64759
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 6
+macosx 3
+winunknown 3
+winnt 199
+winvista 2
+linux 1
+win7 63
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 14
+chrome67.0.3396.87 2
+chrome78.0.3904.97 161
+chrome36.0.1985.143 26
+chrome45.0.2454.101 1
+mozilla 5
+chrome78.0.3904.70 26
+msie7.0 4
+msie10.0 4
+chrome76.0.3809.132 1
+chrome78.0.3904.108 32
+chrome66.0.3359.170 2
+chrome65.0.3325.146 2
+Unknown 3
+firefox47.0 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Microsoft_Office_Excel_2014 20191128140949
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 21 21
+From1 0 0
+From2 0 0
+From3 1 1
+From4 137 249
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://progressive-seo.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+403 7 25304
+503 1 469
+302 1904 533202
+206 8 31742
+500 102 26520
+404 101 443504
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 37
+/sitemap.xml 17 -
+/new/wp-admin/install.php 1 -
+/tmp/wp-admin/install.php 1 -
+/temp/wp-admin/install.php 1 -
+/home/wp-admin/install.php 1 -
+/ru/services/index.html 7 https://sweetgirls.com.ua/ru/models/
+/kont.html 4 -
+/bk/wp-admin/install.php 1 -
+/wp-admin/install.php 1 -
+/data/home/girls_photos_main/photo/full_31ffe798-d366-4582-a9eb-5610ceef103c.jpg 1 -
+/data/home/girls_photos_main/photo/full_ca278563-d454-4cf3-b59d-834fb47b2dc9.jpg 1 -
+/wordpress/wp-login.php 1 http://sweetgirls.com.ua/wordpress/wp-login.php
+/treb.html 2 -
+/backup/wp-admin/install.php 1 -
+/index.html 4 -
+/.git/index 1 http://sweetgirls.com.ua/.git/index
+/prochivanie.html 3 -
+/test/wp-admin/install.php 1 -
+/uslovia.html 1 -
+/old/wp-admin/install.php 1 -
+/lcab.talk-me.ru/support/support.js 17 https://sweetgirls.com.ua/index.html
+/sweetgirls.com.ua 7 https://sweetgirls.com.ua/sweetgirls.com.ua
+/ru/services/data/images/new/main-img.jpg 7 https://sweetgirls.com.ua/ru/services/index.html
+/demo/wp-admin/install.php 1 -
+/main/wp-admin/install.php 1 -
+/wp/wp-admin/install.php 1 -
+/images/103281.png 2 -
+/data/home/girls_photos_main/photo/tn_04dddceb-725a-417d-a493-42f2d1553a12.jpg 1 -
+/blog/wp-admin/install.php 1 -
+/site/wp-admin/install.php 1 -
+/images/compose.png 1 -
+/desktopmodules/Admin/RadEditorProvider/DialogHandler.aspx 1 -
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/cms/wp-admin/install.php 1 -
+/data/home/girls_photos_main/photo/full_43f6fa53-1ba2-4547-87c6-c0b6baf2fd8c.jpg 1 -
+/wp-login.php 5 http://sweetgirls.com.ua/wp-login.php
+/wordpress/wp-admin/install.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 13
+176.115.100.168 131 185 6747509 20191128153803
+178.212.111.37 4 10 1060829 20191110155028
+217.77.216.196 4 26 2922325 20191128171003
+139.228.202.109 4 26 2922325 20191130125144
+40.77.188.222 3 5 613290 20191130151239
+5.253.205.23 2 2 40376 20191130030325
+94.242.54.119 2 2 40376 20191129074900
+5.62.18.46 2 2 40376 20191129152758
+60.191.38.77 2 2 54504 20191129183752
+128.68.131.157 2 4 419794 20191121223501
+80.73.4.198 1 5 507348 20191119100750
+69.28.85.166 1 1 6143 20191129160405
+51.158.113.35 1 1 6143 20191130204559
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 6
+20191110 4 10 1060829 1
+20191119 1 5 507348 1
+20191121 2 4 419794 1
+20191128 135 211 9669834 3
+20191129 7 7 141399 4
+20191130 10 34 3582134 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+5mn-15mn 1
+0s-30s 12
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 8
+/ 97 246959 9 4
+/ru/models/ 11 56320 0 0
+/ru/services/ 11 44176 1 0
+/ru/vacancy/ 10 69686 0 0
+/ru/contacts/ 9 60570 0 4
+/templates/new/js/app.js@v=1.4.7 7 49329 1 1
+/templates/new/fonts/icomoon/icomoon.ttf@5j2n32 7 1354472 1 4
+/templates/new/js/foundation.js@v=1.3.1 7 1148819 2 1
+END_SIDER

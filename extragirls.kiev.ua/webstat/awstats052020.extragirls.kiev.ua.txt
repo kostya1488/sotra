@@ -1,0 +1,1133 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 202005 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.extragirls.kiev.ua.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1998                
+POS_TIME 2681                
+POS_VISITOR 20987               
+POS_DAY 32609               
+POS_DOMAIN 3601                
+POS_LOGIN 3837                
+POS_ROBOT 3992                
+POS_WORMS 4490                
+POS_EMAILSENDER 4621                
+POS_EMAILRECEIVER 4764                
+POS_SESSION 33478               
+POS_SIDER 33671               
+POS_FILETYPES 4899                
+POS_DOWNLOADS 5313                
+POS_OS 5406                
+POS_BROWSER 5584                
+POS_SCREENSIZE 7870                
+POS_UNKNOWNREFERER 7944                
+POS_UNKNOWNREFERERBROWSER 8807                
+POS_ORIGIN 8932                
+POS_SEREFERRALS 9079                
+POS_PAGEREFS 9247                
+POS_SEARCHWORDS 9733                
+POS_KEYWORDS 9885                
+POS_MISC 2345                
+POS_ERRORS 9944                
+POS_CLUSTER 3693                
+POS_SIDER_404 10089               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20200601010337 632 191975 13539142757331
+FirstTime 20200501055140
+LastTime 20200531234040
+LastUpdate 20200601042641 632 0 631 0 0
+TotalVisits 286                 
+TotalUnique 265                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 280                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 273 685 62176088 11 27 171568
+1 234 911 94158878 19 52 1406959
+2 167 636 61544231 19 44 693681
+3 165 640 34444513 11 21 145740
+4 39 146 13377939 30 45 826947
+5 127 487 46686728 2 11 113930
+6 88 286 21063175 39 47 354095
+7 56 215 19771587 15 21 49937
+8 74 258 21626364 14 30 137088
+9 130 283 18374670 7 21 274998
+10 137 462 42269754 41 54 260462
+11 184 653 60433881 16 31 298664
+12 57 218 19541706 6 12 38841
+13 137 494 46065170 27 43 356448
+14 96 342 32918604 20 55 1316808
+15 252 959 97565783 26 86 1438297
+16 377 1386 134862453 134 210 3735352
+17 338 1226 113505165 98 128 5137692
+18 174 654 68041491 50 147 1065131
+19 194 727 72106335 66 176 346799
+20 225 895 86634150 9 25 213794
+21 186 689 65991586 12 24 141551
+22 193 714 71737148 155 252 1071240
+23 324 1183 111210124 112 129 1649233
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 4227 15149 1416107070
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 10
+googlebot 218 6279688 20200531203439 17
+bot[\s_+:,\.\;\/\\-] 135 7409024 20200531152845 45
+yandex 90 703549 20200531034049 43
+favicon 15 276243 20200518162555 0
+python 10 148150 20200526060336 2
+facebook 3 55251 20200522214428 0
+netcraft 3 332928 20200505205114 0
+libwww 2 221951 20200530062020 0
+no_user_agent 1 505 20200510085348 1
+unknown 1 408 20200509101707 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 18
+css 5082 249809212 0 0
+ttf 207 31888876 0 0
+2 451 7193182 0 0
+1 678 9344068 0 0
+html 501 8698459 0 0
+jpg 3530 988474511 0 0
+0 23 691029 0 0
+6 215 2588040 0 0
+png 841 49162587 0 0
+env 1 743 0 0
+20 222 1279200 0 0
+otf 200 5079536 0 0
+8 221 7245312 0 0
+zip 3 7212285 0 0
+4 662 19122665 0 0
+js 1294 8677224 0 0
+Unknown 223 362314 0 0
+gif 172 710260 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 2
+/robots.txt 109 1 49193
+/old.zip 3 0 7212285
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 12
+linuxandroid 5098
+winxp 88
+winlong 3
+unix 4
+winnt 1257
+linuxubuntu 1
+linux 339
+winvista 245
+win7 738
+macosx 6645
+winunknown 1
+Unknown 731
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 120
+msie6.0 2
+chrome44.0.2403.125 2
+firefox57.0 6
+safari7.0.3 4
+firefox28.0 3
+firefox74.0 1
+chrome45.0.2454.85 2
+chrome81.0.4044.117 248
+chrome80.0.3987.163 72
+chrome44.0.2403.130 1
+chrome81.0.4044.129 72
+firefox34.0 1
+chrome31.0.1650.63 1
+curl 1
+msie11 2
+chrome23.0.1271.95 5
+msie8.0 1
+chrome75.0.3770.143 221
+chrome80.0.3987.87 71
+msie7.0 3
+firefox59.0 1
+chrome79.0.3945.130 72
+chrome37.0.2062.120 1
+chrome44.0.2403.156 1
+safari13.1.1 70
+chrome71.0.3578.141 1089
+safari13.0.1 479
+chrome49.0.2623.112 75
+chrome73.0.3683.103 4
+chrome31.0.1650.59 1
+safari13.0.5 962
+chrome77.0.3865.116 71
+netscape 9
+chrome64.0.3282.137 74
+safari13.1 3092
+firefox50.0 6
+firefox53.0 1
+firefox40.0 3
+chrome80.0.3987.162 124
+chrome37.0.2049.0 4
+chrome34.0.1847.131 1
+chrome76.0.3809.132 73
+firefox55.0 50
+chrome60.0.3112.107 1
+firefox38.0 2
+chrome62.0.3202.94 1
+chrome47.0.2503.0 1
+chrome81.0.4044.122 119
+safari7.0.6 1
+chrome35.0.1916.114 1
+chrome81.0.4044.96 284
+firefox68.0 424
+chrome83.0.4103.83 293
+firefox33.0 3
+chrome36.0.1985.143 5
+mozilla 103
+firefox75.0 78
+chrome44.0.2403.157 1
+chrome78.0.3904.70 142
+chrome42.0.2311.135 1
+safari12.1.1 74
+chrome44.0.2403.89 1
+chrome35.0.1916.47 1
+chrome45.0.2454.84 3
+chrome41.0.2228.0 6
+safari12.1.2 441
+firefox36.0 3
+chrome73.0.3683.90 1
+safari 215
+firefox35.0 1
+chrome67.0.3396.87 2
+firefox71.0 1
+safari11.0 217
+chrome41.0.2225.0 1
+chrome46.0.2490.13 1
+safari12.0 71
+chrome38.0.2125.101 100
+chrome71.0.3578.98 4
+chrome56.0.2924.87 1
+opera12.0 2
+opera9.80 472
+firefox31.0 1
+chrome57.0.2987.108 97
+chrome46.0.2490.76 71
+iphone 214
+chrome43.0.2357.81 1
+chrome26.0.1410.65 1
+chrome34.0.1847.116 1
+safari13.0.4 504
+chrome83.0.4103.61 313
+safari8.0 1
+chrome33.0.1750.154 2
+safari13.0.3 64
+chrome26.0.1410.43 1
+chrome75.0.3770.142 77
+chrome30.0.1599.101 2
+Unknown 1
+firefox3.0.8 1
+chrome30.0.0.0 1
+chrome39.0.2171.93 4
+safari13.0.2 70
+chrome44.0.2403.128 1
+chrome73.0.3683.86 6
+chrome44.0.2403.155 1
+chrome41.0.2272.118 1
+chrome43.0.2357.132 1
+firefox56.0 2
+chrome80.0.3987.149 130
+chrome38.0.2125.102 1
+chrome74.0.3729.131 27
+firefox39.0 1
+firefox37.0 3
+chrome81.0.4044.138 3212
+msie10.0 13
+chrome79.0.3945.116 63
+safari5.1 1
+chrome80.0.3987.132 71
+chrome76.0.3809.111 76
+chrome43.0.2357.134 1
+chrome70.0.3538.110 52
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 10
+Mozilla 20200512171026
+Mozilla/5.0_(Android_9;_Mobile;_rv:68.0)_Gecko/68.0_Firefox/68.0 20200530210427
+Opera/9.80_(Android;_Opera_Mini/47.2.2254/174.78;_U;_tr)_Presto/2.12.423_Version/12.16 20200514231150
+curl/7.64.0 20200513123347
+Mozilla/5.0_(compatible;_YandexBot/3.0;__http://yandex.com/bots) 20200514111749
+Mozilla/5.0_AppleWebKit/537.36_(KHTML,_like_Gecko)_Chrome/74.0.3729.131_Safari/537.36 20200530013657
+Opera/9.80_(Android;_Opera_Mini/47.2.2254/174.101;_U;_en)_Presto/2.12.423_Version/12.16 20200528002035
+Mozilla/5.0_(Android_5.1;_Mobile;_rv:68.0)_Gecko/68.0_Firefox/68.0 20200502030805
+Mozilla/5.0_(compatible;_vkShare;__http://vk.com/dev/Share) 20200525134704
+Opera/9.80_(Android;_Opera_Mini/47.2.2254/174.78;_U;_en)_Presto/2.12.423_Version/12.16 20200514005809
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Microsoft_Office_Excel_2014 20200509183832
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 338 361
+From1 31 31
+From2 27 27
+From3 13 13
+From4 3818 14718
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 26 26
+yandex 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 8
+https://l.instagram.com 2 2
+https://l.instagram.com 2 2
+http://away.vk.com 2 2
+http://domkadrov.ua/agency/Eskort-Kiev-Eskort-Kiev-Extragirls-515/service.html 2 2
+http://trudbox.com.ua/company/extragirls_kiev_ua 2 2
+http://www.popelina.com/profile/72602457/view/ 1 1
+https://tgstat.ru/channel/@eskort_ua1/18015 1 1
+https://away.vk.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+403 1 459
+503 1 469
+206 52 5431829
+307 1 539
+301 1 460
+404 955 383802
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 383
+/app.zip 1 -
+/api/.env 1 -
+/wordpress/ 1 -
+/mysql.sql 1 -
+/admin.php 1 -
+/site/wp-includes/wlwmanifest.xml 1 -
+/demo/wp-includes/wlwmanifest.xml 1 -
+/0.php 1 -
+/sndso.php 1 -
+/modules/gamification/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/vendor/phpunit/phpunit/LICENSE 1 -
+/wp-content/plugins/formcraft/file-upload/server/php/ 1 -
+/web/ 1 -
+/wp-content/uploads/wp-cl-plugin.php 4 extragirls.kiev.ua
+/twentysixteen/functions.php 1 extragirls.kiev.ua
+/form.php 1 -
+/rt18_archive.tar.gz 2 -
+/old.gzip 1 -
+/wp-config.php_oldd 1 -
+/public_html.rar 2 -
+/InCreate-FullPackage.gz 2 -
+/veggiedog.gz 2 -
+/twentytwelve/functions.php 1 extragirls.kiev.ua
+/mark.php 1 -
+/backup.gzip 2 -
+/twentyseventeen/functions.php 1 extragirls.kiev.ua
+/cms.zip 1 -
+/oceanwp/functions.php 1 extragirls.kiev.ua
+/sito/ 1 -
+/wp-config.php_old5 1 -
+/cms.gzip 1 -
+/public_html.tar.gz 2 -
+/wp-json/wp/v2/posts 2 -
+/.well-known.rar 2 -
+/test/ 1 -
+/backup.rar 2 -
+/quick_install_archive.rar 2 -
+/shop/wp-includes/wlwmanifest.xml 1 -
+/cgi-bin.gzip 2 -
+/wp-content/themes/wp-update.php 1 extragirls.kiev.ua
+/blog/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wp-config.php.bak 2 -
+/twentyfifteen/functions.php 1 extragirls.kiev.ua
+/wp-content/plugins/wp-file-upload/wfu_file_downloader.php 2 -
+/dump.zip 7 -
+/login 3 -
+/v1/wp-includes/wlwmanifest.xml 1 -
+/wp-login.php 11 http://extragirls.kiev.ua/wp-login.php
+/wp-json/wp/v2/users 3 -
+/wp.gz 2 -
+/cv.php 1 -
+/.well-known.zip 7 -
+/rt18_archive.gzip 2 -
+/master.gz 2 -
+/installer.rar 2 -
+/web.tar.gz 1 -
+/wp-content/plugins/photo-gallery/css/bwg_edit_image.css 1 extragirls.kiev.ua
+/cgi-bin.zip 7 -
+/xGSx.php 1 -
+/eyesight4you.com.rar 1 -
+/twentyten/functions.php 1 extragirls.kiev.ua
+/archive.gz 2 -
+/wso2_pack.php 1 -
+/web.gzip 1 -
+/OMC_template.tar.gz 2 -
+/backup.sql 1 -
+/genesis/functions.php 1 extragirls.kiev.ua
+/wp-config.php.orig 2 -
+/ads.txt 2 -
+/coollse.php 1 -
+/archive.zip 7 -
+/app.gz 1 -
+/v2/ 1 -
+/wordpress/wp-includes/wlwmanifest.xml 1 -
+/cox.php 1 -
+/old-wp/ 1 -
+/blog/.env 1 -
+/wp-config.new 1 -
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/test/.env 1 -
+/files.sql 1 -
+/+/ 1 -
+/wp-config.php~~.bak 1 -
+/staging/wp-includes/wlwmanifest.xml 1 -
+/v2/wp-includes/wlwmanifest.xml 1 -
+/wp.tar.gz 2 -
+/wp-link-opml.php 1 extragirls.kiev.ua
+/wp.zip 7 -
+/sketch/functions.php 1 extragirls.kiev.ua
+/1337.php 1 -
+/wp-admin/admin-post.php 116 -
+/wp-content/plugins/ultimate-faqs/faq-sheets/a58kkr.php.8xlsx 2 -
+/priv.php 1 -
+/eytheatre.gz 1 -
+/wordpress.tar.gz 2 -
+/new/ 1 -
+/veggiedog.rar 2 -
+/wp-content/plugins/simple-file-list/js/ee-head.js 2 -
+/wp-content/plugins/ultimate-elementor/assets/css/modules/business-hours.css 1 extragirls.kiev.ua
+/wp-content/plugins/brizy/admin/site-settings.php 2 -
+/beta/wp-includes/wlwmanifest.xml 1 -
+/horde/imp/test.php 4 -
+/wp-conten1.php 1 -
+/wp.gzip 2 -
+/wp-content/plugins/elementor-pro/assets/js/preview.min.js 1 extragirls.kiev.ua
+/403.php 1 -
+/portal/wp-includes/wlwmanifest.xml 1 -
+/new.gzip 1 -
+/bk/ 1 -
+/backup.zip 7 -
+/cms.gz 1 -
+/BLL.php 1 -
+/wp-config.php_old6 1 -
+/flatsome/functions.php 1 extragirls.kiev.ua
+/pma/index.php 1 -
+/wp2/ 1 -
+/new/wp-includes/wlwmanifest.xml 1 -
+/OMC_template.gzip 2 -
+/backup.tar.gz 2 -
+/rt18_archive.zip 7 -
+//wp-content/plugins/cherry-plugin/admin/import-export/upload.php 2 -
+/app.gzip 1 -
+/extragirls.kiev.ua.sql 1 -
+/main.sql 1 -
+/wp-content/plugins/wp-file-upload/css/wordpress_file_upload_adminbarstyle.css 2 -
+/OMC_template.rar 2 -
+/newsite/wp-includes/wlwmanifest.xml 1 -
+/alternate-lite/functions.php 1 extragirls.kiev.ua
+/wp-content/plugins/wp-product-review/assets/js/main.js 2 -
+/restarter/functions.php 1 extragirls.kiev.ua
+/enfold/functions.php 1 extragirls.kiev.ua
+/backups.tar.gz 2 -
+/cgi-bin.gz 2 -
+/master.tar.gz 2 -
+/mysql-adminer.php 1 -
+/wp-cl-plugin.php 4 extragirls.kiev.ua
+/data.gz 2 -
+/apple-touch-icon.png 3 -
+/database.sql 2 -
+/samudra/functions.php 1 extragirls.kiev.ua
+/2018/ 1 -
+/backups.zip 7 -
+/data.tar.gz 2 -
+/veggiedog.gzip 2 -
+/wp-admin/admin.php 6 -
+/wp1/ 1 -
+/new.rar 1 -
+/twentythirteen/functions.php 1 extragirls.kiev.ua
+/archive.gzip 2 -
+/blog/ 1 -
+/wp-config.php~ 2 -
+/wp/ 1 -
+/twentyfourteen/functions.php 1 extragirls.kiev.ua
+/sites/.env 1 -
+/backups.sql 1 -
+/sql.sql 1 -
+/cms/wp-includes/wlwmanifest.xml 1 -
+/v1/ 1 -
+/engl/functions.php 1 extragirls.kiev.ua
+/installer.zip 7 -
+/eytheatre.zip 1 -
+/wp-content/plugins/ultimate-faqs/faq-sheets/s89u3.php.451nxlsx 2 -
+/apple-touch-icon-precomposed.png 3 -
+/app.tar.gz 1 -
+/wordpress.gz 2 -
+/demo/ 1 -
+/wp-content/plugins/apikey/cursed.php 2 -
+/backup/ 1 -
+/InCreate-FullPackage.zip 7 -
+/gaukingo/functions.php 1 extragirls.kiev.ua
+/modules/ps_facetedsearch/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/installer.php 1 extragirls.kiev.ua
+/auth.php 1 -
+/cms.tar.gz 1 -
+/phpMyAdmin/ 1 -
+/system/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/page.php 1 -
+/rt18_archive.gz 2 -
+/phpmyadmin/index.php 1 -
+/site.sql 1 -
+/OMC_template.zip 7 -
+/dump.tar.gz 2 -
+/phpMyAdmin/index.php 1 -
+/dump.gz 2 -
+/wordpress.gzip 2 -
+/contact 1 -
+/app.rar 1 -
+/registration 1 -
+/bak/ 1 -
+/laravel/.env 1 -
+/.well-known.gzip 2 -
+/2019/wp-includes/wlwmanifest.xml 1 -
+/storefront/functions.php 1 extragirls.kiev.ua
+/wp-json/wp/v2/users/1 1 -
+/backups.rar 2 -
+/quick_install_archive.zip 7 -
+/veggiedog.zip 7 -
+/backup.gz 2 -
+/.wp-config.php.swp 2 -
+/wp-config.php.save 2 -
+/wp-content/plugins/drag-and-drop-multiple-file-upload-contact-form-7/assets/js/dnd-upload-cf7.js 2 -
+/eytheatre.gzip 1 -
+/sites/all/libraries/mailchimp/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/data.rar 2 -
+/cgi-bin.rar 2 -
+/twentyeleven/functions.php 1 extragirls.kiev.ua
+/web.rar 1 -
+/data.zip 7 -
+/wp-config.php.old 2 -
+/1/wp-includes/wlwmanifest.xml 1 -
+/website.sql 1 -
+/Avada/functions.php 1 extragirls.kiev.ua
+/laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/pma/ 1 -
+/eyesight4you.com.gz 1 -
+/register 1 -
+/wp-xmlrpc.php 1 extragirls.kiev.ua
+/lalita/functions.php 1 extragirls.kiev.ua
+/default/functions.php 1 extragirls.kiev.ua
+/2019/ 1 -
+/classic/functions.php 1 extragirls.kiev.ua
+/wrm.php 1 -
+/dump.sql 1 -
+/sittir.php 1 -
+/pasts.php 1 -
+/db.zip 1 -
+/system/.env 1 -
+/old.rar 1 -
+/phpMyAdmin/scripts/setup.php 3 -
+/default.php 1 -
+/database_backup.sql 1 -
+/wp-config.php_old7 1 -
+/installer.tar.gz 2 -
+/db.rar 1 -
+/installer.gz 2 -
+/news-box-lite/functions.php 1 extragirls.kiev.ua
+/public_html.gzip 2 -
+/dd.php 1 -
+/betheme/functions.php 1 extragirls.kiev.ua
+/wp-json/wp/v2/pages 1 -
+/access.php 1 -
+/new.tar.gz 1 -
+/data.gzip 2 -
+/fozi.php 1 -
+/Leonas.php 1 -
+/wp-includes/wlwmanifest.xml 1 -
+/wp-admin/admin-ajax.php 178 -
+/wp.rar 2 -
+/master.gzip 2 -
+/home/wp-includes/wlwmanifest.xml 1 -
+//wp-includes/wlwmanifest.xml 1 -
+/OMC_template.gz 2 -
+/tmp/ 1 -
+/eyesight4you.com.gzip 1 -
+/user-info.php 1 -
+/shop/.env 1 -
+//wp-content/plugins/cherry-plugin/admin/import-export/199877.php 2 -
+/primer/functions.php 1 extragirls.kiev.ua
+/file.sql 1 -
+/searchreplacedb2.php 2 -
+/zenwater/functions.php 1 extragirls.kiev.ua
+/veggiedog.tar.gz 2 -
+/wp-json/wpshopify/v1/settings 4 -
+/wp-admin/profile.php 4 -
+/web.zip 1 -
+/oldsite/wp-includes/wlwmanifest.xml 1 -
+/wp-content/plugins/ultimate-faqs/faq-sheets/y26h9.php.xlsu 2 -
+//vendor/phpunit/phpunit/phpunit.xsd 1 -
+/wp-config.php_old9 1 -
+/baws.php 1 -
+/wp-config.php-.bak 1 -
+/ss.php 1 -
+/db.tar.gz 1 -
+/backups.gz 2 -
+/temp/ 1 -
+/public_html.zip 7 -
+/test/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/new.zip 1 -
+//wp-content/plugins/formcraft/file-upload/server/php/ 2 -
+/new.gz 1 -
+/wp-includes/ms-cache.php 1 -
+/dev/ 1 -
+/public_html.gz 2 -
+/wp-json/wp/v2/users/ 3 -
+/dump.gzip 2 -
+/home/ 1 -
+/installer-backup.php 1 extragirls.kiev.ua
+/wp-admin/options-general.php 4 -
+/wp-json/trx_addons/v2/get/sc_layout 1 -
+/extragirls.sql 1 -
+/sitemap.xml 1 -
+/wp-content/plugins/apikey/apikey.php 2 -
+/akiesmet.php 1 -
+/wordpress.rar 2 -
+/vendor/.env 1 -
+/contacts 1 -
+/wp-content/plugins/convertplug/modules/info_bar/assets/css/info_bar.min.css 6 -
+/options.php 1 extragirls.kiev.ua
+//wp-content/plugins/formcraft/file-upload/server/php/files/199877.php 2 -
+/eyesight4you.com.zip 1 -
+/fullwebsite.sql 1 -
+/wp-json/wp/v2/users/3 2 -
+/fullbackup.sql 1 -
+/master.zip 7 -
+/old/ 1 -
+/adminer.php 1 -
+/web/wp-includes/wlwmanifest.xml 1 -
+/main/ 1 -
+/news-box/functions.php 1 extragirls.kiev.ua
+/quick_install_archive.gz 2 -
+/.well-known.gz 2 -
+/feed 2 -
+/sydney/functions.php 1 extragirls.kiev.ua
+/wp-content/plugins/formcraft/file-upload/server/php/files/199877.php 1 -
+/InCreate-FullPackage.rar 2 -
+/cms.rar 1 -
+/archive.tar.gz 2 -
+/news/wp-includes/wlwmanifest.xml 1 -
+/twentytwenty/functions.php 1 extragirls.kiev.ua
+/.well-known.tar.gz 2 -
+/wp-admin/adminer.php 1 -
+/db.gz 1 -
+/wordpress.zip 7 -
+/wp-config.php_old8 1 -
+/wp-dl-plugin.php 4 extragirls.kiev.ua
+/public/.env 1 -
+/dump.rar 2 -
+/cgi-bin/test-cgi 3 -
+/wp-config.php 2 -
+/wp-admin/mysql-adminer.php 1 -
+/wp-content/plugins/jekyll-exporter/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/replace.php 2 -
+/eytheatre.rar 1 -
+/shop/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/website/wp-includes/wlwmanifest.xml 1 -
+/twentynineteen/functions.php 1 extragirls.kiev.ua
+/eyesight4you.com.tar.gz 1 -
+/Divi/functions.php 1 extragirls.kiev.ua
+/support 1 -
+/backups.gzip 2 -
+/.well-known/assetlinks.json 8 -
+/cgi-bin.tar.gz 2 -
+/wp-config.new.new 1 -
+/author-sitemap.xml 2 -
+/modules/autoupgrade/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/old.tar.gz 1 -
+/db.gzip 1 -
+/rt18_archive.rar 2 -
+/wss.php 1 -
+/phpmyadmin/scripts/setup.php 3 -
+/site/ 1 -
+/wolf.php 1 -
+/.env 2 -
+/zerif-lite/functions.php 1 extragirls.kiev.ua
+/wp-content/plugins/admin.php 1 -
+/archive.rar 2 -
+/eytheatre.tar.gz 1 -
+/master.rar 2 -
+/api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/InCreate-FullPackage.tar.gz 2 -
+/wp-content/plugins/ultimate-faqs/faq-sheets/pspl7k.php.xlsd 2 -
+/2020/ 1 -
+/web.gz 1 -
+/installer.gzip 2 -
+/wp/wp-includes/wlwmanifest.xml 2 http://www.bing.com/search
+/Mamha.php 1 -
+/old.gz 1 -
+/wp-json/visualizer/v1/update-chart 8 -
+/InCreate-FullPackage.gzip 2 -
+/quick_install_archive.tar.gz 2 -
+/astra/functions.php 1 extragirls.kiev.ua
+/quick_install_archive.gzip 2 -
+/db.sql 2 -
+/signup 1 -
+/wp-content/plugins/google-analyticator/includes_l.php 1 -
+/cms/ 1 -
+/index.php 5 extragirls.kiev.ua
+/AdvanceImage5/functions.php 1 extragirls.kiev.ua
+//blog/ 1 http://extragirls.kiev.ua/
+/backup/wp-includes/wlwmanifest.xml 1 -
+/old-site/ 1 -
+/wp2/wp-includes/wlwmanifest.xml 1 -
+/wp-system.php 1 extragirls.kiev.ua
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 280
+82.145.208.140 150 288 25908235 20200514005809
+178.133.26.13 91 351 8120371 20200529035324
+109.102.111.37 75 75 774582 20200526093501
+176.115.100.168 72 284 30628770 20200526153702
+65.154.226.100 66 186 13775108 20200518064039
+82.145.208.70 44 104 9342985 20200528002035
+79.109.177.166 40 147 14498142 20200529022626
+207.102.138.158 40 100 3697410 20200530132729
+2.91.254.225 37 143 13186633 20200526051525
+212.90.63.142 36 142 12077558 20200526071534
+146.120.97.25 18 70 6406185 20200530183004
+85.238.101.64 18 71 7657194 20200522160843
+176.149.83.199 21 77 7199237 20200518221947
+88.248.141.163 18 70 7479269 20200501055143
+54.149.122.187 1 1 10461 20200524164257
+80.64.88.185 18 70 7479272 20200522135612
+46.203.85.141 19 74 8152707 20200514152013
+78.46.85.253 1 1 110976 20200513123347
+188.239.42.31 19 74 8152710 20200531153047
+83.27.193.167 18 70 7479269 20200505165759
+195.211.141.88 18 71 6584107 20200525081928
+46.211.133.200 18 71 7657194 20200524114842
+18.236.162.99 0 1 3095 
+51.89.213.83 1 1 18416 20200515071716
+91.239.95.24 34 131 12203557 20200526133251
+46.98.62.127 18 71 6584104 20200516204308
+5.156.165.167 21 77 8251460 20200525204811
+5.3.158.217 15 67 7365572 20200531085444
+91.200.203.24 19 74 6524077 20200518011331
+46.133.140.251 19 65 4678033 20200529024016
+176.102.221.249 18 71 6584107 20200527092950
+54.212.19.14 1 1 9413 20200514112830
+46.211.137.216 18 63 4481689 20200510093803
+183.171.105.148 18 71 6584107 20200518084308
+178.133.26.149 18 70 7479269 20200508192005
+212.22.206.204 18 71 7657194 20200524023747
+52.33.101.204 0 1 7141 
+37.57.133.119 18 70 7479272 20200526010001
+52.33.216.242 1 1 6150 20200514112830
+93.72.101.65 20 75 7098042 20200523212810
+46.211.247.75 18 70 6023427 20200516014319
+77.74.177.114 2 2 36832 20200511052644
+188.163.81.118 25 117 12540064 20200523154907
+69.253.216.87 15 41 877969 20200526083511
+37.73.187.23 18 64 4659614 20200525170056
+92.112.201.218 19 74 7079620 20200504205420
+5.105.203.186 18 63 5027020 20200518172556
+178.133.157.63 18 70 6406182 20200513134351
+178.133.145.202 3 24 5802268 20200522142245
+88.155.102.57 18 70 7479269 20200515011828
+91.206.4.99 18 71 6584104 20200514152712
+159.224.153.14 18 69 7301350 20200518032949
+46.133.191.40 19 74 7079620 20200510164848
+37.115.13.203 20 75 6552714 20200529063723
+43.231.30.212 18 55 3841505 20200509033028
+5.253.206.172 18 71 6584107 20200529115435
+46.211.155.18 20 74 6682857 20200523041933
+115.112.176.41 1 1 110976 20200517081636
+34.219.133.28 1 1 12416 20200524164257
+88.155.98.233 18 63 6100107 20200526170028
+77.111.244.19 19 74 8152710 20200526173446
+88.155.83.243 18 70 7479272 20200524100420
+77.111.247.68 19 72 7675607 20200502050825
+128.124.161.151 18 71 6584104 20200513102104
+128.124.90.53 19 74 7079623 20200528031817
+51.89.201.9 3 3 55254 20200527103757
+39.98.113.103 1 1 18416 20200517173140
+52.35.143.232 1 1 10461 20200514112830
+35.160.223.147 1 1 12324 20200514112830
+90.131.46.25 18 71 6584107 20200519020804
+188.163.77.157 21 77 8251454 20200510232420
+34.221.147.225 0 1 1831 
+54.212.205.195 1 1 18416 20200514112827
+193.33.133.25 0 1 2404095 
+52.12.95.185 0 1 7141 
+212.115.244.84 20 75 7098042 20200525162251
+167.114.252.180 1 1 18419 20200531112122
+195.211.23.206 1 2 196341 20200525134704
+109.70.104.23 8 8 147340 20200530013657
+52.13.1.15 1 1 18419 20200524080605
+77.74.177.113 1 1 18419 20200525055701
+188.163.82.214 19 74 7079620 20200516195644
+95.67.61.163 18 71 6584107 20200519014717
+137.117.64.231 1 1 743 20200523133409
+91.201.226.234 18 71 6584107 20200518233926
+151.46.57.110 20 76 7159951 20200516010842
+93.74.135.201 18 71 7657194 20200525165020
+176.120.118.86 21 76 8171391 20200509183846
+52.88.34.189 0 1 9938 
+54.244.177.130 1 2 34582 20200524164257
+188.190.242.180 20 75 7098036 20200503184216
+178.94.59.68 21 77 8081958 20200508191326
+52.89.30.63 1 1 87146 20200524164256
+109.70.111.112 4 4 73676 20200522155903
+82.145.211.227 22 75 8560724 20200514231149
+193.70.12.233 1 1 110976 20200516180432
+193.194.127.185 18 70 7479269 20200514223939
+195.34.75.189 19 74 6534295 20200530001437
+46.211.2.58 18 70 7479272 20200525202539
+178.133.149.42 18 71 7657194 20200530210422
+54.202.108.128 1 1 18419 20200524164254
+176.100.191.30 1 1 110976 20200517205102
+46.211.151.201 18 71 6584107 20200524123547
+80.92.229.165 19 72 7847930 20200504160645
+176.105.25.140 33 134 14689272 20200526053446
+146.120.101.4 18 70 7479272 20200518214225
+95.158.48.217 18 71 7657194 20200525175605
+18.237.93.58 1 1 12324 20200524164257
+45.89.230.181 19 64 5023848 20200525173529
+77.222.156.196 20 74 7755938 20200506214003
+46.33.33.86 2 3 98747 20200513132323
+2.89.223.236 21 77 7178367 20200514164504
+52.40.45.41 0 1 759 
+171.25.171.101 18 71 7657194 20200529235403
+178.74.210.213 18 71 7657194 20200528223614
+88.155.201.150 18 70 7479272 20200525172549
+173.252.79.1 0 1 453 
+94.131.223.46 2 25 735353 20200525065759
+46.211.246.201 18 70 7479272 20200518160131
+37.57.218.190 20 50 1827847 20200527173731
+91.200.3.41 19 72 6057198 20200527101851
+54.191.183.251 1 1 2852 20200524164257
+45.132.92.101 18 63 5027020 20200530224758
+195.114.148.104 18 71 7657191 20200515005216
+217.66.157.199 18 70 7479269 20200504214102
+31.206.196.241 19 67 5700455 20200514233950
+88.155.63.21 18 70 7479272 20200525163954
+91.236.184.19 18 71 6038779 20200531055915
+46.211.10.156 18 64 6796126 20200522152218
+3.22.250.2 24 34 440300 20200509101705
+88.155.22.202 19 74 7079620 20200514174945
+34.221.202.202 0 1 11494 
+46.211.151.111 18 71 7657194 20200518142321
+88.155.121.37 18 65 5727217 20200522220021
+37.187.53.157 1 1 18416 20200504161059
+62.109.5.228 2 2 221952 20200517143633
+106.208.45.191 18 62 4827504 20200514113828
+51.91.101.100 1 1 18416 20200502234012
+142.93.145.204 1 1 291 20200504134719
+176.37.21.151 18 71 7657191 20200512173813
+88.155.214.205 18 59 3957306 20200516201922
+92.113.96.56 21 77 6795618 20200525193740
+121.199.10.238 1 1 110975 20200522232130
+144.123.42.58 1 1 110975 20200519041953
+185.234.218.174 1 1 18416 20200513195712
+106.223.107.158 18 63 5027017 20200504154259
+54.70.176.45 0 1 8426 
+199.244.88.132 1 1 18419 20200523162026
+88.155.10.95 18 71 6584107 20200522044022
+34.220.129.19 1 1 21719 20200524164257
+159.203.63.239 1 1 291 20200504134718
+105.66.131.198 18 67 5415452 20200505055439
+178.151.123.54 18 70 7479269 20200516143629
+176.36.157.105 19 91 7028577 20200502030644
+54.212.5.34 1 1 12416 20200514112830
+37.73.89.232 18 56 3521447 20200514142419
+46.33.33.101 1 3 495516 20200514095044
+178.54.46.235 18 71 6038779 20200531234040
+195.132.145.25 18 71 6584107 20200525222415
+34.215.193.48 1 1 10274 20200524164256
+93.74.148.113 19 74 8152707 20200513163219
+34.217.100.210 1 2 17839 20200524164257
+178.214.255.199 20 76 8233041 20200525135809
+91.173.102.7 36 140 13885457 20200531184347
+178.133.89.95 19 72 6057198 20200527010558
+178.133.157.131 18 71 6584104 20200513165419
+192.254.214.56 0 1 2404095 
+176.36.57.72 19 74 7079620 20200504201339
+92.112.166.230 18 71 6038779 20200522121653
+46.219.219.160 18 63 5027017 20200507165205
+93.73.6.91 18 63 5027020 20200530203329
+176.54.83.204 18 70 7479272 20200523102933
+128.124.174.211 17 63 4588399 20200526194949
+51.83.251.69 19 73 6664438 20200522220106
+93.159.230.28 1 1 18416 20200511055657
+128.124.129.163 18 70 6406182 20200509220113
+34.209.38.36 0 1 11494 
+51.91.210.116 5 5 92080 20200512171026
+54.186.189.182 2 2 11888 20200514112830
+185.80.221.57 18 70 7479272 20200525112254
+35.164.235.49 1 1 18419 20200531010835
+46.155.53.240 18 57 3603208 20200514152656
+95.67.108.20 19 72 6602526 20200523191234
+46.211.136.208 18 70 7479272 20200518025507
+91.196.121.134 36 142 13168214 20200529194728
+46.211.157.226 0 8 2809594 
+93.73.247.194 18 70 7479269 20200513212208
+54.149.57.90 1 1 6150 20200524164257
+87.244.142.175 18 70 7479269 20200501155451
+46.211.47.40 24 79 7802860 20200517220856
+134.249.125.47 20 75 8055119 20200522205738
+198.211.125.252 18 71 7657194 20200523224220
+34.217.71.84 1 1 34176 20200524164258
+178.243.98.233 22 74 6452353 20200522110845
+82.193.98.9 20 95 13586969 20200523012801
+85.115.248.224 18 71 6584104 20200517184914
+188.163.114.174 19 74 7079623 20200528173951
+78.252.175.189 2 20 4798147 20200519010107
+34.222.44.75 1 1 34176 20200514112830
+185.102.186.125 18 70 7479272 20200529132228
+185.243.217.28 1 1 18416 20200513183900
+37.73.180.14 18 54 3338381 20200528134439
+185.212.250.65 21 77 8251454 20200510154328
+185.173.39.31 18 62 4827507 20200525234903
+176.105.38.210 18 71 7657194 20200530191402
+35.160.194.211 1 1 944 20200524164257
+54.188.2.78 1 1 2852 20200514112830
+178.133.20.52 18 71 6584107 20200518173307
+95.67.60.194 18 70 7479269 20200516111043
+54.202.115.88 1 1 24644 20200514112830
+46.211.132.168 19 72 7675613 20200527161422
+178.158.192.19 18 71 6584107 20200527020227
+94.153.12.150 19 74 7079620 20200513172939
+46.211.26.85 18 71 6584107 20200529162617
+46.219.220.99 18 71 7657194 20200528221021
+95.70.244.158 20 76 8233041 20200526201136
+54.68.7.250 1 1 8211 20200524164257
+54.188.52.215 1 1 18416 20200514003850
+194.44.203.176 18 70 6406185 20200527143943
+178.133.33.130 18 67 5960783 20200523012949
+54.212.247.87 0 1 3095 
+34.217.71.193 1 1 1614 20200524164257
+88.155.172.66 19 74 6696868 20200525123531
+176.36.20.97 18 63 4481692 20200526215355
+95.67.24.168 18 70 6406185 20200530051241
+37.73.11.204 18 71 6584104 20200511002621
+37.73.136.238 18 71 6038776 20200510090549
+141.226.59.18 19 72 6602520 20200514164446
+95.158.38.68 18 70 7479272 20200526100946
+93.73.148.44 18 70 7479272 20200525204454
+79.110.128.95 20 75 8171123 20200504193332
+94.131.222.228 18 70 7479269 20200509165505
+5.35.247.105 5 6 2496175 20200502230625
+45.56.228.23 19 72 6602520 20200514231210
+51.15.231.183 6 6 85214 20200510085356
+94.153.29.53 18 71 6584104 20200515130903
+37.142.67.159 19 73 6664438 20200529230044
+222.128.52.2 1 1 110976 20200516142408
+91.121.79.16 2 2 221951 20200522101914
+54.201.224.3 1 1 18419 20200525213127
+88.155.203.14 18 71 6584104 20200513191550
+34.220.111.55 1 2 88977 20200514112830
+37.73.12.13 24 79 6572460 20200525235029
+34.213.72.52 0 1 759 
+195.138.93.233 18 70 7479272 20200526235250
+157.245.44.213 19 73 6664438 20200525014211
+178.133.140.96 18 71 7657194 20200524033948
+188.163.122.198 19 72 7675613 20200523162604
+46.211.142.102 1 4 673438 20200518160459
+95.90.247.33 18 71 7657194 20200523151230
+34.210.159.255 2 2 9155 20200514112830
+175.44.11.153 1 1 18419 20200529005715
+178.133.137.125 1 1 18419 20200527101236
+89.204.137.194 18 58 3139670 20200523115228
+91.212.80.133 18 71 5864416 20200504164745
+93.72.134.136 19 71 7497685 20200514215954
+94.76.82.13 19 67 5155127 20200513160917
+109.240.124.136 21 77 8251454 20200513173538
+37.53.172.182 18 64 4659614 20200517230842
+188.163.73.134 20 76 8233041 20200519012521
+178.133.140.192 18 70 7479269 20200514021606
+31.193.130.20 1 1 18416 20200508015008
+95.154.200.160 4 4 59906 20200518190623
+51.68.33.163 35 185 17297340 20200527205107
+195.149.108.49 19 72 6057198 20200526074209
+64.246.165.50 1 1 18416 20200514142108
+91.236.251.158 18 71 6584107 20200523232357
+46.211.157.123 17 52 4566915 20200522234548
+93.189.202.197 18 53 2460699 20200505211442
+128.124.20.245 18 71 7657194 20200527175606
+95.134.26.82 19 74 7079623 20200528114345
+185.209.58.96 19 74 6534295 20200531233513
+93.72.114.3 20 76 8233041 20200531153013
+95.187.114.159 20 74 7755938 20200513173348
+93.73.38.206 18 71 6584104 20200514173313
+46.211.14.14 19 72 7675613 20200518235447
+47.101.33.192 1 1 18416 20200517151828
+178.210.144.219 19 72 7675607 20200513185052
+78.137.44.112 18 70 7479272 20200526015223
+35.163.14.148 1 1 21719 20200514112830
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 29
+20200501 36 140 14958538 2
+20200502 63 242 24894382 6
+20200503 21 76 7116452 2
+20200504 134 502 48567993 10
+20200505 54 190 15355420 3
+20200506 20 75 10160033 1
+20200507 20 65 5063849 3
+20200508 41 150 18094714 4
+20200509 99 305 26338647 5
+20200510 103 368 34188207 6
+20200511 39 145 14389103 5
+20200512 28 81 7841351 4
+20200513 232 871 85947972 16
+20200514 451 1354 124198436 32
+20200515 55 213 21738980 4
+20200516 149 540 47796768 10
+20200517 65 219 19416338 8
+20200518 292 1043 98083080 15
+20200519 59 239 26310377 5
+20200522 210 774 78203861 15
+20200523 231 912 92347446 15
+20200524 106 377 37356827 21
+20200525 403 1527 145930110 25
+20200526 416 1355 119876826 21
+20200527 186 736 66183627 11
+20200528 155 522 49234623 8
+20200529 280 1066 75420904 11
+20200530 132 487 44807188 9
+20200531 147 575 56285471 9
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+5mn-15mn 6
+15mn-30mn 1
+2mn-5mn 14
+30s-2mn 35
+0s-30s 230
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 29
+/ 332 6986343 256 79
+/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js@ver=4.0.2 234 2632192 2 4
+/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js@ver=4.2.1 229 1957904 2 4
+/wp-content/plugins/elementor-pro/assets/js/frontend.min.js@ver=1.6.1 227 5249172 2 2
+/wp-includes/js/imagesloaded.min.js@ver=3.2.0 227 1748943 1 2
+/wp-includes/js/wp-embed.min.js@ver=4.9.4 224 337326 1 2
+/wp-includes/js/jquery/jquery.js@ver=1.12.4 223 18192123 2 3
+/wp-includes/js/jquery/jquery-migrate.min.js@ver=1.4.1 222 2136992 2 1
+/wp-content/themes/twentytwelve/js/navigation.js@ver=20140711 222 196352 2 1
+/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js@ver=3.51.0-2014.06.20 222 1279200 2 3
+/wp-content/themes/twentytwelve/fonts/HelveticaNeueCyr-Thin.otf 200 5079536 0 11
+/wp-content/themes/twentytwelve/fonts/8209.ttf 206 31786720 0 4
+/wp-content/plugins/elementor/assets/lib/font-awesome/fonts/fontawesome-webfont.eot@ 1 165962 0 1
+/wp-content/plugins/elementor/assets/lib/swiper/swiper.jquery.min.js@ver=3.4.2 217 4560990 2 4
+/index.html@p=831.html 25 251800 0 1
+/wp-content/plugins/elementor/assets/lib/font-awesome/fonts/fontawesome-webfont.woff@v=4.7.0 6 589458 0 3
+/wp-includes/js/jquery/ui/position.min.js@ver=1.11.4 215 593216 2 2
+/faq.html 30 463050 0 16
+/index.html@p=787.html 5 76210 0 1
+/vacancy.html 64 473246 3 29
+/wp-content/plugins/elementor/assets/js/frontend.min.js@ver=1.9.8 221 7245312 2 32
+/wp-content/plugins/elementor/assets/lib/slick/slick.min.js@ver=1.6.0 219 2217732 2 2
+/admin/.env 1 743 1 1
+/anceta.html 29 292088 0 0
+/index.html@p=624.html 10 89360 0 0
+/wp-content/themes/twentytwelve/fonts/Cormorant_Infant_Semibold_Italic.ttf 1 102156 0 0
+/wp-content/plugins/contact-form-7/includes/js/scripts.js@ver=4.6 215 2588040 2 2
+/admin/ 6 66362 0 1
+/wp-content/plugins/elementor/assets/lib/font-awesome/fonts/fontawesome-webfont.woff2@v=4.7.0 194 14702010 0 75
+END_SIDER
